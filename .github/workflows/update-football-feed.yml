@@ -1,0 +1,71 @@
+name: Update GM TV+ football feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */2 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update_feed.py"
+      - ".github/workflows/update-football-feed.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gmtv-football-feed
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate feed
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python scripts/update_feed.py
+
+      - name: Validate feed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path("data/football-feed.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+
+          assert data["schema"] == 1
+          assert len(data["days"]) == 7
+          assert data["window"]["from"]
+          assert data["window"]["to"]
+
+          print("days:", len(data["days"]))
+          print("matches:", len(data["matches"]))
+          print("football-data:", data["sources"]["footballData"])
+          print("openfootball:", data["sources"]["openFootball"]["matches"])
+          PY
+
+      - name: Commit updated cache
+        run: |
+          git config user.name "GM TV+ Football Bot"
+          git config user.email "gmtv-football-bot@users.noreply.github.com"
+
+          git add data/football-feed.json data/artwork-cache.json
+
+          if git diff --cached --quiet; then
+            echo "Feed unchanged."
+          else
+            git commit -m "data: refresh football feed"
+            git push
+          fi
