@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-20T20:26:25.637090Z",
+  "generatedAt": "2026-09-20T22:25:59.442363Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-09-20",
@@ -1095,7 +1095,7 @@
           "date": "2026-09-20",
           "kickoff": "15:45",
           "utcDate": "2026-09-20T18:45:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2015,
             "code": "FL1",
@@ -1159,7 +1159,7 @@
           "date": "2026-09-20",
           "kickoff": "15:45",
           "utcDate": "2026-09-20T18:45:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2019,
             "code": "SA",
@@ -1192,7 +1192,7 @@
           "date": "2026-09-20",
           "kickoff": "16:00",
           "utcDate": "2026-09-20T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2013,
             "code": "BSA",
@@ -1225,7 +1225,7 @@
           "date": "2026-09-20",
           "kickoff": "16:00",
           "utcDate": "2026-09-20T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2013,
             "code": "BSA",
@@ -1258,7 +1258,7 @@
           "date": "2026-09-20",
           "kickoff": "16:00",
           "utcDate": "2026-09-20T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2014,
             "code": "PD",
@@ -1323,7 +1323,7 @@
           "date": "2026-09-20",
           "kickoff": "16:30",
           "utcDate": "2026-09-20T19:30:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2017,
             "code": "PPL",
@@ -1355,7 +1355,7 @@
           "date": "2026-09-20",
           "kickoff": "18:30",
           "utcDate": "2026-09-20T21:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "code": "BSA",
@@ -2478,7 +2478,7 @@
       "date": "2026-09-20",
       "kickoff": "15:45",
       "utcDate": "2026-09-20T18:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2015,
         "code": "FL1",
@@ -2542,7 +2542,7 @@
       "date": "2026-09-20",
       "kickoff": "15:45",
       "utcDate": "2026-09-20T18:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2019,
         "code": "SA",
@@ -2575,7 +2575,7 @@
       "date": "2026-09-20",
       "kickoff": "16:00",
       "utcDate": "2026-09-20T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2013,
         "code": "BSA",
@@ -2608,7 +2608,7 @@
       "date": "2026-09-20",
       "kickoff": "16:00",
       "utcDate": "2026-09-20T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2013,
         "code": "BSA",
@@ -2641,7 +2641,7 @@
       "date": "2026-09-20",
       "kickoff": "16:00",
       "utcDate": "2026-09-20T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2014,
         "code": "PD",
@@ -2706,7 +2706,7 @@
       "date": "2026-09-20",
       "kickoff": "16:30",
       "utcDate": "2026-09-20T19:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2017,
         "code": "PPL",
@@ -2738,7 +2738,7 @@
       "date": "2026-09-20",
       "kickoff": "18:30",
       "utcDate": "2026-09-20T21:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "code": "BSA",
