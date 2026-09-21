@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-20T22:25:59.442363Z",
+  "generatedAt": "2026-09-21T00:35:01.070933Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-09-20",
@@ -1355,7 +1355,7 @@
           "date": "2026-09-20",
           "kickoff": "18:30",
           "utcDate": "2026-09-20T21:30:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2013,
             "code": "BSA",
@@ -1388,7 +1388,7 @@
           "date": "2026-09-20",
           "kickoff": "19:30",
           "utcDate": "2026-09-20T22:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "code": "BSA",
@@ -2738,7 +2738,7 @@
       "date": "2026-09-20",
       "kickoff": "18:30",
       "utcDate": "2026-09-20T21:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2013,
         "code": "BSA",
@@ -2771,7 +2771,7 @@
       "date": "2026-09-20",
       "kickoff": "19:30",
       "utcDate": "2026-09-20T22:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "code": "BSA",
