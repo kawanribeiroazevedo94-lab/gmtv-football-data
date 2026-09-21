@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "entities": [
+    {
+      "gmId": "club:manchester-city",
+      "entityType": "club",
+      "canonicalName": "Manchester City",
+      "aliases": [
+        "Manchester City FC",
+        "Man City"
+      ],
+      "country": "England",
+      "externalIds": {},
+      "wikidataQid": "Q50602",
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "club:manchester-united",
+      "entityType": "club",
+      "canonicalName": "Manchester United",
+      "aliases": [
+        "Manchester United FC",
+        "Man United",
+        "Manchester Utd",
+        "Man Utd"
+      ],
+      "country": "England",
+      "externalIds": {},
+      "wikidataQid": "Q18656",
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "club:fulham",
+      "entityType": "club",
+      "canonicalName": "Fulham",
+      "aliases": [
+        "Fulham FC"
+      ],
+      "country": "England",
+      "externalIds": {},
+      "wikidataQid": "Q18708",
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "club:sunderland",
+      "entityType": "club",
+      "canonicalName": "Sunderland",
+      "aliases": [
+        "Sunderland AFC"
+      ],
+      "country": "England",
+      "externalIds": {},
+      "wikidataQid": "Q18739",
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "club:bayern-munich",
+      "entityType": "club",
+      "canonicalName": "Bayern Munich",
+      "aliases": [
+        "Bayern München"
+      ],
+      "country": "Germany",
+      "externalIds": {},
+      "wikidataQid": null,
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "club:internazionale-milano",
+      "entityType": "club",
+      "canonicalName": "Internazionale",
+      "aliases": [
+        "Internazionale Milano",
+        "Inter Milan"
+      ],
+      "country": "Italy",
+      "externalIds": {},
+      "wikidataQid": null,
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "club:atletico-mineiro",
+      "entityType": "club",
+      "canonicalName": "Atlético Mineiro",
+      "aliases": [
+        "Atlético-MG"
+      ],
+      "country": "Brazil",
+      "externalIds": {},
+      "wikidataQid": null,
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "competition:premier-league",
+      "entityType": "competition",
+      "canonicalName": "Premier League",
+      "aliases": [],
+      "country": "England",
+      "externalIds": {},
+      "wikidataQid": "Q9448",
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "competition:brasileirao-serie-a",
+      "entityType": "competition",
+      "canonicalName": "Brasileirão Série A",
+      "aliases": [
+        "Campeonato Brasileiro Série A"
+      ],
+      "country": "Brazil",
+      "externalIds": {},
+      "wikidataQid": null,
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "competition:brasileirao-serie-b",
+      "entityType": "competition",
+      "canonicalName": "Brasileirão Série B",
+      "aliases": [
+        "Campeonato Brasileiro Série B"
+      ],
+      "country": "Brazil",
+      "externalIds": {},
+      "wikidataQid": null,
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "federation:cbf",
+      "entityType": "federation",
+      "canonicalName": "Confederação Brasileira de Futebol",
+      "aliases": [
+        "CBF"
+      ],
+      "country": "Brazil",
+      "externalIds": {},
+      "wikidataQid": null,
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    },
+    {
+      "gmId": "national-team:brazil",
+      "entityType": "national_team",
+      "canonicalName": "Seleção Brasileira",
+      "aliases": [
+        "Brasil",
+        "Brazil"
+      ],
+      "country": "Brazil",
+      "externalIds": {},
+      "wikidataQid": null,
+      "validationStatus": "validated",
+      "validatedAt": "2026-09-21",
+      "confidence": "high",
+      "resolutionStatus": "partial"
+    }
+  ]
+}
