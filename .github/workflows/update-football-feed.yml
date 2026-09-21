@@ -9,6 +9,12 @@ on:
       - main
     paths:
       - "scripts/update_feed.py"
+      - "scripts/feed_v2.py"
+      - "scripts/generate_feed_v2.py"
+      - "scripts/entity_registry.py"
+      - "scripts/artwork_cache_v2.py"
+      - "data/entity-registry.json"
+      - "data/artwork-cache-v2.json"
       - ".github/workflows/update-football-feed.yml"
 
 permissions:
@@ -36,6 +42,9 @@ jobs:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: python scripts/update_feed.py
 
+      - name: Generate feed v2
+        run: python scripts/generate_feed_v2.py
+
       - name: Validate feed
         run: |
           python - <<'PY'
@@ -54,6 +63,19 @@ jobs:
           print("matches:", len(data["matches"]))
           print("football-data:", data["sources"]["footballData"])
           print("openfootball:", data["sources"]["openFootball"]["matches"])
+
+          import sys
+          sys.path.insert(0, "scripts")
+          from feed_v2 import validate_feed_v2
+
+          p2 = Path("data/football-feed-v2.json")
+          data2 = json.loads(p2.read_text(encoding="utf-8"))
+          validate_feed_v2(data2)
+          assert data2["schema"] == 2
+          assert len(data2["days"]) == 7
+
+          print("v2 days:", len(data2["days"]))
+          print("v2 matches:", len(data2["matches"]))
           PY
 
       - name: Commit updated cache
@@ -61,7 +83,7 @@ jobs:
           git config user.name "GM TV+ Football Bot"
           git config user.email "gmtv-football-bot@users.noreply.github.com"
 
-          git add data/football-feed.json data/artwork-cache.json
+          git add             data/football-feed.json             data/football-feed-v2.json             data/artwork-cache.json
 
           if git diff --cached --quiet; then
             echo "Feed unchanged."
