@@ -278,12 +278,128 @@ def load_artwork_cache():
     except (json.JSONDecodeError, OSError):
         return {}
 
-def wikidata_search(name, kind):
-    keywords = (
-        ("football", "soccer", "club", "team")
-        if kind == "team"
-        else ("football", "soccer", "league", "competition", "championship")
+def semantic_text(value):
+    value = unicodedata.normalize("NFKD", value or "")
+    value = "".join(ch for ch in value if not unicodedata.combining(ch))
+    value = value.lower()
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return " ".join(value.split()).strip()
+
+
+def classify_wikidata_class_labels(labels):
+    values = [semantic_text(label) for label in labels if label]
+
+    national_team_markers = (
+        "national association football team",
+        "national football team",
+        "national soccer team",
+        "selecao nacional de futebol",
     )
+    federation_markers = (
+        "football federation",
+        "soccer federation",
+        "football association",
+        "football governing body",
+        "federacao de futebol",
+        "confederacao de futebol",
+    )
+    club_markers = (
+        "association football club",
+        "football club",
+        "soccer club",
+        "clube de futebol",
+    )
+    competition_markers = (
+        "association football competition",
+        "football competition",
+        "association football league",
+        "football league",
+        "soccer league",
+        "football tournament",
+        "sports league",
+        "competicao de futebol",
+        "liga de futebol",
+        "torneio de futebol",
+    )
+
+    def contains_any(markers):
+        return any(
+            marker in value
+            for value in values
+            for marker in markers
+        )
+
+    if contains_any(national_team_markers):
+        return "national_team"
+    if contains_any(federation_markers):
+        return "federation"
+    if contains_any(club_markers):
+        return "club"
+    if contains_any(competition_markers):
+        return "competition"
+    return "unknown"
+
+
+def wikidata_entity_type(qid):
+    if not qid:
+        return "unknown"
+
+    entity_query = urllib.parse.urlencode(
+        {
+            "action": "wbgetentities",
+            "ids": qid,
+            "props": "claims",
+            "format": "json",
+        }
+    )
+    payload = http_json(f"{WIKIDATA_API}?{entity_query}")
+    entity = (payload.get("entities") or {}).get(qid) or {}
+    claims = entity.get("claims") or {}
+
+    class_ids = []
+    for entry in claims.get("P31") or []:
+        try:
+            value = entry["mainsnak"]["datavalue"]["value"]
+            class_id = value.get("id") if isinstance(value, dict) else None
+        except (KeyError, TypeError):
+            class_id = None
+        if class_id and class_id not in class_ids:
+            class_ids.append(class_id)
+
+    if not class_ids:
+        return "unknown"
+
+    class_query = urllib.parse.urlencode(
+        {
+            "action": "wbgetentities",
+            "ids": "|".join(class_ids),
+            "props": "labels",
+            "languages": "en|pt",
+            "format": "json",
+        }
+    )
+    class_payload = http_json(f"{WIKIDATA_API}?{class_query}")
+    class_entities = class_payload.get("entities") or {}
+
+    labels = []
+    for class_id in class_ids:
+        class_entity = class_entities.get(class_id) or {}
+        by_language = class_entity.get("labels") or {}
+        for language in ("en", "pt"):
+            label = (by_language.get(language) or {}).get("value")
+            if label:
+                labels.append(label)
+
+    return classify_wikidata_class_labels(labels)
+
+
+def wikidata_search(name, kind):
+    expected_type = {
+        "team": "club",
+        "competition": "competition",
+    }.get(kind)
+    if expected_type is None:
+        return None
 
     for language in ("en", "pt"):
         query = urllib.parse.urlencode(
@@ -301,14 +417,14 @@ def wikidata_search(name, kind):
         results = payload.get("search", [])
 
         for result in results:
-            description = str(result.get("description") or "").lower()
-            if any(keyword in description for keyword in keywords):
-                return result.get("id")
-
-        if results:
-            return results[0].get("id")
+            qid = result.get("id")
+            if not qid:
+                continue
+            if wikidata_entity_type(qid) == expected_type:
+                return qid
 
     return None
+
 
 def wikidata_logo(qid):
     if not qid:
@@ -326,24 +442,23 @@ def wikidata_logo(qid):
     entity = (payload.get("entities") or {}).get(qid) or {}
     claims = entity.get("claims") or {}
 
-    for property_id in ("P154", "P18"):
-        entries = claims.get(property_id) or []
-        if not entries:
-            continue
+    entries = claims.get("P154") or []
+    if not entries:
+        return None
 
-        try:
-            filename = entries[0]["mainsnak"]["datavalue"]["value"]
-        except (KeyError, TypeError):
-            continue
+    try:
+        filename = entries[0]["mainsnak"]["datavalue"]["value"]
+    except (KeyError, TypeError):
+        return None
 
-        if isinstance(filename, str) and filename:
-            encoded = urllib.parse.quote(filename.replace(" ", "_"), safe="()_,-.")
-            return (
-                "https://commons.wikimedia.org/wiki/"
-                f"Special:Redirect/file/{encoded}?width=192"
-            )
+    if not isinstance(filename, str) or not filename:
+        return None
 
-    return None
+    encoded = urllib.parse.quote(filename.replace(" ", "_"), safe="()_,-.")
+    return (
+        "https://commons.wikimedia.org/wiki/"
+        f"Special:Redirect/file/{encoded}?width=192"
+    )
 
 def resolve_artwork(name, kind, cache):
     normalized = normalize(name)

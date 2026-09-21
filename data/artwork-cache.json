@@ -27,17 +27,26 @@
   "team:fulham": {
     "name": "Fulham FC",
     "qid": "Q18708",
-    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Craven_Cottage.JPG?width=192"
+    "rejectedAt": "2026-09-21T13:45:26Z",
+    "rejectedReason": "proven_p18_photograph_not_crest",
+    "status": "rejected",
+    "url": null
   },
   "team:manchester city": {
     "name": "Manchester City FC",
     "qid": "Q50602",
-    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Etihad_Stadium,_Manchester_City_Football_Club_(Ank_Kumar,_Infosys)_16.jpg?width=192"
+    "rejectedAt": "2026-09-21T13:45:26Z",
+    "rejectedReason": "proven_p18_stadium_photograph_not_crest",
+    "status": "rejected",
+    "url": null
   },
   "team:manchester united": {
     "name": "Manchester United FC",
     "qid": "Q18656",
-    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Manchester_United_v_Tottenham_Hotspur,_12_March_2022_(05).jpg?width=192"
+    "rejectedAt": "2026-09-21T13:45:26Z",
+    "rejectedReason": "proven_p18_match_photograph_not_crest",
+    "status": "rejected",
+    "url": null
   },
   "team:olympique marseille": {
     "name": "Olympique de Marseille",
@@ -62,6 +71,9 @@
   "team:sunderland": {
     "name": "Sunderland AFC",
     "qid": "Q18739",
-    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Stadium_of_Light_sunderland_crest.jpg?width=192"
+    "rejectedAt": "2026-09-21T13:45:26Z",
+    "rejectedReason": "proven_photographic_artwork_not_clean_crest",
+    "status": "rejected",
+    "url": null
   }
 }
