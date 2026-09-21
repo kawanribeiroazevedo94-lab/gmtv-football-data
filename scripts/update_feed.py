@@ -172,27 +172,140 @@ def make_of_match(match, competition_name, competition_code, source_tz, dataset)
         "sourcePriority": 50,
     }
 
-def loose_team_match(a, b):
-    if not a or not b:
+TEAM_ALIAS_GROUPS = {
+    "manchester-city": {
+        "manchester city",
+        "man city",
+    },
+    "manchester-united": {
+        "manchester united",
+        "man united",
+        "manchester utd",
+        "man utd",
+    },
+    "bayern-munich": {
+        "bayern munchen",
+        "bayern munich",
+    },
+    "internazionale-milano": {
+        "internazionale",
+        "internazionale milano",
+        "inter milan",
+    },
+    "atletico-mineiro": {
+        "atletico mineiro",
+        "atletico mg",
+    },
+}
+
+TEAM_ALIAS_LOOKUP = {
+    alias: canonical
+    for canonical, aliases in TEAM_ALIAS_GROUPS.items()
+    for alias in aliases
+}
+
+DEDUP_KICKOFF_TOLERANCE_MINUTES = 90
+
+
+def canonical_team_key(value):
+    normalized = normalize(value)
+    if not normalized:
+        return None
+    return TEAM_ALIAS_LOOKUP.get(normalized, f"name:{normalized}")
+
+
+def team_identity_match(left, right):
+    left_id = left.get("id")
+    right_id = right.get("id")
+
+    if left_id is not None and right_id is not None:
+        return left_id == right_id
+
+    left_key = canonical_team_key(
+        left.get("normalized") or left.get("name") or left.get("fullName")
+    )
+    right_key = canonical_team_key(
+        right.get("normalized") or right.get("name") or right.get("fullName")
+    )
+
+    return bool(left_key and right_key and left_key == right_key)
+
+
+def competition_identity_match(left, right):
+    left_id = left.get("id")
+    right_id = right.get("id")
+
+    if left_id is not None and right_id is not None:
+        return left_id == right_id
+
+    left_code = str(left.get("code") or "").strip().upper()
+    right_code = str(right.get("code") or "").strip().upper()
+    if left_code and right_code:
+        return left_code == right_code
+
+    left_name = normalize(left.get("normalized") or left.get("name"))
+    right_name = normalize(right.get("normalized") or right.get("name"))
+    return bool(left_name and right_name and left_name == right_name)
+
+
+def kickoff_minutes(value):
+    if not value:
+        return None
+
+    try:
+        hours, minutes = str(value).split(":", 1)
+        hours = int(hours)
+        minutes = int(minutes)
+    except (TypeError, ValueError):
+        return None
+
+    if not (0 <= hours <= 23 and 0 <= minutes <= 59):
+        return None
+
+    return hours * 60 + minutes
+
+
+def kickoff_compatible(left, right):
+    left_minutes = kickoff_minutes(left)
+    right_minutes = kickoff_minutes(right)
+
+    if left_minutes is None or right_minutes is None:
         return False
-    if a == b:
-        return True
-    return a in b or b in a
+
+    difference = abs(left_minutes - right_minutes)
+    return difference <= DEDUP_KICKOFF_TOLERANCE_MINUTES
+
 
 def find_equivalent(existing, candidate):
     for item in existing:
         if item.get("date") != candidate.get("date"):
             continue
 
-        ih = item.get("home", {}).get("normalized")
-        ia = item.get("away", {}).get("normalized")
-        ch = candidate.get("home", {}).get("normalized")
-        ca = candidate.get("away", {}).get("normalized")
+        if not competition_identity_match(
+            item.get("competition", {}),
+            candidate.get("competition", {}),
+        ):
+            continue
 
-        direct = loose_team_match(ih, ch) and loose_team_match(ia, ca)
-        swapped = loose_team_match(ih, ca) and loose_team_match(ia, ch)
-        if direct or swapped:
-            return item
+        if not kickoff_compatible(
+            item.get("kickoff"),
+            candidate.get("kickoff"),
+        ):
+            continue
+
+        if not team_identity_match(
+            item.get("home", {}),
+            candidate.get("home", {}),
+        ):
+            continue
+
+        if not team_identity_match(
+            item.get("away", {}),
+            candidate.get("away", {}),
+        ):
+            continue
+
+        return item
 
     return None
 
