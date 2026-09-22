@@ -122,11 +122,6 @@ class FeedV2Tests(unittest.TestCase):
 
     def test_legacy_feed_artwork_is_not_reused(self):
         result = self.build()
-        match = result["matches"][0]
-        self.assertIsNone(
-            match["competition"]["artwork"]["url"]
-        )
-        self.assertIsNone(match["home"]["artwork"]["url"])
         dumped = json.dumps(result)
         self.assertNotIn("https://legacy.invalid/", dumped)
 

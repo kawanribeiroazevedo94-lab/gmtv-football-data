@@ -12,6 +12,13 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from free_sources import fetch_bsd, fetch_openligadb, fetch_wikimedia
+from artwork_resolver import (
+    adopt_trusted_provider_artwork,
+    competition_country_hint,
+    competition_search_name,
+    prime_visual_catalog,
+    resolve_artwork as resolve_artwork_strict,
+)
 
 APP_TZ_NAME = "America/Sao_Paulo"
 
@@ -598,28 +605,22 @@ def wikidata_logo(qid):
         f"Special:Redirect/file/{encoded}?width=192"
     )
 
-def resolve_artwork(name, kind, cache):
-    normalized = normalize(name)
-    if not normalized:
-        return None
-
-    key = f"{kind}:{normalized}"
-    if key in cache:
-        return cache[key].get("url")
-
-    try:
-        qid = wikidata_search(name, kind)
-        url = wikidata_logo(qid)
-    except Exception:
-        qid = None
-        url = None
-
-    cache[key] = {
-        "name": name,
-        "qid": qid,
-        "url": url,
-    }
-    return url
+def resolve_artwork(
+    name,
+    kind,
+    cache,
+    country_hint=None,
+    search_name=None,
+    force=False,
+):
+    return resolve_artwork_strict(
+        name,
+        kind,
+        cache,
+        country_hint=country_hint,
+        search_name=search_name,
+        force=force,
+    )
 
 def enrich_missing_artwork(matches, cache):
     for item in matches:
@@ -627,25 +628,46 @@ def enrich_missing_artwork(matches, cache):
         home = item["home"]
         away = item["away"]
 
-        if not comp.get("logo") and comp.get("name"):
-            comp["logo"] = resolve_artwork(
-                comp["name"],
+        country_hint = competition_country_hint(
+            comp.get("name")
+        )
+
+        comp_existing = comp.get("logo")
+        comp_provider = str(comp.get("idProvider") or "").strip().lower()
+        comp_validated = None
+        if comp_existing:
+            comp_validated = adopt_trusted_provider_artwork(
+                comp.get("name") or "",
                 "competition",
+                comp_existing,
                 cache,
+                comp_provider,
             )
+        comp["logo"] = comp_validated or resolve_artwork(
+            comp.get("name") or "",
+            "competition",
+            cache,
+            country_hint=country_hint,
+            search_name=competition_search_name(comp.get("name") or ""),
+        )
 
-        if not home.get("crest") and home.get("name"):
-            home["crest"] = resolve_artwork(
-                home["name"],
+        for team in (home, away):
+            existing = team.get("crest")
+            provider = str(team.get("idProvider") or "").strip().lower()
+            validated = None
+            if existing:
+                validated = adopt_trusted_provider_artwork(
+                    team.get("name") or team.get("fullName") or "",
+                    "team",
+                    existing,
+                    cache,
+                    provider,
+                )
+            team["crest"] = validated or resolve_artwork(
+                team.get("name") or team.get("fullName") or "",
                 "team",
                 cache,
-            )
-
-        if not away.get("crest") and away.get("name"):
-            away["crest"] = resolve_artwork(
-                away["name"],
-                "team",
-                cache,
+                country_hint=country_hint,
             )
 
 def main():
@@ -713,6 +735,9 @@ def main():
                 donor["sources"].append(source_name)
 
     artwork_cache = load_artwork_cache()
+    artwork_catalog_status = prime_visual_catalog(
+        artwork_cache,
+    )
     enrich_missing_artwork(
         merged,
         artwork_cache,
@@ -784,6 +809,7 @@ def main():
                 "matches": len(wikimedia),
                 "pages": wikimedia_status,
             },
+            "artworkCatalog": artwork_catalog_status,
             "wikidataArtwork": {
                 "cachedEntries": len(artwork_cache),
             },

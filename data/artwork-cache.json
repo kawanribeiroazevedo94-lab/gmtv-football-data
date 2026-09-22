@@ -1,8 +1,15 @@
 {
   "competition:brasileirao serie b": {
+    "fetchStatus": "not_checked",
+    "lastError": "legacy_artwork_removed_before_resolver_v4",
     "name": "Brasileirão Série B",
+    "nextRetryAfter": null,
     "qid": "Q610175",
-    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192"
+    "resolverVersion": 3,
+    "semanticStatus": "unresolved",
+    "status": "unresolved",
+    "url": null,
+    "visualStatus": "not_checked"
   },
   "competition:ligue 1": {
     "name": "Ligue 1",
