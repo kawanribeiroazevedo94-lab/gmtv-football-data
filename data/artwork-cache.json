@@ -1,4 +1,9 @@
 {
+  "competition:brasileirao serie b": {
+    "name": "Brasileirão Série B",
+    "qid": "Q610175",
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192"
+  },
   "competition:ligue 1": {
     "name": "Ligue 1",
     "qid": null,
@@ -24,13 +29,33 @@
     "qid": null,
     "url": null
   },
+  "team:america mineiro": {
+    "name": "América Mineiro",
+    "qid": "Q338285",
+    "url": null
+  },
   "team:arsenal": {
     "name": "Arsenal",
     "qid": null,
     "url": null
   },
+  "team:athletic": {
+    "name": "Athletic Club",
+    "qid": null,
+    "url": null
+  },
+  "team:atletico goianiense": {
+    "name": "Atlético Goianiense",
+    "qid": null,
+    "url": null
+  },
   "team:austria wien": {
     "name": "Austria Wien",
+    "qid": null,
+    "url": null
+  },
+  "team:avai": {
+    "name": "Avaí",
     "qid": null,
     "url": null
   },
@@ -54,13 +79,38 @@
     "qid": null,
     "url": null
   },
+  "team:ceara": {
+    "name": "Ceará",
+    "qid": null,
+    "url": null
+  },
   "team:chelsea": {
     "name": "Chelsea",
     "qid": null,
     "url": null
   },
+  "team:crb": {
+    "name": "CRB",
+    "qid": null,
+    "url": null
+  },
+  "team:criciuma": {
+    "name": "Criciúma",
+    "qid": null,
+    "url": null
+  },
+  "team:cuiaba": {
+    "name": "Cuiabá",
+    "qid": null,
+    "url": null
+  },
   "team:estrela amadora": {
     "name": "CF Estrela da Amadora",
+    "qid": null,
+    "url": null
+  },
+  "team:fortaleza": {
+    "name": "Fortaleza",
     "qid": null,
     "url": null
   },
@@ -70,6 +120,16 @@
     "rejectedAt": "2026-09-21T13:45:26Z",
     "rejectedReason": "proven_p18_photograph_not_crest",
     "status": "rejected",
+    "url": null
+  },
+  "team:goias": {
+    "name": "Goiás",
+    "qid": null,
+    "url": null
+  },
+  "team:gremio novorizontino": {
+    "name": "Grêmio Novorizontino",
+    "qid": null,
     "url": null
   },
   "team:hb k ge": {
@@ -82,8 +142,18 @@
     "qid": null,
     "url": null
   },
+  "team:juventude": {
+    "name": "Juventude",
+    "qid": null,
+    "url": null
+  },
   "team:juventus": {
     "name": "Juventus",
+    "qid": null,
+    "url": null
+  },
+  "team:londrina": {
+    "name": "Londrina",
     "qid": null,
     "url": null
   },
@@ -103,6 +173,11 @@
     "status": "rejected",
     "url": null
   },
+  "team:nautico": {
+    "name": "Náutico",
+    "qid": null,
+    "url": null
+  },
   "team:oh leuven": {
     "name": "OH Leuven",
     "qid": null,
@@ -115,6 +190,11 @@
   },
   "team:olympique marseille": {
     "name": "Olympique de Marseille",
+    "qid": null,
+    "url": null
+  },
+  "team:operario pr": {
+    "name": "Operário-PR",
     "qid": null,
     "url": null
   },
@@ -143,6 +223,11 @@
     "qid": null,
     "url": null
   },
+  "team:sao bernardo": {
+    "name": "São Bernardo",
+    "qid": null,
+    "url": null
+  },
   "team:servette chenois": {
     "name": "Servette Chênois",
     "qid": null,
@@ -153,12 +238,22 @@
     "qid": null,
     "url": null
   },
+  "team:sport recife": {
+    "name": "Sport Recife",
+    "qid": null,
+    "url": null
+  },
   "team:sunderland": {
     "name": "Sunderland AFC",
     "qid": "Q18739",
     "rejectedAt": "2026-09-21T13:45:26Z",
     "rejectedReason": "proven_photographic_artwork_not_clean_crest",
     "status": "rejected",
+    "url": null
+  },
+  "team:vila nova": {
+    "name": "Vila Nova FC",
+    "qid": null,
     "url": null
   }
 }

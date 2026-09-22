@@ -1,5 +1,30 @@
 {
   "entries": {
+    "competition:brasileirao serie b": {
+      "artworkProperty": "legacy_unknown",
+      "artworkProvider": "wikidata",
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "competition:brasileirao serie b",
+      "candidateUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+      "entityType": "competition",
+      "fetchStatus": "not_checked",
+      "gmId": "competition:brasileirao-serie-b",
+      "lastAttemptAt": null,
+      "name": "Brasileirão Série B",
+      "nextReviewAfter": "2026-09-22T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "pending_review",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": "Q610175"
+    },
     "competition:ligue 1": {
       "artworkProperty": null,
       "artworkProvider": null,
@@ -125,6 +150,31 @@
       "visualStatus": "not_checked",
       "wikidataQid": null
     },
+    "team:america mineiro": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:america mineiro",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "América Mineiro",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": "Q338285"
+    },
     "team:arsenal": {
       "artworkProperty": null,
       "artworkProvider": null,
@@ -150,6 +200,56 @@
       "visualStatus": "not_checked",
       "wikidataQid": null
     },
+    "team:athletic": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:athletic",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Athletic Club",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
+    "team:atletico goianiense": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:atletico goianiense",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Atlético Goianiense",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
     "team:austria wien": {
       "artworkProperty": null,
       "artworkProvider": null,
@@ -165,6 +265,31 @@
       "nextReviewAfter": "2026-09-29T14:31:47Z",
       "provenance": {
         "migratedAt": "2026-09-22T14:31:47Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
+    "team:avai": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:avai",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Avaí",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
         "migratedFrom": "artwork-cache-v1"
       },
       "publishable": false,
@@ -275,6 +400,31 @@
       "visualStatus": "not_checked",
       "wikidataQid": null
     },
+    "team:ceara": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:ceara",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Ceará",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
     "team:chelsea": {
       "artworkProperty": null,
       "artworkProvider": null,
@@ -290,6 +440,81 @@
       "nextReviewAfter": "2026-09-29T14:31:47Z",
       "provenance": {
         "migratedAt": "2026-09-22T14:31:47Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
+    "team:crb": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:crb",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "CRB",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
+    "team:criciuma": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:criciuma",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Criciúma",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
+    "team:cuiaba": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:cuiaba",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Cuiabá",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
         "migratedFrom": "artwork-cache-v1"
       },
       "publishable": false,
@@ -325,6 +550,31 @@
       "visualStatus": "not_checked",
       "wikidataQid": null
     },
+    "team:fortaleza": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:fortaleza",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Fortaleza",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
     "team:fulham": {
       "artworkProperty": null,
       "artworkProvider": "wikidata",
@@ -349,6 +599,56 @@
       "semanticStatus": "rejected",
       "visualStatus": "rejected",
       "wikidataQid": "Q18708"
+    },
+    "team:goias": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:goias",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Goiás",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
+    "team:gremio novorizontino": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:gremio novorizontino",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Grêmio Novorizontino",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
     },
     "team:hb k ge": {
       "artworkProperty": null,
@@ -400,6 +700,31 @@
       "visualStatus": "not_checked",
       "wikidataQid": null
     },
+    "team:juventude": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:juventude",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Juventude",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
     "team:juventus": {
       "artworkProperty": null,
       "artworkProvider": null,
@@ -415,6 +740,31 @@
       "nextReviewAfter": "2026-09-29T14:31:47Z",
       "provenance": {
         "migratedAt": "2026-09-22T14:31:47Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
+    "team:londrina": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:londrina",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Londrina",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
         "migratedFrom": "artwork-cache-v1"
       },
       "publishable": false,
@@ -474,6 +824,31 @@
       "semanticStatus": "rejected",
       "visualStatus": "rejected",
       "wikidataQid": "Q18656"
+    },
+    "team:nautico": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:nautico",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Náutico",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
     },
     "team:oh leuven": {
       "artworkProperty": null,
@@ -540,6 +915,31 @@
       "nextReviewAfter": "2026-09-28T14:10:51Z",
       "provenance": {
         "migratedAt": "2026-09-21T14:10:51Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
+    "team:operario pr": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:operario pr",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Operário-PR",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
         "migratedFrom": "artwork-cache-v1"
       },
       "publishable": false,
@@ -675,6 +1075,31 @@
       "visualStatus": "not_checked",
       "wikidataQid": null
     },
+    "team:sao bernardo": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:sao bernardo",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "São Bernardo",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
     "team:servette chenois": {
       "artworkProperty": null,
       "artworkProvider": null,
@@ -725,6 +1150,31 @@
       "visualStatus": "not_checked",
       "wikidataQid": null
     },
+    "team:sport recife": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:sport recife",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Sport Recife",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
+    },
     "team:sunderland": {
       "artworkProperty": null,
       "artworkProvider": "wikidata",
@@ -749,9 +1199,34 @@
       "semanticStatus": "rejected",
       "visualStatus": "rejected",
       "wikidataQid": "Q18739"
+    },
+    "team:vila nova": {
+      "artworkProperty": null,
+      "artworkProvider": null,
+      "artworkUrl": null,
+      "attemptCount": 1,
+      "cacheKey": "team:vila nova",
+      "candidateUrl": null,
+      "entityType": "club",
+      "fetchStatus": "not_checked",
+      "gmId": null,
+      "lastAttemptAt": null,
+      "name": "Vila Nova FC",
+      "nextReviewAfter": "2026-09-29T15:21:33Z",
+      "provenance": {
+        "migratedAt": "2026-09-22T15:21:33Z",
+        "migratedFrom": "artwork-cache-v1"
+      },
+      "publishable": false,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "unresolved",
+      "semanticStatus": "unresolved",
+      "visualStatus": "not_checked",
+      "wikidataQid": null
     }
   },
-  "generatedAt": "2026-09-22T14:31:47Z",
+  "generatedAt": "2026-09-22T15:21:33Z",
   "retryPolicy": {
     "rejectedAutomaticRetry": false,
     "unresolvedDays": 7

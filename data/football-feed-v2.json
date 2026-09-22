@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-09-22T14:32:44.828941Z",
+  "generatedAt": "2026-09-22T15:21:33.661731Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-09-22",
@@ -62,6 +62,13 @@
           "matchesInWindow": 0
         }
       ]
+    },
+    "bsd": {
+      "configured": true,
+      "ok": true,
+      "matches": 10,
+      "pages": 2,
+      "error": null
     },
     "openLigaDB": {
       "ok": true,
@@ -138,7 +145,7 @@
       ]
     },
     "wikidataArtwork": {
-      "cachedEntries": 30
+      "cachedEntries": 49
     }
   },
   "contracts": {
@@ -149,7 +156,7 @@
     {
       "date": "2026-09-22",
       "label": "HOJE",
-      "count": 5,
+      "count": 6,
       "matches": [
         {
           "id": "wm:b34688ea3735cb4a",
@@ -635,6 +642,108 @@
               "revisionTimestamp": "2026-09-21T09:23:52Z"
             }
           }
+        },
+        {
+          "id": "bsd:10136",
+          "date": "2026-09-22",
+          "kickoff": "19:30",
+          "utcDate": "2026-09-22T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "pending_review",
+              "url": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Criciúma",
+            "fullName": "Criciúma",
+            "normalized": "criciuma",
+            "country": null,
+            "externalIds": {
+              "bsd": "929"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Operário-PR",
+            "fullName": "Operário-PR",
+            "normalized": "operario pr",
+            "country": null,
+            "externalIds": {
+              "bsd": "828"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10136,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
         }
       ]
     },
@@ -1042,26 +1151,948 @@
     {
       "date": "2026-09-25",
       "label": "25/09",
-      "count": 0,
-      "matches": []
+      "count": 2,
+      "matches": [
+        {
+          "id": "bsd:10150",
+          "date": "2026-09-25",
+          "kickoff": "19:30",
+          "utcDate": "2026-09-25T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "pending_review",
+              "url": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Grêmio Novorizontino",
+            "fullName": "Grêmio Novorizontino",
+            "normalized": "gremio novorizontino",
+            "country": null,
+            "externalIds": {
+              "bsd": "836"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "São Bernardo",
+            "fullName": "São Bernardo",
+            "normalized": "sao bernardo",
+            "country": null,
+            "externalIds": {
+              "bsd": "841"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10150,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "bsd:10153",
+          "date": "2026-09-25",
+          "kickoff": "20:30",
+          "utcDate": "2026-09-25T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "pending_review",
+              "url": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Vila Nova FC",
+            "fullName": "Vila Nova FC",
+            "normalized": "vila nova",
+            "country": null,
+            "externalIds": {
+              "bsd": "826"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Londrina",
+            "fullName": "Londrina",
+            "normalized": "londrina",
+            "country": null,
+            "externalIds": {
+              "bsd": "821"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10153,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        }
+      ]
     },
     {
       "date": "2026-09-26",
       "label": "26/09",
-      "count": 0,
-      "matches": []
+      "count": 3,
+      "matches": [
+        {
+          "id": "bsd:10151",
+          "date": "2026-09-26",
+          "kickoff": "16:30",
+          "utcDate": "2026-09-26T19:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "pending_review",
+              "url": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Náutico",
+            "fullName": "Náutico",
+            "normalized": "nautico",
+            "country": null,
+            "externalIds": {
+              "bsd": "928"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Sport Recife",
+            "fullName": "Sport Recife",
+            "normalized": "sport recife",
+            "country": null,
+            "externalIds": {
+              "bsd": "159"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10151,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "bsd:10152",
+          "date": "2026-09-26",
+          "kickoff": "16:30",
+          "utcDate": "2026-09-26T19:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "pending_review",
+              "url": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Operário-PR",
+            "fullName": "Operário-PR",
+            "normalized": "operario pr",
+            "country": null,
+            "externalIds": {
+              "bsd": "828"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Ceará",
+            "fullName": "Ceará",
+            "normalized": "ceara",
+            "country": null,
+            "externalIds": {
+              "bsd": "169"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10152,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "bsd:10149",
+          "date": "2026-09-26",
+          "kickoff": "18:30",
+          "utcDate": "2026-09-26T21:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "pending_review",
+              "url": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Goiás",
+            "fullName": "Goiás",
+            "normalized": "goias",
+            "country": null,
+            "externalIds": {
+              "bsd": "809"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Atlético Goianiense",
+            "fullName": "Atlético Goianiense",
+            "normalized": "atletico goianiense",
+            "country": null,
+            "externalIds": {
+              "bsd": "819"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10149,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        }
+      ]
     },
     {
       "date": "2026-09-27",
       "label": "27/09",
-      "count": 0,
-      "matches": []
+      "count": 3,
+      "matches": [
+        {
+          "id": "bsd:10147",
+          "date": "2026-09-27",
+          "kickoff": "11:00",
+          "utcDate": "2026-09-27T14:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "pending_review",
+              "url": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Criciúma",
+            "fullName": "Criciúma",
+            "normalized": "criciuma",
+            "country": null,
+            "externalIds": {
+              "bsd": "929"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Avaí",
+            "fullName": "Avaí",
+            "normalized": "avai",
+            "country": null,
+            "externalIds": {
+              "bsd": "860"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10147,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "bsd:10146",
+          "date": "2026-09-27",
+          "kickoff": "16:00",
+          "utcDate": "2026-09-27T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "pending_review",
+              "url": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "CRB",
+            "fullName": "CRB",
+            "normalized": "crb",
+            "country": null,
+            "externalIds": {
+              "bsd": "831"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Cuiabá",
+            "fullName": "Cuiabá",
+            "normalized": "cuiaba",
+            "country": null,
+            "externalIds": {
+              "bsd": "863"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10146,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "bsd:10148",
+          "date": "2026-09-27",
+          "kickoff": "18:30",
+          "utcDate": "2026-09-27T21:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "pending_review",
+              "url": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Fortaleza",
+            "fullName": "Fortaleza",
+            "normalized": "fortaleza",
+            "country": null,
+            "externalIds": {
+              "bsd": "152"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Athletic Club",
+            "fullName": "Athletic Club",
+            "normalized": "athletic",
+            "country": null,
+            "externalIds": {
+              "bsd": "843"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10148,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        }
+      ]
     },
     {
       "date": "2026-09-28",
       "label": "28/09",
-      "count": 0,
-      "matches": []
+      "count": 1,
+      "matches": [
+        {
+          "id": "bsd:10144",
+          "date": "2026-09-28",
+          "kickoff": "19:30",
+          "utcDate": "2026-09-28T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "pending_review",
+              "url": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "América Mineiro",
+            "fullName": "América Mineiro",
+            "normalized": "america mineiro",
+            "country": null,
+            "externalIds": {
+              "bsd": "838"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Juventude",
+            "fullName": "Juventude",
+            "normalized": "juventude",
+            "country": null,
+            "externalIds": {
+              "bsd": "156"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10144,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        }
+      ]
     }
   ],
   "matches": [
@@ -1551,6 +2582,108 @@
       }
     },
     {
+      "id": "bsd:10136",
+      "date": "2026-09-22",
+      "kickoff": "19:30",
+      "utcDate": "2026-09-22T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "pending_review",
+          "url": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Criciúma",
+        "fullName": "Criciúma",
+        "normalized": "criciuma",
+        "country": null,
+        "externalIds": {
+          "bsd": "929"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Operário-PR",
+        "fullName": "Operário-PR",
+        "normalized": "operario pr",
+        "country": null,
+        "externalIds": {
+          "bsd": "828"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10136,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
       "id": "wm:9470d9c881b0f5f0",
       "date": "2026-09-23",
       "kickoff": "13:45",
@@ -1935,6 +3068,924 @@
           "pageId": 83018611,
           "revisionId": 1375992554,
           "revisionTimestamp": "2026-09-21T09:23:52Z"
+        }
+      }
+    },
+    {
+      "id": "bsd:10150",
+      "date": "2026-09-25",
+      "kickoff": "19:30",
+      "utcDate": "2026-09-25T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "pending_review",
+          "url": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Grêmio Novorizontino",
+        "fullName": "Grêmio Novorizontino",
+        "normalized": "gremio novorizontino",
+        "country": null,
+        "externalIds": {
+          "bsd": "836"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "São Bernardo",
+        "fullName": "São Bernardo",
+        "normalized": "sao bernardo",
+        "country": null,
+        "externalIds": {
+          "bsd": "841"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10150,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10153",
+      "date": "2026-09-25",
+      "kickoff": "20:30",
+      "utcDate": "2026-09-25T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "pending_review",
+          "url": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Vila Nova FC",
+        "fullName": "Vila Nova FC",
+        "normalized": "vila nova",
+        "country": null,
+        "externalIds": {
+          "bsd": "826"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Londrina",
+        "fullName": "Londrina",
+        "normalized": "londrina",
+        "country": null,
+        "externalIds": {
+          "bsd": "821"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10153,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10151",
+      "date": "2026-09-26",
+      "kickoff": "16:30",
+      "utcDate": "2026-09-26T19:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "pending_review",
+          "url": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Náutico",
+        "fullName": "Náutico",
+        "normalized": "nautico",
+        "country": null,
+        "externalIds": {
+          "bsd": "928"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Sport Recife",
+        "fullName": "Sport Recife",
+        "normalized": "sport recife",
+        "country": null,
+        "externalIds": {
+          "bsd": "159"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10151,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10152",
+      "date": "2026-09-26",
+      "kickoff": "16:30",
+      "utcDate": "2026-09-26T19:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "pending_review",
+          "url": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Operário-PR",
+        "fullName": "Operário-PR",
+        "normalized": "operario pr",
+        "country": null,
+        "externalIds": {
+          "bsd": "828"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Ceará",
+        "fullName": "Ceará",
+        "normalized": "ceara",
+        "country": null,
+        "externalIds": {
+          "bsd": "169"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10152,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10149",
+      "date": "2026-09-26",
+      "kickoff": "18:30",
+      "utcDate": "2026-09-26T21:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "pending_review",
+          "url": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Goiás",
+        "fullName": "Goiás",
+        "normalized": "goias",
+        "country": null,
+        "externalIds": {
+          "bsd": "809"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Atlético Goianiense",
+        "fullName": "Atlético Goianiense",
+        "normalized": "atletico goianiense",
+        "country": null,
+        "externalIds": {
+          "bsd": "819"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10149,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10147",
+      "date": "2026-09-27",
+      "kickoff": "11:00",
+      "utcDate": "2026-09-27T14:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "pending_review",
+          "url": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Criciúma",
+        "fullName": "Criciúma",
+        "normalized": "criciuma",
+        "country": null,
+        "externalIds": {
+          "bsd": "929"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Avaí",
+        "fullName": "Avaí",
+        "normalized": "avai",
+        "country": null,
+        "externalIds": {
+          "bsd": "860"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10147,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10146",
+      "date": "2026-09-27",
+      "kickoff": "16:00",
+      "utcDate": "2026-09-27T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "pending_review",
+          "url": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "CRB",
+        "fullName": "CRB",
+        "normalized": "crb",
+        "country": null,
+        "externalIds": {
+          "bsd": "831"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Cuiabá",
+        "fullName": "Cuiabá",
+        "normalized": "cuiaba",
+        "country": null,
+        "externalIds": {
+          "bsd": "863"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10146,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10148",
+      "date": "2026-09-27",
+      "kickoff": "18:30",
+      "utcDate": "2026-09-27T21:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "pending_review",
+          "url": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Fortaleza",
+        "fullName": "Fortaleza",
+        "normalized": "fortaleza",
+        "country": null,
+        "externalIds": {
+          "bsd": "152"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Athletic Club",
+        "fullName": "Athletic Club",
+        "normalized": "athletic",
+        "country": null,
+        "externalIds": {
+          "bsd": "843"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10148,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10144",
+      "date": "2026-09-28",
+      "kickoff": "19:30",
+      "utcDate": "2026-09-28T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "pending_review",
+          "url": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "América Mineiro",
+        "fullName": "América Mineiro",
+        "normalized": "america mineiro",
+        "country": null,
+        "externalIds": {
+          "bsd": "838"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Juventude",
+        "fullName": "Juventude",
+        "normalized": "juventude",
+        "country": null,
+        "externalIds": {
+          "bsd": "156"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10144,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
         }
       }
     }

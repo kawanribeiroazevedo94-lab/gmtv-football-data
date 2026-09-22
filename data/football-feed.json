@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-22T14:32:44.828941Z",
+  "generatedAt": "2026-09-22T15:21:33.661731Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-09-22",
@@ -62,6 +62,13 @@
           "matchesInWindow": 0
         }
       ]
+    },
+    "bsd": {
+      "configured": true,
+      "ok": true,
+      "matches": 10,
+      "pages": 2,
+      "error": null
     },
     "openLigaDB": {
       "ok": true,
@@ -138,14 +145,14 @@
       ]
     },
     "wikidataArtwork": {
-      "cachedEntries": 30
+      "cachedEntries": 49
     }
   },
   "days": [
     {
       "date": "2026-09-22",
       "label": "HOJE",
-      "count": 5,
+      "count": 6,
       "matches": [
         {
           "id": "wm:b34688ea3735cb4a",
@@ -356,6 +363,47 @@
             "revisionId": 1375992554,
             "revisionTimestamp": "2026-09-21T09:23:52Z"
           }
+        },
+        {
+          "id": "bsd:10136",
+          "date": "2026-09-22",
+          "kickoff": "19:30",
+          "utcDate": "2026-09-22T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 929,
+            "idProvider": "bsd",
+            "name": "Criciúma",
+            "fullName": "Criciúma",
+            "crest": null,
+            "normalized": "criciuma"
+          },
+          "away": {
+            "id": 828,
+            "idProvider": "bsd",
+            "name": "Operário-PR",
+            "fullName": "Operário-PR",
+            "crest": null,
+            "normalized": "operario pr"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10136,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
         }
       ]
     },
@@ -543,26 +591,399 @@
     {
       "date": "2026-09-25",
       "label": "25/09",
-      "count": 0,
-      "matches": []
+      "count": 2,
+      "matches": [
+        {
+          "id": "bsd:10150",
+          "date": "2026-09-25",
+          "kickoff": "19:30",
+          "utcDate": "2026-09-25T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 836,
+            "idProvider": "bsd",
+            "name": "Grêmio Novorizontino",
+            "fullName": "Grêmio Novorizontino",
+            "crest": null,
+            "normalized": "gremio novorizontino"
+          },
+          "away": {
+            "id": 841,
+            "idProvider": "bsd",
+            "name": "São Bernardo",
+            "fullName": "São Bernardo",
+            "crest": null,
+            "normalized": "sao bernardo"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10150,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:10153",
+          "date": "2026-09-25",
+          "kickoff": "20:30",
+          "utcDate": "2026-09-25T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 826,
+            "idProvider": "bsd",
+            "name": "Vila Nova FC",
+            "fullName": "Vila Nova FC",
+            "crest": null,
+            "normalized": "vila nova"
+          },
+          "away": {
+            "id": 821,
+            "idProvider": "bsd",
+            "name": "Londrina",
+            "fullName": "Londrina",
+            "crest": null,
+            "normalized": "londrina"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10153,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        }
+      ]
     },
     {
       "date": "2026-09-26",
       "label": "26/09",
-      "count": 0,
-      "matches": []
+      "count": 3,
+      "matches": [
+        {
+          "id": "bsd:10151",
+          "date": "2026-09-26",
+          "kickoff": "16:30",
+          "utcDate": "2026-09-26T19:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 928,
+            "idProvider": "bsd",
+            "name": "Náutico",
+            "fullName": "Náutico",
+            "crest": null,
+            "normalized": "nautico"
+          },
+          "away": {
+            "id": 159,
+            "idProvider": "bsd",
+            "name": "Sport Recife",
+            "fullName": "Sport Recife",
+            "crest": null,
+            "normalized": "sport recife"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10151,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:10152",
+          "date": "2026-09-26",
+          "kickoff": "16:30",
+          "utcDate": "2026-09-26T19:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 828,
+            "idProvider": "bsd",
+            "name": "Operário-PR",
+            "fullName": "Operário-PR",
+            "crest": null,
+            "normalized": "operario pr"
+          },
+          "away": {
+            "id": 169,
+            "idProvider": "bsd",
+            "name": "Ceará",
+            "fullName": "Ceará",
+            "crest": null,
+            "normalized": "ceara"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10152,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:10149",
+          "date": "2026-09-26",
+          "kickoff": "18:30",
+          "utcDate": "2026-09-26T21:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 809,
+            "idProvider": "bsd",
+            "name": "Goiás",
+            "fullName": "Goiás",
+            "crest": null,
+            "normalized": "goias"
+          },
+          "away": {
+            "id": 819,
+            "idProvider": "bsd",
+            "name": "Atlético Goianiense",
+            "fullName": "Atlético Goianiense",
+            "crest": null,
+            "normalized": "atletico goianiense"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10149,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        }
+      ]
     },
     {
       "date": "2026-09-27",
       "label": "27/09",
-      "count": 0,
-      "matches": []
+      "count": 3,
+      "matches": [
+        {
+          "id": "bsd:10147",
+          "date": "2026-09-27",
+          "kickoff": "11:00",
+          "utcDate": "2026-09-27T14:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 929,
+            "idProvider": "bsd",
+            "name": "Criciúma",
+            "fullName": "Criciúma",
+            "crest": null,
+            "normalized": "criciuma"
+          },
+          "away": {
+            "id": 860,
+            "idProvider": "bsd",
+            "name": "Avaí",
+            "fullName": "Avaí",
+            "crest": null,
+            "normalized": "avai"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10147,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:10146",
+          "date": "2026-09-27",
+          "kickoff": "16:00",
+          "utcDate": "2026-09-27T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 831,
+            "idProvider": "bsd",
+            "name": "CRB",
+            "fullName": "CRB",
+            "crest": null,
+            "normalized": "crb"
+          },
+          "away": {
+            "id": 863,
+            "idProvider": "bsd",
+            "name": "Cuiabá",
+            "fullName": "Cuiabá",
+            "crest": null,
+            "normalized": "cuiaba"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10146,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:10148",
+          "date": "2026-09-27",
+          "kickoff": "18:30",
+          "utcDate": "2026-09-27T21:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 152,
+            "idProvider": "bsd",
+            "name": "Fortaleza",
+            "fullName": "Fortaleza",
+            "crest": null,
+            "normalized": "fortaleza"
+          },
+          "away": {
+            "id": 843,
+            "idProvider": "bsd",
+            "name": "Athletic Club",
+            "fullName": "Athletic Club",
+            "crest": null,
+            "normalized": "athletic"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10148,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        }
+      ]
     },
     {
       "date": "2026-09-28",
       "label": "28/09",
-      "count": 0,
-      "matches": []
+      "count": 1,
+      "matches": [
+        {
+          "id": "bsd:10144",
+          "date": "2026-09-28",
+          "kickoff": "19:30",
+          "utcDate": "2026-09-28T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 838,
+            "idProvider": "bsd",
+            "name": "América Mineiro",
+            "fullName": "América Mineiro",
+            "crest": null,
+            "normalized": "america mineiro"
+          },
+          "away": {
+            "id": 156,
+            "idProvider": "bsd",
+            "name": "Juventude",
+            "fullName": "Juventude",
+            "crest": null,
+            "normalized": "juventude"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10144,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        }
+      ]
     }
   ],
   "matches": [
@@ -777,6 +1198,47 @@
       }
     },
     {
+      "id": "bsd:10136",
+      "date": "2026-09-22",
+      "kickoff": "19:30",
+      "utcDate": "2026-09-22T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 929,
+        "idProvider": "bsd",
+        "name": "Criciúma",
+        "fullName": "Criciúma",
+        "crest": null,
+        "normalized": "criciuma"
+      },
+      "away": {
+        "id": 828,
+        "idProvider": "bsd",
+        "name": "Operário-PR",
+        "fullName": "Operário-PR",
+        "crest": null,
+        "normalized": "operario pr"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10136,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
       "id": "wm:9470d9c881b0f5f0",
       "date": "2026-09-23",
       "kickoff": "13:45",
@@ -942,6 +1404,375 @@
         "pageId": 83018611,
         "revisionId": 1375992554,
         "revisionTimestamp": "2026-09-21T09:23:52Z"
+      }
+    },
+    {
+      "id": "bsd:10150",
+      "date": "2026-09-25",
+      "kickoff": "19:30",
+      "utcDate": "2026-09-25T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 836,
+        "idProvider": "bsd",
+        "name": "Grêmio Novorizontino",
+        "fullName": "Grêmio Novorizontino",
+        "crest": null,
+        "normalized": "gremio novorizontino"
+      },
+      "away": {
+        "id": 841,
+        "idProvider": "bsd",
+        "name": "São Bernardo",
+        "fullName": "São Bernardo",
+        "crest": null,
+        "normalized": "sao bernardo"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10150,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10153",
+      "date": "2026-09-25",
+      "kickoff": "20:30",
+      "utcDate": "2026-09-25T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 826,
+        "idProvider": "bsd",
+        "name": "Vila Nova FC",
+        "fullName": "Vila Nova FC",
+        "crest": null,
+        "normalized": "vila nova"
+      },
+      "away": {
+        "id": 821,
+        "idProvider": "bsd",
+        "name": "Londrina",
+        "fullName": "Londrina",
+        "crest": null,
+        "normalized": "londrina"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10153,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10151",
+      "date": "2026-09-26",
+      "kickoff": "16:30",
+      "utcDate": "2026-09-26T19:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 928,
+        "idProvider": "bsd",
+        "name": "Náutico",
+        "fullName": "Náutico",
+        "crest": null,
+        "normalized": "nautico"
+      },
+      "away": {
+        "id": 159,
+        "idProvider": "bsd",
+        "name": "Sport Recife",
+        "fullName": "Sport Recife",
+        "crest": null,
+        "normalized": "sport recife"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10151,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10152",
+      "date": "2026-09-26",
+      "kickoff": "16:30",
+      "utcDate": "2026-09-26T19:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 828,
+        "idProvider": "bsd",
+        "name": "Operário-PR",
+        "fullName": "Operário-PR",
+        "crest": null,
+        "normalized": "operario pr"
+      },
+      "away": {
+        "id": 169,
+        "idProvider": "bsd",
+        "name": "Ceará",
+        "fullName": "Ceará",
+        "crest": null,
+        "normalized": "ceara"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10152,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10149",
+      "date": "2026-09-26",
+      "kickoff": "18:30",
+      "utcDate": "2026-09-26T21:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 809,
+        "idProvider": "bsd",
+        "name": "Goiás",
+        "fullName": "Goiás",
+        "crest": null,
+        "normalized": "goias"
+      },
+      "away": {
+        "id": 819,
+        "idProvider": "bsd",
+        "name": "Atlético Goianiense",
+        "fullName": "Atlético Goianiense",
+        "crest": null,
+        "normalized": "atletico goianiense"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10149,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10147",
+      "date": "2026-09-27",
+      "kickoff": "11:00",
+      "utcDate": "2026-09-27T14:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 929,
+        "idProvider": "bsd",
+        "name": "Criciúma",
+        "fullName": "Criciúma",
+        "crest": null,
+        "normalized": "criciuma"
+      },
+      "away": {
+        "id": 860,
+        "idProvider": "bsd",
+        "name": "Avaí",
+        "fullName": "Avaí",
+        "crest": null,
+        "normalized": "avai"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10147,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10146",
+      "date": "2026-09-27",
+      "kickoff": "16:00",
+      "utcDate": "2026-09-27T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 831,
+        "idProvider": "bsd",
+        "name": "CRB",
+        "fullName": "CRB",
+        "crest": null,
+        "normalized": "crb"
+      },
+      "away": {
+        "id": 863,
+        "idProvider": "bsd",
+        "name": "Cuiabá",
+        "fullName": "Cuiabá",
+        "crest": null,
+        "normalized": "cuiaba"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10146,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10148",
+      "date": "2026-09-27",
+      "kickoff": "18:30",
+      "utcDate": "2026-09-27T21:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 152,
+        "idProvider": "bsd",
+        "name": "Fortaleza",
+        "fullName": "Fortaleza",
+        "crest": null,
+        "normalized": "fortaleza"
+      },
+      "away": {
+        "id": 843,
+        "idProvider": "bsd",
+        "name": "Athletic Club",
+        "fullName": "Athletic Club",
+        "crest": null,
+        "normalized": "athletic"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10148,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10144",
+      "date": "2026-09-28",
+      "kickoff": "19:30",
+      "utcDate": "2026-09-28T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 838,
+        "idProvider": "bsd",
+        "name": "América Mineiro",
+        "fullName": "América Mineiro",
+        "crest": null,
+        "normalized": "america mineiro"
+      },
+      "away": {
+        "id": 156,
+        "idProvider": "bsd",
+        "name": "Juventude",
+        "fullName": "Juventude",
+        "crest": null,
+        "normalized": "juventude"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10144,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
       }
     }
   ]
