@@ -139,5 +139,42 @@ class SeasonTests(unittest.TestCase):
         self.assertEqual(MODULE.wikipedia_season_label(date(2027,3,1)), "2026–27")
 
 
+class BSDSourceTests(unittest.TestCase):
+    def test_bsd_serie_b_event_is_namespaced_and_localized(self):
+        raw = {
+            "id": 101360,
+            "league_id": 34,
+            "season_id": 52,
+            "event_date": "2026-09-22T22:30:00Z",
+            "home_team": "Criciúma",
+            "home_team_id": 929,
+            "away_team": "Operário-PR",
+            "away_team_id": 828,
+        }
+        with patch.object(MODULE, "ZoneInfo", side_effect=fake_zone):
+            match = MODULE.make_bsd_match(raw)
+
+        self.assertIsNotNone(match)
+        self.assertEqual(match["date"], "2026-09-22")
+        self.assertEqual(match["kickoff"], "19:30")
+        self.assertEqual(match["competition"]["code"], "BSB")
+        self.assertEqual(match["competition"]["idProvider"], "bsd")
+        self.assertEqual(match["home"]["id"], 929)
+        self.assertEqual(match["away"]["id"], 828)
+        self.assertIsNone(match["competition"]["logo"])
+        self.assertIsNone(match["home"]["crest"])
+        self.assertIsNone(match["away"]["crest"])
+
+    def test_bsd_unknown_league_fails_closed(self):
+        raw = {
+            "id": 1,
+            "league_id": 999999,
+            "event_date": "2026-09-22T22:30:00Z",
+            "home_team": "A",
+            "away_team": "B",
+        }
+        self.assertIsNone(MODULE.make_bsd_match(raw))
+
+
 if __name__ == "__main__":
     unittest.main()

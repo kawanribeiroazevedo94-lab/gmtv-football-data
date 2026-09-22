@@ -51,6 +51,7 @@ jobs:
       - name: Generate feed
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+          BSD_TOKEN: ${{ secrets.BSD_TOKEN }}
         run: python scripts/update_feed.py
 
       - name: Sync artwork cache v2
@@ -78,6 +79,7 @@ jobs:
           print("football-data:", data["sources"]["footballData"])
           print("openfootball:", data["sources"]["openFootball"]["matches"])
           print("openligadb:", data["sources"]["openLigaDB"]["matches"])
+          print("bsd:", data["sources"]["bsd"])
           print("wikimedia:", data["sources"]["wikimediaFixtures"]["matches"])
 
           import sys

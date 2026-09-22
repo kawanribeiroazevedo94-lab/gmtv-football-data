@@ -501,3 +501,240 @@ def fetch_wikimedia(date_from, date_to):
                 "error": f"{type(exc).__name__}: {exc}",
             })
     return matches, statuses
+
+# ---------------------------------------------------------------------------
+# BSD / GoalDir: fonte complementar, centralizada e sem artwork automático.
+# Somente competições explicitamente auditadas entram no feed.
+# ---------------------------------------------------------------------------
+BSD_API_BASE = "https://sports.bzzoiro.com/api/v2"
+BSD_COMPETITIONS = {
+    9: {
+        "name": "Brasileirão Série A",
+        "code": "BSA",
+    },
+    34: {
+        "name": "Brasileirão Série B",
+        "code": "BSB",
+    },
+    5: {
+        "name": "Bundesliga",
+        "code": "BL1",
+    },
+    94: {
+        "name": "2. Bundesliga",
+        "code": "BL2",
+    },
+    7: {
+        "name": "UEFA Champions League",
+        "code": "UCL",
+    },
+    8: {
+        "name": "UEFA Europa League",
+        "code": "UEL",
+    },
+    83: {
+        "name": "UEFA Conference League",
+        "code": "UECL",
+    },
+}
+
+
+def _int_or_none(value):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _bsd_league_id(raw):
+    value = raw.get("league_id")
+    if value is None and isinstance(raw.get("league"), dict):
+        value = raw["league"].get("id")
+    return _int_or_none(value)
+
+
+def _bsd_team(raw, side):
+    obj = raw.get(f"{side}_team")
+    team_id = raw.get(f"{side}_team_id")
+    name = None
+
+    if isinstance(obj, dict):
+        if team_id is None:
+            team_id = obj.get("id")
+        name = (
+            obj.get("name")
+            or obj.get("team_name")
+            or obj.get("short_name")
+        )
+    elif obj is not None:
+        name = str(obj)
+
+    if name is None:
+        name = (
+            raw.get(f"{side}_team_name")
+            or raw.get(f"{side}_name")
+        )
+
+    name = str(name or "").strip()
+    return _int_or_none(team_id), name
+
+
+def make_bsd_match(raw):
+    if not isinstance(raw, dict):
+        return None
+
+    league_id = _bsd_league_id(raw)
+    competition = BSD_COMPETITIONS.get(league_id)
+    if competition is None:
+        return None
+
+    event_id = raw.get("id")
+    if event_id is None:
+        event_id = raw.get("event_id")
+    if event_id is None:
+        return None
+
+    utc_dt = parse_iso_datetime(
+        raw.get("event_date")
+        or raw.get("event_datetime")
+        or raw.get("start_time")
+        or raw.get("date")
+    )
+    if utc_dt is None:
+        return None
+
+    home_id, home_name = _bsd_team(raw, "home")
+    away_id, away_name = _bsd_team(raw, "away")
+    if not home_name or not away_name:
+        return None
+
+    local = utc_dt.astimezone(app_timezone())
+    raw_status = str(
+        raw.get("status")
+        or raw.get("event_status")
+        or ""
+    ).strip().lower()
+    status = (
+        "FINISHED"
+        if raw_status in {
+            "finished", "ft", "completed", "complete", "ended"
+        }
+        else "SCHEDULED"
+    )
+
+    return {
+        "id": f"bsd:{event_id}",
+        "date": local.date().isoformat(),
+        "kickoff": local.strftime("%H:%M"),
+        "utcDate": (
+            utc_dt.astimezone(timezone.utc)
+            .isoformat()
+            .replace("+00:00", "Z")
+        ),
+        "status": status,
+        "competition": {
+            "id": league_id,
+            "idProvider": "bsd",
+            "code": competition["code"],
+            "name": competition["name"],
+            "logo": None,
+            "normalized": normalize(competition["name"]),
+        },
+        "home": {
+            "id": home_id,
+            "idProvider": "bsd",
+            "name": home_name,
+            "fullName": home_name,
+            "crest": None,
+            "normalized": normalize(home_name),
+        },
+        "away": {
+            "id": away_id,
+            "idProvider": "bsd",
+            "name": away_name,
+            "fullName": away_name,
+            "crest": None,
+            "normalized": normalize(away_name),
+        },
+        "sources": ["bsd"],
+        "sourcePriority": 80,
+        "provenance": {
+            "provider": "bsd",
+            "providerEventId": event_id,
+            "providerLeagueId": league_id,
+            "providerSeasonId": raw.get("season_id"),
+        },
+    }
+
+
+def fetch_bsd(token, date_from, date_to):
+    token = str(token or "").strip()
+    if not token:
+        return [], {
+            "configured": False,
+            "ok": False,
+            "matches": 0,
+            "pages": 0,
+            "error": "BSD_TOKEN not configured",
+        }
+
+    query = urllib.parse.urlencode({
+        "date_from": (date_from - timedelta(days=1)).isoformat(),
+        "date_to": (date_to + timedelta(days=1)).isoformat(),
+        "limit": 200,
+    })
+    url = f"{BSD_API_BASE}/events/?{query}"
+    headers = {"Authorization": f"Token {token}"}
+    matches = []
+    seen_ids = set()
+    pages = 0
+
+    try:
+        while url and pages < 20:
+            payload = http_json(
+                url,
+                headers=headers,
+                timeout=30,
+            )
+            pages += 1
+
+            if isinstance(payload, dict):
+                rows = payload.get("results") or payload.get("events") or []
+                next_url = payload.get("next")
+            elif isinstance(payload, list):
+                rows = payload
+                next_url = None
+            else:
+                rows = []
+                next_url = None
+
+            for raw in rows:
+                item = make_bsd_match(raw)
+                if item is None:
+                    continue
+                if item["id"] in seen_ids:
+                    continue
+                local_date = date.fromisoformat(item["date"])
+                if date_from <= local_date <= date_to:
+                    seen_ids.add(item["id"])
+                    matches.append(item)
+
+            if not next_url:
+                break
+            url = urllib.parse.urljoin(url, str(next_url))
+
+        return matches, {
+            "configured": True,
+            "ok": True,
+            "matches": len(matches),
+            "pages": pages,
+            "error": None,
+        }
+    except Exception as exc:
+        return [], {
+            "configured": True,
+            "ok": False,
+            "matches": 0,
+            "pages": pages,
+            "error": f"{type(exc).__name__}: {exc}",
+        }

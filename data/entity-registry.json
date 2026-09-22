@@ -132,7 +132,9 @@
         "Campeonato Brasileiro Série A"
       ],
       "country": "Brazil",
-      "externalIds": {},
+      "externalIds": {
+        "bsd": "9"
+      },
       "wikidataQid": null,
       "validationStatus": "validated",
       "validatedAt": "2026-09-21",
@@ -147,7 +149,9 @@
         "Campeonato Brasileiro Série B"
       ],
       "country": "Brazil",
-      "externalIds": {},
+      "externalIds": {
+        "bsd": "34"
+      },
       "wikidataQid": null,
       "validationStatus": "validated",
       "validatedAt": "2026-09-21",

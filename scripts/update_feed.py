@@ -11,7 +11,7 @@ from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from free_sources import fetch_openligadb, fetch_wikimedia
+from free_sources import fetch_bsd, fetch_openligadb, fetch_wikimedia
 
 APP_TZ_NAME = "America/Sao_Paulo"
 
@@ -650,6 +650,7 @@ def enrich_missing_artwork(matches, cache):
 
 def main():
     token = os.environ.get("FOOTBALL_DATA_TOKEN", "").strip()
+    bsd_token = os.environ.get("BSD_TOKEN", "").strip()
     if not token:
         raise SystemExit("FOOTBALL_DATA_TOKEN não configurado.")
 
@@ -686,9 +687,16 @@ def main():
         date_to,
     )
 
+    bsd, bsd_status = fetch_bsd(
+        bsd_token,
+        date_from,
+        date_to,
+    )
+
     merged = list(football_data)
 
     for source_name, candidates in (
+        ("bsd", bsd),
         ("openligadb", openligadb),
         ("wikimedia", wikimedia),
         ("openfootball", openfootball),
@@ -765,6 +773,7 @@ def main():
                 "matches": len(openfootball),
                 "datasets": open_status,
             },
+            "bsd": bsd_status,
             "openLigaDB": {
                 "ok": any(item["ok"] for item in openligadb_status),
                 "matches": len(openligadb),
@@ -813,6 +822,7 @@ def main():
         "feed gerado: "
         f"{len(merged)} partidas | "
         f"football-data={len(football_data)} | "
+        f"bsd={len(bsd)} | "
         f"openligadb={len(openligadb)} | "
         f"wikimedia={len(wikimedia)} | "
         f"openfootball={len(openfootball)} | "
