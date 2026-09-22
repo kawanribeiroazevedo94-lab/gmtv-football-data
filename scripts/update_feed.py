@@ -89,6 +89,7 @@ def make_fd_match(item):
         "status": item.get("status"),
         "competition": {
             "id": comp.get("id"),
+            "idProvider": "football-data",
             "code": comp.get("code"),
             "name": comp.get("name"),
             "logo": safe_logo(comp.get("emblem")),
@@ -96,6 +97,7 @@ def make_fd_match(item):
         },
         "home": {
             "id": home.get("id"),
+            "idProvider": "football-data",
             "name": home.get("shortName") or home.get("name"),
             "fullName": home.get("name"),
             "crest": safe_logo(home.get("crest")),
@@ -103,6 +105,7 @@ def make_fd_match(item):
         },
         "away": {
             "id": away.get("id"),
+            "idProvider": "football-data",
             "name": away.get("shortName") or away.get("name"),
             "fullName": away.get("name"),
             "crest": safe_logo(away.get("crest")),
@@ -217,9 +220,17 @@ def canonical_team_key(value):
 def team_identity_match(left, right):
     left_id = left.get("id")
     right_id = right.get("id")
+    left_provider = str(left.get("idProvider") or "").strip().lower()
+    right_provider = str(right.get("idProvider") or "").strip().lower()
 
     if left_id is not None and right_id is not None:
-        return left_id == right_id
+        if left_provider and right_provider:
+            if left_provider == right_provider:
+                return left_id == right_id
+        elif not left_provider and not right_provider:
+            # Compatibilidade com entradas legadas que ainda não
+            # carregam namespace explícito de provedor.
+            return left_id == right_id
 
     left_key = canonical_team_key(
         left.get("normalized") or left.get("name") or left.get("fullName")
@@ -234,9 +245,17 @@ def team_identity_match(left, right):
 def competition_identity_match(left, right):
     left_id = left.get("id")
     right_id = right.get("id")
+    left_provider = str(left.get("idProvider") or "").strip().lower()
+    right_provider = str(right.get("idProvider") or "").strip().lower()
 
     if left_id is not None and right_id is not None:
-        return left_id == right_id
+        if left_provider and right_provider:
+            if left_provider == right_provider:
+                return left_id == right_id
+        elif not left_provider and not right_provider:
+            # Compatibilidade com entradas legadas que ainda não
+            # carregam namespace explícito de provedor.
+            return left_id == right_id
 
     left_code = str(left.get("code") or "").strip().upper()
     right_code = str(right.get("code") or "").strip().upper()

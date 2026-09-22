@@ -14,18 +14,25 @@ with patch("zoneinfo.ZoneInfo", return_value=timezone.utc):
     SPEC.loader.exec_module(MODULE)
 
 
-def team(name, team_id=None):
+def team(name, team_id=None, id_provider=None):
     return {
         "id": team_id,
+        "idProvider": id_provider,
         "name": name,
         "fullName": name,
         "normalized": MODULE.normalize(name),
     }
 
 
-def competition(name="Premier League", code="PL", competition_id=None):
+def competition(
+    name="Premier League",
+    code="PL",
+    competition_id=None,
+    id_provider=None,
+):
     return {
         "id": competition_id,
+        "idProvider": id_provider,
         "code": code,
         "name": name,
         "normalized": MODULE.normalize(name),
@@ -88,6 +95,102 @@ class TeamAliasTests(unittest.TestCase):
 
         right["id"] = 100
         self.assertTrue(MODULE.team_identity_match(left, right))
+
+    def test_same_provider_ids_remain_authoritative(self):
+        left = team(
+            "Manchester City",
+            team_id=100,
+            id_provider="football-data",
+        )
+        right = team(
+            "Manchester City",
+            team_id=200,
+            id_provider="football-data",
+        )
+        self.assertFalse(
+            MODULE.team_identity_match(left, right)
+        )
+
+    def test_cross_provider_raw_id_collision_is_not_identity(self):
+        left = team(
+            "Manchester City",
+            team_id=100,
+            id_provider="football-data",
+        )
+        right = team(
+            "Manchester United",
+            team_id=100,
+            id_provider="bsd",
+        )
+        self.assertFalse(
+            MODULE.team_identity_match(left, right)
+        )
+
+    def test_cross_provider_ids_can_fall_back_to_canonical_name(self):
+        left = team(
+            "Man City",
+            team_id=65,
+            id_provider="football-data",
+        )
+        right = team(
+            "Manchester City FC",
+            team_id=999,
+            id_provider="bsd",
+        )
+        self.assertTrue(
+            MODULE.team_identity_match(left, right)
+        )
+
+
+class CompetitionProviderIdentityTests(unittest.TestCase):
+    def test_same_provider_competition_ids_remain_authoritative(self):
+        left = competition(
+            "Premier League",
+            competition_id=100,
+            id_provider="football-data",
+        )
+        right = competition(
+            "Premier League",
+            competition_id=200,
+            id_provider="football-data",
+        )
+        self.assertFalse(
+            MODULE.competition_identity_match(left, right)
+        )
+
+    def test_cross_provider_same_raw_id_does_not_override_identity(self):
+        left = competition(
+            "Premier League",
+            code="PL",
+            competition_id=100,
+            id_provider="football-data",
+        )
+        right = competition(
+            "Bundesliga",
+            code="BL1",
+            competition_id=100,
+            id_provider="openligadb",
+        )
+        self.assertFalse(
+            MODULE.competition_identity_match(left, right)
+        )
+
+    def test_cross_provider_competition_can_match_by_semantics(self):
+        left = competition(
+            "Premier League",
+            code="PL",
+            competition_id=2021,
+            id_provider="football-data",
+        )
+        right = competition(
+            "Premier League",
+            code="PL",
+            competition_id=5996,
+            id_provider="openligadb",
+        )
+        self.assertTrue(
+            MODULE.competition_identity_match(left, right)
+        )
 
 
 class MatchDedupTests(unittest.TestCase):
