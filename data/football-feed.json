@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-22T02:28:31.693722Z",
+  "generatedAt": "2026-09-22T03:39:12.728930Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-09-21",
-    "to": "2026-09-27"
+    "from": "2026-09-22",
+    "to": "2026-09-28"
   },
   "sources": {
     "footballData": {
@@ -69,14 +69,8 @@
   },
   "days": [
     {
-      "date": "2026-09-21",
-      "label": "HOJE",
-      "count": 0,
-      "matches": []
-    },
-    {
       "date": "2026-09-22",
-      "label": "22/09",
+      "label": "HOJE",
       "count": 0,
       "matches": []
     },
@@ -107,6 +101,12 @@
     {
       "date": "2026-09-27",
       "label": "27/09",
+      "count": 0,
+      "matches": []
+    },
+    {
+      "date": "2026-09-28",
+      "label": "28/09",
       "count": 0,
       "matches": []
     }
