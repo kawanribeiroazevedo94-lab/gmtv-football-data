@@ -176,5 +176,50 @@ class BSDSourceTests(unittest.TestCase):
         self.assertIsNone(MODULE.make_bsd_match(raw))
 
 
+    def test_bsd_fetch_window_and_runtime_path(self):
+        raw = {
+            "id": 101360,
+            "league_id": 34,
+            "season_id": 52,
+            "event_date": "2026-09-22T22:30:00Z",
+            "home_team": "Criciúma",
+            "home_team_id": 929,
+            "away_team": "Operário-PR",
+            "away_team_id": 828,
+        }
+        payload = {
+            "count": 1,
+            "next": None,
+            "previous": None,
+            "results": [raw],
+        }
+
+        with (
+            patch.object(
+                MODULE,
+                "http_json",
+                return_value=payload,
+            ) as mocked_http,
+            patch.object(
+                MODULE,
+                "ZoneInfo",
+                side_effect=fake_zone,
+            ),
+        ):
+            matches, status = MODULE.fetch_bsd(
+                "secret",
+                date(2026, 9, 22),
+                date(2026, 9, 28),
+            )
+
+        self.assertTrue(status["ok"])
+        self.assertEqual(status["matches"], 1)
+        self.assertEqual(len(matches), 1)
+
+        url = mocked_http.call_args.args[0]
+        self.assertIn("date_from=2026-09-21", url)
+        self.assertIn("date_to=2026-09-29", url)
+
+
 if __name__ == "__main__":
     unittest.main()

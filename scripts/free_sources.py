@@ -7,7 +7,7 @@ import re
 import unicodedata
 import urllib.parse
 import urllib.request
-from datetime import date, datetime, time, timezone
+from datetime import date, datetime, time, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 APP_TZ_NAME = "America/Sao_Paulo"
