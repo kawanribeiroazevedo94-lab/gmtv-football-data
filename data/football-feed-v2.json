@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-09-22T14:19:16.893097Z",
+  "generatedAt": "2026-09-22T14:32:44.828941Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-09-22",
@@ -172,10 +172,10 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
+              "status": "pending_review",
               "url": null,
-              "provider": null,
-              "property": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
               "semanticStatus": "unresolved",
               "fetchStatus": "not_checked",
               "visualStatus": "not_checked"
@@ -269,10 +269,10 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
+              "status": "pending_review",
               "url": null,
-              "provider": null,
-              "property": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
               "semanticStatus": "unresolved",
               "fetchStatus": "not_checked",
               "visualStatus": "not_checked"
@@ -294,10 +294,10 @@
             "confidence": "high",
             "resolutionStatus": "partial",
             "artwork": {
-              "status": "unresolved",
+              "status": "pending_review",
               "url": null,
-              "provider": null,
-              "property": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
               "semanticStatus": "unresolved",
               "fetchStatus": "not_checked",
               "visualStatus": "not_checked"
@@ -366,10 +366,10 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
+              "status": "pending_review",
               "url": null,
-              "provider": null,
-              "property": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
               "semanticStatus": "unresolved",
               "fetchStatus": "not_checked",
               "visualStatus": "not_checked"
@@ -463,10 +463,10 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
+              "status": "pending_review",
               "url": null,
-              "provider": null,
-              "property": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
               "semanticStatus": "unresolved",
               "fetchStatus": "not_checked",
               "visualStatus": "not_checked"
@@ -560,10 +560,10 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
+              "status": "pending_review",
               "url": null,
-              "provider": null,
-              "property": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
               "semanticStatus": "unresolved",
               "fetchStatus": "not_checked",
               "visualStatus": "not_checked"
@@ -664,10 +664,10 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
+              "status": "pending_review",
               "url": null,
-              "provider": null,
-              "property": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
               "semanticStatus": "unresolved",
               "fetchStatus": "not_checked",
               "visualStatus": "not_checked"
@@ -761,10 +761,10 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
+              "status": "pending_review",
               "url": null,
-              "provider": null,
-              "property": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
               "semanticStatus": "unresolved",
               "fetchStatus": "not_checked",
               "visualStatus": "not_checked"
@@ -858,10 +858,10 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
+              "status": "pending_review",
               "url": null,
-              "provider": null,
-              "property": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
               "semanticStatus": "unresolved",
               "fetchStatus": "not_checked",
               "visualStatus": "not_checked"
@@ -955,10 +955,10 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
+              "status": "pending_review",
               "url": null,
-              "provider": null,
-              "property": null,
+              "provider": "wikidata",
+              "property": "legacy_unknown",
               "semanticStatus": "unresolved",
               "fetchStatus": "not_checked",
               "visualStatus": "not_checked"
@@ -1086,10 +1086,10 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
+          "status": "pending_review",
           "url": null,
-          "provider": null,
-          "property": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
           "semanticStatus": "unresolved",
           "fetchStatus": "not_checked",
           "visualStatus": "not_checked"
@@ -1183,10 +1183,10 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
+          "status": "pending_review",
           "url": null,
-          "provider": null,
-          "property": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
           "semanticStatus": "unresolved",
           "fetchStatus": "not_checked",
           "visualStatus": "not_checked"
@@ -1208,10 +1208,10 @@
         "confidence": "high",
         "resolutionStatus": "partial",
         "artwork": {
-          "status": "unresolved",
+          "status": "pending_review",
           "url": null,
-          "provider": null,
-          "property": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
           "semanticStatus": "unresolved",
           "fetchStatus": "not_checked",
           "visualStatus": "not_checked"
@@ -1280,10 +1280,10 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
+          "status": "pending_review",
           "url": null,
-          "provider": null,
-          "property": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
           "semanticStatus": "unresolved",
           "fetchStatus": "not_checked",
           "visualStatus": "not_checked"
@@ -1377,10 +1377,10 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
+          "status": "pending_review",
           "url": null,
-          "provider": null,
-          "property": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
           "semanticStatus": "unresolved",
           "fetchStatus": "not_checked",
           "visualStatus": "not_checked"
@@ -1474,10 +1474,10 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
+          "status": "pending_review",
           "url": null,
-          "provider": null,
-          "property": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
           "semanticStatus": "unresolved",
           "fetchStatus": "not_checked",
           "visualStatus": "not_checked"
@@ -1571,10 +1571,10 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
+          "status": "pending_review",
           "url": null,
-          "provider": null,
-          "property": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
           "semanticStatus": "unresolved",
           "fetchStatus": "not_checked",
           "visualStatus": "not_checked"
@@ -1668,10 +1668,10 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
+          "status": "pending_review",
           "url": null,
-          "provider": null,
-          "property": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
           "semanticStatus": "unresolved",
           "fetchStatus": "not_checked",
           "visualStatus": "not_checked"
@@ -1765,10 +1765,10 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
+          "status": "pending_review",
           "url": null,
-          "provider": null,
-          "property": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
           "semanticStatus": "unresolved",
           "fetchStatus": "not_checked",
           "visualStatus": "not_checked"
@@ -1862,10 +1862,10 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
+          "status": "pending_review",
           "url": null,
-          "provider": null,
-          "property": null,
+          "provider": "wikidata",
+          "property": "legacy_unknown",
           "semanticStatus": "unresolved",
           "fetchStatus": "not_checked",
           "visualStatus": "not_checked"
