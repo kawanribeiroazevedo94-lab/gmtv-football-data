@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-22T15:21:33.661731Z",
+  "generatedAt": "2026-09-22T16:23:49.673769Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-09-22",
@@ -144,8 +144,111 @@
         }
       ]
     },
+    "artworkCatalog": {
+      "competitionsTotal": 36,
+      "competitionsValidated": 0,
+      "competitionsUnresolved": [
+        "Brasileirão Série A",
+        "Brasileirão Série B",
+        "Copa do Brasil",
+        "Supercopa do Brasil",
+        "Campeonato Paulista",
+        "Campeonato Carioca",
+        "Campeonato Mineiro",
+        "Campeonato Gaúcho",
+        "Copa Libertadores",
+        "Copa Sul-Americana",
+        "Recopa Sul-Americana",
+        "Premier League",
+        "La Liga",
+        "Serie A",
+        "Bundesliga",
+        "Ligue 1",
+        "Liga Portugal",
+        "Eredivisie",
+        "UEFA Champions League",
+        "UEFA Europa League",
+        "UEFA Conference League",
+        "UEFA Super Cup",
+        "FA Cup",
+        "Copa del Rey",
+        "Coppa Italia",
+        "DFB-Pokal",
+        "MLS",
+        "Liga MX",
+        "Campeonato Argentino",
+        "Saudi Pro League",
+        "FIFA Club World Cup",
+        "FIFA Intercontinental Cup",
+        "Copa do Mundo",
+        "Copa América",
+        "Eurocopa",
+        "UEFA Nations League"
+      ],
+      "teamsTotal": 57,
+      "teamsValidated": 0,
+      "teamsUnresolved": [
+        "Flamengo",
+        "Palmeiras",
+        "Corinthians",
+        "São Paulo",
+        "Santos",
+        "Grêmio",
+        "Internacional",
+        "Atlético Mineiro",
+        "Cruzeiro",
+        "Fluminense",
+        "Botafogo",
+        "Vasco da Gama",
+        "Real Madrid",
+        "Barcelona",
+        "Atlético Madrid",
+        "Athletic Bilbao",
+        "Arsenal",
+        "Chelsea",
+        "Liverpool",
+        "Manchester City",
+        "Manchester United",
+        "Tottenham Hotspur",
+        "Bayern Munich",
+        "Borussia Dortmund",
+        "Bayer Leverkusen",
+        "RB Leipzig",
+        "Inter Milan",
+        "AC Milan",
+        "Juventus",
+        "Napoli",
+        "Roma",
+        "Paris Saint-Germain",
+        "Olympique Marseille",
+        "Monaco",
+        "Benfica",
+        "Porto",
+        "Sporting CP",
+        "Ajax",
+        "PSV Eindhoven",
+        "Feyenoord",
+        "Boca Juniors",
+        "River Plate",
+        "Club América",
+        "Monterrey",
+        "Inter Miami",
+        "Al Hilal",
+        "Al Nassr",
+        "Brazil",
+        "Argentina",
+        "England",
+        "Spain",
+        "France",
+        "Germany",
+        "Portugal",
+        "Italy",
+        "Netherlands",
+        "Uruguay"
+      ]
+    },
     "wikidataArtwork": {
-      "cachedEntries": 49
+      "cachedEntries": 125
     }
   },
   "days": [
@@ -165,7 +268,7 @@
             "idProvider": "wikimedia",
             "code": "UWCL",
             "name": "UEFA Women's Champions League",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "logo": null,
             "normalized": "uefa women s champions league"
           },
           "home": {
@@ -207,7 +310,7 @@
             "idProvider": "wikimedia",
             "code": "UWCL",
             "name": "UEFA Women's Champions League",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "logo": null,
             "normalized": "uefa women s champions league"
           },
           "home": {
@@ -215,7 +318,7 @@
             "idProvider": "wikimedia",
             "name": "Bayern Munich",
             "fullName": "Bayern Munich",
-            "crest": "https://commons.wikimedia.org/wiki/Special:Redirect/file/FC_Bayern_M%C3%BCnchen_logo_(2024).svg?width=192",
+            "crest": null,
             "normalized": "bayern munich"
           },
           "away": {
@@ -249,7 +352,7 @@
             "idProvider": "wikimedia",
             "code": "UWCL",
             "name": "UEFA Women's Champions League",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "logo": null,
             "normalized": "uefa women s champions league"
           },
           "home": {
@@ -291,7 +394,7 @@
             "idProvider": "wikimedia",
             "code": "UWCL",
             "name": "UEFA Women's Champions League",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "logo": null,
             "normalized": "uefa women s champions league"
           },
           "home": {
@@ -333,7 +436,7 @@
             "idProvider": "wikimedia",
             "code": "UWCL",
             "name": "UEFA Women's Champions League",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "logo": null,
             "normalized": "uefa women s champions league"
           },
           "home": {
@@ -375,7 +478,7 @@
             "idProvider": "bsd",
             "code": "BSB",
             "name": "Brasileirão Série B",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "logo": null,
             "normalized": "brasileirao serie b"
           },
           "home": {
@@ -423,7 +526,7 @@
             "idProvider": "wikimedia",
             "code": "UWCL",
             "name": "UEFA Women's Champions League",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "logo": null,
             "normalized": "uefa women s champions league"
           },
           "home": {
@@ -465,7 +568,7 @@
             "idProvider": "wikimedia",
             "code": "UWCL",
             "name": "UEFA Women's Champions League",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "logo": null,
             "normalized": "uefa women s champions league"
           },
           "home": {
@@ -507,7 +610,7 @@
             "idProvider": "wikimedia",
             "code": "UWCL",
             "name": "UEFA Women's Champions League",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "logo": null,
             "normalized": "uefa women s champions league"
           },
           "home": {
@@ -549,7 +652,7 @@
             "idProvider": "wikimedia",
             "code": "UWCL",
             "name": "UEFA Women's Champions League",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "logo": null,
             "normalized": "uefa women s champions league"
           },
           "home": {
@@ -604,7 +707,7 @@
             "idProvider": "bsd",
             "code": "BSB",
             "name": "Brasileirão Série B",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "logo": null,
             "normalized": "brasileirao serie b"
           },
           "home": {
@@ -645,7 +748,7 @@
             "idProvider": "bsd",
             "code": "BSB",
             "name": "Brasileirão Série B",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "logo": null,
             "normalized": "brasileirao serie b"
           },
           "home": {
@@ -693,7 +796,7 @@
             "idProvider": "bsd",
             "code": "BSB",
             "name": "Brasileirão Série B",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "logo": null,
             "normalized": "brasileirao serie b"
           },
           "home": {
@@ -734,7 +837,7 @@
             "idProvider": "bsd",
             "code": "BSB",
             "name": "Brasileirão Série B",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "logo": null,
             "normalized": "brasileirao serie b"
           },
           "home": {
@@ -775,7 +878,7 @@
             "idProvider": "bsd",
             "code": "BSB",
             "name": "Brasileirão Série B",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "logo": null,
             "normalized": "brasileirao serie b"
           },
           "home": {
@@ -823,7 +926,7 @@
             "idProvider": "bsd",
             "code": "BSB",
             "name": "Brasileirão Série B",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "logo": null,
             "normalized": "brasileirao serie b"
           },
           "home": {
@@ -864,7 +967,7 @@
             "idProvider": "bsd",
             "code": "BSB",
             "name": "Brasileirão Série B",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "logo": null,
             "normalized": "brasileirao serie b"
           },
           "home": {
@@ -905,7 +1008,7 @@
             "idProvider": "bsd",
             "code": "BSB",
             "name": "Brasileirão Série B",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "logo": null,
             "normalized": "brasileirao serie b"
           },
           "home": {
@@ -953,7 +1056,7 @@
             "idProvider": "bsd",
             "code": "BSB",
             "name": "Brasileirão Série B",
-            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+            "logo": null,
             "normalized": "brasileirao serie b"
           },
           "home": {
@@ -998,7 +1101,7 @@
         "idProvider": "wikimedia",
         "code": "UWCL",
         "name": "UEFA Women's Champions League",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "logo": null,
         "normalized": "uefa women s champions league"
       },
       "home": {
@@ -1040,7 +1143,7 @@
         "idProvider": "wikimedia",
         "code": "UWCL",
         "name": "UEFA Women's Champions League",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "logo": null,
         "normalized": "uefa women s champions league"
       },
       "home": {
@@ -1048,7 +1151,7 @@
         "idProvider": "wikimedia",
         "name": "Bayern Munich",
         "fullName": "Bayern Munich",
-        "crest": "https://commons.wikimedia.org/wiki/Special:Redirect/file/FC_Bayern_M%C3%BCnchen_logo_(2024).svg?width=192",
+        "crest": null,
         "normalized": "bayern munich"
       },
       "away": {
@@ -1082,7 +1185,7 @@
         "idProvider": "wikimedia",
         "code": "UWCL",
         "name": "UEFA Women's Champions League",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "logo": null,
         "normalized": "uefa women s champions league"
       },
       "home": {
@@ -1124,7 +1227,7 @@
         "idProvider": "wikimedia",
         "code": "UWCL",
         "name": "UEFA Women's Champions League",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "logo": null,
         "normalized": "uefa women s champions league"
       },
       "home": {
@@ -1166,7 +1269,7 @@
         "idProvider": "wikimedia",
         "code": "UWCL",
         "name": "UEFA Women's Champions League",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "logo": null,
         "normalized": "uefa women s champions league"
       },
       "home": {
@@ -1208,7 +1311,7 @@
         "idProvider": "bsd",
         "code": "BSB",
         "name": "Brasileirão Série B",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "logo": null,
         "normalized": "brasileirao serie b"
       },
       "home": {
@@ -1249,7 +1352,7 @@
         "idProvider": "wikimedia",
         "code": "UWCL",
         "name": "UEFA Women's Champions League",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "logo": null,
         "normalized": "uefa women s champions league"
       },
       "home": {
@@ -1291,7 +1394,7 @@
         "idProvider": "wikimedia",
         "code": "UWCL",
         "name": "UEFA Women's Champions League",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "logo": null,
         "normalized": "uefa women s champions league"
       },
       "home": {
@@ -1333,7 +1436,7 @@
         "idProvider": "wikimedia",
         "code": "UWCL",
         "name": "UEFA Women's Champions League",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "logo": null,
         "normalized": "uefa women s champions league"
       },
       "home": {
@@ -1375,7 +1478,7 @@
         "idProvider": "wikimedia",
         "code": "UWCL",
         "name": "UEFA Women's Champions League",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "logo": null,
         "normalized": "uefa women s champions league"
       },
       "home": {
@@ -1417,7 +1520,7 @@
         "idProvider": "bsd",
         "code": "BSB",
         "name": "Brasileirão Série B",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "logo": null,
         "normalized": "brasileirao serie b"
       },
       "home": {
@@ -1458,7 +1561,7 @@
         "idProvider": "bsd",
         "code": "BSB",
         "name": "Brasileirão Série B",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "logo": null,
         "normalized": "brasileirao serie b"
       },
       "home": {
@@ -1499,7 +1602,7 @@
         "idProvider": "bsd",
         "code": "BSB",
         "name": "Brasileirão Série B",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "logo": null,
         "normalized": "brasileirao serie b"
       },
       "home": {
@@ -1540,7 +1643,7 @@
         "idProvider": "bsd",
         "code": "BSB",
         "name": "Brasileirão Série B",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "logo": null,
         "normalized": "brasileirao serie b"
       },
       "home": {
@@ -1581,7 +1684,7 @@
         "idProvider": "bsd",
         "code": "BSB",
         "name": "Brasileirão Série B",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "logo": null,
         "normalized": "brasileirao serie b"
       },
       "home": {
@@ -1622,7 +1725,7 @@
         "idProvider": "bsd",
         "code": "BSB",
         "name": "Brasileirão Série B",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "logo": null,
         "normalized": "brasileirao serie b"
       },
       "home": {
@@ -1663,7 +1766,7 @@
         "idProvider": "bsd",
         "code": "BSB",
         "name": "Brasileirão Série B",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "logo": null,
         "normalized": "brasileirao serie b"
       },
       "home": {
@@ -1704,7 +1807,7 @@
         "idProvider": "bsd",
         "code": "BSB",
         "name": "Brasileirão Série B",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "logo": null,
         "normalized": "brasileirao serie b"
       },
       "home": {
@@ -1745,7 +1848,7 @@
         "idProvider": "bsd",
         "code": "BSB",
         "name": "Brasileirão Série B",
-        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BrasileiraoB2014-.png?width=192",
+        "logo": null,
         "normalized": "brasileirao serie b"
       },
       "home": {
