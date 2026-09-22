@@ -11,7 +11,13 @@ from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-APP_TZ = ZoneInfo("America/Sao_Paulo")
+from free_sources import fetch_openligadb, fetch_wikimedia
+
+APP_TZ_NAME = "America/Sao_Paulo"
+
+
+def app_timezone():
+    return ZoneInfo(APP_TZ_NAME)
 FOOTBALL_DATA_URL = "https://api.football-data.org/v4/matches"
 OPENFOOTBALL_BASE = "https://raw.githubusercontent.com/openfootball/football.json/master"
 WIKIDATA_API = "https://www.wikidata.org/w/api.php"
@@ -73,7 +79,7 @@ def app_date_time(utc_value):
     if not utc_value:
         return None, None
     parsed = datetime.fromisoformat(utc_value.replace("Z", "+00:00"))
-    local = parsed.astimezone(APP_TZ)
+    local = parsed.astimezone(app_timezone())
     return local.date().isoformat(), local.strftime("%H:%M")
 
 def make_fd_match(item):
@@ -135,7 +141,7 @@ def make_of_match(match, competition_name, competition_code, source_tz, dataset)
     if utc_dt is None:
         return None
 
-    local = utc_dt.astimezone(APP_TZ)
+    local = utc_dt.astimezone(app_timezone())
     home = str(match.get("team1") or "").strip()
     away = str(match.get("team2") or "").strip()
     if not home or not away:
@@ -647,7 +653,7 @@ def main():
     if not token:
         raise SystemExit("FOOTBALL_DATA_TOKEN não configurado.")
 
-    now = datetime.now(APP_TZ)
+    now = datetime.now(app_timezone())
     date_from = now.date()
     date_to = date_from + timedelta(days=6)
 
@@ -670,18 +676,33 @@ def main():
         date_to,
     )
 
+    openligadb, openligadb_status = fetch_openligadb(
+        date_from,
+        date_to,
+    )
+
+    wikimedia, wikimedia_status = fetch_wikimedia(
+        date_from,
+        date_to,
+    )
+
     merged = list(football_data)
 
-    for candidate in openfootball:
-        donor = find_equivalent(
-            merged,
-            candidate,
-        )
+    for source_name, candidates in (
+        ("openligadb", openligadb),
+        ("wikimedia", wikimedia),
+        ("openfootball", openfootball),
+    ):
+        for candidate in candidates:
+            donor = find_equivalent(
+                merged,
+                candidate,
+            )
 
-        if donor is None:
-            merged.append(candidate)
-        elif "openfootball" not in donor["sources"]:
-            donor["sources"].append("openfootball")
+            if donor is None:
+                merged.append(candidate)
+            elif source_name not in donor["sources"]:
+                donor["sources"].append(source_name)
 
     artwork_cache = load_artwork_cache()
     enrich_missing_artwork(
@@ -744,6 +765,16 @@ def main():
                 "matches": len(openfootball),
                 "datasets": open_status,
             },
+            "openLigaDB": {
+                "ok": any(item["ok"] for item in openligadb_status),
+                "matches": len(openligadb),
+                "competitions": openligadb_status,
+            },
+            "wikimediaFixtures": {
+                "ok": any(item["ok"] for item in wikimedia_status),
+                "matches": len(wikimedia),
+                "pages": wikimedia_status,
+            },
             "wikidataArtwork": {
                 "cachedEntries": len(artwork_cache),
             },
@@ -782,6 +813,8 @@ def main():
         "feed gerado: "
         f"{len(merged)} partidas | "
         f"football-data={len(football_data)} | "
+        f"openligadb={len(openligadb)} | "
+        f"wikimedia={len(wikimedia)} | "
         f"openfootball={len(openfootball)} | "
         f"artwork-cache={len(artwork_cache)}"
     )

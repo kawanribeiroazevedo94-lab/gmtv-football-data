@@ -1,4 +1,5 @@
 import importlib.util
+import sys
 import json
 import unittest
 from datetime import timezone
@@ -6,6 +7,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
 CACHE_PATH = ROOT / "data" / "artwork-cache.json"
 MODULE_PATH = ROOT / "scripts" / "update_feed.py"
 

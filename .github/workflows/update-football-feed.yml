@@ -7,8 +7,12 @@ on:
   push:
     branches:
       - main
+      - feat/football-feed-schema-v2-f5
     paths:
       - "scripts/update_feed.py"
+      - "scripts/free_sources.py"
+      - "tests/**"
+      - "requirements.txt"
       - "scripts/feed_v2.py"
       - "scripts/generate_feed_v2.py"
       - "scripts/entity_registry.py"
@@ -37,6 +41,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Test
+        run: python -m unittest discover -s tests -p 'test_*.py'
+
       - name: Generate feed
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
@@ -63,6 +73,8 @@ jobs:
           print("matches:", len(data["matches"]))
           print("football-data:", data["sources"]["footballData"])
           print("openfootball:", data["sources"]["openFootball"]["matches"])
+          print("openligadb:", data["sources"]["openLigaDB"]["matches"])
+          print("wikimedia:", data["sources"]["wikimediaFixtures"]["matches"])
 
           import sys
           sys.path.insert(0, "scripts")

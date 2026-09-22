@@ -22,12 +22,20 @@ class FeedV2ValidationError(ValueError):
 
 
 def _observed_provider(match, entity):
-    sources = match.get("sources") or []
     external_id = entity.get("id")
     if external_id is None:
         return None, None
+
+    explicit_provider = str(
+        entity.get("idProvider") or ""
+    ).strip().lower()
+    if explicit_provider:
+        return explicit_provider, str(external_id)
+
+    sources = match.get("sources") or []
     if "football-data" in sources:
         return "football-data", str(external_id)
+
     return None, None
 
 
@@ -232,6 +240,9 @@ def build_match_v2(
         "provenance": {
             "fixtureSources": list(match.get("sources") or []),
             "sourcePriority": match.get("sourcePriority"),
+            "sourceDetails": copy.deepcopy(
+                match.get("provenance") or {}
+            ),
         },
     }
 
