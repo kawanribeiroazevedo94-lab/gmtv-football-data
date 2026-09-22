@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-22T02:28:31.693722Z",
+  "generatedAt": "2026-09-22T14:19:16.893097Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-09-21",
-    "to": "2026-09-27"
+    "from": "2026-09-22",
+    "to": "2026-09-28"
   },
   "sources": {
     "footballData": {
@@ -63,28 +63,476 @@
         }
       ]
     },
+    "openLigaDB": {
+      "ok": true,
+      "matches": 0,
+      "competitions": [
+        {
+          "shortcut": "bl1",
+          "providerCompetitionId": 4937,
+          "ok": true,
+          "matchesInWindow": 0,
+          "error": null
+        },
+        {
+          "shortcut": "bl2",
+          "providerCompetitionId": 4938,
+          "ok": true,
+          "matchesInWindow": 0,
+          "error": null
+        },
+        {
+          "shortcut": "ucl",
+          "providerCompetitionId": 4946,
+          "ok": true,
+          "matchesInWindow": 0,
+          "error": null
+        },
+        {
+          "shortcut": "uel2026",
+          "providerCompetitionId": 6000,
+          "ok": true,
+          "matchesInWindow": 0,
+          "error": null
+        },
+        {
+          "shortcut": "la1",
+          "providerCompetitionId": 4936,
+          "ok": true,
+          "matchesInWindow": 0,
+          "error": null
+        },
+        {
+          "shortcut": "pl",
+          "providerCompetitionId": 5996,
+          "ok": true,
+          "matchesInWindow": 0,
+          "error": null
+        }
+      ]
+    },
+    "wikimediaFixtures": {
+      "ok": true,
+      "matches": 9,
+      "pages": [
+        {
+          "key": "uwcl",
+          "page": "2026–27 UEFA Women's Champions League league phase",
+          "pageId": 83018611,
+          "revisionId": 1375992554,
+          "revisionTimestamp": "2026-09-21T09:23:52Z",
+          "ok": true,
+          "matchesInWindow": 9,
+          "error": null
+        },
+        {
+          "key": "uecl",
+          "page": "2026–27 UEFA Conference League league phase",
+          "pageId": 84084273,
+          "revisionId": 1375264669,
+          "revisionTimestamp": "2026-09-16T20:03:34Z",
+          "ok": true,
+          "matchesInWindow": 0,
+          "error": null
+        }
+      ]
+    },
     "wikidataArtwork": {
-      "cachedEntries": 13
+      "cachedEntries": 30
     }
   },
   "days": [
     {
-      "date": "2026-09-21",
-      "label": "HOJE",
-      "count": 0,
-      "matches": []
-    },
-    {
       "date": "2026-09-22",
-      "label": "22/09",
-      "count": 0,
-      "matches": []
+      "label": "HOJE",
+      "count": 5,
+      "matches": [
+        {
+          "id": "wm:b34688ea3735cb4a",
+          "date": "2026-09-22",
+          "kickoff": "13:45",
+          "utcDate": "2026-09-22T16:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Arsenal",
+            "fullName": "Arsenal",
+            "crest": null,
+            "normalized": "arsenal"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "HB Køge",
+            "fullName": "HB Køge",
+            "crest": null,
+            "normalized": "hb k ge"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1375992554,
+            "revisionTimestamp": "2026-09-21T09:23:52Z"
+          }
+        },
+        {
+          "id": "wm:bbfa108a50e2dbce",
+          "date": "2026-09-22",
+          "kickoff": "13:45",
+          "utcDate": "2026-09-22T16:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Bayern Munich",
+            "fullName": "Bayern Munich",
+            "crest": "https://commons.wikimedia.org/wiki/Special:Redirect/file/FC_Bayern_M%C3%BCnchen_logo_(2024).svg?width=192",
+            "normalized": "bayern munich"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Manchester City",
+            "fullName": "Manchester City",
+            "crest": null,
+            "normalized": "manchester city"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1375992554,
+            "revisionTimestamp": "2026-09-21T09:23:52Z"
+          }
+        },
+        {
+          "id": "wm:37c35f94664c88d0",
+          "date": "2026-09-22",
+          "kickoff": "13:45",
+          "utcDate": "2026-09-22T16:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Inter Milan",
+            "fullName": "Inter Milan",
+            "crest": null,
+            "normalized": "inter milan"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "BK Häcken",
+            "fullName": "BK Häcken",
+            "crest": null,
+            "normalized": "bk hacken"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1375992554,
+            "revisionTimestamp": "2026-09-21T09:23:52Z"
+          }
+        },
+        {
+          "id": "wm:b7bd0c6d503e373d",
+          "date": "2026-09-22",
+          "kickoff": "16:00",
+          "utcDate": "2026-09-22T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Juventus",
+            "fullName": "Juventus",
+            "crest": null,
+            "normalized": "juventus"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Benfica",
+            "fullName": "Benfica",
+            "crest": null,
+            "normalized": "benfica"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1375992554,
+            "revisionTimestamp": "2026-09-21T09:23:52Z"
+          }
+        },
+        {
+          "id": "wm:a8cc044a7e27f495",
+          "date": "2026-09-22",
+          "kickoff": "16:00",
+          "utcDate": "2026-09-22T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Real Madrid",
+            "fullName": "Real Madrid",
+            "crest": null,
+            "normalized": "real madrid"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Paris Saint-Germain",
+            "fullName": "Paris Saint-Germain",
+            "crest": null,
+            "normalized": "paris saint germain"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1375992554,
+            "revisionTimestamp": "2026-09-21T09:23:52Z"
+          }
+        }
+      ]
     },
     {
       "date": "2026-09-23",
       "label": "23/09",
-      "count": 0,
-      "matches": []
+      "count": 4,
+      "matches": [
+        {
+          "id": "wm:9470d9c881b0f5f0",
+          "date": "2026-09-23",
+          "kickoff": "13:45",
+          "utcDate": "2026-09-23T16:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "OH Leuven",
+            "fullName": "OH Leuven",
+            "crest": null,
+            "normalized": "oh leuven"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Roma",
+            "fullName": "Roma",
+            "crest": null,
+            "normalized": "roma"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1375992554,
+            "revisionTimestamp": "2026-09-21T09:23:52Z"
+          }
+        },
+        {
+          "id": "wm:9bbfef3061e37068",
+          "date": "2026-09-23",
+          "kickoff": "13:45",
+          "utcDate": "2026-09-23T16:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Servette Chênois",
+            "fullName": "Servette Chênois",
+            "crest": null,
+            "normalized": "servette chenois"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "OL Lyonnes",
+            "fullName": "OL Lyonnes",
+            "crest": null,
+            "normalized": "ol lyonnes"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1375992554,
+            "revisionTimestamp": "2026-09-21T09:23:52Z"
+          }
+        },
+        {
+          "id": "wm:6f245a69232bfc6d",
+          "date": "2026-09-23",
+          "kickoff": "16:00",
+          "utcDate": "2026-09-23T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Barcelona",
+            "fullName": "Barcelona",
+            "crest": null,
+            "normalized": "barcelona"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Paris FC",
+            "fullName": "Paris FC",
+            "crest": null,
+            "normalized": "paris"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1375992554,
+            "revisionTimestamp": "2026-09-21T09:23:52Z"
+          }
+        },
+        {
+          "id": "wm:6646f653d53ec6e6",
+          "date": "2026-09-23",
+          "kickoff": "16:00",
+          "utcDate": "2026-09-23T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Chelsea",
+            "fullName": "Chelsea",
+            "crest": null,
+            "normalized": "chelsea"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Austria Wien",
+            "fullName": "Austria Wien",
+            "crest": null,
+            "normalized": "austria wien"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1375992554,
+            "revisionTimestamp": "2026-09-21T09:23:52Z"
+          }
+        }
+      ]
     },
     {
       "date": "2026-09-24",
@@ -109,7 +557,392 @@
       "label": "27/09",
       "count": 0,
       "matches": []
+    },
+    {
+      "date": "2026-09-28",
+      "label": "28/09",
+      "count": 0,
+      "matches": []
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "wm:b34688ea3735cb4a",
+      "date": "2026-09-22",
+      "kickoff": "13:45",
+      "utcDate": "2026-09-22T16:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Arsenal",
+        "fullName": "Arsenal",
+        "crest": null,
+        "normalized": "arsenal"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "HB Køge",
+        "fullName": "HB Køge",
+        "crest": null,
+        "normalized": "hb k ge"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1375992554,
+        "revisionTimestamp": "2026-09-21T09:23:52Z"
+      }
+    },
+    {
+      "id": "wm:bbfa108a50e2dbce",
+      "date": "2026-09-22",
+      "kickoff": "13:45",
+      "utcDate": "2026-09-22T16:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Bayern Munich",
+        "fullName": "Bayern Munich",
+        "crest": "https://commons.wikimedia.org/wiki/Special:Redirect/file/FC_Bayern_M%C3%BCnchen_logo_(2024).svg?width=192",
+        "normalized": "bayern munich"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Manchester City",
+        "fullName": "Manchester City",
+        "crest": null,
+        "normalized": "manchester city"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1375992554,
+        "revisionTimestamp": "2026-09-21T09:23:52Z"
+      }
+    },
+    {
+      "id": "wm:37c35f94664c88d0",
+      "date": "2026-09-22",
+      "kickoff": "13:45",
+      "utcDate": "2026-09-22T16:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Inter Milan",
+        "fullName": "Inter Milan",
+        "crest": null,
+        "normalized": "inter milan"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "BK Häcken",
+        "fullName": "BK Häcken",
+        "crest": null,
+        "normalized": "bk hacken"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1375992554,
+        "revisionTimestamp": "2026-09-21T09:23:52Z"
+      }
+    },
+    {
+      "id": "wm:b7bd0c6d503e373d",
+      "date": "2026-09-22",
+      "kickoff": "16:00",
+      "utcDate": "2026-09-22T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Juventus",
+        "fullName": "Juventus",
+        "crest": null,
+        "normalized": "juventus"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Benfica",
+        "fullName": "Benfica",
+        "crest": null,
+        "normalized": "benfica"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1375992554,
+        "revisionTimestamp": "2026-09-21T09:23:52Z"
+      }
+    },
+    {
+      "id": "wm:a8cc044a7e27f495",
+      "date": "2026-09-22",
+      "kickoff": "16:00",
+      "utcDate": "2026-09-22T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Real Madrid",
+        "fullName": "Real Madrid",
+        "crest": null,
+        "normalized": "real madrid"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Paris Saint-Germain",
+        "fullName": "Paris Saint-Germain",
+        "crest": null,
+        "normalized": "paris saint germain"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1375992554,
+        "revisionTimestamp": "2026-09-21T09:23:52Z"
+      }
+    },
+    {
+      "id": "wm:9470d9c881b0f5f0",
+      "date": "2026-09-23",
+      "kickoff": "13:45",
+      "utcDate": "2026-09-23T16:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "OH Leuven",
+        "fullName": "OH Leuven",
+        "crest": null,
+        "normalized": "oh leuven"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Roma",
+        "fullName": "Roma",
+        "crest": null,
+        "normalized": "roma"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1375992554,
+        "revisionTimestamp": "2026-09-21T09:23:52Z"
+      }
+    },
+    {
+      "id": "wm:9bbfef3061e37068",
+      "date": "2026-09-23",
+      "kickoff": "13:45",
+      "utcDate": "2026-09-23T16:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Servette Chênois",
+        "fullName": "Servette Chênois",
+        "crest": null,
+        "normalized": "servette chenois"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "OL Lyonnes",
+        "fullName": "OL Lyonnes",
+        "crest": null,
+        "normalized": "ol lyonnes"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1375992554,
+        "revisionTimestamp": "2026-09-21T09:23:52Z"
+      }
+    },
+    {
+      "id": "wm:6f245a69232bfc6d",
+      "date": "2026-09-23",
+      "kickoff": "16:00",
+      "utcDate": "2026-09-23T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Barcelona",
+        "fullName": "Barcelona",
+        "crest": null,
+        "normalized": "barcelona"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Paris FC",
+        "fullName": "Paris FC",
+        "crest": null,
+        "normalized": "paris"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1375992554,
+        "revisionTimestamp": "2026-09-21T09:23:52Z"
+      }
+    },
+    {
+      "id": "wm:6646f653d53ec6e6",
+      "date": "2026-09-23",
+      "kickoff": "16:00",
+      "utcDate": "2026-09-23T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UEFA_Women%27s_Champions_League_logo.svg?width=192",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Chelsea",
+        "fullName": "Chelsea",
+        "crest": null,
+        "normalized": "chelsea"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Austria Wien",
+        "fullName": "Austria Wien",
+        "crest": null,
+        "normalized": "austria wien"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1375992554,
+        "revisionTimestamp": "2026-09-21T09:23:52Z"
+      }
+    }
+  ]
 }
