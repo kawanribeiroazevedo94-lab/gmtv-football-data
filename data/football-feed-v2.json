@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-09-23T02:28:30.688102Z",
+  "generatedAt": "2026-09-23T04:29:11.307286Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-09-22",
-    "to": "2026-09-28"
+    "from": "2026-09-23",
+    "to": "2026-09-29"
   },
   "sources": {
     "footballData": {
@@ -120,7 +120,7 @@
     },
     "wikimediaFixtures": {
       "ok": true,
-      "matches": 9,
+      "matches": 4,
       "pages": [
         {
           "key": "uwcl",
@@ -129,7 +129,7 @@
           "revisionId": 1376225204,
           "revisionTimestamp": "2026-09-22T21:44:10Z",
           "ok": true,
-          "matchesInWindow": 9,
+          "matchesInWindow": 4,
           "error": null
         },
         {
@@ -248,7 +248,7 @@
       ]
     },
     "wikidataArtwork": {
-      "cachedEntries": 125
+      "cachedEntries": 127
     }
   },
   "contracts": {
@@ -257,602 +257,8 @@
   },
   "days": [
     {
-      "date": "2026-09-22",
-      "label": "HOJE",
-      "count": 6,
-      "matches": [
-        {
-          "id": "wm:b34688ea3735cb4a",
-          "date": "2026-09-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Arsenal",
-            "fullName": "Arsenal",
-            "normalized": "arsenal",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "HB Køge",
-            "fullName": "HB Køge",
-            "normalized": "hb k ge",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1376225204,
-              "revisionTimestamp": "2026-09-22T21:44:10Z"
-            }
-          }
-        },
-        {
-          "id": "wm:bbfa108a50e2dbce",
-          "date": "2026-09-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": "club:bayern-munich",
-            "entityType": "club",
-            "identityStatus": "resolved",
-            "canonicalName": "Bayern Munich",
-            "displayName": "Bayern Munich",
-            "fullName": "Bayern Munich",
-            "normalized": "bayern munich",
-            "country": "Germany",
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "away": {
-            "gmId": "club:manchester-city",
-            "entityType": "club",
-            "identityStatus": "resolved",
-            "canonicalName": "Manchester City",
-            "displayName": "Manchester City",
-            "fullName": "Manchester City",
-            "normalized": "manchester city",
-            "country": "England",
-            "externalIds": {},
-            "wikidataQid": "Q50602",
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1376225204,
-              "revisionTimestamp": "2026-09-22T21:44:10Z"
-            }
-          }
-        },
-        {
-          "id": "wm:37c35f94664c88d0",
-          "date": "2026-09-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": "club:internazionale-milano",
-            "entityType": "club",
-            "identityStatus": "resolved",
-            "canonicalName": "Internazionale",
-            "displayName": "Inter Milan",
-            "fullName": "Inter Milan",
-            "normalized": "inter milan",
-            "country": "Italy",
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "BK Häcken",
-            "fullName": "BK Häcken",
-            "normalized": "bk hacken",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1376225204,
-              "revisionTimestamp": "2026-09-22T21:44:10Z"
-            }
-          }
-        },
-        {
-          "id": "wm:b7bd0c6d503e373d",
-          "date": "2026-09-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-09-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Juventus",
-            "fullName": "Juventus",
-            "normalized": "juventus",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Benfica",
-            "fullName": "Benfica",
-            "normalized": "benfica",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1376225204,
-              "revisionTimestamp": "2026-09-22T21:44:10Z"
-            }
-          }
-        },
-        {
-          "id": "wm:a8cc044a7e27f495",
-          "date": "2026-09-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-09-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Real Madrid",
-            "fullName": "Real Madrid",
-            "normalized": "real madrid",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Paris Saint-Germain",
-            "fullName": "Paris Saint-Germain",
-            "normalized": "paris saint germain",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1376225204,
-              "revisionTimestamp": "2026-09-22T21:44:10Z"
-            }
-          }
-        },
-        {
-          "id": "bsd:10136",
-          "date": "2026-09-22",
-          "kickoff": "19:30",
-          "utcDate": "2026-09-22T22:30:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "gmId": "competition:brasileirao-serie-b",
-            "entityType": "competition",
-            "identityStatus": "resolved",
-            "canonicalName": "Brasileirão Série B",
-            "displayName": "Brasileirão Série B",
-            "fullName": null,
-            "normalized": "brasileirao serie b",
-            "country": "Brazil",
-            "externalIds": {
-              "bsd": "34"
-            },
-            "wikidataQid": null,
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            },
-            "code": "BSB"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Criciúma",
-            "fullName": "Criciúma",
-            "normalized": "criciuma",
-            "country": null,
-            "externalIds": {
-              "bsd": "929"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Operário-PR",
-            "fullName": "Operário-PR",
-            "normalized": "operario pr",
-            "country": null,
-            "externalIds": {
-              "bsd": "828"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
-            }
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "fixtureSources": [
-              "bsd"
-            ],
-            "sourcePriority": 80,
-            "sourceDetails": {
-              "provider": "bsd",
-              "providerEventId": 10136,
-              "providerLeagueId": 34,
-              "providerSeasonId": 52
-            }
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-09-23",
-      "label": "23/09",
+      "label": "HOJE",
       "count": 4,
       "matches": [
         {
@@ -2196,596 +1602,118 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-09-29",
+      "label": "29/09",
+      "count": 1,
+      "matches": [
+        {
+          "id": "bsd:10145",
+          "date": "2026-09-29",
+          "kickoff": "19:30",
+          "utcDate": "2026-09-29T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Botafogo-SP",
+            "fullName": "Botafogo-SP",
+            "normalized": "botafogo sp",
+            "country": null,
+            "externalIds": {
+              "bsd": "927"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Ponte Preta",
+            "fullName": "Ponte Preta",
+            "normalized": "ponte preta",
+            "country": null,
+            "externalIds": {
+              "bsd": "844"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10145,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        }
+      ]
     }
   ],
   "matches": [
-    {
-      "id": "wm:b34688ea3735cb4a",
-      "date": "2026-09-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Arsenal",
-        "fullName": "Arsenal",
-        "normalized": "arsenal",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "HB Køge",
-        "fullName": "HB Køge",
-        "normalized": "hb k ge",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1376225204,
-          "revisionTimestamp": "2026-09-22T21:44:10Z"
-        }
-      }
-    },
-    {
-      "id": "wm:bbfa108a50e2dbce",
-      "date": "2026-09-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": "club:bayern-munich",
-        "entityType": "club",
-        "identityStatus": "resolved",
-        "canonicalName": "Bayern Munich",
-        "displayName": "Bayern Munich",
-        "fullName": "Bayern Munich",
-        "normalized": "bayern munich",
-        "country": "Germany",
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "away": {
-        "gmId": "club:manchester-city",
-        "entityType": "club",
-        "identityStatus": "resolved",
-        "canonicalName": "Manchester City",
-        "displayName": "Manchester City",
-        "fullName": "Manchester City",
-        "normalized": "manchester city",
-        "country": "England",
-        "externalIds": {},
-        "wikidataQid": "Q50602",
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1376225204,
-          "revisionTimestamp": "2026-09-22T21:44:10Z"
-        }
-      }
-    },
-    {
-      "id": "wm:37c35f94664c88d0",
-      "date": "2026-09-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": "club:internazionale-milano",
-        "entityType": "club",
-        "identityStatus": "resolved",
-        "canonicalName": "Internazionale",
-        "displayName": "Inter Milan",
-        "fullName": "Inter Milan",
-        "normalized": "inter milan",
-        "country": "Italy",
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "BK Häcken",
-        "fullName": "BK Häcken",
-        "normalized": "bk hacken",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1376225204,
-          "revisionTimestamp": "2026-09-22T21:44:10Z"
-        }
-      }
-    },
-    {
-      "id": "wm:b7bd0c6d503e373d",
-      "date": "2026-09-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-09-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Juventus",
-        "fullName": "Juventus",
-        "normalized": "juventus",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Benfica",
-        "fullName": "Benfica",
-        "normalized": "benfica",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1376225204,
-          "revisionTimestamp": "2026-09-22T21:44:10Z"
-        }
-      }
-    },
-    {
-      "id": "wm:a8cc044a7e27f495",
-      "date": "2026-09-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-09-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Real Madrid",
-        "fullName": "Real Madrid",
-        "normalized": "real madrid",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Paris Saint-Germain",
-        "fullName": "Paris Saint-Germain",
-        "normalized": "paris saint germain",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1376225204,
-          "revisionTimestamp": "2026-09-22T21:44:10Z"
-        }
-      }
-    },
-    {
-      "id": "bsd:10136",
-      "date": "2026-09-22",
-      "kickoff": "19:30",
-      "utcDate": "2026-09-22T22:30:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "gmId": "competition:brasileirao-serie-b",
-        "entityType": "competition",
-        "identityStatus": "resolved",
-        "canonicalName": "Brasileirão Série B",
-        "displayName": "Brasileirão Série B",
-        "fullName": null,
-        "normalized": "brasileirao serie b",
-        "country": "Brazil",
-        "externalIds": {
-          "bsd": "34"
-        },
-        "wikidataQid": null,
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        },
-        "code": "BSB"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Criciúma",
-        "fullName": "Criciúma",
-        "normalized": "criciuma",
-        "country": null,
-        "externalIds": {
-          "bsd": "929"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Operário-PR",
-        "fullName": "Operário-PR",
-        "normalized": "operario pr",
-        "country": null,
-        "externalIds": {
-          "bsd": "828"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
-        }
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "fixtureSources": [
-          "bsd"
-        ],
-        "sourcePriority": 80,
-        "sourceDetails": {
-          "provider": "bsd",
-          "providerEventId": 10136,
-          "providerLeagueId": 34,
-          "providerSeasonId": 52
-        }
-      }
-    },
     {
       "id": "wm:9470d9c881b0f5f0",
       "date": "2026-09-23",
@@ -4087,6 +3015,108 @@
         "sourceDetails": {
           "provider": "bsd",
           "providerEventId": 10144,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10145",
+      "date": "2026-09-29",
+      "kickoff": "19:30",
+      "utcDate": "2026-09-29T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Botafogo-SP",
+        "fullName": "Botafogo-SP",
+        "normalized": "botafogo sp",
+        "country": null,
+        "externalIds": {
+          "bsd": "927"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Ponte Preta",
+        "fullName": "Ponte Preta",
+        "normalized": "ponte preta",
+        "country": null,
+        "externalIds": {
+          "bsd": "844"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10145,
           "providerLeagueId": 34,
           "providerSeasonId": 52
         }

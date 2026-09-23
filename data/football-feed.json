@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-23T02:28:30.688102Z",
+  "generatedAt": "2026-09-23T04:29:11.307286Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-09-22",
-    "to": "2026-09-28"
+    "from": "2026-09-23",
+    "to": "2026-09-29"
   },
   "sources": {
     "footballData": {
@@ -120,7 +120,7 @@
     },
     "wikimediaFixtures": {
       "ok": true,
-      "matches": 9,
+      "matches": 4,
       "pages": [
         {
           "key": "uwcl",
@@ -129,7 +129,7 @@
           "revisionId": 1376225204,
           "revisionTimestamp": "2026-09-22T21:44:10Z",
           "ok": true,
-          "matchesInWindow": 9,
+          "matchesInWindow": 4,
           "error": null
         },
         {
@@ -248,271 +248,13 @@
       ]
     },
     "wikidataArtwork": {
-      "cachedEntries": 125
+      "cachedEntries": 127
     }
   },
   "days": [
     {
-      "date": "2026-09-22",
-      "label": "HOJE",
-      "count": 6,
-      "matches": [
-        {
-          "id": "wm:b34688ea3735cb4a",
-          "date": "2026-09-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": null,
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Arsenal",
-            "fullName": "Arsenal",
-            "crest": null,
-            "normalized": "arsenal"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "HB Køge",
-            "fullName": "HB Køge",
-            "crest": null,
-            "normalized": "hb k ge"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1376225204,
-            "revisionTimestamp": "2026-09-22T21:44:10Z"
-          }
-        },
-        {
-          "id": "wm:bbfa108a50e2dbce",
-          "date": "2026-09-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": null,
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Bayern Munich",
-            "fullName": "Bayern Munich",
-            "crest": null,
-            "normalized": "bayern munich"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Manchester City",
-            "fullName": "Manchester City",
-            "crest": null,
-            "normalized": "manchester city"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1376225204,
-            "revisionTimestamp": "2026-09-22T21:44:10Z"
-          }
-        },
-        {
-          "id": "wm:37c35f94664c88d0",
-          "date": "2026-09-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": null,
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Inter Milan",
-            "fullName": "Inter Milan",
-            "crest": null,
-            "normalized": "inter milan"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "BK Häcken",
-            "fullName": "BK Häcken",
-            "crest": null,
-            "normalized": "bk hacken"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1376225204,
-            "revisionTimestamp": "2026-09-22T21:44:10Z"
-          }
-        },
-        {
-          "id": "wm:b7bd0c6d503e373d",
-          "date": "2026-09-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-09-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": null,
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Juventus",
-            "fullName": "Juventus",
-            "crest": null,
-            "normalized": "juventus"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Benfica",
-            "fullName": "Benfica",
-            "crest": null,
-            "normalized": "benfica"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1376225204,
-            "revisionTimestamp": "2026-09-22T21:44:10Z"
-          }
-        },
-        {
-          "id": "wm:a8cc044a7e27f495",
-          "date": "2026-09-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-09-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": null,
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Real Madrid",
-            "fullName": "Real Madrid",
-            "crest": null,
-            "normalized": "real madrid"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Paris Saint-Germain",
-            "fullName": "Paris Saint-Germain",
-            "crest": null,
-            "normalized": "paris saint germain"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1376225204,
-            "revisionTimestamp": "2026-09-22T21:44:10Z"
-          }
-        },
-        {
-          "id": "bsd:10136",
-          "date": "2026-09-22",
-          "kickoff": "19:30",
-          "utcDate": "2026-09-22T22:30:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": null,
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 929,
-            "idProvider": "bsd",
-            "name": "Criciúma",
-            "fullName": "Criciúma",
-            "crest": null,
-            "normalized": "criciuma"
-          },
-          "away": {
-            "id": 828,
-            "idProvider": "bsd",
-            "name": "Operário-PR",
-            "fullName": "Operário-PR",
-            "crest": null,
-            "normalized": "operario pr"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10136,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-09-23",
-      "label": "23/09",
+      "label": "HOJE",
       "count": 4,
       "matches": [
         {
@@ -1087,260 +829,57 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-09-29",
+      "label": "29/09",
+      "count": 1,
+      "matches": [
+        {
+          "id": "bsd:10145",
+          "date": "2026-09-29",
+          "kickoff": "19:30",
+          "utcDate": "2026-09-29T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": null,
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 927,
+            "idProvider": "bsd",
+            "name": "Botafogo-SP",
+            "fullName": "Botafogo-SP",
+            "crest": null,
+            "normalized": "botafogo sp"
+          },
+          "away": {
+            "id": 844,
+            "idProvider": "bsd",
+            "name": "Ponte Preta",
+            "fullName": "Ponte Preta",
+            "crest": null,
+            "normalized": "ponte preta"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10145,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        }
+      ]
     }
   ],
   "matches": [
-    {
-      "id": "wm:b34688ea3735cb4a",
-      "date": "2026-09-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": null,
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Arsenal",
-        "fullName": "Arsenal",
-        "crest": null,
-        "normalized": "arsenal"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "HB Køge",
-        "fullName": "HB Køge",
-        "crest": null,
-        "normalized": "hb k ge"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1376225204,
-        "revisionTimestamp": "2026-09-22T21:44:10Z"
-      }
-    },
-    {
-      "id": "wm:bbfa108a50e2dbce",
-      "date": "2026-09-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": null,
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Bayern Munich",
-        "fullName": "Bayern Munich",
-        "crest": null,
-        "normalized": "bayern munich"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Manchester City",
-        "fullName": "Manchester City",
-        "crest": null,
-        "normalized": "manchester city"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1376225204,
-        "revisionTimestamp": "2026-09-22T21:44:10Z"
-      }
-    },
-    {
-      "id": "wm:37c35f94664c88d0",
-      "date": "2026-09-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": null,
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Inter Milan",
-        "fullName": "Inter Milan",
-        "crest": null,
-        "normalized": "inter milan"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "BK Häcken",
-        "fullName": "BK Häcken",
-        "crest": null,
-        "normalized": "bk hacken"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1376225204,
-        "revisionTimestamp": "2026-09-22T21:44:10Z"
-      }
-    },
-    {
-      "id": "wm:b7bd0c6d503e373d",
-      "date": "2026-09-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-09-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": null,
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Juventus",
-        "fullName": "Juventus",
-        "crest": null,
-        "normalized": "juventus"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Benfica",
-        "fullName": "Benfica",
-        "crest": null,
-        "normalized": "benfica"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1376225204,
-        "revisionTimestamp": "2026-09-22T21:44:10Z"
-      }
-    },
-    {
-      "id": "wm:a8cc044a7e27f495",
-      "date": "2026-09-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-09-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": null,
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Real Madrid",
-        "fullName": "Real Madrid",
-        "crest": null,
-        "normalized": "real madrid"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Paris Saint-Germain",
-        "fullName": "Paris Saint-Germain",
-        "crest": null,
-        "normalized": "paris saint germain"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1376225204,
-        "revisionTimestamp": "2026-09-22T21:44:10Z"
-      }
-    },
-    {
-      "id": "bsd:10136",
-      "date": "2026-09-22",
-      "kickoff": "19:30",
-      "utcDate": "2026-09-22T22:30:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": null,
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 929,
-        "idProvider": "bsd",
-        "name": "Criciúma",
-        "fullName": "Criciúma",
-        "crest": null,
-        "normalized": "criciuma"
-      },
-      "away": {
-        "id": 828,
-        "idProvider": "bsd",
-        "name": "Operário-PR",
-        "fullName": "Operário-PR",
-        "crest": null,
-        "normalized": "operario pr"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10136,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
     {
       "id": "wm:9470d9c881b0f5f0",
       "date": "2026-09-23",
@@ -1874,6 +1413,47 @@
       "provenance": {
         "provider": "bsd",
         "providerEventId": 10144,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10145",
+      "date": "2026-09-29",
+      "kickoff": "19:30",
+      "utcDate": "2026-09-29T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": null,
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 927,
+        "idProvider": "bsd",
+        "name": "Botafogo-SP",
+        "fullName": "Botafogo-SP",
+        "crest": null,
+        "normalized": "botafogo sp"
+      },
+      "away": {
+        "id": 844,
+        "idProvider": "bsd",
+        "name": "Ponte Preta",
+        "fullName": "Ponte Preta",
+        "crest": null,
+        "normalized": "ponte preta"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10145,
         "providerLeagueId": 34,
         "providerSeasonId": 52
       }
