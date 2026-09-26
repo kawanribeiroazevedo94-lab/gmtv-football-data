@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-23T14:29:57.536411Z",
+  "generatedAt": "2026-09-26T21:15:13.741365Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-09-23",
-    "to": "2026-09-29"
+    "from": "2026-09-26",
+    "to": "2026-10-02"
   },
   "sources": {
     "footballData": {
       "ok": true,
-      "matches": 0,
+      "matches": 1,
       "error": null
     },
     "openFootball": {
       "ok": true,
-      "matches": 0,
+      "matches": 1,
       "datasets": [
         {
           "dataset": "2026-27/en.1.json",
@@ -59,15 +59,15 @@
         {
           "dataset": "2026/br.1.json",
           "ok": true,
-          "matchesInWindow": 0
+          "matchesInWindow": 1
         }
       ]
     },
     "bsd": {
       "configured": true,
       "ok": true,
-      "matches": 10,
-      "pages": 2,
+      "matches": 15,
+      "pages": 3,
       "error": null
     },
     "openLigaDB": {
@@ -120,16 +120,16 @@
     },
     "wikimediaFixtures": {
       "ok": true,
-      "matches": 4,
+      "matches": 9,
       "pages": [
         {
           "key": "uwcl",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1376291084,
-          "revisionTimestamp": "2026-09-23T07:05:25Z",
+          "revisionId": 1376387295,
+          "revisionTimestamp": "2026-09-23T21:56:03Z",
           "ok": true,
-          "matchesInWindow": 4,
+          "matchesInWindow": 9,
           "error": null
         },
         {
@@ -145,386 +145,21 @@
       ]
     },
     "artworkCatalog": {
-      "competitionsTotal": 36,
-      "competitionsValidated": 0,
-      "competitionsUnresolved": [
-        "Brasileirão Série A",
-        "Brasileirão Série B",
-        "Copa do Brasil",
-        "Supercopa do Brasil",
-        "Campeonato Paulista",
-        "Campeonato Carioca",
-        "Campeonato Mineiro",
-        "Campeonato Gaúcho",
-        "Copa Libertadores",
-        "Copa Sul-Americana",
-        "Recopa Sul-Americana",
-        "Premier League",
-        "La Liga",
-        "Serie A",
-        "Bundesliga",
-        "Ligue 1",
-        "Liga Portugal",
-        "Eredivisie",
-        "UEFA Champions League",
-        "UEFA Europa League",
-        "UEFA Conference League",
-        "UEFA Super Cup",
-        "FA Cup",
-        "Copa del Rey",
-        "Coppa Italia",
-        "DFB-Pokal",
-        "MLS",
-        "Liga MX",
-        "Campeonato Argentino",
-        "Saudi Pro League",
-        "FIFA Club World Cup",
-        "FIFA Intercontinental Cup",
-        "Copa do Mundo",
-        "Copa América",
-        "Eurocopa",
-        "UEFA Nations League"
-      ],
+      "competitionsTotal": 37,
+      "competitionsValidated": 37,
+      "competitionsUnresolved": [],
       "teamsTotal": 57,
-      "teamsValidated": 0,
-      "teamsUnresolved": [
-        "Flamengo",
-        "Palmeiras",
-        "Corinthians",
-        "São Paulo",
-        "Santos",
-        "Grêmio",
-        "Internacional",
-        "Atlético Mineiro",
-        "Cruzeiro",
-        "Fluminense",
-        "Botafogo",
-        "Vasco da Gama",
-        "Real Madrid",
-        "Barcelona",
-        "Atlético Madrid",
-        "Athletic Bilbao",
-        "Arsenal",
-        "Chelsea",
-        "Liverpool",
-        "Manchester City",
-        "Manchester United",
-        "Tottenham Hotspur",
-        "Bayern Munich",
-        "Borussia Dortmund",
-        "Bayer Leverkusen",
-        "RB Leipzig",
-        "Inter Milan",
-        "AC Milan",
-        "Juventus",
-        "Napoli",
-        "Roma",
-        "Paris Saint-Germain",
-        "Olympique Marseille",
-        "Monaco",
-        "Benfica",
-        "Porto",
-        "Sporting CP",
-        "Ajax",
-        "PSV Eindhoven",
-        "Feyenoord",
-        "Boca Juniors",
-        "River Plate",
-        "Club América",
-        "Monterrey",
-        "Inter Miami",
-        "Al Hilal",
-        "Al Nassr",
-        "Brazil",
-        "Argentina",
-        "England",
-        "Spain",
-        "France",
-        "Germany",
-        "Portugal",
-        "Italy",
-        "Netherlands",
-        "Uruguay"
-      ]
+      "teamsValidated": 57,
+      "teamsUnresolved": []
     },
     "wikidataArtwork": {
-      "cachedEntries": 127
+      "cachedEntries": 568
     }
   },
   "days": [
     {
-      "date": "2026-09-23",
-      "label": "HOJE",
-      "count": 4,
-      "matches": [
-        {
-          "id": "wm:9470d9c881b0f5f0",
-          "date": "2026-09-23",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-23T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "OH Leuven",
-            "fullName": "OH Leuven",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/131423.png",
-            "normalized": "oh leuven"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Roma",
-            "fullName": "Roma",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
-            "normalized": "roma"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1376291084,
-            "revisionTimestamp": "2026-09-23T07:05:25Z"
-          }
-        },
-        {
-          "id": "wm:9bbfef3061e37068",
-          "date": "2026-09-23",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-23T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Servette Chênois",
-            "fullName": "Servette Chênois",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20835.png",
-            "normalized": "servette chenois"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "OL Lyonnes",
-            "fullName": "OL Lyonnes",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
-            "normalized": "ol lyonnes"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1376291084,
-            "revisionTimestamp": "2026-09-23T07:05:25Z"
-          }
-        },
-        {
-          "id": "wm:6f245a69232bfc6d",
-          "date": "2026-09-23",
-          "kickoff": "16:00",
-          "utcDate": "2026-09-23T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Barcelona",
-            "fullName": "Barcelona",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
-            "normalized": "barcelona"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Paris FC",
-            "fullName": "Paris FC",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
-            "normalized": "paris"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1376291084,
-            "revisionTimestamp": "2026-09-23T07:05:25Z"
-          }
-        },
-        {
-          "id": "wm:6646f653d53ec6e6",
-          "date": "2026-09-23",
-          "kickoff": "16:00",
-          "utcDate": "2026-09-23T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Chelsea",
-            "fullName": "Chelsea",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
-            "normalized": "chelsea"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Austria Wien",
-            "fullName": "Austria Wien",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
-            "normalized": "austria wien"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1376291084,
-            "revisionTimestamp": "2026-09-23T07:05:25Z"
-          }
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "label": "24/09",
-      "count": 0,
-      "matches": []
-    },
-    {
-      "date": "2026-09-25",
-      "label": "25/09",
-      "count": 2,
-      "matches": [
-        {
-          "id": "bsd:10150",
-          "date": "2026-09-25",
-          "kickoff": "19:30",
-          "utcDate": "2026-09-25T22:30:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 836,
-            "idProvider": "bsd",
-            "name": "Grêmio Novorizontino",
-            "fullName": "Grêmio Novorizontino",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-            "normalized": "gremio novorizontino"
-          },
-          "away": {
-            "id": 841,
-            "idProvider": "bsd",
-            "name": "São Bernardo",
-            "fullName": "São Bernardo",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-            "normalized": "sao bernardo"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10150,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        },
-        {
-          "id": "bsd:10153",
-          "date": "2026-09-25",
-          "kickoff": "20:30",
-          "utcDate": "2026-09-25T23:30:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 826,
-            "idProvider": "bsd",
-            "name": "Vila Nova FC",
-            "fullName": "Vila Nova FC",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-            "normalized": "vila nova"
-          },
-          "away": {
-            "id": 821,
-            "idProvider": "bsd",
-            "name": "Londrina",
-            "fullName": "Londrina",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-            "normalized": "londrina"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10153,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-09-26",
-      "label": "26/09",
+      "label": "HOJE",
       "count": 3,
       "matches": [
         {
@@ -877,259 +512,691 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-09-30",
+      "label": "30/09",
+      "count": 5,
+      "matches": [
+        {
+          "id": "wm:95b7a1294df471c8",
+          "date": "2026-09-30",
+          "kickoff": "13:45",
+          "utcDate": "2026-09-30T16:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "BK Häcken",
+            "fullName": "BK Häcken",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
+            "normalized": "bk hacken"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Juventus",
+            "fullName": "Juventus",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
+            "normalized": "juventus"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1376387295,
+            "revisionTimestamp": "2026-09-23T21:56:03Z"
+          }
+        },
+        {
+          "id": "wm:bc5a5a7a735c2a96",
+          "date": "2026-09-30",
+          "kickoff": "13:45",
+          "utcDate": "2026-09-30T16:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Paris FC",
+            "fullName": "Paris FC",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
+            "normalized": "paris"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Arsenal",
+            "fullName": "Arsenal",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19973.png",
+            "normalized": "arsenal"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1376387295,
+            "revisionTimestamp": "2026-09-23T21:56:03Z"
+          }
+        },
+        {
+          "id": "wm:0c4b5da1b9c81849",
+          "date": "2026-09-30",
+          "kickoff": "13:45",
+          "utcDate": "2026-09-30T16:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Roma",
+            "fullName": "Roma",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
+            "normalized": "roma"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Barcelona",
+            "fullName": "Barcelona",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
+            "normalized": "barcelona"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1376387295,
+            "revisionTimestamp": "2026-09-23T21:56:03Z"
+          }
+        },
+        {
+          "id": "wm:dde1e8f69eb097bf",
+          "date": "2026-09-30",
+          "kickoff": "16:00",
+          "utcDate": "2026-09-30T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Benfica",
+            "fullName": "Benfica",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
+            "normalized": "benfica"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Bayern Munich",
+            "fullName": "Bayern Munich",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20103.png",
+            "normalized": "bayern munich"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1376387295,
+            "revisionTimestamp": "2026-09-23T21:56:03Z"
+          }
+        },
+        {
+          "id": "wm:f26b8b9df0496ddc",
+          "date": "2026-09-30",
+          "kickoff": "16:00",
+          "utcDate": "2026-09-30T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "OL Lyonnes",
+            "fullName": "OL Lyonnes",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
+            "normalized": "ol lyonnes"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Chelsea",
+            "fullName": "Chelsea",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
+            "normalized": "chelsea"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1376387295,
+            "revisionTimestamp": "2026-09-23T21:56:03Z"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "label": "01/10",
+      "count": 6,
+      "matches": [
+        {
+          "id": "wm:9db7f7b1e26ae8ed",
+          "date": "2026-10-01",
+          "kickoff": "13:45",
+          "utcDate": "2026-10-01T16:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Austria Wien",
+            "fullName": "Austria Wien",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
+            "normalized": "austria wien"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Inter Milan",
+            "fullName": "Inter Milan",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/131635.png",
+            "normalized": "inter milan"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1376387295,
+            "revisionTimestamp": "2026-09-23T21:56:03Z"
+          }
+        },
+        {
+          "id": "wm:ccb655d6ff27b994",
+          "date": "2026-10-01",
+          "kickoff": "13:45",
+          "utcDate": "2026-10-01T16:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "HB Køge",
+            "fullName": "HB Køge",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21127.png",
+            "normalized": "hb k ge"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Servette Chênois",
+            "fullName": "Servette Chênois",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20835.png",
+            "normalized": "servette chenois"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1376387295,
+            "revisionTimestamp": "2026-09-23T21:56:03Z"
+          }
+        },
+        {
+          "id": "wm:c19a9410ccc687d3",
+          "date": "2026-10-01",
+          "kickoff": "16:00",
+          "utcDate": "2026-10-01T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Manchester City",
+            "fullName": "Manchester City",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
+            "normalized": "manchester city"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Real Madrid",
+            "fullName": "Real Madrid",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+            "normalized": "real madrid"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1376387295,
+            "revisionTimestamp": "2026-09-23T21:56:03Z"
+          }
+        },
+        {
+          "id": "wm:db71577d2f9e08d7",
+          "date": "2026-10-01",
+          "kickoff": "16:00",
+          "utcDate": "2026-10-01T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Paris Saint-Germain",
+            "fullName": "Paris Saint-Germain",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
+            "normalized": "paris saint germain"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "OH Leuven",
+            "fullName": "OH Leuven",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/131423.png",
+            "normalized": "oh leuven"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1376387295,
+            "revisionTimestamp": "2026-09-23T21:56:03Z"
+          }
+        },
+        {
+          "id": "bsd:10154",
+          "date": "2026-10-01",
+          "kickoff": "20:30",
+          "utcDate": "2026-10-01T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 843,
+            "idProvider": "bsd",
+            "name": "Athletic Club",
+            "fullName": "Athletic Club",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+            "normalized": "athletic"
+          },
+          "away": {
+            "id": 159,
+            "idProvider": "bsd",
+            "name": "Sport Recife",
+            "fullName": "Sport Recife",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+            "normalized": "sport recife"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10154,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:10160",
+          "date": "2026-10-01",
+          "kickoff": "21:00",
+          "utcDate": "2026-10-02T00:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 836,
+            "idProvider": "bsd",
+            "name": "Grêmio Novorizontino",
+            "fullName": "Grêmio Novorizontino",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+            "normalized": "gremio novorizontino"
+          },
+          "away": {
+            "id": 809,
+            "idProvider": "bsd",
+            "name": "Goiás",
+            "fullName": "Goiás",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+            "normalized": "goias"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10160,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "label": "02/10",
+      "count": 5,
+      "matches": [
+        {
+          "id": "bsd:10163",
+          "date": "2026-10-02",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-02T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 841,
+            "idProvider": "bsd",
+            "name": "São Bernardo",
+            "fullName": "São Bernardo",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+            "normalized": "sao bernardo"
+          },
+          "away": {
+            "id": 831,
+            "idProvider": "bsd",
+            "name": "CRB",
+            "fullName": "CRB",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+            "normalized": "crb"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10163,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "fd:554948",
+          "date": "2026-10-02",
+          "kickoff": "20:00",
+          "utcDate": "2026-10-02T23:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 1776,
+            "idProvider": "football-data",
+            "name": "São Paulo",
+            "fullName": "São Paulo FC",
+            "crest": "https://crests.football-data.org/1776.png",
+            "normalized": "sao paulo"
+          },
+          "away": {
+            "id": 6685,
+            "idProvider": "football-data",
+            "name": "Santos",
+            "fullName": "Santos FC",
+            "crest": "https://crests.football-data.org/6685.png",
+            "normalized": "santos"
+          },
+          "sources": [
+            "football-data",
+            "bsd",
+            "openfootball"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "bsd:10162",
+          "date": "2026-10-02",
+          "kickoff": "20:30",
+          "utcDate": "2026-10-02T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 821,
+            "idProvider": "bsd",
+            "name": "Londrina",
+            "fullName": "Londrina",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+            "normalized": "londrina"
+          },
+          "away": {
+            "id": 929,
+            "idProvider": "bsd",
+            "name": "Criciúma",
+            "fullName": "Criciúma",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+            "normalized": "criciuma"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10162,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:10161",
+          "date": "2026-10-02",
+          "kickoff": "20:45",
+          "utcDate": "2026-10-02T23:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 156,
+            "idProvider": "bsd",
+            "name": "Juventude",
+            "fullName": "Juventude",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+            "normalized": "juventude"
+          },
+          "away": {
+            "id": 828,
+            "idProvider": "bsd",
+            "name": "Operário-PR",
+            "fullName": "Operário-PR",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+            "normalized": "operario pr"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10161,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:10159",
+          "date": "2026-10-02",
+          "kickoff": "21:35",
+          "utcDate": "2026-10-03T00:35:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 152,
+            "idProvider": "bsd",
+            "name": "Fortaleza",
+            "fullName": "Fortaleza",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+            "normalized": "fortaleza"
+          },
+          "away": {
+            "id": 928,
+            "idProvider": "bsd",
+            "name": "Náutico",
+            "fullName": "Náutico",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+            "normalized": "nautico"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10159,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        }
+      ]
     }
   ],
   "matches": [
-    {
-      "id": "wm:9470d9c881b0f5f0",
-      "date": "2026-09-23",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-23T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "OH Leuven",
-        "fullName": "OH Leuven",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/131423.png",
-        "normalized": "oh leuven"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Roma",
-        "fullName": "Roma",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
-        "normalized": "roma"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1376291084,
-        "revisionTimestamp": "2026-09-23T07:05:25Z"
-      }
-    },
-    {
-      "id": "wm:9bbfef3061e37068",
-      "date": "2026-09-23",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-23T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Servette Chênois",
-        "fullName": "Servette Chênois",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20835.png",
-        "normalized": "servette chenois"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "OL Lyonnes",
-        "fullName": "OL Lyonnes",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
-        "normalized": "ol lyonnes"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1376291084,
-        "revisionTimestamp": "2026-09-23T07:05:25Z"
-      }
-    },
-    {
-      "id": "wm:6f245a69232bfc6d",
-      "date": "2026-09-23",
-      "kickoff": "16:00",
-      "utcDate": "2026-09-23T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Barcelona",
-        "fullName": "Barcelona",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
-        "normalized": "barcelona"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Paris FC",
-        "fullName": "Paris FC",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
-        "normalized": "paris"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1376291084,
-        "revisionTimestamp": "2026-09-23T07:05:25Z"
-      }
-    },
-    {
-      "id": "wm:6646f653d53ec6e6",
-      "date": "2026-09-23",
-      "kickoff": "16:00",
-      "utcDate": "2026-09-23T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Chelsea",
-        "fullName": "Chelsea",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
-        "normalized": "chelsea"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Austria Wien",
-        "fullName": "Austria Wien",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
-        "normalized": "austria wien"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1376291084,
-        "revisionTimestamp": "2026-09-23T07:05:25Z"
-      }
-    },
-    {
-      "id": "bsd:10150",
-      "date": "2026-09-25",
-      "kickoff": "19:30",
-      "utcDate": "2026-09-25T22:30:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 836,
-        "idProvider": "bsd",
-        "name": "Grêmio Novorizontino",
-        "fullName": "Grêmio Novorizontino",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-        "normalized": "gremio novorizontino"
-      },
-      "away": {
-        "id": 841,
-        "idProvider": "bsd",
-        "name": "São Bernardo",
-        "fullName": "São Bernardo",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-        "normalized": "sao bernardo"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10150,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
-    {
-      "id": "bsd:10153",
-      "date": "2026-09-25",
-      "kickoff": "20:30",
-      "utcDate": "2026-09-25T23:30:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 826,
-        "idProvider": "bsd",
-        "name": "Vila Nova FC",
-        "fullName": "Vila Nova FC",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-        "normalized": "vila nova"
-      },
-      "away": {
-        "id": 821,
-        "idProvider": "bsd",
-        "name": "Londrina",
-        "fullName": "Londrina",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-        "normalized": "londrina"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10153,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
     {
       "id": "bsd:10151",
       "date": "2026-09-26",
@@ -1454,6 +1521,667 @@
       "provenance": {
         "provider": "bsd",
         "providerEventId": 10145,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "wm:95b7a1294df471c8",
+      "date": "2026-09-30",
+      "kickoff": "13:45",
+      "utcDate": "2026-09-30T16:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "BK Häcken",
+        "fullName": "BK Häcken",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
+        "normalized": "bk hacken"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Juventus",
+        "fullName": "Juventus",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
+        "normalized": "juventus"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1376387295,
+        "revisionTimestamp": "2026-09-23T21:56:03Z"
+      }
+    },
+    {
+      "id": "wm:bc5a5a7a735c2a96",
+      "date": "2026-09-30",
+      "kickoff": "13:45",
+      "utcDate": "2026-09-30T16:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Paris FC",
+        "fullName": "Paris FC",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
+        "normalized": "paris"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Arsenal",
+        "fullName": "Arsenal",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19973.png",
+        "normalized": "arsenal"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1376387295,
+        "revisionTimestamp": "2026-09-23T21:56:03Z"
+      }
+    },
+    {
+      "id": "wm:0c4b5da1b9c81849",
+      "date": "2026-09-30",
+      "kickoff": "13:45",
+      "utcDate": "2026-09-30T16:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Roma",
+        "fullName": "Roma",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
+        "normalized": "roma"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Barcelona",
+        "fullName": "Barcelona",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
+        "normalized": "barcelona"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1376387295,
+        "revisionTimestamp": "2026-09-23T21:56:03Z"
+      }
+    },
+    {
+      "id": "wm:dde1e8f69eb097bf",
+      "date": "2026-09-30",
+      "kickoff": "16:00",
+      "utcDate": "2026-09-30T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Benfica",
+        "fullName": "Benfica",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
+        "normalized": "benfica"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Bayern Munich",
+        "fullName": "Bayern Munich",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20103.png",
+        "normalized": "bayern munich"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1376387295,
+        "revisionTimestamp": "2026-09-23T21:56:03Z"
+      }
+    },
+    {
+      "id": "wm:f26b8b9df0496ddc",
+      "date": "2026-09-30",
+      "kickoff": "16:00",
+      "utcDate": "2026-09-30T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "OL Lyonnes",
+        "fullName": "OL Lyonnes",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
+        "normalized": "ol lyonnes"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Chelsea",
+        "fullName": "Chelsea",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
+        "normalized": "chelsea"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1376387295,
+        "revisionTimestamp": "2026-09-23T21:56:03Z"
+      }
+    },
+    {
+      "id": "wm:9db7f7b1e26ae8ed",
+      "date": "2026-10-01",
+      "kickoff": "13:45",
+      "utcDate": "2026-10-01T16:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Austria Wien",
+        "fullName": "Austria Wien",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
+        "normalized": "austria wien"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Inter Milan",
+        "fullName": "Inter Milan",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/131635.png",
+        "normalized": "inter milan"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1376387295,
+        "revisionTimestamp": "2026-09-23T21:56:03Z"
+      }
+    },
+    {
+      "id": "wm:ccb655d6ff27b994",
+      "date": "2026-10-01",
+      "kickoff": "13:45",
+      "utcDate": "2026-10-01T16:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "HB Køge",
+        "fullName": "HB Køge",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21127.png",
+        "normalized": "hb k ge"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Servette Chênois",
+        "fullName": "Servette Chênois",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20835.png",
+        "normalized": "servette chenois"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1376387295,
+        "revisionTimestamp": "2026-09-23T21:56:03Z"
+      }
+    },
+    {
+      "id": "wm:c19a9410ccc687d3",
+      "date": "2026-10-01",
+      "kickoff": "16:00",
+      "utcDate": "2026-10-01T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Manchester City",
+        "fullName": "Manchester City",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
+        "normalized": "manchester city"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Real Madrid",
+        "fullName": "Real Madrid",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+        "normalized": "real madrid"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1376387295,
+        "revisionTimestamp": "2026-09-23T21:56:03Z"
+      }
+    },
+    {
+      "id": "wm:db71577d2f9e08d7",
+      "date": "2026-10-01",
+      "kickoff": "16:00",
+      "utcDate": "2026-10-01T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Paris Saint-Germain",
+        "fullName": "Paris Saint-Germain",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
+        "normalized": "paris saint germain"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "OH Leuven",
+        "fullName": "OH Leuven",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/131423.png",
+        "normalized": "oh leuven"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1376387295,
+        "revisionTimestamp": "2026-09-23T21:56:03Z"
+      }
+    },
+    {
+      "id": "bsd:10154",
+      "date": "2026-10-01",
+      "kickoff": "20:30",
+      "utcDate": "2026-10-01T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 843,
+        "idProvider": "bsd",
+        "name": "Athletic Club",
+        "fullName": "Athletic Club",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+        "normalized": "athletic"
+      },
+      "away": {
+        "id": 159,
+        "idProvider": "bsd",
+        "name": "Sport Recife",
+        "fullName": "Sport Recife",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+        "normalized": "sport recife"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10154,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10160",
+      "date": "2026-10-01",
+      "kickoff": "21:00",
+      "utcDate": "2026-10-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 836,
+        "idProvider": "bsd",
+        "name": "Grêmio Novorizontino",
+        "fullName": "Grêmio Novorizontino",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+        "normalized": "gremio novorizontino"
+      },
+      "away": {
+        "id": 809,
+        "idProvider": "bsd",
+        "name": "Goiás",
+        "fullName": "Goiás",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+        "normalized": "goias"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10160,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10163",
+      "date": "2026-10-02",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-02T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 841,
+        "idProvider": "bsd",
+        "name": "São Bernardo",
+        "fullName": "São Bernardo",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+        "normalized": "sao bernardo"
+      },
+      "away": {
+        "id": 831,
+        "idProvider": "bsd",
+        "name": "CRB",
+        "fullName": "CRB",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+        "normalized": "crb"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10163,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "fd:554948",
+      "date": "2026-10-02",
+      "kickoff": "20:00",
+      "utcDate": "2026-10-02T23:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 1776,
+        "idProvider": "football-data",
+        "name": "São Paulo",
+        "fullName": "São Paulo FC",
+        "crest": "https://crests.football-data.org/1776.png",
+        "normalized": "sao paulo"
+      },
+      "away": {
+        "id": 6685,
+        "idProvider": "football-data",
+        "name": "Santos",
+        "fullName": "Santos FC",
+        "crest": "https://crests.football-data.org/6685.png",
+        "normalized": "santos"
+      },
+      "sources": [
+        "football-data",
+        "bsd",
+        "openfootball"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "bsd:10162",
+      "date": "2026-10-02",
+      "kickoff": "20:30",
+      "utcDate": "2026-10-02T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 821,
+        "idProvider": "bsd",
+        "name": "Londrina",
+        "fullName": "Londrina",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+        "normalized": "londrina"
+      },
+      "away": {
+        "id": 929,
+        "idProvider": "bsd",
+        "name": "Criciúma",
+        "fullName": "Criciúma",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+        "normalized": "criciuma"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10162,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10161",
+      "date": "2026-10-02",
+      "kickoff": "20:45",
+      "utcDate": "2026-10-02T23:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 156,
+        "idProvider": "bsd",
+        "name": "Juventude",
+        "fullName": "Juventude",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+        "normalized": "juventude"
+      },
+      "away": {
+        "id": 828,
+        "idProvider": "bsd",
+        "name": "Operário-PR",
+        "fullName": "Operário-PR",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+        "normalized": "operario pr"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10161,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10159",
+      "date": "2026-10-02",
+      "kickoff": "21:35",
+      "utcDate": "2026-10-03T00:35:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 152,
+        "idProvider": "bsd",
+        "name": "Fortaleza",
+        "fullName": "Fortaleza",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+        "normalized": "fortaleza"
+      },
+      "away": {
+        "id": 928,
+        "idProvider": "bsd",
+        "name": "Náutico",
+        "fullName": "Náutico",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+        "normalized": "nautico"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10159,
         "providerLeagueId": 34,
         "providerSeasonId": 52
       }
