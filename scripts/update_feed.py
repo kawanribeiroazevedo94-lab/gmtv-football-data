@@ -612,6 +612,7 @@ def resolve_artwork(
     country_hint=None,
     search_name=None,
     force=False,
+    competition_name=None,
 ):
     return resolve_artwork_strict(
         name,
@@ -620,6 +621,7 @@ def resolve_artwork(
         country_hint=country_hint,
         search_name=search_name,
         force=force,
+        competition_name=competition_name,
     )
 
 def enrich_missing_artwork(matches, cache):
@@ -662,12 +664,14 @@ def enrich_missing_artwork(matches, cache):
                     existing,
                     cache,
                     provider,
+                    competition_name=comp.get("name"),
                 )
             team["crest"] = validated or resolve_artwork(
                 team.get("name") or team.get("fullName") or "",
                 "team",
                 cache,
                 country_hint=country_hint,
+                competition_name=comp.get("name"),
             )
 
 def main():

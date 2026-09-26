@@ -131,7 +131,7 @@ class FeedV2Tests(unittest.TestCase):
         self.assertNotIn("candidateUrl", dumped)
         for entry in self.cache["entries"].values():
             candidate = entry.get("candidateUrl")
-            if candidate:
+            if candidate and candidate != entry.get("artworkUrl"):
                 self.assertNotIn(candidate, dumped)
 
     def test_only_validated_artwork_can_publish_url(self):

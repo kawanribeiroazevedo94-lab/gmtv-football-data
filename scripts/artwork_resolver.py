@@ -4,13 +4,25 @@ from __future__ import annotations
 import json
 import re
 import unicodedata
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+from functools import lru_cache
+
+from artwork_catalog import artwork_name, catalog_entry, find_catalog_artwork, prime_catalog, scoped_team_key
 
 WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 RESOLVER_VERSION = 4
+USER_AGENT = "GMTVPlus-Artwork/4.1 (https://github.com/kawanribeiroazevedo94-lab/gmtv-football-data)"
+_network_calls = 0
+_last_request_at = 0.0
+_backoff_until = 0.0
+# Discovery is bounded; the reviewed catalog needs no network requests.
+MAX_DISCOVERY_REQUESTS = 40
 
 DROP_WORDS = {
     "fc", "afc", "cf", "sc", "ac", "ec", "se", "ca", "cr", "fbc",
@@ -39,6 +51,7 @@ COMPETITION_CATALOG = (
     ("Liga Portugal", "Primeira Liga Portugal", "Portugal"),
     ("Eredivisie", "Eredivisie Netherlands", "Netherlands"),
     ("UEFA Champions League", "UEFA Champions League", "Europe"),
+    ("UEFA Women's Champions League", "UEFA Women's Champions League", "Europe"),
     ("UEFA Europa League", "UEFA Europa League", "Europe"),
     ("UEFA Conference League", "UEFA Conference League", "Europe"),
     ("UEFA Super Cup", "UEFA Super Cup", "Europe"),
@@ -146,16 +159,39 @@ def normalize(value):
 
 
 def http_json(url, headers=None, timeout=25):
+    global _network_calls, _last_request_at, _backoff_until
+    if time.monotonic() < _backoff_until:
+        raise RuntimeError("artwork_provider_backoff_after_http_429")
+    if _network_calls >= MAX_DISCOVERY_REQUESTS:
+        raise RuntimeError("artwork_discovery_request_budget_exhausted")
+    delay = 1.0 - (time.monotonic() - _last_request_at)
+    if delay > 0:
+        time.sleep(delay)
+    _network_calls += 1
+    _last_request_at = time.monotonic()
     request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "GM-TV-Plus-Artwork/4.0 (central metadata pipeline)",
+            "User-Agent": USER_AGENT,
             "Accept": "application/json",
             **(headers or {}),
         },
     )
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        return json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        if exc.code == 429:
+            retry = exc.headers.get("Retry-After", "3600")
+            try:
+                seconds = float(retry)
+            except ValueError:
+                try:
+                    seconds = (parsedate_to_datetime(retry) - _utc_now()).total_seconds()
+                except (TypeError, ValueError):
+                    seconds = 3600
+            _backoff_until = time.monotonic() + max(seconds, 3600)
+        raise
 
 
 def _utc_now():
@@ -185,6 +221,9 @@ def _is_fresh_validated(entry):
         entry
         and entry.get("status") == "validated"
         and entry.get("resolverVersion") == RESOLVER_VERSION
+        and entry.get("semanticStatus") == "validated"
+        and entry.get("fetchStatus") == "ok"
+        and entry.get("visualStatus") == "approved"
         and isinstance(entry.get("url"), str)
         and entry["url"].startswith("https://")
     )
@@ -198,23 +237,28 @@ def _retry_blocked(entry):
 
 
 def _classify_labels(labels):
-    values = [normalize(label) for label in labels if label]
+    # Entity-name stop words are meaningful in type labels ("football club").
+    def label_text(value):
+        value = unicodedata.normalize("NFKD", value.lower())
+        value = "".join(c for c in value if not unicodedata.combining(c))
+        return re.sub(r"[^a-z0-9]+", " ", value).strip()
+    values = [label_text(label) for label in labels if label]
     national_markers = (
         "national association football team", "national football team",
-        "national soccer team", "selecao nacional futebol",
+        "national soccer team", "selecao nacional de futebol", "selecao nacional futebol",
     )
     federation_markers = (
         "football federation", "soccer federation", "football association",
-        "football governing body", "federacao futebol", "confederacao futebol",
+        "football governing body", "federacao de futebol", "confederacao de futebol",
     )
     club_markers = (
-        "association football club", "football club", "soccer club", "clube futebol",
+        "association football club", "football club", "soccer club", "clube de futebol",
     )
     competition_markers = (
         "association football competition", "football competition",
         "association football league", "football league", "soccer league",
         "football tournament", "sports league", "competicao futebol",
-        "liga futebol", "torneio futebol",
+        "liga de futebol", "torneio de futebol", "competicao de futebol",
     )
 
     def has(markers):
@@ -231,6 +275,7 @@ def _classify_labels(labels):
     return "unknown"
 
 
+@lru_cache(maxsize=1024)
 def wikidata_entity_type(qid):
     query = urllib.parse.urlencode({
         "action": "wbgetentities",
@@ -296,6 +341,8 @@ def wikidata_search(name, kind, country_hint=None, search_name=None):
     terms.append(base)
 
     seen = set()
+    matches = set()
+    wanted = {artwork_name(name), artwork_name(base)}
     for term in terms:
         for language in ("en", "pt"):
             query = urllib.parse.urlencode({
@@ -313,9 +360,13 @@ def wikidata_search(name, kind, country_hint=None, search_name=None):
                 if not qid or qid in seen:
                     continue
                 seen.add(qid)
+                names = [result.get("label"), (result.get("match") or {}).get("text")]
+                if not any(artwork_name(label) in wanted for label in names if label):
+                    continue
                 if wikidata_entity_type(qid) in expected:
-                    return qid
-    return None
+                    matches.add(qid)
+    # Do not pick the first search result when the identity is ambiguous.
+    return next(iter(matches)) if len(matches) == 1 else None
 
 
 def wikidata_logo_filename(qid):
@@ -415,7 +466,7 @@ def verify_artwork_url(url, timeout=20):
     request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "GM-TV-Plus-Artwork/4.0",
+            "User-Agent": USER_AGENT,
             "Accept": "image/avif,image/webp,image/png,image/*,*/*;q=0.8",
             "Range": "bytes=0-1023",
         },
@@ -473,14 +524,16 @@ def _unresolved(name, qid=None, error=None):
     }
 
 
-def adopt_trusted_provider_artwork(name, kind, url, cache, provider):
+def adopt_trusted_provider_artwork(name, kind, url, cache, provider, competition_name=None):
     if not isinstance(url, str) or not url.startswith("https://"):
         return None
     if provider != "football-data":
         return None
     if not verify_artwork_url(url):
         return None
-    key = f"{kind}:{normalize(name)}"
+    key = f"{kind}:{artwork_name(name)}"
+    if kind == "team" and competition_name:
+        key = scoped_team_key(name, competition_name)
     info = {"url": url, "width": None, "height": None, "mime": None}
     cache[key] = _validated(
         name,
@@ -493,15 +546,22 @@ def adopt_trusted_provider_artwork(name, kind, url, cache, provider):
     return url
 
 
-def resolve_artwork(name, kind, cache, country_hint=None, search_name=None, force=False):
-    normalized = normalize(name)
+def resolve_artwork(name, kind, cache, country_hint=None, search_name=None, force=False,
+                    competition_name=None):
+    normalized = artwork_name(name)
     if not normalized:
         return None
     key = f"{kind}:{normalized}"
+    if kind == "team" and competition_name:
+        key = scoped_team_key(name, competition_name)
     previous = cache.get(key) or {}
 
     if not force and _is_fresh_validated(previous):
         return previous.get("url")
+    reviewed = find_catalog_artwork(name, kind, competition_name, country_hint)
+    if reviewed:
+        cache[key] = catalog_entry(reviewed, name, RESOLVER_VERSION)
+        return cache[key]["url"]
     if not force and _retry_blocked(previous):
         return None
 
@@ -532,9 +592,9 @@ def resolve_artwork(name, kind, cache, country_hint=None, search_name=None, forc
         )
         filename = wikidata_logo_filename(qid)
         provider = "wikidata-commons"
-        if not filename and qid:
-            filename = commons_search_logo_file(search_name or name)
-            provider = "wikimedia-commons-search"
+        # An arbitrary Commons search thumbnail is not proof of identity.
+        # Only a reviewed catalog entry, curated file, or the entity's P154
+        # can be automatically published.
         info = commons_thumb_info(filename)
         if (
             info
@@ -554,6 +614,9 @@ def resolve_artwork(name, kind, cache, country_hint=None, search_name=None, forc
     except Exception as exc:
         error = f"{type(exc).__name__}: {exc}"
 
+    if _is_fresh_validated(previous):
+        cache[key] = {**previous, "lastRefreshError": error}
+        return previous["url"]
     cache[key] = _unresolved(
         name,
         qid=qid or previous.get("qid"),
@@ -579,6 +642,7 @@ def competition_search_name(name):
 
 
 def prime_visual_catalog(cache):
+    prime_catalog(cache, RESOLVER_VERSION)
     stats = {
         "competitionsTotal": 0,
         "competitionsValidated": 0,

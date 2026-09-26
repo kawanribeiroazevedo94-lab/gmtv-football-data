@@ -22,21 +22,29 @@ class ArtworkCacheV2Tests(unittest.TestCase):
         cls.v1 = json.loads(V1_PATH.read_text(encoding="utf-8"))
 
     def test_every_v1_entry_is_preserved_in_v2(self):
-        self.assertEqual(set(self.cache["entries"]), set(self.v1))
+        self.assertTrue(set(self.v1).issubset(self.cache["entries"]))
 
-    def test_only_resolver_v4_validated_artwork_is_publishable(self):
+    def test_publishable_artwork_has_all_validation_gates(self):
         for key, old in self.v1.items():
             entry = self.cache["entries"][key]
-            expected = bool(
+            validated_legacy = bool(
                 old.get("status") == "validated"
                 and old.get("resolverVersion") == 4
+                and old.get("semanticStatus") == "validated"
+                and old.get("fetchStatus") == "ok"
+                and old.get("visualStatus") == "approved"
                 and old.get("url")
             )
-            self.assertEqual(entry["publishable"], expected, key)
-            if expected:
+            if validated_legacy:
                 self.assertEqual(entry["resolutionStatus"], "validated")
                 self.assertEqual(entry["artworkUrl"], old["url"])
                 self.assertEqual(MODULE.get_publishable_url(entry), old["url"])
+            if entry["publishable"]:
+                for field, expected in (("resolutionStatus", "validated"),
+                                        ("semanticStatus", "validated"),
+                                        ("fetchStatus", "ok"), ("visualStatus", "approved")):
+                    self.assertEqual(entry[field], expected, key)
+                self.assertTrue(entry["artworkUrl"].startswith("https://"))
             else:
                 self.assertIsNone(entry["artworkUrl"])
                 self.assertIsNone(MODULE.get_publishable_url(entry))

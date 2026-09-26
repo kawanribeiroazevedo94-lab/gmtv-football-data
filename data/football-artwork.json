@@ -1,0 +1,7484 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-24T13:02:11Z",
+  "records": [
+    {
+      "id": "espn:competition:630",
+      "name": "Brasileirão Série A",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Brasileirão",
+        "Brazil Serie A",
+        "Brazilian Serie A",
+        "Campeonato Brasileiro",
+        "Campeonato Brasileiro Série A"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/85.png",
+      "league": "bra.1",
+      "leagues": [],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:4007",
+      "name": "Brasileirão Série B",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Brazil Serie B",
+        "Brazilian Serie B",
+        "Campeonato Brasileiro Série B"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+      "league": "bra.2",
+      "leagues": [],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:8306",
+      "name": "Copa do Brasil",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Copa do Brazil"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/528.png",
+      "league": "bra.copa_do_brazil",
+      "leagues": [],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:2265",
+      "name": "Campeonato Carioca",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Brazil Carioca",
+        "Brazilian Campeonato Carioca"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2265.png",
+      "league": "bra.camp.carioca",
+      "leagues": [],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:10872",
+      "name": "Campeonato Mineiro",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Brazil Mineiro",
+        "Brazilian Campeonato Mineiro"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2360.png",
+      "league": "bra.camp.mineiro",
+      "leagues": [],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:2272",
+      "name": "Campeonato Gaúcho",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Brazil Gaucho",
+        "Brazilian Campeonato Gaucho"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2272.png",
+      "league": "bra.camp.gaucho",
+      "leagues": [],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:783",
+      "name": "Copa Libertadores",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "CONMEBOL Libertadores"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/58.png",
+      "league": "conmebol.libertadores",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:5454",
+      "name": "Copa Sul-Americana",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "CONMEBOL Sudamericana",
+        "Copa Sudamericana"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1208.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:8333",
+      "name": "Recopa Sul-Americana",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "CONMEBOL Recopa"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2335.png",
+      "league": "conmebol.recopa",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:700",
+      "name": "Premier League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "English Premier League"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png",
+      "league": "eng.1",
+      "leagues": [],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:740",
+      "name": "La Liga",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "LALIGA",
+        "LaLiga",
+        "Spanish LALIGA"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
+      "league": "esp.1",
+      "leagues": [],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:730",
+      "name": "Serie A",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Italian Serie A"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/12.png",
+      "league": "ita.1",
+      "leagues": [],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:720",
+      "name": "Bundesliga",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "German Bundesliga"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/10.png",
+      "league": "ger.1",
+      "leagues": [],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:710",
+      "name": "Ligue 1",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "French Ligue 1"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/9.png",
+      "league": "fra.1",
+      "leagues": [],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:715",
+      "name": "Liga Portugal",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Liga Portugal Betclic",
+        "Portuguese Liga",
+        "Portuguese Primeira Liga",
+        "Primeira Liga"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/14.png",
+      "league": "por.1",
+      "leagues": [],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:725",
+      "name": "Eredivisie",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Dutch Eredivisie"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/11.png",
+      "league": "ned.1",
+      "leagues": [],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:775",
+      "name": "UEFA Champions League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2.png",
+      "league": "uefa.champions",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:776",
+      "name": "UEFA Europa League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2310.png",
+      "league": "uefa.europa",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:20296",
+      "name": "UEFA Conference League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
+      "league": "uefa.europa.conf",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:5462",
+      "name": "UEFA Super Cup",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1272.png",
+      "league": "uefa.super_cup",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3918",
+      "name": "FA Cup",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "English FA Cup"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/40.png",
+      "league": "eng.fa",
+      "leagues": [],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3951",
+      "name": "Copa del Rey",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Spanish Copa del Rey"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/80.png",
+      "league": "esp.copa_del_rey",
+      "leagues": [],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3956",
+      "name": "Coppa Italia",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/2192.png",
+      "league": "ita.coppa_italia",
+      "leagues": [],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3954",
+      "name": "DFB-Pokal",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Copa da Alemanha",
+        "German Cup"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2061.png",
+      "league": "ger.dfb_pokal",
+      "leagues": [],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:770",
+      "name": "MLS",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Major League Soccer"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/19.png",
+      "league": "usa.1",
+      "leagues": [],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:760",
+      "name": "Liga MX",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Mexican Liga BBVA MX"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
+      "league": "mex.1",
+      "leagues": [],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:745",
+      "name": "Campeonato Argentino",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Argentine LPF",
+        "Argentine Liga Profesional de Fútbol",
+        "Liga Profesional de Fútbol"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1.png",
+      "league": "arg.1",
+      "leagues": [],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:21231",
+      "name": "Saudi Pro League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2488.png",
+      "league": "ksa.1",
+      "leagues": [],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:5501",
+      "name": "FIFA Club World Cup",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Club World Cup"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1932.png",
+      "league": "fifa.cwc",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:606",
+      "name": "Copa do Mundo",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "FIFA World Cup"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/4.png",
+      "league": "fifa.world",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:780",
+      "name": "Copa América",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/83.png",
+      "league": "conmebol.america",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:781",
+      "name": "Eurocopa",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "EURO",
+        "UEFA European Championship"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/74.png",
+      "league": "uefa.euro",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:2395",
+      "name": "UEFA Nations League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2395.png",
+      "league": "uefa.nations",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:19483",
+      "name": "UEFA Women's Champions League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Champions League Feminina",
+        "Liga dos Campeões Feminina"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+      "league": "uefa.wchampions",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3914",
+      "name": "EFL Championship",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "English League Championship"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/24.png",
+      "league": "eng.2",
+      "leagues": [],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3915",
+      "name": "EFL League One",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "English League One"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/25.png",
+      "league": "eng.3",
+      "leagues": [],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3916",
+      "name": "EFL League Two",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "English League Two"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/26.png",
+      "league": "eng.4",
+      "leagues": [],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3920",
+      "name": "EFL Cup",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Carabao Cup",
+        "Copa da Liga Inglesa",
+        "English Carabao Cup"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/41.png",
+      "league": "eng.league_cup",
+      "leagues": [],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:8102",
+      "name": "Supercopa de España",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Spanish Supercopa"
+      ],
+      "url": "https://a.espncdn.com/guid/f3ea21b4-d55a-317d-9e8e-6dfd6cd7963a/logos/default-dark.png",
+      "league": "esp.super_cup",
+      "leagues": [],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:8103",
+      "name": "Supercoppa Italiana",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Italian Supercoppa"
+      ],
+      "url": "https://a.espncdn.com/guid/9ac93c94-9f6b-4428-839d-1b8a5fdc7a6a/logos/default-dark.png",
+      "league": "ita.super_cup",
+      "leagues": [],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3927",
+      "name": "2. Bundesliga",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "German 2. Bundesliga"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+      "league": "ger.2",
+      "leagues": [],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3952",
+      "name": "Coupe de France",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/182.png",
+      "league": "fra.coupe_de_france",
+      "leagues": [],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3933",
+      "name": "Eerste Divisie",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Dutch Keuken Kampioen Divisie",
+        "Keuken Kampioen Divisie"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/105.png",
+      "league": "ned.2",
+      "leagues": [],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3957",
+      "name": "KNVB Beker",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Dutch KNVB Beker"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2196.png",
+      "league": "ned.cup",
+      "leagues": [],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3901",
+      "name": "Belgian Pro League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/6.png",
+      "league": "bel.1",
+      "leagues": [],
+      "country": "Belgium",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:735",
+      "name": "Scottish Premiership",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "SPFL Premiership"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/45.png",
+      "league": "sco.1",
+      "leagues": [],
+      "country": "Scotland",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3946",
+      "name": "Süper Lig",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Turkish Super Lig"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/18.png",
+      "league": "tur.1",
+      "leagues": [],
+      "country": "Turkey",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3955",
+      "name": "Super League Greece",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Greek Super League"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/98.png",
+      "league": "gre.1",
+      "leagues": [],
+      "country": "Greece",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3907",
+      "name": "Austrian Bundesliga",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/5.png",
+      "league": "aut.1",
+      "leagues": [],
+      "country": "Austria",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3945",
+      "name": "Allsvenskan",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Swedish Allsvenskan"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png",
+      "league": "swe.1",
+      "leagues": [],
+      "country": "Sweden",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:8107",
+      "name": "Copa Argentina",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2320.png",
+      "league": "arg.copa",
+      "leagues": [],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:650",
+      "name": "Categoría Primera A",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Colombian Primera A"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1543.png",
+      "league": "col.1",
+      "leagues": [],
+      "country": "Colombia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:8313",
+      "name": "Copa Colombia",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2332.png",
+      "league": "col.copa",
+      "leagues": [],
+      "country": "Colombia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:680",
+      "name": "Uruguayan Primera División",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Liga AUF Uruguaya"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1592.png",
+      "league": "uru.1",
+      "leagues": [],
+      "country": "Uruguay",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:640",
+      "name": "Chilean Primera División",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Chilean Primera"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/86.png",
+      "league": "chi.1",
+      "leagues": [],
+      "country": "Chile",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:660",
+      "name": "LigaPro Serie A",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "LigaPro Ecuador"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1944.png",
+      "league": "ecu.1",
+      "leagues": [],
+      "country": "Ecuador",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:670",
+      "name": "Liga 1",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Peru Liga 1",
+        "Peruvian Liga 1"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1813.png",
+      "league": "per.1",
+      "leagues": [],
+      "country": "Peru",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:620",
+      "name": "División Profesional",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Bolivian Liga Profesional"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1949.png",
+      "league": "bol.1",
+      "leagues": [],
+      "country": "Bolivia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3932",
+      "name": "Liga de Expansión MX",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Mexican Liga de Expansión MX"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2306.png",
+      "league": "mex.2",
+      "leagues": [],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:4002",
+      "name": "USL Championship",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2292.png",
+      "league": "usa.usl.1",
+      "leagues": [],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:5337",
+      "name": "U.S. Open Cup",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/69.png",
+      "league": "usa.open",
+      "leagues": [],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:19425",
+      "name": "Leagues Cup",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2410.png",
+      "league": "concacaf.leagues.cup",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:750",
+      "name": "J1 League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Japanese J.League",
+        "Japanese J1 League"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2199.png",
+      "league": "jpn.1",
+      "leagues": [],
+      "country": "Japan",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:8376",
+      "name": "Chinese Super League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2350.png",
+      "league": "chn.1",
+      "leagues": [],
+      "country": "China",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3906",
+      "name": "A-League Men",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Australian A-League Men"
+      ],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1308.png",
+      "league": "aus.1",
+      "leagues": [],
+      "country": "Australia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:5699",
+      "name": "CONCACAF Champions Cup",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2298.png",
+      "league": "concacaf.champions",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:3902",
+      "name": "AFC Champions League Elite",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2200.png",
+      "league": "afc.champions",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:2466",
+      "name": "AFC Champions League Two",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2243.png",
+      "league": "afc.cup",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:competition:2391",
+      "name": "CAF Champions League",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2391.png",
+      "league": "caf.champions",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9739",
+      "name": "Aldosivi",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9739.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3",
+      "name": "Argentinos Juniors",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Argentinos"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9785",
+      "name": "Atlético Tucumán",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Atl Tucumán"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:235",
+      "name": "Banfield",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:10060",
+      "name": "Barracas Central",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Barracas"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4",
+      "name": "Belgrano (Córdoba)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Belgrano"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:5",
+      "name": "Boca Juniors",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Boca"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:11989",
+      "name": "Central Córdoba (Santiago del Estero)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "C. Córdoba (SE)"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:8950",
+      "name": "Defensa y Justicia",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Def. y Jus."
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:17702",
+      "name": "Deportivo Riestra",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Riestra"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:8",
+      "name": "Estudiantes de La Plata",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Estudiantes"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:19685",
+      "name": "Estudiantes de Río Cuarto",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Estudiantes RC"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19685.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:11972",
+      "name": "Gimnasia (Mendoza)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Gimnasia (M)"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9",
+      "name": "Gimnasia La Plata",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Gimnasia LP"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:10",
+      "name": "Huracán",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:11",
+      "name": "Independiente",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9744",
+      "name": "Independiente Rivadavia",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Ind. Rivadavia"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2975",
+      "name": "Instituto (Córdoba)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Instituto"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:12",
+      "name": "Lanús",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:14",
+      "name": "Newell's Old Boys",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Newell's"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7764",
+      "name": "Platense",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:15",
+      "name": "Racing Club",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Racing"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:16",
+      "name": "River Plate",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:17",
+      "name": "Rosario Central",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18",
+      "name": "San Lorenzo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:10158",
+      "name": "Sarmiento (Junín)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Sarmiento (J)"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:19",
+      "name": "Talleres (Córdoba)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Talleres"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7767",
+      "name": "Tigre",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20",
+      "name": "Unión (Santa Fe)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Unión (SF)"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21",
+      "name": "Vélez Sarsfield",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Vélez"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+      "league": "arg.1",
+      "leagues": [
+        "arg.1"
+      ],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3458",
+      "name": "Athletico-PR",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Athletico Paranaense"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7632",
+      "name": "Atlético Mineiro",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Atlético-MG"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9967",
+      "name": "Bahia",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6086",
+      "name": "Botafogo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9318",
+      "name": "Chapecoense",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:874",
+      "name": "Corinthians",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3456",
+      "name": "Coritiba",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2022",
+      "name": "Cruzeiro",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:819",
+      "name": "Flamengo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3445",
+      "name": "Fluminense",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6273",
+      "name": "Grêmio",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:1936",
+      "name": "Internacional",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9169",
+      "name": "Mirassol",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2029",
+      "name": "Palmeiras",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.libertadores"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6079",
+      "name": "Red Bull Bragantino",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Bragantino"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4936",
+      "name": "Remo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2674",
+      "name": "Santos",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2026",
+      "name": "São Paulo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3454",
+      "name": "Vasco da Gama",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Vasco"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1",
+        "conmebol.sudamericana"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3457",
+      "name": "Vitória",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+      "league": "bra.1",
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6154",
+      "name": "América Mineiro",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "América-MG"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20851",
+      "name": "Athletic",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Athletic Club"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:10357",
+      "name": "Atlético Goianiense",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Atlético-GO"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9966",
+      "name": "Avaí",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:10281",
+      "name": "Botafogo-SP",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9970",
+      "name": "CRB",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9969",
+      "name": "Ceará",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9971",
+      "name": "Criciúma",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:17313",
+      "name": "Cuiabá",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6272",
+      "name": "Fortaleza",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3395",
+      "name": "Goiás",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6270",
+      "name": "Juventude",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:17333",
+      "name": "Londrina",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18127",
+      "name": "Novorizontino",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Grêmio Novorizontino"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7633",
+      "name": "Náutico",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18187",
+      "name": "Operário PR",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3459",
+      "name": "Ponte Preta",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7635",
+      "name": "Sport",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Sport Recife"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:11268",
+      "name": "São Bernardo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9973",
+      "name": "Vila Nova",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Vila Nova FC"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+      "league": "bra.2",
+      "leagues": [
+        "bra.2"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6097",
+      "name": "2 de Mayo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6097.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:19425",
+      "name": "Always Ready",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19425.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4815",
+      "name": "Atlético Junior",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Atl. Junior"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2686",
+      "name": "Barcelona SC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Barcelona"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2681",
+      "name": "Bolívar",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2681.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6037",
+      "name": "Carabobo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6037.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2671",
+      "name": "Cerro Porteño",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:8186",
+      "name": "Coquimbo Unido",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Coquimbo"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:11995",
+      "name": "Cusco FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Cusco"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:5489",
+      "name": "Deportes Tolima",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Tolima"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:17090",
+      "name": "Deportivo La Guaira",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "La Guaira"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17090.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4818",
+      "name": "Deportivo Táchira",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Táchira"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4818.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7385",
+      "name": "Guaraní",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7385.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4134",
+      "name": "Huachipato",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4134.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2690",
+      "name": "Independiente Medellín",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Ind. Medellín"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:5488",
+      "name": "Independiente Santa Fe",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Santa Fe"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:17086",
+      "name": "Independiente del Valle",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Ind. del Valle"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:8416",
+      "name": "Juventud",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2670",
+      "name": "Libertad",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2670.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4816",
+      "name": "Liga de Quito",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "LDU"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:5492",
+      "name": "Liverpool",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5492.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2684",
+      "name": "Nacional",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:10311",
+      "name": "Nacional Potosí",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "N Potosí"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10311.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6072",
+      "name": "O'Higgins",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6072.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2683",
+      "name": "Peñarol",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2673",
+      "name": "Sporting Cristal",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:10094",
+      "name": "UCV FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10094.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores",
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:885",
+      "name": "Universidad Católica",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "U Católica"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2685",
+      "name": "Universitario",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
+      "league": "conmebol.libertadores",
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18995",
+      "name": "Academia Puerto Cabello",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Puerto Cabello"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18995.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:5267",
+      "name": "Alianza Atlético",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Alianza Atl"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5267.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:8109",
+      "name": "América de Cali",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "América Cali"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8109.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6137",
+      "name": "Atlético Bucaramanga",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Bucaramanga"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6137.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:5264",
+      "name": "Atlético Nacional",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Atl. Nacional"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4138",
+      "name": "Audax Italiano",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4138.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6047",
+      "name": "Blooming",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6047.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9999",
+      "name": "Boston River",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9999.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4811",
+      "name": "Caracas FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Caracas"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4811.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3372",
+      "name": "Cienciano del Cusco",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Cienciano"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3372.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2675",
+      "name": "Club Olimpia",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Olimpia"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2675.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4133",
+      "name": "Cobresal",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4133.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:1007",
+      "name": "Defensor Sporting",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Defensor"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/1007.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4812",
+      "name": "Deportivo Cuenca",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Cuenca"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4812.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21819",
+      "name": "Deportivo Garcilaso",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Garcilaso"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21819.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:22517",
+      "name": "Deportivo Recoleta",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Dep. Recoleta"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/22517.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9497",
+      "name": "Guabirá",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9497.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20889",
+      "name": "Independiente Petrolero",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "CI Petrolero"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20889.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21843",
+      "name": "Libertad (Ecuador)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Libertad"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21843.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18439",
+      "name": "Macará",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18439.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7312",
+      "name": "Melgar",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7312.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:13481",
+      "name": "Metropolitanos",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/13481.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:5484",
+      "name": "Millonarios",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5484.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6041",
+      "name": "Monagas SC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Monagas"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6041.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:19002",
+      "name": "Montevideo City Torque",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "MC Torque"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:5584",
+      "name": "Nacional Asunción",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Nacional"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5584.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20695",
+      "name": "Orense",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20695.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4422",
+      "name": "Palestino",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4422.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9903",
+      "name": "Racing (Montevideo)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Racing (M)"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9903.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:22137",
+      "name": "San Antonio Bulo Bulo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Bulo Bulo"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/22137.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7466",
+      "name": "Sportivo Trinidense",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Trinidense"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7466.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4139",
+      "name": "Universidad de Chile",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "U de Chile"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4139.png",
+      "league": "conmebol.sudamericana",
+      "leagues": [
+        "conmebol.sudamericana"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:349",
+      "name": "AFC Bournemouth",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Bournemouth"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:359",
+      "name": "Arsenal",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:362",
+      "name": "Aston Villa",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:337",
+      "name": "Brentford",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:331",
+      "name": "Brighton & Hove Albion",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Brighton"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:363",
+      "name": "Chelsea",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:388",
+      "name": "Coventry City",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Coventry"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:384",
+      "name": "Crystal Palace",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "C Palace"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:368",
+      "name": "Everton",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:370",
+      "name": "Fulham",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:306",
+      "name": "Hull City",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Hull"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:373",
+      "name": "Ipswich Town",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Ipswich"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:357",
+      "name": "Leeds United",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Leeds"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:364",
+      "name": "Liverpool",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:382",
+      "name": "Manchester City",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Man City"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:360",
+      "name": "Manchester United",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Man United",
+        "Man Utd"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:361",
+      "name": "Newcastle United",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Newcastle"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:393",
+      "name": "Nottingham Forest",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Nottm Forest"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:366",
+      "name": "Sunderland",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:367",
+      "name": "Tottenham Hotspur",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Spurs",
+        "Tottenham"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/367.png",
+      "league": "eng.1",
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:96",
+      "name": "Alavés",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:93",
+      "name": "Athletic Bilbao",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Athletic",
+        "Athletic Club"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:1068",
+      "name": "Atlético Madrid",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Atlético"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:83",
+      "name": "Barcelona",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:85",
+      "name": "Celta Vigo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:90",
+      "name": "Deportivo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3751",
+      "name": "Elche",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:88",
+      "name": "Espanyol",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2922",
+      "name": "Getafe",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:1538",
+      "name": "Levante",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:99",
+      "name": "Málaga",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:97",
+      "name": "Osasuna",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:87",
+      "name": "Racing Santander",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Racing"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:101",
+      "name": "Rayo Vallecano",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Rayo"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:244",
+      "name": "Real Betis",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Betis"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:86",
+      "name": "Real Madrid",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:89",
+      "name": "Real Sociedad",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:243",
+      "name": "Sevilla",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:94",
+      "name": "Valencia",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:102",
+      "name": "Villarreal",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+      "league": "esp.1",
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:624",
+      "name": "Algeria",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:202",
+      "name": "Argentina",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:628",
+      "name": "Australia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:474",
+      "name": "Austria",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:459",
+      "name": "Belgium",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:452",
+      "name": "Bosnia-Herzegovina",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [
+        "Bosnia-Herz"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:205",
+      "name": "Brazil",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:206",
+      "name": "Canada",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2597",
+      "name": "Cape Verde",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:208",
+      "name": "Colombia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2850",
+      "name": "Congo DR",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:477",
+      "name": "Croatia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:11678",
+      "name": "Curaçao",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:450",
+      "name": "Czechia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:209",
+      "name": "Ecuador",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2620",
+      "name": "Egypt",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:448",
+      "name": "England",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:478",
+      "name": "France",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:481",
+      "name": "Germany",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4469",
+      "name": "Ghana",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2654",
+      "name": "Haiti",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:469",
+      "name": "Iran",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4375",
+      "name": "Iraq",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4789",
+      "name": "Ivory Coast",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:627",
+      "name": "Japan",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2917",
+      "name": "Jordan",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:203",
+      "name": "Mexico",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2869",
+      "name": "Morocco",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:449",
+      "name": "Netherlands",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2666",
+      "name": "New Zealand",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:464",
+      "name": "Norway",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2659",
+      "name": "Panama",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:210",
+      "name": "Paraguay",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:482",
+      "name": "Portugal",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4398",
+      "name": "Qatar",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:655",
+      "name": "Saudi Arabia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:580",
+      "name": "Scotland",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:654",
+      "name": "Senegal",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:467",
+      "name": "South Africa",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:451",
+      "name": "South Korea",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:164",
+      "name": "Spain",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:466",
+      "name": "Sweden",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:475",
+      "name": "Switzerland",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:659",
+      "name": "Tunisia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:465",
+      "name": "Türkiye",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world",
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:660",
+      "name": "United States",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [
+        "USA"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:212",
+      "name": "Uruguay",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2570",
+      "name": "Uzbekistan",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "league": "fifa.world",
+      "leagues": [
+        "fifa.world"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:172",
+      "name": "AJ Auxerre",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Auxerre"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:174",
+      "name": "AS Monaco",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Monaco"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7868",
+      "name": "Angers",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6997",
+      "name": "Brest",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3236",
+      "name": "Le Havre AC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2697",
+      "name": "Le Mans",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:175",
+      "name": "Lens",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:166",
+      "name": "Lille",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:273",
+      "name": "Lorient",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:167",
+      "name": "Lyon",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:176",
+      "name": "Olympique Marseille",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Marseille"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2502",
+      "name": "Nice",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6851",
+      "name": "Paris FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:160",
+      "name": "Paris Saint-Germain",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "PSG"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:169",
+      "name": "Stade Rennais",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Rennes"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:180",
+      "name": "Strasbourg",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:179",
+      "name": "Toulouse",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:170",
+      "name": "Troyes",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+      "league": "fra.1",
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:598",
+      "name": "1. FC Union Berlin",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Union Berlin"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:131",
+      "name": "Bayer Leverkusen",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Leverkusen"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:132",
+      "name": "Bayern Munich",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Bayern"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:124",
+      "name": "Borussia Dortmund",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Dortmund"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:268",
+      "name": "Borussia Mönchengladbach",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Gladbach"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:125",
+      "name": "Eintracht Frankfurt",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Frankfurt"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3841",
+      "name": "FC Augsburg",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Augsburg"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:122",
+      "name": "FC Cologne",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Cologne"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:127",
+      "name": "Hamburg SV",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Hamburg"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2950",
+      "name": "Mainz",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:11420",
+      "name": "RB Leipzig",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:126",
+      "name": "SC Freiburg",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Freiburg"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3307",
+      "name": "SC Paderborn 07",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Paderborn"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:10388",
+      "name": "SV Elversberg",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Elversberg"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:133",
+      "name": "Schalke 04",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Schalke"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/133.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7911",
+      "name": "TSG Hoffenheim",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Hoffenheim"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:134",
+      "name": "VfB Stuttgart",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Stuttgart"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:137",
+      "name": "Werder Bremen",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Bremen"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+      "league": "ger.1",
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:103",
+      "name": "AC Milan",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Milan"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:104",
+      "name": "AS Roma",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:105",
+      "name": "Atalanta",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:107",
+      "name": "Bologna",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2925",
+      "name": "Cagliari",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2572",
+      "name": "Como",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:109",
+      "name": "Fiorentina",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4057",
+      "name": "Frosinone",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3263",
+      "name": "Genoa",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:110",
+      "name": "Inter Milan",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Internazionale"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:111",
+      "name": "Juventus",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/111.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:112",
+      "name": "Lazio",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:113",
+      "name": "Lecce",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4007",
+      "name": "Monza",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:114",
+      "name": "Napoli",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:115",
+      "name": "Parma",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3997",
+      "name": "Sassuolo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:239",
+      "name": "Torino",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:118",
+      "name": "Udinese",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:17530",
+      "name": "Venezia",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+      "league": "ita.1",
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21833",
+      "name": "Abha",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21833.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:8346",
+      "name": "Al Ahli",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8346.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:131746",
+      "name": "Al Diriyah",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131746.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:8363",
+      "name": "Al Ettifaq",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/8363.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:13033",
+      "name": "Al Fateh",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/13033.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21827",
+      "name": "Al Fayha",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21827.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21964",
+      "name": "Al Hazem",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21964.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:929",
+      "name": "Al Hilal",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/929.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2276",
+      "name": "Al Ittihad",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2276.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21829",
+      "name": "Al Khaleej",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21829.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:22028",
+      "name": "Al Kholood",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/22028.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:817",
+      "name": "Al Nassr",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:22022",
+      "name": "Al Qadsiah",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/22022.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21965",
+      "name": "Al Riyadh",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21965.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:793",
+      "name": "Al Shabab",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/793.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18459",
+      "name": "Al Taawoun",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18459.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:130899",
+      "name": "Neom SC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/130899.png",
+      "league": "ksa.1",
+      "leagues": [
+        "ksa.1"
+      ],
+      "country": "Saudi Arabia",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:227",
+      "name": "América",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Club América"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:226",
+      "name": "Atlante",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/226.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:216",
+      "name": "Atlas",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:15720",
+      "name": "Atlético de San Luis",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Atl. San Luis"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:218",
+      "name": "Cruz Azul",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/218.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:17851",
+      "name": "FC Juarez",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Juarez"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17851.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:219",
+      "name": "Guadalajara",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/219.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:228",
+      "name": "León",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/228.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:220",
+      "name": "Monterrey",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:229",
+      "name": "Necaxa",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/229.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:234",
+      "name": "Pachuca",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/234.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:231",
+      "name": "Puebla",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/231.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:233",
+      "name": "Pumas UNAM",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "UNAM"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/233.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:222",
+      "name": "Querétaro",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/222.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:225",
+      "name": "Santos",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/225.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:232",
+      "name": "Tigres UANL",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Tigres"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/232.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:10125",
+      "name": "Tijuana",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10125.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:223",
+      "name": "Toluca",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png",
+      "league": "mex.1",
+      "leagues": [
+        "mex.1"
+      ],
+      "country": "Mexico",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2726",
+      "name": "ADO Den Haag",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:140",
+      "name": "AZ Alkmaar",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:139",
+      "name": "Ajax Amsterdam",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Ajax"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2566",
+      "name": "Excelsior",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2566.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:145",
+      "name": "FC Groningen",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:152",
+      "name": "FC Twente",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:153",
+      "name": "FC Utrecht",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/153.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:142",
+      "name": "Feyenoord Rotterdam",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Feyenoord"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:143",
+      "name": "Fortuna Sittard",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Fortuna"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3706",
+      "name": "Go Ahead Eagles",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3706.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:146",
+      "name": "Heerenveen",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/146.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:147",
+      "name": "NEC Nijmegen",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "NEC"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2565",
+      "name": "PEC Zwolle",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2565.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:148",
+      "name": "PSV Eindhoven",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "PSV"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3736",
+      "name": "SC Cambuur",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Cambuur"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:151",
+      "name": "Sparta Rotterdam",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Sparta"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/151.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3735",
+      "name": "Telstar",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:156",
+      "name": "Willem II",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
+      "league": "ned.1",
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21607",
+      "name": "Académico de Viseu",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Académico"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21613",
+      "name": "Alverca",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21613.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:15784",
+      "name": "Arouca",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/15784.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:1929",
+      "name": "Benfica",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2994",
+      "name": "Braga",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3472",
+      "name": "C.D. Nacional",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Nacional"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3472.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21581",
+      "name": "Casa Pia",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:12216",
+      "name": "Estoril",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12216.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21610",
+      "name": "Estrela",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21610.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:12698",
+      "name": "FC Famalicao",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:437",
+      "name": "FC Porto",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Porto"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3699",
+      "name": "Gil Vicente",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3699.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:552",
+      "name": "Maritimo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/552.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3696",
+      "name": "Moreirense",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3696.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:3822",
+      "name": "Rio Ave",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3822.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:12215",
+      "name": "Santa Clara",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2250",
+      "name": "Sporting CP",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Sporting"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:5309",
+      "name": "Vitória de Guimaraes",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Vitória"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/5309.png",
+      "league": "por.1",
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:585",
+      "name": "Albania",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/alb.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:587",
+      "name": "Andorra",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/and.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:579",
+      "name": "Armenia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/fifa.armenia.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:581",
+      "name": "Azerbaijan",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/aze.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:583",
+      "name": "Belarus",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/blr.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:462",
+      "name": "Bulgaria",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/bul.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:445",
+      "name": "Cyprus",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/cyp.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:479",
+      "name": "Denmark",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:444",
+      "name": "Estonia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/est.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:447",
+      "name": "Faroe Islands",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/fro.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:458",
+      "name": "Finland",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/fin.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:584",
+      "name": "Georgia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/geo.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:16721",
+      "name": "Gibraltar",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/gib.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:455",
+      "name": "Greece",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:480",
+      "name": "Hungary",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/hun.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:470",
+      "name": "Iceland",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/isl.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:461",
+      "name": "Israel",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/isr.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:162",
+      "name": "Italy",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:2619",
+      "name": "Kazakhstan",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/kaz.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18272",
+      "name": "Kosovo",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/kosovo.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:456",
+      "name": "Latvia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/lva.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:589",
+      "name": "Liechtenstein",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/lie.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:460",
+      "name": "Lithuania",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/ltu.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:582",
+      "name": "Luxembourg",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/lux.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:453",
+      "name": "Malta",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/mlt.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:483",
+      "name": "Moldova",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/mda.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6775",
+      "name": "Montenegro",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/mtg.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:463",
+      "name": "North Macedonia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/mkd.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:586",
+      "name": "Northern Ireland",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [
+        "N Ireland"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:471",
+      "name": "Poland",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:476",
+      "name": "Republic of Ireland",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [
+        "Rep Ireland"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/irl.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:473",
+      "name": "Romania",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/rom.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:588",
+      "name": "San Marino",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/smr.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6757",
+      "name": "Serbia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/sba.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:468",
+      "name": "Slovakia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/svk.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:472",
+      "name": "Slovenia",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/svn.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:457",
+      "name": "Ukraine",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/ukr.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:578",
+      "name": "Wales",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png",
+      "league": "uefa.nations",
+      "leagues": [
+        "uefa.nations"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:19973",
+      "name": "Arsenal (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Arsenal"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19973.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:131643",
+      "name": "Austria Vienna (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Austria Vienna",
+        "Austria Wien",
+        "Vienna"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21124",
+      "name": "BK Häcken (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "BK Häcken"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20091",
+      "name": "Barcelona (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Barcelona"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20103",
+      "name": "Bayern Munich (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Bayern",
+        "Bayern Munich"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20103.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20830",
+      "name": "Benfica (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Benfica"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:19970",
+      "name": "Chelsea (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Chelsea"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21127",
+      "name": "HB Køge (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "HB Køge"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21127.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:131635",
+      "name": "Internazionale (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Inter Milan",
+        "Internazionale"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131635.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20092",
+      "name": "Juventus (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Juventus"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:19257",
+      "name": "Manchester City (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Man City",
+        "Manchester City"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:131423",
+      "name": "OH Leuven (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "OH Leuven",
+        "Oud-Heverlee Leuven"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/131423.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:19256",
+      "name": "OL Lyonnes (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Lyonnes",
+        "OL Lyonnes"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21640",
+      "name": "Paris FC (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Paris FC"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:19258",
+      "name": "Paris Saint-Germain (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "PSG",
+        "Paris Saint-Germain"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21128",
+      "name": "Real Madrid (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Real Madrid"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21685",
+      "name": "Roma (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Roma"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20835",
+      "name": "Servette (Feminino)",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Servette",
+        "Servette Chênois"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20835.png",
+      "league": "uefa.wchampions",
+      "leagues": [
+        "uefa.wchampions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18418",
+      "name": "Atlanta United FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Atlanta"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20906",
+      "name": "Austin FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Austin"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9720",
+      "name": "CF Montréal",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21300",
+      "name": "Charlotte FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Charlotte"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:182",
+      "name": "Chicago Fire FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Chicago"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:184",
+      "name": "Colorado Rapids",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Colorado"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:183",
+      "name": "Columbus Crew",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Columbus"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:193",
+      "name": "D.C. United",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18267",
+      "name": "FC Cincinnati",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Cincinnati"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:185",
+      "name": "FC Dallas",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Dallas"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:6077",
+      "name": "Houston Dynamo FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Houston"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:20232",
+      "name": "Inter Miami CF",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Miami",
+        "Inter Miami"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:187",
+      "name": "LA Galaxy",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18966",
+      "name": "LAFC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:17362",
+      "name": "Minnesota United FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Minnesota"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:18986",
+      "name": "Nashville SC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Nashville"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:189",
+      "name": "New England Revolution",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "New England"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:17606",
+      "name": "New York City FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "NYCFC"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:12011",
+      "name": "Orlando City SC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Orlando"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:10739",
+      "name": "Philadelphia Union",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Philadelphia"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9723",
+      "name": "Portland Timbers",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Portland"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:4771",
+      "name": "Real Salt Lake",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Salt Lake"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:190",
+      "name": "Red Bull New York",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Red Bull NY"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:22529",
+      "name": "San Diego FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "San Diego"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:191",
+      "name": "San Jose Earthquakes",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "San Jose"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9726",
+      "name": "Seattle Sounders FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Seattle"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:186",
+      "name": "Sporting Kansas City",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Kansas City"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:21812",
+      "name": "St. Louis CITY SC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "St. Louis"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:7318",
+      "name": "Toronto FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Toronto"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:9727",
+      "name": "Vancouver Whitecaps",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "Vancouver"
+      ],
+      "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+      "league": "usa.1",
+      "leagues": [
+        "usa.1"
+      ],
+      "country": "USA",
+      "status": "validated"
+    },
+    {
+      "id": "commons:File:LOGO PAULISTÃO 2024.svg",
+      "name": "Campeonato Paulista",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/LOGO_PAULIST%C3%83O_2024.svg/330px-LOGO_PAULIST%C3%83O_2024.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": "bra.camp.paulista",
+      "leagues": [],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "commons:File:Primera B Nacional logo.png",
+      "name": "Primera Nacional",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Primera_B_Nacional_logo.png/330px-Primera_B_Nacional_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": "arg.2",
+      "leagues": [],
+      "country": "Argentina",
+      "status": "validated"
+    },
+    {
+      "id": "commons:File:Superliga Betplay Dimayor.svg",
+      "name": "Superliga Colombiana",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Superliga_Betplay_Dimayor.svg/330px-Superliga_Betplay_Dimayor.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": "col.superliga",
+      "leagues": [],
+      "country": "Colombia",
+      "status": "validated"
+    },
+    {
+      "id": "commons:File:Logo-division-de-honor.png",
+      "name": "Paraguayan Primera División",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Logo-division-de-honor.png/330px-Logo-division-de-honor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": "par.1",
+      "leagues": [],
+      "country": "Paraguay",
+      "status": "validated"
+    },
+    {
+      "id": "commons:File:Supercopa Rei logo (2023).svg",
+      "name": "Supercopa do Brasil",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [
+        "Supercopa Rei",
+        "Supercopa Rei Superbet"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Supercopa_Rei_logo_%282023%29.svg/330px-Supercopa_Rei_logo_%282023%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": "bra.supercopa_do_brazil",
+      "leagues": [],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "commons:File:2024 FIFA Intercontinental Cup logo.svg",
+      "name": "FIFA Intercontinental Cup",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/2024_FIFA_Intercontinental_Cup_logo.svg/330px-2024_FIFA_Intercontinental_Cup_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": "fifa.intercontinental_cup",
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    }
+  ]
+}

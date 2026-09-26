@@ -11,6 +11,10 @@ on:
     paths:
       - "scripts/update_feed.py"
       - "scripts/free_sources.py"
+      - "scripts/artwork_resolver.py"
+      - "scripts/artwork_catalog.py"
+      - "scripts/generate_artwork_catalog.py"
+      - "data/artwork-catalog.json"
       - "scripts/sync_artwork_cache_v2.py"
       - "tests/**"
       - "requirements.txt"
@@ -60,6 +64,9 @@ jobs:
       - name: Generate feed v2
         run: python scripts/generate_feed_v2.py
 
+      - name: Publish reviewed artwork catalog
+        run: python scripts/generate_artwork_catalog.py
+
       - name: Validate feed
         run: |
           python - <<'PY'
@@ -105,6 +112,7 @@ jobs:
           git config user.email "gmtv-football-bot@users.noreply.github.com"
 
           git add             data/football-feed.json             data/football-feed-v2.json             data/artwork-cache.json             data/artwork-cache-v2.json
+          git add data/football-artwork.json
 
           if git diff --cached --quiet; then
             echo "Feed unchanged."

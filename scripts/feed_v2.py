@@ -5,6 +5,7 @@ import copy
 from collections import defaultdict
 
 from artwork_cache_v2 import get_publishable_url
+from artwork_catalog import artwork_name, scoped_team_key
 from entity_registry import normalize_identity, resolve_entity
 
 SCHEMA_VERSION = 2
@@ -75,7 +76,16 @@ def _select_artwork_entry(
     gm_id,
     cache_entries,
     cache_by_gm_id,
+    competition_name=None,
 ):
+    if entity_type != "competition" and competition_name:
+        scoped = cache_entries.get(scoped_team_key(name, competition_name))
+        if scoped is not None:
+            return scoped
+    prefix = "competition" if entity_type == "competition" else "team"
+    exact = cache_entries.get(f"{prefix}:{artwork_name(name)}")
+    if exact is not None:
+        return exact
     if gm_id:
         candidates = cache_by_gm_id.get(gm_id) or []
         if candidates:
@@ -164,6 +174,7 @@ def _entity_v2(
         gm_id=gm_id,
         cache_entries=cache_entries,
         cache_by_gm_id=cache_by_gm_id,
+        competition_name=(match.get("competition") or {}).get("name"),
     )
 
     output = {
