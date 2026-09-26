@@ -1,0 +1,518 @@
+[
+  {
+    "id": "espn:team:585",
+    "name": "Albania",
+    "alias": "Albania",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:481",
+    "name": "Germany",
+    "alias": "Alemanha",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:587",
+    "name": "Andorra",
+    "alias": "Andorra",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:579",
+    "name": "Armenia",
+    "alias": "Armênia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:581",
+    "name": "Azerbaijan",
+    "alias": "Azerbaijão",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:583",
+    "name": "Belarus",
+    "alias": "Bielorússia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:462",
+    "name": "Bulgaria",
+    "alias": "Bulgária",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:459",
+    "name": "Belgium",
+    "alias": "Bélgica",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:452",
+    "name": "Bosnia-Herzegovina",
+    "alias": "Bósnia e Herzegovina",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:2619",
+    "name": "Kazakhstan",
+    "alias": "Cazaquistão",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:445",
+    "name": "Cyprus",
+    "alias": "Chipre",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:477",
+    "name": "Croatia",
+    "alias": "Croácia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:479",
+    "name": "Denmark",
+    "alias": "Dinamarca",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:580",
+    "name": "Scotland",
+    "alias": "Escócia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:468",
+    "name": "Slovakia",
+    "alias": "Eslováquia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:472",
+    "name": "Slovenia",
+    "alias": "Eslovênia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:164",
+    "name": "Spain",
+    "alias": "Espanha",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:444",
+    "name": "Estonia",
+    "alias": "Estonia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:458",
+    "name": "Finland",
+    "alias": "Finlândia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:478",
+    "name": "France",
+    "alias": "França",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:584",
+    "name": "Georgia",
+    "alias": "Georgia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:16721",
+    "name": "Gibraltar",
+    "alias": "Gibraltar",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:455",
+    "name": "Greece",
+    "alias": "Grécia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:449",
+    "name": "Netherlands",
+    "alias": "Holanda",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:480",
+    "name": "Hungary",
+    "alias": "Hungria",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:447",
+    "name": "Faroe Islands",
+    "alias": "Ilhas Faroe",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:448",
+    "name": "England",
+    "alias": "Inglaterra",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:476",
+    "name": "Republic of Ireland",
+    "alias": "Irlanda",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:586",
+    "name": "Northern Ireland",
+    "alias": "Irlanda do Norte",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:470",
+    "name": "Iceland",
+    "alias": "Islândia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:461",
+    "name": "Israel",
+    "alias": "Israel",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:162",
+    "name": "Italy",
+    "alias": "Itália",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:18272",
+    "name": "Kosovo",
+    "alias": "Kosovo",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:456",
+    "name": "Latvia",
+    "alias": "Letônia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:589",
+    "name": "Liechtenstein",
+    "alias": "Liechtenstein",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:460",
+    "name": "Lithuania",
+    "alias": "Lituânia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:582",
+    "name": "Luxembourg",
+    "alias": "Luxemburgo",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:463",
+    "name": "North Macedonia",
+    "alias": "Macedônia do Norte",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:453",
+    "name": "Malta",
+    "alias": "Malta",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:483",
+    "name": "Moldova",
+    "alias": "Moldávia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:6775",
+    "name": "Montenegro",
+    "alias": "Montenegro",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:464",
+    "name": "Norway",
+    "alias": "Noruega",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:578",
+    "name": "Wales",
+    "alias": "País de Gales",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:471",
+    "name": "Poland",
+    "alias": "Polônia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:482",
+    "name": "Portugal",
+    "alias": "Portugal",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:450",
+    "name": "Czechia",
+    "alias": "República Tcheca",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:473",
+    "name": "Romania",
+    "alias": "Romênia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:588",
+    "name": "San Marino",
+    "alias": "San Marino",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:466",
+    "name": "Sweden",
+    "alias": "Suécia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:475",
+    "name": "Switzerland",
+    "alias": "Suíça",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:6757",
+    "name": "Serbia",
+    "alias": "Sérvia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:465",
+    "name": "Türkiye",
+    "alias": "Turquia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:457",
+    "name": "Ukraine",
+    "alias": "Ucrânia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:474",
+    "name": "Austria",
+    "alias": "Áustria",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:202",
+    "name": "Argentina",
+    "alias": "Argentina",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:624",
+    "name": "Algeria",
+    "alias": "Argélia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:655",
+    "name": "Saudi Arabia",
+    "alias": "Arábia Saudita",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:628",
+    "name": "Australia",
+    "alias": "Austrália",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:205",
+    "name": "Brazil",
+    "alias": "Brasil",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:2597",
+    "name": "Cape Verde",
+    "alias": "Cabo Verde",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:206",
+    "name": "Canada",
+    "alias": "Canadá",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:4398",
+    "name": "Qatar",
+    "alias": "Catar",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:208",
+    "name": "Colombia",
+    "alias": "Colômbia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:451",
+    "name": "South Korea",
+    "alias": "Coreia do Sul",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:4789",
+    "name": "Ivory Coast",
+    "alias": "Costa do Marfim",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:11678",
+    "name": "Curaçao",
+    "alias": "Curaçao",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:2620",
+    "name": "Egypt",
+    "alias": "Egito",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:209",
+    "name": "Ecuador",
+    "alias": "Equador",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:660",
+    "name": "United States",
+    "alias": "Estados Unidos",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:4469",
+    "name": "Ghana",
+    "alias": "Gana",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:2654",
+    "name": "Haiti",
+    "alias": "Haiti",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:4375",
+    "name": "Iraq",
+    "alias": "Iraque",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:469",
+    "name": "Iran",
+    "alias": "Irã",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:627",
+    "name": "Japan",
+    "alias": "Japão",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:2917",
+    "name": "Jordan",
+    "alias": "Jordânia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:2869",
+    "name": "Morocco",
+    "alias": "Marrocos",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:203",
+    "name": "Mexico",
+    "alias": "México",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:2666",
+    "name": "New Zealand",
+    "alias": "Nova Zelândia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:2659",
+    "name": "Panama",
+    "alias": "Panamá",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:210",
+    "name": "Paraguay",
+    "alias": "Paraguai",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:2850",
+    "name": "Congo DR",
+    "alias": "República Democrática do Congo",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:654",
+    "name": "Senegal",
+    "alias": "Senegal",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:659",
+    "name": "Tunisia",
+    "alias": "Tunísia",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:212",
+    "name": "Uruguay",
+    "alias": "Uruguai",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:2570",
+    "name": "Uzbekistan",
+    "alias": "Uzbequistão",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  },
+  {
+    "id": "espn:team:467",
+    "name": "South Africa",
+    "alias": "África do Sul",
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/teams?limit=200&lang=pt&region=br"
+  }
+]

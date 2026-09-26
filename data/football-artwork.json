@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-26T21:15:14Z",
+  "generatedAt": "2026-09-26T21:40:08Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -3554,7 +3554,9 @@
       "name": "Algeria",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Argélia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
       "league": "fifa.world",
       "leagues": [
@@ -3582,7 +3584,9 @@
       "name": "Australia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Austrália"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
       "league": "fifa.world",
       "leagues": [
@@ -3596,7 +3600,9 @@
       "name": "Austria",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Áustria"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
       "league": "fifa.world",
       "leagues": [
@@ -3611,7 +3617,9 @@
       "name": "Belgium",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Bélgica"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "league": "fifa.world",
       "leagues": [
@@ -3627,7 +3635,8 @@
       "kind": "team",
       "entityType": "national_team",
       "aliases": [
-        "Bosnia-Herz"
+        "Bosnia-Herz",
+        "Bósnia e Herzegovina"
       ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "league": "fifa.world",
@@ -3643,7 +3652,9 @@
       "name": "Brazil",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Brasil"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
       "league": "fifa.world",
       "leagues": [
@@ -3657,7 +3668,9 @@
       "name": "Canada",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Canadá"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "league": "fifa.world",
       "leagues": [
@@ -3671,7 +3684,9 @@
       "name": "Cape Verde",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Cabo Verde"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
       "league": "fifa.world",
       "leagues": [
@@ -3685,7 +3700,9 @@
       "name": "Colombia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Colômbia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
       "league": "fifa.world",
       "leagues": [
@@ -3699,7 +3716,9 @@
       "name": "Congo DR",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "República Democrática do Congo"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "league": "fifa.world",
       "leagues": [
@@ -3713,7 +3732,9 @@
       "name": "Croatia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Croácia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "league": "fifa.world",
       "leagues": [
@@ -3742,7 +3763,9 @@
       "name": "Czechia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "República Tcheca"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
       "league": "fifa.world",
       "leagues": [
@@ -3757,7 +3780,9 @@
       "name": "Ecuador",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Equador"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
       "league": "fifa.world",
       "leagues": [
@@ -3771,7 +3796,9 @@
       "name": "Egypt",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Egito"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "league": "fifa.world",
       "leagues": [
@@ -3785,7 +3812,9 @@
       "name": "England",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Inglaterra"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "league": "fifa.world",
       "leagues": [
@@ -3800,7 +3829,9 @@
       "name": "France",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "França"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "league": "fifa.world",
       "leagues": [
@@ -3815,7 +3846,9 @@
       "name": "Germany",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Alemanha"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
       "league": "fifa.world",
       "leagues": [
@@ -3830,7 +3863,9 @@
       "name": "Ghana",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Gana"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
       "league": "fifa.world",
       "leagues": [
@@ -3858,7 +3893,9 @@
       "name": "Iran",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Irã"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
       "league": "fifa.world",
       "leagues": [
@@ -3872,7 +3909,9 @@
       "name": "Iraq",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Iraque"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
       "league": "fifa.world",
       "leagues": [
@@ -3886,7 +3925,9 @@
       "name": "Ivory Coast",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Costa do Marfim"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
       "league": "fifa.world",
       "leagues": [
@@ -3900,7 +3941,9 @@
       "name": "Japan",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Japão"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
       "league": "fifa.world",
       "leagues": [
@@ -3914,7 +3957,9 @@
       "name": "Jordan",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Jordânia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
       "league": "fifa.world",
       "leagues": [
@@ -3928,7 +3973,9 @@
       "name": "Mexico",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "México"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "league": "fifa.world",
       "leagues": [
@@ -3942,7 +3989,9 @@
       "name": "Morocco",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Marrocos"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "league": "fifa.world",
       "leagues": [
@@ -3956,7 +4005,9 @@
       "name": "Netherlands",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Holanda"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
       "league": "fifa.world",
       "leagues": [
@@ -3971,7 +4022,9 @@
       "name": "New Zealand",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Nova Zelândia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
       "league": "fifa.world",
       "leagues": [
@@ -3985,7 +4038,9 @@
       "name": "Norway",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Noruega"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "league": "fifa.world",
       "leagues": [
@@ -4000,7 +4055,9 @@
       "name": "Panama",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Panamá"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
       "league": "fifa.world",
       "leagues": [
@@ -4014,7 +4071,9 @@
       "name": "Paraguay",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Paraguai"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "league": "fifa.world",
       "leagues": [
@@ -4043,7 +4102,9 @@
       "name": "Qatar",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Catar"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
       "league": "fifa.world",
       "leagues": [
@@ -4057,7 +4118,9 @@
       "name": "Saudi Arabia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Arábia Saudita"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
       "league": "fifa.world",
       "leagues": [
@@ -4071,7 +4134,9 @@
       "name": "Scotland",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Escócia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
       "league": "fifa.world",
       "leagues": [
@@ -4100,7 +4165,9 @@
       "name": "South Africa",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "África do Sul"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
       "league": "fifa.world",
       "leagues": [
@@ -4114,7 +4181,9 @@
       "name": "South Korea",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Coreia do Sul"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
       "league": "fifa.world",
       "leagues": [
@@ -4128,7 +4197,9 @@
       "name": "Spain",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Espanha"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "league": "fifa.world",
       "leagues": [
@@ -4143,7 +4214,9 @@
       "name": "Sweden",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Suécia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
       "league": "fifa.world",
       "leagues": [
@@ -4158,7 +4231,9 @@
       "name": "Switzerland",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Suíça"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "league": "fifa.world",
       "leagues": [
@@ -4173,7 +4248,9 @@
       "name": "Tunisia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Tunísia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
       "league": "fifa.world",
       "leagues": [
@@ -4187,7 +4264,9 @@
       "name": "Türkiye",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Turquia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
       "league": "fifa.world",
       "leagues": [
@@ -4203,7 +4282,8 @@
       "kind": "team",
       "entityType": "national_team",
       "aliases": [
-        "USA"
+        "USA",
+        "Estados Unidos"
       ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
       "league": "fifa.world",
@@ -4218,7 +4298,9 @@
       "name": "Uruguay",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Uruguai"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
       "league": "fifa.world",
       "leagues": [
@@ -4232,7 +4314,9 @@
       "name": "Uzbekistan",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Uzbequistão"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
       "league": "fifa.world",
       "leagues": [
@@ -6132,7 +6216,9 @@
       "name": "Armenia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Armênia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/fifa.armenia.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6146,7 +6232,9 @@
       "name": "Azerbaijan",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Azerbaijão"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/aze.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6160,7 +6248,9 @@
       "name": "Belarus",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Bielorússia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/blr.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6174,7 +6264,9 @@
       "name": "Bulgaria",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Bulgária"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/bul.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6188,7 +6280,9 @@
       "name": "Cyprus",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Chipre"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/cyp.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6202,7 +6296,9 @@
       "name": "Denmark",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Dinamarca"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6230,7 +6326,9 @@
       "name": "Faroe Islands",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Ilhas Faroe"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/fro.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6244,7 +6342,9 @@
       "name": "Finland",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Finlândia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/fin.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6286,7 +6386,9 @@
       "name": "Greece",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Grécia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6300,7 +6402,9 @@
       "name": "Hungary",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Hungria"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/hun.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6314,7 +6418,9 @@
       "name": "Iceland",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Islândia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/isl.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6342,7 +6448,9 @@
       "name": "Italy",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Itália"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6356,7 +6464,9 @@
       "name": "Kazakhstan",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Cazaquistão"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/kaz.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6384,7 +6494,9 @@
       "name": "Latvia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Letônia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/lva.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6412,7 +6524,9 @@
       "name": "Lithuania",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Lituânia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/ltu.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6426,7 +6540,9 @@
       "name": "Luxembourg",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Luxemburgo"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/lux.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6454,7 +6570,9 @@
       "name": "Moldova",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Moldávia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/mda.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6482,7 +6600,9 @@
       "name": "North Macedonia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Macedônia do Norte"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/mkd.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6497,7 +6617,8 @@
       "kind": "team",
       "entityType": "national_team",
       "aliases": [
-        "N Ireland"
+        "N Ireland",
+        "Irlanda do Norte"
       ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png",
       "league": "uefa.nations",
@@ -6512,7 +6633,9 @@
       "name": "Poland",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Polônia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6527,7 +6650,8 @@
       "kind": "team",
       "entityType": "national_team",
       "aliases": [
-        "Rep Ireland"
+        "Rep Ireland",
+        "Irlanda"
       ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/irl.png",
       "league": "uefa.nations",
@@ -6542,7 +6666,9 @@
       "name": "Romania",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Romênia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/rom.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6570,7 +6696,9 @@
       "name": "Serbia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Sérvia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/sba.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6584,7 +6712,9 @@
       "name": "Slovakia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Eslováquia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/svk.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6598,7 +6728,9 @@
       "name": "Slovenia",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Eslovênia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/svn.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6612,7 +6744,9 @@
       "name": "Ukraine",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "Ucrânia"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/ukr.png",
       "league": "uefa.nations",
       "leagues": [
@@ -6626,7 +6760,9 @@
       "name": "Wales",
       "kind": "team",
       "entityType": "national_team",
-      "aliases": [],
+      "aliases": [
+        "País de Gales"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png",
       "league": "uefa.nations",
       "leagues": [
