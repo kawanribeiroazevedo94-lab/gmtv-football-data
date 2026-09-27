@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-27T02:42:35Z",
+  "generatedAt": "2026-09-27T04:28:56Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7634,6 +7634,34 @@
         "fifa.worldq.conmebol"
       ],
       "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q270995",
+      "name": "CA Mineiro",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Clube_Atl%C3%A9tico_Mineiro_logo.svg/330px-Clube_Atl%C3%A9tico_Mineiro_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:mineiro@campeonato brasileiro serie a",
+      "name": "Mineiro",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/1766.png",
+      "league": null,
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
       "status": "validated"
     }
   ]
