@@ -394,7 +394,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": "competition:brasileirao-serie-a",
-      "lastAttemptAt": "2026-09-27T00:37:01Z",
+      "lastAttemptAt": "2026-09-27T02:29:01Z",
       "name": "Campeonato Brasileiro Série A",
       "nextReviewAfter": null,
       "provenance": {
@@ -1900,7 +1900,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Primeira Liga",
-      "nextReviewAfter": "2026-09-27T12:37:02Z",
+      "nextReviewAfter": "2026-09-27T14:29:02Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -2796,7 +2796,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Académico de Viseu FC",
-      "nextReviewAfter": "2026-09-27T12:37:02Z",
+      "nextReviewAfter": "2026-09-27T14:29:02Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -8428,7 +8428,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "CF Estrela da Amadora",
-      "nextReviewAfter": "2026-09-27T12:37:02Z",
+      "nextReviewAfter": "2026-09-27T14:29:02Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -15658,7 +15658,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-09-27T00:37:02Z",
+      "lastAttemptAt": "2026-09-27T02:29:01Z",
       "name": "Santos",
       "nextReviewAfter": null,
       "provenance": {
@@ -15786,7 +15786,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-09-27T00:37:02Z",
+      "lastAttemptAt": "2026-09-27T02:29:01Z",
       "name": "São Paulo",
       "nextReviewAfter": null,
       "provenance": {
@@ -16524,7 +16524,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Sport Lisboa e Benfica",
-      "nextReviewAfter": "2026-09-27T12:37:02Z",
+      "nextReviewAfter": "2026-09-27T14:29:02Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -18177,7 +18177,7 @@
       "wikidataQid": null
     }
   },
-  "generatedAt": "2026-09-27T00:37:02Z",
+  "generatedAt": "2026-09-27T02:29:02Z",
   "retryPolicy": {
     "rejectedAutomaticRetry": false,
     "unresolvedDays": 7
