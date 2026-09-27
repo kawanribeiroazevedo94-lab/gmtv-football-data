@@ -3825,7 +3825,9 @@
     {
       "id": "espn:team:18187",
       "name": "Operário PR",
-      "aliases": [],
+      "aliases": [
+        "Operário"
+      ],
       "kind": "team",
       "entityType": "club",
       "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
@@ -7303,7 +7305,8 @@
       "id": "espn:team:450",
       "name": "Czechia",
       "aliases": [
-        "República Tcheca"
+        "República Tcheca",
+        "Tchéquia"
       ],
       "kind": "team",
       "entityType": "national_team",
@@ -8177,7 +8180,8 @@
       "id": "espn:team:475",
       "name": "Switzerland",
       "aliases": [
-        "Suíça"
+        "Suíça",
+        "SUIGA"
       ],
       "kind": "team",
       "entityType": "national_team",
@@ -8270,7 +8274,8 @@
       "name": "United States",
       "aliases": [
         "USA",
-        "Estados Unidos"
+        "Estados Unidos",
+        "EUA"
       ],
       "kind": "team",
       "entityType": "national_team",
@@ -12786,7 +12791,8 @@
       "id": "espn:team:463",
       "name": "North Macedonia",
       "aliases": [
-        "Macedônia do Norte"
+        "Macedônia do Norte",
+        "MACED. DO NORTE"
       ],
       "kind": "team",
       "entityType": "national_team",
@@ -14710,6 +14716,34 @@
         "sha256": "fde3e28ca0d4e0cd861a4d83bc42380d7c16d27250ffafb6aa3f99e71b426189",
         "checkedAt": "2026-09-24T13:01:23Z",
         "finalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/2024_FIFA_Intercontinental_Cup_logo.svg/330px-2024_FIFA_Intercontinental_Cup_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      "reviewStatus": "approved"
+    },
+    {
+      "id": "espn:team:211",
+      "name": "Peru",
+      "aliases": [],
+      "kind": "team",
+      "entityType": "national_team",
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/per.png",
+      "provider": "espn-catalog",
+      "providerEntityId": "211",
+      "sourceName": "Peru",
+      "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.worldq.conmebol/teams?limit=100&lang=pt&region=br",
+      "league": "fifa.worldq.conmebol",
+      "leagues": [
+        "fifa.worldq.conmebol"
+      ],
+      "country": null,
+      "verification": {
+        "httpStatus": 200,
+        "mime": "image/png",
+        "finalUrl": "https://a.espncdn.com/i/teamlogos/countries/500/per.png",
+        "width": 500,
+        "height": 500,
+        "bytes": 36501,
+        "sha256": "741586cfa65450038cb6855af30b98f6c88e291cd8e8e2bca403c7be0fa1a7a8",
+        "checkedAt": "2026-09-26T21:47:34.478763Z"
       },
       "reviewStatus": "approved"
     }

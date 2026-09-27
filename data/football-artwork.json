@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-27T02:29:02Z",
+  "generatedAt": "2026-09-27T02:42:04Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -1952,7 +1952,9 @@
       "name": "Operário PR",
       "kind": "team",
       "entityType": "club",
-      "aliases": [],
+      "aliases": [
+        "Operário"
+      ],
       "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
       "league": "bra.2",
       "leagues": [
@@ -3764,7 +3766,8 @@
       "kind": "team",
       "entityType": "national_team",
       "aliases": [
-        "República Tcheca"
+        "República Tcheca",
+        "Tchéquia"
       ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
       "league": "fifa.world",
@@ -4232,7 +4235,8 @@
       "kind": "team",
       "entityType": "national_team",
       "aliases": [
-        "Suíça"
+        "Suíça",
+        "SUIGA"
       ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "league": "fifa.world",
@@ -4283,7 +4287,8 @@
       "entityType": "national_team",
       "aliases": [
         "USA",
-        "Estados Unidos"
+        "Estados Unidos",
+        "EUA"
       ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
       "league": "fifa.world",
@@ -6601,7 +6606,8 @@
       "kind": "team",
       "entityType": "national_team",
       "aliases": [
-        "Macedônia do Norte"
+        "Macedônia do Norte",
+        "MACED. DO NORTE"
       ],
       "url": "https://a.espncdn.com/i/teamlogos/countries/500/mkd.png",
       "league": "uefa.nations",
@@ -7613,6 +7619,20 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/2024_FIFA_Intercontinental_Cup_logo.svg/330px-2024_FIFA_Intercontinental_Cup_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "league": "fifa.intercontinental_cup",
       "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "espn:team:211",
+      "name": "Peru",
+      "kind": "team",
+      "entityType": "national_team",
+      "aliases": [],
+      "url": "https://a.espncdn.com/i/teamlogos/countries/500/per.png",
+      "league": "fifa.worldq.conmebol",
+      "leagues": [
+        "fifa.worldq.conmebol"
+      ],
       "country": null,
       "status": "validated"
     }
