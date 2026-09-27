@@ -394,7 +394,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": "competition:brasileirao-serie-a",
-      "lastAttemptAt": "2026-09-27T02:29:01Z",
+      "lastAttemptAt": "2026-09-27T02:42:34Z",
       "name": "Campeonato Brasileiro Série A",
       "nextReviewAfter": null,
       "provenance": {
@@ -1900,7 +1900,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Primeira Liga",
-      "nextReviewAfter": "2026-09-27T14:29:02Z",
+      "nextReviewAfter": "2026-09-27T14:42:35Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -2796,7 +2796,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Académico de Viseu FC",
-      "nextReviewAfter": "2026-09-27T14:29:02Z",
+      "nextReviewAfter": "2026-09-27T14:42:35Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -8428,7 +8428,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "CF Estrela da Amadora",
-      "nextReviewAfter": "2026-09-27T14:29:02Z",
+      "nextReviewAfter": "2026-09-27T14:42:35Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -14304,6 +14304,38 @@
       "visualStatus": "approved",
       "wikidataQid": null
     },
+    "team:peru": {
+      "artworkProperty": "provider-logo",
+      "artworkProvider": "espn-catalog",
+      "artworkUrl": "https://a.espncdn.com/i/teamlogos/countries/500/per.png",
+      "attemptCount": 1,
+      "cacheKey": "team:peru",
+      "candidateUrl": "https://a.espncdn.com/i/teamlogos/countries/500/per.png",
+      "entityType": "national_team",
+      "fetchStatus": "ok",
+      "gmId": null,
+      "lastAttemptAt": "2026-09-26T21:47:34.478763Z",
+      "name": "Peru",
+      "nextReviewAfter": null,
+      "provenance": {
+        "catalogId": "espn:team:211",
+        "migratedAt": "2026-09-27T02:42:35Z",
+        "migratedFrom": "artwork-cache-v1",
+        "providerEntityId": "211",
+        "resolverVersion": 4,
+        "sha256": "741586cfa65450038cb6855af30b98f6c88e291cd8e8e2bca403c7be0fa1a7a8",
+        "sourceFile": null,
+        "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.worldq.conmebol/teams?limit=100&lang=pt&region=br",
+        "supersededRejection": null
+      },
+      "publishable": true,
+      "rejectedAt": null,
+      "rejectedReason": null,
+      "resolutionStatus": "validated",
+      "semanticStatus": "validated",
+      "visualStatus": "approved",
+      "wikidataQid": null
+    },
     "team:philadelphia union": {
       "artworkProperty": "provider-logo",
       "artworkProvider": "espn-catalog",
@@ -15658,7 +15690,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-09-27T02:29:01Z",
+      "lastAttemptAt": "2026-09-27T02:42:35Z",
       "name": "Santos",
       "nextReviewAfter": null,
       "provenance": {
@@ -15786,7 +15818,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-09-27T02:29:01Z",
+      "lastAttemptAt": "2026-09-27T02:42:34Z",
       "name": "São Paulo",
       "nextReviewAfter": null,
       "provenance": {
@@ -16524,7 +16556,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Sport Lisboa e Benfica",
-      "nextReviewAfter": "2026-09-27T14:29:02Z",
+      "nextReviewAfter": "2026-09-27T14:42:35Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -18177,7 +18209,7 @@
       "wikidataQid": null
     }
   },
-  "generatedAt": "2026-09-27T02:29:02Z",
+  "generatedAt": "2026-09-27T02:42:35Z",
   "retryPolicy": {
     "rejectedAutomaticRetry": false,
     "unresolvedDays": 7

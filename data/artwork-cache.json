@@ -276,7 +276,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/bsa.png",
-    "validatedAt": "2026-09-27T02:29:01Z",
+    "validatedAt": "2026-09-27T02:42:34Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -10012,6 +10012,29 @@
     "visualStatus": "approved",
     "width": 500
   },
+  "team:peru": {
+    "catalogId": "espn:team:211",
+    "entityType": "national_team",
+    "fetchStatus": "ok",
+    "height": 500,
+    "mime": "image/png",
+    "name": "Peru",
+    "nextRetryAfter": null,
+    "property": "provider-logo",
+    "provider": "espn-catalog",
+    "providerEntityId": "211",
+    "qid": null,
+    "resolverVersion": 4,
+    "semanticStatus": "validated",
+    "sha256": "741586cfa65450038cb6855af30b98f6c88e291cd8e8e2bca403c7be0fa1a7a8",
+    "sourceFile": null,
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.worldq.conmebol/teams?limit=100&lang=pt&region=br",
+    "status": "validated",
+    "url": "https://a.espncdn.com/i/teamlogos/countries/500/per.png",
+    "validatedAt": "2026-09-26T21:47:34.478763Z",
+    "visualStatus": "approved",
+    "width": 500
+  },
   "team:philadelphia union": {
     "catalogId": "espn:team:10739",
     "entityType": "club",
@@ -10993,7 +11016,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/6685.png",
-    "validatedAt": "2026-09-27T02:29:01Z",
+    "validatedAt": "2026-09-27T02:42:35Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11081,7 +11104,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1776.png",
-    "validatedAt": "2026-09-27T02:29:01Z",
+    "validatedAt": "2026-09-27T02:42:34Z",
     "visualStatus": "approved",
     "width": null
   },
