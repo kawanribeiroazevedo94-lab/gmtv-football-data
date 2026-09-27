@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-27T20:27:33.044087Z",
+  "generatedAt": "2026-09-27T22:28:12.793170Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-09-27",
@@ -208,7 +208,7 @@
           "date": "2026-09-27",
           "kickoff": "16:00",
           "utcDate": "2026-09-27T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 34,
             "idProvider": "bsd",
@@ -1392,7 +1392,7 @@
       "date": "2026-09-27",
       "kickoff": "16:00",
       "utcDate": "2026-09-27T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 34,
         "idProvider": "bsd",
