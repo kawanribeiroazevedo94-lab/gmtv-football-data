@@ -394,7 +394,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": "competition:brasileirao-serie-a",
-      "lastAttemptAt": "2026-09-28T08:33:20Z",
+      "lastAttemptAt": "2026-09-28T10:31:57Z",
       "name": "Campeonato Brasileiro Série A",
       "nextReviewAfter": null,
       "provenance": {
@@ -1900,7 +1900,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Primeira Liga",
-      "nextReviewAfter": "2026-09-28T20:33:21Z",
+      "nextReviewAfter": "2026-09-28T22:31:58Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -2796,7 +2796,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Académico de Viseu FC",
-      "nextReviewAfter": "2026-09-28T20:33:21Z",
+      "nextReviewAfter": "2026-09-28T22:31:58Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -6154,7 +6154,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-09-28T08:33:21Z",
+      "lastAttemptAt": "2026-09-28T10:31:58Z",
       "name": "Bragantino",
       "nextReviewAfter": null,
       "provenance": {
@@ -8524,7 +8524,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "CF Estrela da Amadora",
-      "nextReviewAfter": "2026-09-28T20:33:21Z",
+      "nextReviewAfter": "2026-09-28T22:31:58Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -12522,7 +12522,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-09-28T08:33:21Z",
+      "lastAttemptAt": "2026-09-28T10:31:58Z",
       "name": "Mineiro",
       "nextReviewAfter": null,
       "provenance": {
@@ -15882,7 +15882,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-09-28T08:33:20Z",
+      "lastAttemptAt": "2026-09-28T10:31:57Z",
       "name": "Santos",
       "nextReviewAfter": null,
       "provenance": {
@@ -16010,7 +16010,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-09-28T08:33:19Z",
+      "lastAttemptAt": "2026-09-28T10:31:56Z",
       "name": "São Paulo",
       "nextReviewAfter": null,
       "provenance": {
@@ -16748,7 +16748,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Sport Lisboa e Benfica",
-      "nextReviewAfter": "2026-09-28T20:33:21Z",
+      "nextReviewAfter": "2026-09-28T22:31:58Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -18401,7 +18401,7 @@
       "wikidataQid": null
     }
   },
-  "generatedAt": "2026-09-28T08:33:21Z",
+  "generatedAt": "2026-09-28T10:31:58Z",
   "retryPolicy": {
     "rejectedAutomaticRetry": false,
     "unresolvedDays": 7
