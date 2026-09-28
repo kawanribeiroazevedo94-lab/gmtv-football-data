@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-28T02:29:48.320035Z",
+  "generatedAt": "2026-09-28T04:31:25.336966Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-09-27",
-    "to": "2026-10-03"
+    "from": "2026-09-28",
+    "to": "2026-10-04"
   },
   "sources": {
     "footballData": {
@@ -66,7 +66,7 @@
     "bsd": {
       "configured": true,
       "ok": true,
-      "matches": 17,
+      "matches": 14,
       "pages": 3,
       "error": null
     },
@@ -158,138 +158,8 @@
   },
   "days": [
     {
-      "date": "2026-09-27",
-      "label": "HOJE",
-      "count": 3,
-      "matches": [
-        {
-          "id": "bsd:10147",
-          "date": "2026-09-27",
-          "kickoff": "11:00",
-          "utcDate": "2026-09-27T14:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 929,
-            "idProvider": "bsd",
-            "name": "Criciúma",
-            "fullName": "Criciúma",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-            "normalized": "criciuma"
-          },
-          "away": {
-            "id": 860,
-            "idProvider": "bsd",
-            "name": "Avaí",
-            "fullName": "Avaí",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
-            "normalized": "avai"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10147,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        },
-        {
-          "id": "bsd:10146",
-          "date": "2026-09-27",
-          "kickoff": "16:00",
-          "utcDate": "2026-09-27T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 831,
-            "idProvider": "bsd",
-            "name": "CRB",
-            "fullName": "CRB",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-            "normalized": "crb"
-          },
-          "away": {
-            "id": 863,
-            "idProvider": "bsd",
-            "name": "Cuiabá",
-            "fullName": "Cuiabá",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-            "normalized": "cuiaba"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10146,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        },
-        {
-          "id": "bsd:10148",
-          "date": "2026-09-27",
-          "kickoff": "18:30",
-          "utcDate": "2026-09-27T21:30:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 152,
-            "idProvider": "bsd",
-            "name": "Fortaleza",
-            "fullName": "Fortaleza",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-            "normalized": "fortaleza"
-          },
-          "away": {
-            "id": 843,
-            "idProvider": "bsd",
-            "name": "Athletic Club",
-            "fullName": "Athletic Club",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-            "normalized": "athletic"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10148,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-09-28",
-      "label": "28/09",
+      "label": "HOJE",
       "count": 1,
       "matches": [
         {
@@ -1343,132 +1213,15 @@
           "sourcePriority": 100
         }
       ]
+    },
+    {
+      "date": "2026-10-04",
+      "label": "04/10",
+      "count": 0,
+      "matches": []
     }
   ],
   "matches": [
-    {
-      "id": "bsd:10147",
-      "date": "2026-09-27",
-      "kickoff": "11:00",
-      "utcDate": "2026-09-27T14:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 929,
-        "idProvider": "bsd",
-        "name": "Criciúma",
-        "fullName": "Criciúma",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-        "normalized": "criciuma"
-      },
-      "away": {
-        "id": 860,
-        "idProvider": "bsd",
-        "name": "Avaí",
-        "fullName": "Avaí",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
-        "normalized": "avai"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10147,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
-    {
-      "id": "bsd:10146",
-      "date": "2026-09-27",
-      "kickoff": "16:00",
-      "utcDate": "2026-09-27T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 831,
-        "idProvider": "bsd",
-        "name": "CRB",
-        "fullName": "CRB",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-        "normalized": "crb"
-      },
-      "away": {
-        "id": 863,
-        "idProvider": "bsd",
-        "name": "Cuiabá",
-        "fullName": "Cuiabá",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-        "normalized": "cuiaba"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10146,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
-    {
-      "id": "bsd:10148",
-      "date": "2026-09-27",
-      "kickoff": "18:30",
-      "utcDate": "2026-09-27T21:30:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 152,
-        "idProvider": "bsd",
-        "name": "Fortaleza",
-        "fullName": "Fortaleza",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-        "normalized": "fortaleza"
-      },
-      "away": {
-        "id": 843,
-        "idProvider": "bsd",
-        "name": "Athletic Club",
-        "fullName": "Athletic Club",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-        "normalized": "athletic"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10148,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
     {
       "id": "bsd:10144",
       "date": "2026-09-28",
