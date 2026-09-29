@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-29T02:27:43.017926Z",
+  "generatedAt": "2026-09-29T04:30:50.628726Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-09-28",
-    "to": "2026-10-04"
+    "from": "2026-09-29",
+    "to": "2026-10-05"
   },
   "sources": {
     "footballData": {
@@ -66,8 +66,8 @@
     "bsd": {
       "configured": true,
       "ok": true,
-      "matches": 14,
-      "pages": 3,
+      "matches": 13,
+      "pages": 2,
       "error": null
     },
     "openLigaDB": {
@@ -158,56 +158,8 @@
   },
   "days": [
     {
-      "date": "2026-09-28",
-      "label": "HOJE",
-      "count": 1,
-      "matches": [
-        {
-          "id": "bsd:10144",
-          "date": "2026-09-28",
-          "kickoff": "19:30",
-          "utcDate": "2026-09-28T22:30:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 838,
-            "idProvider": "bsd",
-            "name": "América Mineiro",
-            "fullName": "América Mineiro",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
-            "normalized": "america mineiro"
-          },
-          "away": {
-            "id": 156,
-            "idProvider": "bsd",
-            "name": "Juventude",
-            "fullName": "Juventude",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-            "normalized": "juventude"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10144,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-09-29",
-      "label": "29/09",
+      "label": "HOJE",
       "count": 1,
       "matches": [
         {
@@ -1219,50 +1171,15 @@
       "label": "04/10",
       "count": 0,
       "matches": []
+    },
+    {
+      "date": "2026-10-05",
+      "label": "05/10",
+      "count": 0,
+      "matches": []
     }
   ],
   "matches": [
-    {
-      "id": "bsd:10144",
-      "date": "2026-09-28",
-      "kickoff": "19:30",
-      "utcDate": "2026-09-28T22:30:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 838,
-        "idProvider": "bsd",
-        "name": "América Mineiro",
-        "fullName": "América Mineiro",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
-        "normalized": "america mineiro"
-      },
-      "away": {
-        "id": 156,
-        "idProvider": "bsd",
-        "name": "Juventude",
-        "fullName": "Juventude",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-        "normalized": "juventude"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10144,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
     {
       "id": "bsd:10145",
       "date": "2026-09-29",
