@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-09-28T22:28:10.424527Z",
+  "generatedAt": "2026-09-29T00:36:49.376508Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-09-28",
@@ -171,7 +171,7 @@
           "date": "2026-09-28",
           "kickoff": "19:30",
           "utcDate": "2026-09-28T22:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-b",
             "entityType": "competition",
@@ -2708,7 +2708,7 @@
       "date": "2026-09-28",
       "kickoff": "19:30",
       "utcDate": "2026-09-28T22:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-b",
         "entityType": "competition",
