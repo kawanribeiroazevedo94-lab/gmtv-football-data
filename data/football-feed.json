@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-30T02:29:05.166225Z",
+  "generatedAt": "2026-09-30T04:31:50.378623Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-09-29",
-    "to": "2026-10-05"
+    "from": "2026-09-30",
+    "to": "2026-10-06"
   },
   "sources": {
     "footballData": {
@@ -66,7 +66,7 @@
     "bsd": {
       "configured": true,
       "ok": true,
-      "matches": 13,
+      "matches": 15,
       "pages": 3,
       "error": null
     },
@@ -158,56 +158,8 @@
   },
   "days": [
     {
-      "date": "2026-09-29",
-      "label": "HOJE",
-      "count": 1,
-      "matches": [
-        {
-          "id": "bsd:10145",
-          "date": "2026-09-29",
-          "kickoff": "19:30",
-          "utcDate": "2026-09-29T22:30:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 927,
-            "idProvider": "bsd",
-            "name": "Botafogo-SP",
-            "fullName": "Botafogo-SP",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-            "normalized": "botafogo sp"
-          },
-          "away": {
-            "id": 844,
-            "idProvider": "bsd",
-            "name": "Ponte Preta",
-            "fullName": "Ponte Preta",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-            "normalized": "ponte preta"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10145,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-09-30",
-      "label": "30/09",
+      "label": "HOJE",
       "count": 5,
       "matches": [
         {
@@ -1177,50 +1129,139 @@
       "label": "05/10",
       "count": 0,
       "matches": []
+    },
+    {
+      "date": "2026-10-06",
+      "label": "06/10",
+      "count": 3,
+      "matches": [
+        {
+          "id": "bsd:10172",
+          "date": "2026-10-06",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-06T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 159,
+            "idProvider": "bsd",
+            "name": "Sport Recife",
+            "fullName": "Sport Recife",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+            "normalized": "sport recife"
+          },
+          "away": {
+            "id": 841,
+            "idProvider": "bsd",
+            "name": "São Bernardo",
+            "fullName": "São Bernardo",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+            "normalized": "sao bernardo"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10172,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:10168",
+          "date": "2026-10-06",
+          "kickoff": "20:30",
+          "utcDate": "2026-10-06T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 809,
+            "idProvider": "bsd",
+            "name": "Goiás",
+            "fullName": "Goiás",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+            "normalized": "goias"
+          },
+          "away": {
+            "id": 843,
+            "idProvider": "bsd",
+            "name": "Athletic Club",
+            "fullName": "Athletic Club",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+            "normalized": "athletic"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10168,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:10171",
+          "date": "2026-10-06",
+          "kickoff": "21:35",
+          "utcDate": "2026-10-07T00:35:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 844,
+            "idProvider": "bsd",
+            "name": "Ponte Preta",
+            "fullName": "Ponte Preta",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+            "normalized": "ponte preta"
+          },
+          "away": {
+            "id": 156,
+            "idProvider": "bsd",
+            "name": "Juventude",
+            "fullName": "Juventude",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+            "normalized": "juventude"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10171,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        }
+      ]
     }
   ],
   "matches": [
-    {
-      "id": "bsd:10145",
-      "date": "2026-09-29",
-      "kickoff": "19:30",
-      "utcDate": "2026-09-29T22:30:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 927,
-        "idProvider": "bsd",
-        "name": "Botafogo-SP",
-        "fullName": "Botafogo-SP",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-        "normalized": "botafogo sp"
-      },
-      "away": {
-        "id": 844,
-        "idProvider": "bsd",
-        "name": "Ponte Preta",
-        "fullName": "Ponte Preta",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-        "normalized": "ponte preta"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10145,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
     {
       "id": "wm:95b7a1294df471c8",
       "date": "2026-09-30",
@@ -2153,6 +2194,129 @@
         "football-data"
       ],
       "sourcePriority": 100
+    },
+    {
+      "id": "bsd:10172",
+      "date": "2026-10-06",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-06T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 159,
+        "idProvider": "bsd",
+        "name": "Sport Recife",
+        "fullName": "Sport Recife",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+        "normalized": "sport recife"
+      },
+      "away": {
+        "id": 841,
+        "idProvider": "bsd",
+        "name": "São Bernardo",
+        "fullName": "São Bernardo",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+        "normalized": "sao bernardo"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10172,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10168",
+      "date": "2026-10-06",
+      "kickoff": "20:30",
+      "utcDate": "2026-10-06T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 809,
+        "idProvider": "bsd",
+        "name": "Goiás",
+        "fullName": "Goiás",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+        "normalized": "goias"
+      },
+      "away": {
+        "id": 843,
+        "idProvider": "bsd",
+        "name": "Athletic Club",
+        "fullName": "Athletic Club",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+        "normalized": "athletic"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10168,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:10171",
+      "date": "2026-10-06",
+      "kickoff": "21:35",
+      "utcDate": "2026-10-07T00:35:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 844,
+        "idProvider": "bsd",
+        "name": "Ponte Preta",
+        "fullName": "Ponte Preta",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+        "normalized": "ponte preta"
+      },
+      "away": {
+        "id": 156,
+        "idProvider": "bsd",
+        "name": "Juventude",
+        "fullName": "Juventude",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+        "normalized": "juventude"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10171,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
     }
   ]
 }
