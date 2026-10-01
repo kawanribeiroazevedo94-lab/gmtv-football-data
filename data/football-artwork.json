@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-01T16:31:18Z",
+  "generatedAt": "2026-10-01T18:37:57Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7657,6 +7657,20 @@
       "entityType": "club",
       "aliases": [],
       "url": "https://crests.football-data.org/4287.png",
+      "league": null,
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q221695",
+      "name": "Grêmio FBPA",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/330px-Gremio_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "league": null,
       "leagues": [
         "bra.1"

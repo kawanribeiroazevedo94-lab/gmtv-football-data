@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-01T16:31:18.351697Z",
+  "generatedAt": "2026-10-01T18:37:57.467428Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-01",
@@ -1072,7 +1072,7 @@
             "id": null,
             "name": "Grêmio FBPA",
             "fullName": "Grêmio FBPA",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/330px-Gremio_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "gremio fbpa"
           },
           "sources": [
@@ -2549,7 +2549,7 @@
         "id": null,
         "name": "Grêmio FBPA",
         "fullName": "Grêmio FBPA",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/330px-Gremio_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "gremio fbpa"
       },
       "sources": [
