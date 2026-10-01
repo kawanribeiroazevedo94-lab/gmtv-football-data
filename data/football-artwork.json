@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-01T02:30:11Z",
+  "generatedAt": "2026-10-01T04:33:17Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7651,12 +7651,40 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:clube do remo@campeonato brasileiro serie a",
+      "name": "Clube do Remo",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/4287.png",
+      "league": null,
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:mineiro@campeonato brasileiro serie a",
       "name": "Mineiro",
       "kind": "team",
       "entityType": "club",
       "aliases": [],
       "url": "https://crests.football-data.org/1766.png",
+      "league": null,
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q2622870",
+      "name": "Mirassol FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mirassol_FC_logo.png/330px-Mirassol_FC_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "league": null,
       "leagues": [
         "bra.1"

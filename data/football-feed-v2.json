@@ -1,20 +1,20 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-01T02:30:10.871826Z",
+  "generatedAt": "2026-10-01T04:33:17.556415Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-09-30",
-    "to": "2026-10-06"
+    "from": "2026-10-01",
+    "to": "2026-10-07"
   },
   "sources": {
     "footballData": {
       "ok": true,
-      "matches": 2,
+      "matches": 7,
       "error": null
     },
     "openFootball": {
       "ok": true,
-      "matches": 2,
+      "matches": 8,
       "datasets": [
         {
           "dataset": "2026-27/en.1.json",
@@ -59,14 +59,14 @@
         {
           "dataset": "2026/br.1.json",
           "ok": true,
-          "matchesInWindow": 2
+          "matchesInWindow": 8
         }
       ]
     },
     "bsd": {
       "configured": true,
       "ok": true,
-      "matches": 15,
+      "matches": 26,
       "pages": 3,
       "error": null
     },
@@ -120,7 +120,7 @@
     },
     "wikimediaFixtures": {
       "ok": true,
-      "matches": 9,
+      "matches": 4,
       "pages": [
         {
           "key": "uwcl",
@@ -129,7 +129,7 @@
           "revisionId": 1377733931,
           "revisionTimestamp": "2026-09-30T21:31:18Z",
           "ok": true,
-          "matchesInWindow": 9,
+          "matchesInWindow": 4,
           "error": null
         },
         {
@@ -153,7 +153,7 @@
       "teamsUnresolved": []
     },
     "wikidataArtwork": {
-      "cachedEntries": 575
+      "cachedEntries": 596
     }
   },
   "contracts": {
@@ -162,500 +162,8 @@
   },
   "days": [
     {
-      "date": "2026-09-30",
-      "label": "HOJE",
-      "count": 5,
-      "matches": [
-        {
-          "id": "wm:95b7a1294df471c8",
-          "date": "2026-09-30",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-30T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "BK Häcken",
-            "fullName": "BK Häcken",
-            "normalized": "bk hacken",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Juventus",
-            "fullName": "Juventus",
-            "normalized": "juventus",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1377733931,
-              "revisionTimestamp": "2026-09-30T21:31:18Z"
-            }
-          }
-        },
-        {
-          "id": "wm:bc5a5a7a735c2a96",
-          "date": "2026-09-30",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-30T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Paris FC",
-            "fullName": "Paris FC",
-            "normalized": "paris",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Arsenal",
-            "fullName": "Arsenal",
-            "normalized": "arsenal",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19973.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1377733931,
-              "revisionTimestamp": "2026-09-30T21:31:18Z"
-            }
-          }
-        },
-        {
-          "id": "wm:0c4b5da1b9c81849",
-          "date": "2026-09-30",
-          "kickoff": "13:45",
-          "utcDate": "2026-09-30T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Roma",
-            "fullName": "Roma",
-            "normalized": "roma",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Barcelona",
-            "fullName": "Barcelona",
-            "normalized": "barcelona",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1377733931,
-              "revisionTimestamp": "2026-09-30T21:31:18Z"
-            }
-          }
-        },
-        {
-          "id": "wm:dde1e8f69eb097bf",
-          "date": "2026-09-30",
-          "kickoff": "16:00",
-          "utcDate": "2026-09-30T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Benfica",
-            "fullName": "Benfica",
-            "normalized": "benfica",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": "club:bayern-munich",
-            "entityType": "club",
-            "identityStatus": "resolved",
-            "canonicalName": "Bayern Munich",
-            "displayName": "Bayern Munich",
-            "fullName": "Bayern Munich",
-            "normalized": "bayern munich",
-            "country": "Germany",
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20103.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1377733931,
-              "revisionTimestamp": "2026-09-30T21:31:18Z"
-            }
-          }
-        },
-        {
-          "id": "wm:f26b8b9df0496ddc",
-          "date": "2026-09-30",
-          "kickoff": "16:00",
-          "utcDate": "2026-09-30T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "OL Lyonnes",
-            "fullName": "OL Lyonnes",
-            "normalized": "ol lyonnes",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Chelsea",
-            "fullName": "Chelsea",
-            "normalized": "chelsea",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1377733931,
-              "revisionTimestamp": "2026-09-30T21:31:18Z"
-            }
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-10-01",
-      "label": "01/10",
+      "label": "HOJE",
       "count": 6,
       "matches": [
         {
@@ -2801,494 +2309,1695 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-10-07",
+      "label": "07/10",
+      "count": 17,
+      "matches": [
+        {
+          "id": "of:660a038ad6df2af4",
+          "date": "2026-10-07",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-07T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Brasileirão Série A",
+            "fullName": null,
+            "normalized": "brasileirao serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data-curated",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Clube do Remo",
+            "fullName": "Clube do Remo",
+            "normalized": "remo",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Grêmio FBPA",
+            "fullName": "Grêmio FBPA",
+            "normalized": "gremio fbpa",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50,
+          "provenance": {
+            "fixtureSources": [
+              "openfootball"
+            ],
+            "sourcePriority": 50,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "of:d9ab65fd041b930f",
+          "date": "2026-10-07",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-07T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Brasileirão Série A",
+            "fullName": null,
+            "normalized": "brasileirao serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data-curated",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "RB Bragantino",
+            "fullName": "RB Bragantino",
+            "normalized": "rb bragantino",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Mirassol FC",
+            "fullName": "Mirassol FC",
+            "normalized": "mirassol",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mirassol_FC_logo.png/330px-Mirassol_FC_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50,
+          "provenance": {
+            "fixtureSources": [
+              "openfootball"
+            ],
+            "sourcePriority": 50,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "bsd:7280",
+          "date": "2026-10-07",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-07T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Brasileirão Série A",
+            "fullName": null,
+            "normalized": "brasileirao serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data-curated",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Red Bull Bragantino",
+            "fullName": "Red Bull Bragantino",
+            "normalized": "red bull bragantino",
+            "country": null,
+            "externalIds": {
+              "bsd": "168"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Mirassol",
+            "fullName": "Mirassol",
+            "normalized": "mirassol",
+            "country": null,
+            "externalIds": {
+              "bsd": "151"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 7280,
+              "providerLeagueId": 9,
+              "providerSeasonId": 28
+            }
+          }
+        },
+        {
+          "id": "of:a8afc46331afa262",
+          "date": "2026-10-07",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-07T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Brasileirão Série A",
+            "fullName": null,
+            "normalized": "brasileirao serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data-curated",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "SC Internacional",
+            "fullName": "SC Internacional",
+            "normalized": "internacional",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "SC Corinthians Paulista",
+            "fullName": "SC Corinthians Paulista",
+            "normalized": "corinthians paulista",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Corinthians23022007_%28cropped%29.jpg/330px-Corinthians23022007_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50,
+          "provenance": {
+            "fixtureSources": [
+              "openfootball"
+            ],
+            "sourcePriority": 50,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "bsd:10165",
+          "date": "2026-10-07",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-07T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Avaí",
+            "fullName": "Avaí",
+            "normalized": "avai",
+            "country": null,
+            "externalIds": {
+              "bsd": "860"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Londrina",
+            "fullName": "Londrina",
+            "normalized": "londrina",
+            "country": null,
+            "externalIds": {
+              "bsd": "821"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10165,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "bsd:10170",
+          "date": "2026-10-07",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-07T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Operário-PR",
+            "fullName": "Operário-PR",
+            "normalized": "operario pr",
+            "country": null,
+            "externalIds": {
+              "bsd": "828"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Botafogo-SP",
+            "fullName": "Botafogo-SP",
+            "normalized": "botafogo sp",
+            "country": null,
+            "externalIds": {
+              "bsd": "927"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10170,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "fd:555022",
+          "date": "2026-10-07",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-07T22:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Campeonato Brasileiro Série A",
+            "fullName": null,
+            "normalized": "campeonato brasileiro serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9",
+              "football-data": "2013"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Bragantino",
+            "fullName": "RB Bragantino",
+            "normalized": "bragantino",
+            "country": null,
+            "externalIds": {
+              "football-data": "4286"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/4286.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Mirassol",
+            "fullName": "Mirassol FC",
+            "normalized": "mirassol",
+            "country": null,
+            "externalIds": {
+              "football-data": "4364"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/4364.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "fd:555027",
+          "date": "2026-10-07",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-07T22:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Campeonato Brasileiro Série A",
+            "fullName": null,
+            "normalized": "campeonato brasileiro serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9",
+              "football-data": "2013"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Clube do Remo",
+            "fullName": "Clube do Remo",
+            "normalized": "remo",
+            "country": null,
+            "externalIds": {
+              "football-data": "4287"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/4287.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Grêmio",
+            "fullName": "Grêmio FBPA",
+            "normalized": "gremio",
+            "country": null,
+            "externalIds": {
+              "football-data": "1767"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/1767.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data",
+              "bsd"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "fd:555025",
+          "date": "2026-10-07",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-07T22:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Campeonato Brasileiro Série A",
+            "fullName": null,
+            "normalized": "campeonato brasileiro serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9",
+              "football-data": "2013"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Internacional",
+            "fullName": "SC Internacional",
+            "normalized": "internacional",
+            "country": null,
+            "externalIds": {
+              "football-data": "6684"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/6684.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Corinthians",
+            "fullName": "SC Corinthians Paulista",
+            "normalized": "corinthians",
+            "country": null,
+            "externalIds": {
+              "football-data": "1779"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/1779.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data",
+              "bsd"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "of:bc3620f446150043",
+          "date": "2026-10-07",
+          "kickoff": "20:00",
+          "utcDate": "2026-10-07T23:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Brasileirão Série A",
+            "fullName": null,
+            "normalized": "brasileirao serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data-curated",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "EC Vitória",
+            "fullName": "EC Vitória",
+            "normalized": "vitoria",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Chapecoense AF",
+            "fullName": "Chapecoense AF",
+            "normalized": "chapecoense af",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50,
+          "provenance": {
+            "fixtureSources": [
+              "openfootball"
+            ],
+            "sourcePriority": 50,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "fd:555029",
+          "date": "2026-10-07",
+          "kickoff": "20:00",
+          "utcDate": "2026-10-07T23:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Campeonato Brasileiro Série A",
+            "fullName": null,
+            "normalized": "campeonato brasileiro serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9",
+              "football-data": "2013"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Vitória",
+            "fullName": "EC Vitória",
+            "normalized": "vitoria",
+            "country": null,
+            "externalIds": {
+              "football-data": "1782"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/1782.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Chapecoense",
+            "fullName": "Chapecoense AF",
+            "normalized": "chapecoense",
+            "country": null,
+            "externalIds": {
+              "football-data": "1772"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/1772_large.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data",
+              "bsd"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "of:d75500e6d1a170be",
+          "date": "2026-10-07",
+          "kickoff": "20:30",
+          "utcDate": "2026-10-07T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Brasileirão Série A",
+            "fullName": null,
+            "normalized": "brasileirao serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data-curated",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Botafogo FR",
+            "fullName": "Botafogo FR",
+            "normalized": "botafogo fr",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "CR Vasco da Gama",
+            "fullName": "CR Vasco da Gama",
+            "normalized": "vasco gama",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50,
+          "provenance": {
+            "fixtureSources": [
+              "openfootball"
+            ],
+            "sourcePriority": 50,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "bsd:10164",
+          "date": "2026-10-07",
+          "kickoff": "20:30",
+          "utcDate": "2026-10-07T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "América Mineiro",
+            "fullName": "América Mineiro",
+            "normalized": "america mineiro",
+            "country": null,
+            "externalIds": {
+              "bsd": "838"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Fortaleza",
+            "fullName": "Fortaleza",
+            "normalized": "fortaleza",
+            "country": null,
+            "externalIds": {
+              "bsd": "152"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10164,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "bsd:10166",
+          "date": "2026-10-07",
+          "kickoff": "20:30",
+          "utcDate": "2026-10-07T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "CRB",
+            "fullName": "CRB",
+            "normalized": "crb",
+            "country": null,
+            "externalIds": {
+              "bsd": "831"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Atlético Goianiense",
+            "fullName": "Atlético Goianiense",
+            "normalized": "atletico goianiense",
+            "country": null,
+            "externalIds": {
+              "bsd": "819"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10166,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "bsd:10173",
+          "date": "2026-10-07",
+          "kickoff": "20:30",
+          "utcDate": "2026-10-07T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Vila Nova FC",
+            "fullName": "Vila Nova FC",
+            "normalized": "vila nova",
+            "country": null,
+            "externalIds": {
+              "bsd": "826"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Cuiabá",
+            "fullName": "Cuiabá",
+            "normalized": "cuiaba",
+            "country": null,
+            "externalIds": {
+              "bsd": "863"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10173,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "fd:555021",
+          "date": "2026-10-07",
+          "kickoff": "20:30",
+          "utcDate": "2026-10-07T23:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Campeonato Brasileiro Série A",
+            "fullName": null,
+            "normalized": "campeonato brasileiro serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9",
+              "football-data": "2013"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Botafogo",
+            "fullName": "Botafogo FR",
+            "normalized": "botafogo",
+            "country": null,
+            "externalIds": {
+              "football-data": "1770"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/1770.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Vasco da Gama",
+            "fullName": "CR Vasco da Gama",
+            "normalized": "vasco gama",
+            "country": null,
+            "externalIds": {
+              "football-data": "1780"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/1780.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data",
+              "bsd"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "bsd:7276",
+          "date": "2026-10-07",
+          "kickoff": "21:30",
+          "utcDate": "2026-10-08T00:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-a",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série A",
+            "displayName": "Brasileirão Série A",
+            "fullName": null,
+            "normalized": "brasileirao serie a",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "9"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/bsa.png",
+              "provider": "football-data-curated",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSA"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Cruzeiro",
+            "fullName": "Cruzeiro",
+            "normalized": "cruzeiro",
+            "country": null,
+            "externalIds": {
+              "bsd": "150"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "São Paulo",
+            "fullName": "São Paulo",
+            "normalized": "sao paulo",
+            "country": null,
+            "externalIds": {
+              "bsd": "158"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd",
+            "openfootball"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd",
+              "openfootball"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 7276,
+              "providerLeagueId": 9,
+              "providerSeasonId": 28
+            }
+          }
+        }
+      ]
     }
   ],
   "matches": [
-    {
-      "id": "wm:95b7a1294df471c8",
-      "date": "2026-09-30",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-30T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "BK Häcken",
-        "fullName": "BK Häcken",
-        "normalized": "bk hacken",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Juventus",
-        "fullName": "Juventus",
-        "normalized": "juventus",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1377733931,
-          "revisionTimestamp": "2026-09-30T21:31:18Z"
-        }
-      }
-    },
-    {
-      "id": "wm:bc5a5a7a735c2a96",
-      "date": "2026-09-30",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-30T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Paris FC",
-        "fullName": "Paris FC",
-        "normalized": "paris",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Arsenal",
-        "fullName": "Arsenal",
-        "normalized": "arsenal",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19973.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1377733931,
-          "revisionTimestamp": "2026-09-30T21:31:18Z"
-        }
-      }
-    },
-    {
-      "id": "wm:0c4b5da1b9c81849",
-      "date": "2026-09-30",
-      "kickoff": "13:45",
-      "utcDate": "2026-09-30T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Roma",
-        "fullName": "Roma",
-        "normalized": "roma",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Barcelona",
-        "fullName": "Barcelona",
-        "normalized": "barcelona",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1377733931,
-          "revisionTimestamp": "2026-09-30T21:31:18Z"
-        }
-      }
-    },
-    {
-      "id": "wm:dde1e8f69eb097bf",
-      "date": "2026-09-30",
-      "kickoff": "16:00",
-      "utcDate": "2026-09-30T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Benfica",
-        "fullName": "Benfica",
-        "normalized": "benfica",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": "club:bayern-munich",
-        "entityType": "club",
-        "identityStatus": "resolved",
-        "canonicalName": "Bayern Munich",
-        "displayName": "Bayern Munich",
-        "fullName": "Bayern Munich",
-        "normalized": "bayern munich",
-        "country": "Germany",
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20103.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1377733931,
-          "revisionTimestamp": "2026-09-30T21:31:18Z"
-        }
-      }
-    },
-    {
-      "id": "wm:f26b8b9df0496ddc",
-      "date": "2026-09-30",
-      "kickoff": "16:00",
-      "utcDate": "2026-09-30T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "OL Lyonnes",
-        "fullName": "OL Lyonnes",
-        "normalized": "ol lyonnes",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Chelsea",
-        "fullName": "Chelsea",
-        "normalized": "chelsea",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1377733931,
-          "revisionTimestamp": "2026-09-30T21:31:18Z"
-        }
-      }
-    },
     {
       "id": "wm:9db7f7b1e26ae8ed",
       "date": "2026-10-01",
@@ -5395,6 +6104,1685 @@
           "providerEventId": 10171,
           "providerLeagueId": 34,
           "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "of:660a038ad6df2af4",
+      "date": "2026-10-07",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Brasileirão Série A",
+        "fullName": null,
+        "normalized": "brasileirao serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data-curated",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Clube do Remo",
+        "fullName": "Clube do Remo",
+        "normalized": "remo",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Grêmio FBPA",
+        "fullName": "Grêmio FBPA",
+        "normalized": "gremio fbpa",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50,
+      "provenance": {
+        "fixtureSources": [
+          "openfootball"
+        ],
+        "sourcePriority": 50,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "of:d9ab65fd041b930f",
+      "date": "2026-10-07",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Brasileirão Série A",
+        "fullName": null,
+        "normalized": "brasileirao serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data-curated",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "RB Bragantino",
+        "fullName": "RB Bragantino",
+        "normalized": "rb bragantino",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Mirassol FC",
+        "fullName": "Mirassol FC",
+        "normalized": "mirassol",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mirassol_FC_logo.png/330px-Mirassol_FC_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50,
+      "provenance": {
+        "fixtureSources": [
+          "openfootball"
+        ],
+        "sourcePriority": 50,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "bsd:7280",
+      "date": "2026-10-07",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Brasileirão Série A",
+        "fullName": null,
+        "normalized": "brasileirao serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data-curated",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Red Bull Bragantino",
+        "fullName": "Red Bull Bragantino",
+        "normalized": "red bull bragantino",
+        "country": null,
+        "externalIds": {
+          "bsd": "168"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Mirassol",
+        "fullName": "Mirassol",
+        "normalized": "mirassol",
+        "country": null,
+        "externalIds": {
+          "bsd": "151"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 7280,
+          "providerLeagueId": 9,
+          "providerSeasonId": 28
+        }
+      }
+    },
+    {
+      "id": "of:a8afc46331afa262",
+      "date": "2026-10-07",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Brasileirão Série A",
+        "fullName": null,
+        "normalized": "brasileirao serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data-curated",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "SC Internacional",
+        "fullName": "SC Internacional",
+        "normalized": "internacional",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "SC Corinthians Paulista",
+        "fullName": "SC Corinthians Paulista",
+        "normalized": "corinthians paulista",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Corinthians23022007_%28cropped%29.jpg/330px-Corinthians23022007_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50,
+      "provenance": {
+        "fixtureSources": [
+          "openfootball"
+        ],
+        "sourcePriority": 50,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "bsd:10165",
+      "date": "2026-10-07",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Avaí",
+        "fullName": "Avaí",
+        "normalized": "avai",
+        "country": null,
+        "externalIds": {
+          "bsd": "860"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Londrina",
+        "fullName": "Londrina",
+        "normalized": "londrina",
+        "country": null,
+        "externalIds": {
+          "bsd": "821"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10165,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10170",
+      "date": "2026-10-07",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Operário-PR",
+        "fullName": "Operário-PR",
+        "normalized": "operario pr",
+        "country": null,
+        "externalIds": {
+          "bsd": "828"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Botafogo-SP",
+        "fullName": "Botafogo-SP",
+        "normalized": "botafogo sp",
+        "country": null,
+        "externalIds": {
+          "bsd": "927"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10170,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "fd:555022",
+      "date": "2026-10-07",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Campeonato Brasileiro Série A",
+        "fullName": null,
+        "normalized": "campeonato brasileiro serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9",
+          "football-data": "2013"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Bragantino",
+        "fullName": "RB Bragantino",
+        "normalized": "bragantino",
+        "country": null,
+        "externalIds": {
+          "football-data": "4286"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/4286.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Mirassol",
+        "fullName": "Mirassol FC",
+        "normalized": "mirassol",
+        "country": null,
+        "externalIds": {
+          "football-data": "4364"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/4364.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "fd:555027",
+      "date": "2026-10-07",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Campeonato Brasileiro Série A",
+        "fullName": null,
+        "normalized": "campeonato brasileiro serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9",
+          "football-data": "2013"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Clube do Remo",
+        "fullName": "Clube do Remo",
+        "normalized": "remo",
+        "country": null,
+        "externalIds": {
+          "football-data": "4287"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/4287.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Grêmio",
+        "fullName": "Grêmio FBPA",
+        "normalized": "gremio",
+        "country": null,
+        "externalIds": {
+          "football-data": "1767"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/1767.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data",
+          "bsd"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "fd:555025",
+      "date": "2026-10-07",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-07T22:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Campeonato Brasileiro Série A",
+        "fullName": null,
+        "normalized": "campeonato brasileiro serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9",
+          "football-data": "2013"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Internacional",
+        "fullName": "SC Internacional",
+        "normalized": "internacional",
+        "country": null,
+        "externalIds": {
+          "football-data": "6684"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/6684.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Corinthians",
+        "fullName": "SC Corinthians Paulista",
+        "normalized": "corinthians",
+        "country": null,
+        "externalIds": {
+          "football-data": "1779"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/1779.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data",
+          "bsd"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "of:bc3620f446150043",
+      "date": "2026-10-07",
+      "kickoff": "20:00",
+      "utcDate": "2026-10-07T23:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Brasileirão Série A",
+        "fullName": null,
+        "normalized": "brasileirao serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data-curated",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "EC Vitória",
+        "fullName": "EC Vitória",
+        "normalized": "vitoria",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Chapecoense AF",
+        "fullName": "Chapecoense AF",
+        "normalized": "chapecoense af",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50,
+      "provenance": {
+        "fixtureSources": [
+          "openfootball"
+        ],
+        "sourcePriority": 50,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "fd:555029",
+      "date": "2026-10-07",
+      "kickoff": "20:00",
+      "utcDate": "2026-10-07T23:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Campeonato Brasileiro Série A",
+        "fullName": null,
+        "normalized": "campeonato brasileiro serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9",
+          "football-data": "2013"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Vitória",
+        "fullName": "EC Vitória",
+        "normalized": "vitoria",
+        "country": null,
+        "externalIds": {
+          "football-data": "1782"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/1782.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Chapecoense",
+        "fullName": "Chapecoense AF",
+        "normalized": "chapecoense",
+        "country": null,
+        "externalIds": {
+          "football-data": "1772"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/1772_large.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data",
+          "bsd"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "of:d75500e6d1a170be",
+      "date": "2026-10-07",
+      "kickoff": "20:30",
+      "utcDate": "2026-10-07T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Brasileirão Série A",
+        "fullName": null,
+        "normalized": "brasileirao serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data-curated",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Botafogo FR",
+        "fullName": "Botafogo FR",
+        "normalized": "botafogo fr",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "CR Vasco da Gama",
+        "fullName": "CR Vasco da Gama",
+        "normalized": "vasco gama",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50,
+      "provenance": {
+        "fixtureSources": [
+          "openfootball"
+        ],
+        "sourcePriority": 50,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "bsd:10164",
+      "date": "2026-10-07",
+      "kickoff": "20:30",
+      "utcDate": "2026-10-07T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "América Mineiro",
+        "fullName": "América Mineiro",
+        "normalized": "america mineiro",
+        "country": null,
+        "externalIds": {
+          "bsd": "838"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Fortaleza",
+        "fullName": "Fortaleza",
+        "normalized": "fortaleza",
+        "country": null,
+        "externalIds": {
+          "bsd": "152"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10164,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10166",
+      "date": "2026-10-07",
+      "kickoff": "20:30",
+      "utcDate": "2026-10-07T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "CRB",
+        "fullName": "CRB",
+        "normalized": "crb",
+        "country": null,
+        "externalIds": {
+          "bsd": "831"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Atlético Goianiense",
+        "fullName": "Atlético Goianiense",
+        "normalized": "atletico goianiense",
+        "country": null,
+        "externalIds": {
+          "bsd": "819"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10166,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10173",
+      "date": "2026-10-07",
+      "kickoff": "20:30",
+      "utcDate": "2026-10-07T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Vila Nova FC",
+        "fullName": "Vila Nova FC",
+        "normalized": "vila nova",
+        "country": null,
+        "externalIds": {
+          "bsd": "826"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Cuiabá",
+        "fullName": "Cuiabá",
+        "normalized": "cuiaba",
+        "country": null,
+        "externalIds": {
+          "bsd": "863"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10173,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "fd:555021",
+      "date": "2026-10-07",
+      "kickoff": "20:30",
+      "utcDate": "2026-10-07T23:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Campeonato Brasileiro Série A",
+        "fullName": null,
+        "normalized": "campeonato brasileiro serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9",
+          "football-data": "2013"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Botafogo",
+        "fullName": "Botafogo FR",
+        "normalized": "botafogo",
+        "country": null,
+        "externalIds": {
+          "football-data": "1770"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/1770.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Vasco da Gama",
+        "fullName": "CR Vasco da Gama",
+        "normalized": "vasco gama",
+        "country": null,
+        "externalIds": {
+          "football-data": "1780"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/1780.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data",
+          "bsd"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "bsd:7276",
+      "date": "2026-10-07",
+      "kickoff": "21:30",
+      "utcDate": "2026-10-08T00:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-a",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série A",
+        "displayName": "Brasileirão Série A",
+        "fullName": null,
+        "normalized": "brasileirao serie a",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "9"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/bsa.png",
+          "provider": "football-data-curated",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSA"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Cruzeiro",
+        "fullName": "Cruzeiro",
+        "normalized": "cruzeiro",
+        "country": null,
+        "externalIds": {
+          "bsd": "150"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "São Paulo",
+        "fullName": "São Paulo",
+        "normalized": "sao paulo",
+        "country": null,
+        "externalIds": {
+          "bsd": "158"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd",
+        "openfootball"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd",
+          "openfootball"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 7276,
+          "providerLeagueId": 9,
+          "providerSeasonId": 28
         }
       }
     }
