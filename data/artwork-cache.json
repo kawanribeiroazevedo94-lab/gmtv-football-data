@@ -276,7 +276,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/bsa.png",
-    "validatedAt": "2026-10-02T20:29:51Z",
+    "validatedAt": "2026-10-02T22:29:44Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -4214,10 +4214,10 @@
   },
   "team:botafogo fr@brasileirao serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-10-02T08:34:00Z",
+    "lastAttemptAt": "2026-10-02T22:30:24Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Botafogo FR",
-    "nextRetryAfter": "2026-10-02T20:34:00Z",
+    "nextRetryAfter": "2026-10-03T10:30:24Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -4289,7 +4289,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1770.png",
-    "validatedAt": "2026-10-02T20:29:47Z",
+    "validatedAt": "2026-10-02T22:29:40Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -4331,7 +4331,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/4286.png",
-    "validatedAt": "2026-10-02T20:29:39Z",
+    "validatedAt": "2026-10-02T22:29:38Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -4793,10 +4793,10 @@
   },
   "team:chapecoense af@brasileirao serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-10-02T08:33:55Z",
+    "lastAttemptAt": "2026-10-02T22:30:19Z",
     "lastError": "validated_entity_without_usable_logo",
     "name": "Chapecoense AF",
-    "nextRetryAfter": "2026-10-02T20:33:55Z",
+    "nextRetryAfter": "2026-10-03T10:30:19Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -4822,7 +4822,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1772_large.png",
-    "validatedAt": "2026-10-02T20:29:45Z",
+    "validatedAt": "2026-10-02T22:29:40Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5005,10 +5005,10 @@
   },
   "team:clube do remo@brasileirao serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-10-02T08:33:44Z",
+    "lastAttemptAt": "2026-10-02T22:30:08Z",
     "lastError": "validated_entity_without_usable_logo",
     "name": "Clube do Remo",
-    "nextRetryAfter": "2026-10-02T20:33:44Z",
+    "nextRetryAfter": "2026-10-03T10:30:08Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -5034,7 +5034,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/4287.png",
-    "validatedAt": "2026-10-02T20:29:43Z",
+    "validatedAt": "2026-10-02T22:29:35Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5237,7 +5237,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1779.png",
-    "validatedAt": "2026-10-02T20:29:42Z",
+    "validatedAt": "2026-10-02T22:29:37Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5312,10 +5312,10 @@
   },
   "team:cr vasco da gama@brasileirao serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-10-02T08:34:00Z",
+    "lastAttemptAt": "2026-10-02T22:30:24Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "CR Vasco da Gama",
-    "nextRetryAfter": "2026-10-02T20:34:00Z",
+    "nextRetryAfter": "2026-10-03T10:30:24Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -5525,7 +5525,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1771.png",
-    "validatedAt": "2026-10-02T20:29:48Z",
+    "validatedAt": "2026-10-02T22:29:42Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5968,10 +5968,10 @@
   },
   "team:ec vitoria@brasileirao serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-10-02T08:33:51Z",
+    "lastAttemptAt": "2026-10-02T22:30:15Z",
     "lastError": "validated_entity_without_usable_logo",
     "name": "EC Vitória",
-    "nextRetryAfter": "2026-10-02T20:33:51Z",
+    "nextRetryAfter": "2026-10-03T10:30:15Z",
     "property": null,
     "provider": null,
     "qid": "Q274465",
@@ -6669,7 +6669,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1783.png",
-    "validatedAt": "2026-10-02T20:29:51Z",
+    "validatedAt": "2026-10-02T22:29:44Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -7252,7 +7252,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1767.png",
-    "validatedAt": "2026-10-02T20:29:43Z",
+    "validatedAt": "2026-10-02T22:29:36Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -7878,7 +7878,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/6684.png",
-    "validatedAt": "2026-10-02T20:29:41Z",
+    "validatedAt": "2026-10-02T22:29:37Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -9111,7 +9111,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1766.png",
-    "validatedAt": "2026-10-02T20:29:53Z",
+    "validatedAt": "2026-10-02T22:29:45Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -9218,7 +9218,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/4364.png",
-    "validatedAt": "2026-10-02T20:29:40Z",
+    "validatedAt": "2026-10-02T22:29:38Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -10350,7 +10350,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1768.png",
-    "validatedAt": "2026-10-02T20:29:52Z",
+    "validatedAt": "2026-10-02T22:29:45Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11597,7 +11597,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/6685.png",
-    "validatedAt": "2026-10-02T20:29:50Z",
+    "validatedAt": "2026-10-02T22:29:43Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11708,7 +11708,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1776.png",
-    "validatedAt": "2026-10-02T20:29:49Z",
+    "validatedAt": "2026-10-02T22:29:43Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11848,10 +11848,10 @@
   },
   "team:sc internacional@brasileirao serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-10-02T08:33:36Z",
+    "lastAttemptAt": "2026-10-02T22:30:00Z",
     "lastError": "validated_entity_without_usable_logo",
     "name": "SC Internacional",
-    "nextRetryAfter": "2026-10-02T20:33:36Z",
+    "nextRetryAfter": "2026-10-03T10:30:00Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -13172,7 +13172,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1780.png",
-    "validatedAt": "2026-10-02T20:29:47Z",
+    "validatedAt": "2026-10-02T22:29:41Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -13368,7 +13368,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1782.png",
-    "validatedAt": "2026-10-02T20:29:45Z",
+    "validatedAt": "2026-10-02T22:29:39Z",
     "visualStatus": "approved",
     "width": null
   },
