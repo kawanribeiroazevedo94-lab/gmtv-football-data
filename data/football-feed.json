@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-02T00:38:21.473567Z",
+  "generatedAt": "2026-10-02T02:29:22.530914Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-01",
@@ -335,7 +335,7 @@
           "date": "2026-10-01",
           "kickoff": "20:30",
           "utcDate": "2026-10-01T23:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 34,
             "idProvider": "bsd",
@@ -376,7 +376,7 @@
           "date": "2026-10-01",
           "kickoff": "21:00",
           "utcDate": "2026-10-02T00:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 34,
             "idProvider": "bsd",
@@ -1852,7 +1852,7 @@
       "date": "2026-10-01",
       "kickoff": "20:30",
       "utcDate": "2026-10-01T23:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 34,
         "idProvider": "bsd",
@@ -1893,7 +1893,7 @@
       "date": "2026-10-01",
       "kickoff": "21:00",
       "utcDate": "2026-10-02T00:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 34,
         "idProvider": "bsd",
