@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-02T02:29:22Z",
+  "generatedAt": "2026-10-02T04:32:22Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7699,6 +7699,20 @@
       "entityType": "club",
       "aliases": [],
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mirassol_FC_logo.png/330px-Mirassol_FC_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:paranaense@campeonato brasileiro serie a",
+      "name": "Paranaense",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/1768.png",
       "league": null,
       "leagues": [
         "bra.1"
