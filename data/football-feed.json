@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-03T15:13:37.219387Z",
+  "generatedAt": "2026-10-03T20:10:37.401504Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-03",
@@ -167,7 +167,7 @@
           "date": "2026-10-03",
           "kickoff": "11:00",
           "utcDate": "2026-10-03T14:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 34,
             "idProvider": "bsd",
@@ -1516,7 +1516,7 @@
             "idProvider": "bsd",
             "name": "1. FC Kaiserslautern",
             "fullName": "1. FC Kaiserslautern",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_1_FC_Kaiserslautern.svg/330px-Logo_1_FC_Kaiserslautern.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "1 kaiserslautern"
           },
           "sources": [
@@ -1549,7 +1549,7 @@
             "idProvider": "openligadb",
             "name": "1. FC Heidenheim 1846",
             "fullName": "1. FC Heidenheim 1846",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/330px-1._FC_Heidenheim_1846.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "1 heidenheim 1846"
           },
           "away": {
@@ -1557,7 +1557,7 @@
             "idProvider": "openligadb",
             "name": "1. FC Kaiserslautern",
             "fullName": "1. FC Kaiserslautern",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_1_FC_Kaiserslautern.svg/330px-Logo_1_FC_Kaiserslautern.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "1 kaiserslautern"
           },
           "sources": [
@@ -2081,7 +2081,7 @@
       "date": "2026-10-03",
       "kickoff": "11:00",
       "utcDate": "2026-10-03T14:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 34,
         "idProvider": "bsd",
@@ -3390,7 +3390,7 @@
         "idProvider": "bsd",
         "name": "1. FC Kaiserslautern",
         "fullName": "1. FC Kaiserslautern",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_1_FC_Kaiserslautern.svg/330px-Logo_1_FC_Kaiserslautern.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "1 kaiserslautern"
       },
       "sources": [
@@ -3423,7 +3423,7 @@
         "idProvider": "openligadb",
         "name": "1. FC Heidenheim 1846",
         "fullName": "1. FC Heidenheim 1846",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/330px-1._FC_Heidenheim_1846.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "1 heidenheim 1846"
       },
       "away": {
@@ -3431,7 +3431,7 @@
         "idProvider": "openligadb",
         "name": "1. FC Kaiserslautern",
         "fullName": "1. FC Kaiserslautern",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_1_FC_Kaiserslautern.svg/330px-Logo_1_FC_Kaiserslautern.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "1 kaiserslautern"
       },
       "sources": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-03T15:13:37Z",
+  "generatedAt": "2026-10-03T20:10:37Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7658,6 +7658,34 @@
       "league": null,
       "leagues": [],
       "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q162251",
+      "name": "1. FC Heidenheim 1846",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/330px-1._FC_Heidenheim_1846.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q8466",
+      "name": "1. FC Kaiserslautern",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_1_FC_Kaiserslautern.svg/330px-Logo_1_FC_Kaiserslautern.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
       "status": "validated"
     },
     {
