@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-03T02:36:34Z",
+  "generatedAt": "2026-10-03T04:33:23Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7637,6 +7637,30 @@
       "status": "validated"
     },
     {
+      "id": "cache:competition:competition:championship",
+      "name": "Championship",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://crests.football-data.org/ELC.png",
+      "league": null,
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:competition:competition:primera division",
+      "name": "Primera Division",
+      "kind": "competition",
+      "entityType": "competition",
+      "aliases": [],
+      "url": "https://crests.football-data.org/laliga.png",
+      "league": null,
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:Q270995",
       "name": "CA Mineiro",
       "kind": "team",
@@ -7665,6 +7689,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:Q154053",
+      "name": "Eintracht Braunschweig",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/600px_Giallo_e_Blu_con_stemma_Eintracht_Braunschweig.png/330px-600px_Giallo_e_Blu_con_stemma_Eintracht_Braunschweig.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:Q221695",
       "name": "Grêmio FBPA",
       "kind": "team",
@@ -7676,6 +7714,20 @@
         "bra.1"
       ],
       "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q157828",
+      "name": "Holstein Kiel",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
       "status": "validated"
     },
     {
@@ -7707,6 +7759,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:olympique lyon@ligue 1",
+      "name": "Olympique Lyon",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/523.png",
+      "league": null,
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:paranaense@campeonato brasileiro serie a",
       "name": "Paranaense",
       "kind": "team",
@@ -7718,6 +7784,44 @@
         "bra.1"
       ],
       "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:qpr@championship",
+      "name": "QPR",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/69.png",
+      "league": null,
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:rc lens@ligue 1",
+      "name": "RC Lens",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/546.png",
+      "league": null,
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:west ham@championship",
+      "name": "West Ham",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/563.png",
+      "league": null,
+      "leagues": [],
+      "country": null,
       "status": "validated"
     }
   ]
