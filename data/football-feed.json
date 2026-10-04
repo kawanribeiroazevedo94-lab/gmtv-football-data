@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-04T13:42:43.204624Z",
+  "generatedAt": "2026-10-04T20:31:16.558746Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-04",
@@ -2441,7 +2441,7 @@
             "idProvider": "bsd",
             "name": "1. FSV Mainz 05",
             "fullName": "1. FSV Mainz 05",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/330px-Logo_Mainz_05.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "1 fsv mainz 05"
           },
           "away": {
@@ -2527,7 +2527,7 @@
             "idProvider": "bsd",
             "name": "FC Bayern München",
             "fullName": "FC Bayern München",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/330px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "bayern munchen"
           },
           "sources": [
@@ -7056,7 +7056,7 @@
         "idProvider": "bsd",
         "name": "1. FSV Mainz 05",
         "fullName": "1. FSV Mainz 05",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/330px-Logo_Mainz_05.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "1 fsv mainz 05"
       },
       "away": {
@@ -7142,7 +7142,7 @@
         "idProvider": "bsd",
         "name": "FC Bayern München",
         "fullName": "FC Bayern München",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/330px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "bayern munchen"
       },
       "sources": [

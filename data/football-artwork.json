@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-04T13:42:43Z",
+  "generatedAt": "2026-10-04T20:31:16Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7703,6 +7703,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:Q105254",
+      "name": "1. FSV Mainz 05",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/330px-Logo_Mainz_05.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:acad viseu@primeira liga",
       "name": "Acad. Viseu",
       "kind": "team",
@@ -7932,6 +7946,20 @@
         "por.1"
       ],
       "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q15789",
+      "name": "FC Bayern München",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/330px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
       "status": "validated"
     },
     {
