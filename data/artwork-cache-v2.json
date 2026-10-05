@@ -298,7 +298,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:36Z",
+      "lastAttemptAt": "2026-10-05T20:43:22Z",
       "name": "Bundesliga",
       "nextReviewAfter": null,
       "provenance": {
@@ -394,7 +394,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": "competition:brasileirao-serie-a",
-      "lastAttemptAt": "2026-10-05T18:39:53Z",
+      "lastAttemptAt": "2026-10-05T20:44:24Z",
       "name": "Campeonato Brasileiro Série A",
       "nextReviewAfter": null,
       "provenance": {
@@ -586,7 +586,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:16Z",
+      "lastAttemptAt": "2026-10-05T20:41:36Z",
       "name": "Championship",
       "nextReviewAfter": null,
       "provenance": {
@@ -1322,7 +1322,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:32Z",
+      "lastAttemptAt": "2026-10-05T20:43:05Z",
       "name": "Eredivisie",
       "nextReviewAfter": null,
       "provenance": {
@@ -1834,7 +1834,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:42Z",
+      "lastAttemptAt": "2026-10-05T20:43:44Z",
       "name": "Ligue 1",
       "nextReviewAfter": null,
       "provenance": {
@@ -1930,7 +1930,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": "competition:premier-league",
-      "lastAttemptAt": "2026-10-05T18:39:35Z",
+      "lastAttemptAt": "2026-10-05T20:43:16Z",
       "name": "Premier League",
       "nextReviewAfter": null,
       "provenance": {
@@ -1962,7 +1962,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:47Z",
+      "lastAttemptAt": "2026-10-05T20:44:01Z",
       "name": "Primeira Liga",
       "nextReviewAfter": null,
       "provenance": {
@@ -1994,7 +1994,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:46Z",
+      "lastAttemptAt": "2026-10-05T20:43:55Z",
       "name": "Primera Division",
       "nextReviewAfter": null,
       "provenance": {
@@ -2154,7 +2154,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:43Z",
+      "lastAttemptAt": "2026-10-05T20:43:37Z",
       "name": "Serie A",
       "nextReviewAfter": null,
       "provenance": {
@@ -2794,7 +2794,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:29Z",
+      "lastAttemptAt": "2026-10-05T20:42:53Z",
       "name": "1. FC Köln",
       "nextReviewAfter": null,
       "provenance": {
@@ -2826,9 +2826,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "1. FC Magdeburg",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -3146,7 +3146,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:10Z",
+      "lastAttemptAt": "2026-10-05T20:40:55Z",
       "name": "Acad. Viseu",
       "nextReviewAfter": null,
       "provenance": {
@@ -3242,9 +3242,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Académico de Viseu FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -3276,7 +3276,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Académico de Viseu FC",
-      "nextReviewAfter": "2026-10-06T06:40:33Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -3306,9 +3306,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "ACF Fiorentina",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -3562,7 +3562,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:09Z",
+      "lastAttemptAt": "2026-10-05T20:40:38Z",
       "name": "Ajax",
       "nextReviewAfter": null,
       "provenance": {
@@ -4106,7 +4106,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:45Z",
+      "lastAttemptAt": "2026-10-05T20:38:57Z",
       "name": "Alavés",
       "nextReviewAfter": null,
       "provenance": {
@@ -4330,7 +4330,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:48Z",
+      "lastAttemptAt": "2026-10-05T20:44:03Z",
       "name": "Amadora",
       "nextReviewAfter": null,
       "provenance": {
@@ -4554,7 +4554,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:01Z",
+      "lastAttemptAt": "2026-10-05T20:40:06Z",
       "name": "Angers SCO",
       "nextReviewAfter": null,
       "provenance": {
@@ -4746,7 +4746,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:48Z",
+      "lastAttemptAt": "2026-10-05T20:44:01Z",
       "name": "Arouca",
       "nextReviewAfter": null,
       "provenance": {
@@ -4842,7 +4842,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:16Z",
+      "lastAttemptAt": "2026-10-05T20:36:01Z",
       "name": "Arsenal",
       "nextReviewAfter": null,
       "provenance": {
@@ -4938,9 +4938,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "AS Monaco FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -5066,7 +5066,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:37Z",
+      "lastAttemptAt": "2026-10-05T20:38:22Z",
       "name": "Aston Villa",
       "nextReviewAfter": null,
       "provenance": {
@@ -5258,7 +5258,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:22Z",
+      "lastAttemptAt": "2026-10-05T20:36:36Z",
       "name": "Athletic",
       "nextReviewAfter": null,
       "provenance": {
@@ -5450,7 +5450,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:46Z",
+      "lastAttemptAt": "2026-10-05T20:38:58Z",
       "name": "Atleti",
       "nextReviewAfter": null,
       "provenance": {
@@ -5866,7 +5866,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:27Z",
+      "lastAttemptAt": "2026-10-05T20:37:05Z",
       "name": "Augsburg",
       "nextReviewAfter": null,
       "provenance": {
@@ -6090,7 +6090,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:35Z",
+      "lastAttemptAt": "2026-10-05T20:43:15Z",
       "name": "Auxerre",
       "nextReviewAfter": null,
       "provenance": {
@@ -6218,7 +6218,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:56Z",
+      "lastAttemptAt": "2026-10-05T20:39:54Z",
       "name": "AZ",
       "nextReviewAfter": null,
       "provenance": {
@@ -6346,7 +6346,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:53Z",
+      "lastAttemptAt": "2026-10-05T20:44:28Z",
       "name": "Bahia",
       "nextReviewAfter": null,
       "provenance": {
@@ -6410,7 +6410,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:55Z",
+      "lastAttemptAt": "2026-10-05T20:39:42Z",
       "name": "Barça",
       "nextReviewAfter": null,
       "provenance": {
@@ -6762,7 +6762,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:27Z",
+      "lastAttemptAt": "2026-10-05T20:37:06Z",
       "name": "Bayern",
       "nextReviewAfter": null,
       "provenance": {
@@ -6986,9 +6986,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Birmingham City FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -7018,7 +7018,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:19Z",
+      "lastAttemptAt": "2026-10-05T20:36:22Z",
       "name": "Birmingham",
       "nextReviewAfter": null,
       "provenance": {
@@ -7146,9 +7146,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Blackburn Rovers FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -7178,7 +7178,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:43Z",
+      "lastAttemptAt": "2026-10-05T20:38:46Z",
       "name": "Blackburn",
       "nextReviewAfter": null,
       "provenance": {
@@ -7370,7 +7370,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:24Z",
+      "lastAttemptAt": "2026-10-05T20:42:20Z",
       "name": "Bologna",
       "nextReviewAfter": null,
       "provenance": {
@@ -7402,9 +7402,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Bolton Wanderers FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -7434,7 +7434,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:36Z",
+      "lastAttemptAt": "2026-10-05T20:38:17Z",
       "name": "Bolton",
       "nextReviewAfter": null,
       "provenance": {
@@ -7722,9 +7722,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Botafogo FR",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -7818,7 +7818,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:37:58Z",
+      "lastAttemptAt": "2026-10-05T20:34:11Z",
       "name": "Botafogo",
       "nextReviewAfter": null,
       "provenance": {
@@ -7850,7 +7850,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:31Z",
+      "lastAttemptAt": "2026-10-05T20:37:25Z",
       "name": "Bournemouth",
       "nextReviewAfter": null,
       "provenance": {
@@ -7914,7 +7914,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:15Z",
+      "lastAttemptAt": "2026-10-05T20:35:53Z",
       "name": "Braga",
       "nextReviewAfter": null,
       "provenance": {
@@ -7946,7 +7946,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:37:52Z",
+      "lastAttemptAt": "2026-10-05T20:33:38Z",
       "name": "Bragantino",
       "nextReviewAfter": null,
       "provenance": {
@@ -8010,7 +8010,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:10Z",
+      "lastAttemptAt": "2026-10-05T20:35:29Z",
       "name": "Bremen",
       "nextReviewAfter": null,
       "provenance": {
@@ -8074,9 +8074,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Brentford F.C.",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -8106,7 +8106,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:38Z",
+      "lastAttemptAt": "2026-10-05T20:38:24Z",
       "name": "Brentford",
       "nextReviewAfter": null,
       "provenance": {
@@ -8170,7 +8170,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:00Z",
+      "lastAttemptAt": "2026-10-05T20:40:03Z",
       "name": "Brest",
       "nextReviewAfter": null,
       "provenance": {
@@ -8266,7 +8266,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:40Z",
+      "lastAttemptAt": "2026-10-05T20:38:38Z",
       "name": "Brighton Hove",
       "nextReviewAfter": null,
       "provenance": {
@@ -8298,9 +8298,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Bristol City FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -8330,7 +8330,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:20Z",
+      "lastAttemptAt": "2026-10-05T20:36:28Z",
       "name": "Bristol City",
       "nextReviewAfter": null,
       "provenance": {
@@ -8394,7 +8394,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:44Z",
+      "lastAttemptAt": "2026-10-05T20:38:50Z",
       "name": "Burnley",
       "nextReviewAfter": null,
       "provenance": {
@@ -8554,7 +8554,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:44Z",
+      "lastAttemptAt": "2026-10-05T20:43:39Z",
       "name": "Cagliari",
       "nextReviewAfter": null,
       "provenance": {
@@ -8586,7 +8586,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:21Z",
+      "lastAttemptAt": "2026-10-05T20:42:02Z",
       "name": "Cambuur",
       "nextReviewAfter": null,
       "provenance": {
@@ -8746,9 +8746,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Cardiff City FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -8778,7 +8778,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:43Z",
+      "lastAttemptAt": "2026-10-05T20:38:46Z",
       "name": "Cardiff",
       "nextReviewAfter": null,
       "provenance": {
@@ -8842,9 +8842,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Casa Pia AC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -8874,7 +8874,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:47Z",
+      "lastAttemptAt": "2026-10-05T20:39:05Z",
       "name": "Casa Pia",
       "nextReviewAfter": null,
       "provenance": {
@@ -8906,7 +8906,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:32Z",
+      "lastAttemptAt": "2026-10-05T20:43:04Z",
       "name": "CD Nacional",
       "nextReviewAfter": null,
       "provenance": {
@@ -8938,9 +8938,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "CD Santa Clara",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -9098,7 +9098,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:19Z",
+      "lastAttemptAt": "2026-10-05T20:41:48Z",
       "name": "Celta",
       "nextReviewAfter": null,
       "provenance": {
@@ -9290,9 +9290,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Chapecoense AF",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -9322,7 +9322,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:37:57Z",
+      "lastAttemptAt": "2026-10-05T20:34:05Z",
       "name": "Chapecoense",
       "nextReviewAfter": null,
       "provenance": {
@@ -9386,9 +9386,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Charlton Athletic FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -9418,7 +9418,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:20Z",
+      "lastAttemptAt": "2026-10-05T20:36:27Z",
       "name": "Charlton",
       "nextReviewAfter": null,
       "provenance": {
@@ -9514,7 +9514,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:31Z",
+      "lastAttemptAt": "2026-10-05T20:37:24Z",
       "name": "Chelsea",
       "nextReviewAfter": null,
       "provenance": {
@@ -9706,9 +9706,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Clube do Remo",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -9738,7 +9738,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:12Z",
+      "lastAttemptAt": "2026-10-05T20:41:07Z",
       "name": "Clube do Remo",
       "nextReviewAfter": null,
       "provenance": {
@@ -9930,7 +9930,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:16Z",
+      "lastAttemptAt": "2026-10-05T20:41:33Z",
       "name": "Como 1907",
       "nextReviewAfter": null,
       "provenance": {
@@ -10058,7 +10058,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:51Z",
+      "lastAttemptAt": "2026-10-05T20:44:17Z",
       "name": "Corinthians",
       "nextReviewAfter": null,
       "provenance": {
@@ -10186,7 +10186,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:06Z",
+      "lastAttemptAt": "2026-10-05T20:35:06Z",
       "name": "Coritiba",
       "nextReviewAfter": null,
       "provenance": {
@@ -10250,9 +10250,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "CR Vasco da Gama",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -10538,7 +10538,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:37:59Z",
+      "lastAttemptAt": "2026-10-05T20:34:22Z",
       "name": "Cruzeiro",
       "nextReviewAfter": null,
       "provenance": {
@@ -10634,7 +10634,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:26Z",
+      "lastAttemptAt": "2026-10-05T20:42:41Z",
       "name": "Crystal Palace",
       "nextReviewAfter": null,
       "provenance": {
@@ -10666,9 +10666,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "CS Marítimo",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -10913,18 +10913,18 @@
       "wikidataQid": null
     },
     "team:darmstadt 98@2 bundesliga": {
-      "artworkProperty": null,
-      "artworkProvider": null,
-      "artworkUrl": null,
+      "artworkProperty": "P154",
+      "artworkProvider": "wikidata-commons",
+      "artworkUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SV_Darmstadt_98_Logo.svg/330px-SV_Darmstadt_98_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "attemptCount": 1,
       "cacheKey": "team:darmstadt 98@2 bundesliga",
-      "candidateUrl": null,
+      "candidateUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SV_Darmstadt_98_Logo.svg/330px-SV_Darmstadt_98_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "entityType": "club",
-      "fetchStatus": "not_checked",
+      "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:07Z",
       "name": "Darmstadt 98",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": null,
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -10932,17 +10932,17 @@
         "providerEntityId": null,
         "resolverVersion": 4,
         "sha256": null,
-        "sourceFile": null,
+        "sourceFile": "SV Darmstadt 98 Logo.svg",
         "sourceUrl": null,
         "supersededRejection": null
       },
-      "publishable": false,
+      "publishable": true,
       "rejectedAt": null,
       "rejectedReason": null,
-      "resolutionStatus": "unresolved",
-      "semanticStatus": "unresolved",
-      "visualStatus": "not_checked",
-      "wikidataQid": null
+      "resolutionStatus": "validated",
+      "semanticStatus": "validated",
+      "visualStatus": "approved",
+      "wikidataQid": "Q479351"
     },
     "team:defensa y justicia": {
       "artworkProperty": "provider-logo",
@@ -11018,7 +11018,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:20Z",
+      "lastAttemptAt": "2026-10-05T20:41:56Z",
       "name": "Den Haag",
       "nextReviewAfter": null,
       "provenance": {
@@ -11178,9 +11178,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Deportivo Alaves",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -11402,7 +11402,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:31Z",
+      "lastAttemptAt": "2026-10-05T20:43:01Z",
       "name": "Deportivo",
       "nextReviewAfter": null,
       "provenance": {
@@ -11434,7 +11434,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:35Z",
+      "lastAttemptAt": "2026-10-05T20:38:09Z",
       "name": "Derby County",
       "nextReviewAfter": null,
       "provenance": {
@@ -11466,7 +11466,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:09Z",
+      "lastAttemptAt": "2026-10-05T20:35:28Z",
       "name": "Dortmund",
       "nextReviewAfter": null,
       "provenance": {
@@ -11530,9 +11530,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Dynamo Dresden",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -11562,9 +11562,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "EC Vitória",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -11818,7 +11818,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:18Z",
+      "lastAttemptAt": "2026-10-05T20:41:47Z",
       "name": "Elche",
       "nextReviewAfter": null,
       "provenance": {
@@ -11850,7 +11850,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:24Z",
+      "lastAttemptAt": "2026-10-05T20:36:50Z",
       "name": "Elversberg",
       "nextReviewAfter": null,
       "provenance": {
@@ -11882,9 +11882,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Energie Cottbus",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -12042,7 +12042,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:14Z",
+      "lastAttemptAt": "2026-10-05T20:35:50Z",
       "name": "Espanyol",
       "nextReviewAfter": null,
       "provenance": {
@@ -12138,7 +12138,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:11Z",
+      "lastAttemptAt": "2026-10-05T20:40:56Z",
       "name": "Estoril Praia",
       "nextReviewAfter": null,
       "provenance": {
@@ -12204,7 +12204,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "CF Estrela da Amadora",
-      "nextReviewAfter": "2026-10-06T06:40:33Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -12330,7 +12330,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:28Z",
+      "lastAttemptAt": "2026-10-05T20:42:50Z",
       "name": "Everton",
       "nextReviewAfter": null,
       "provenance": {
@@ -12394,7 +12394,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:33Z",
+      "lastAttemptAt": "2026-10-05T20:43:07Z",
       "name": "Excelsior",
       "nextReviewAfter": null,
       "provenance": {
@@ -12554,9 +12554,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "FC Barcelona",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -12746,9 +12746,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "FC Getafe",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -12842,9 +12842,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "FC Internazionale Milano",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -13098,9 +13098,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "FC Twente '65",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -13226,9 +13226,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "FC Villareal",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -13354,7 +13354,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:56Z",
+      "lastAttemptAt": "2026-10-05T20:39:52Z",
       "name": "Feyenoord",
       "nextReviewAfter": null,
       "provenance": {
@@ -13450,7 +13450,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:23Z",
+      "lastAttemptAt": "2026-10-05T20:36:45Z",
       "name": "Fiorentina",
       "nextReviewAfter": null,
       "provenance": {
@@ -13514,7 +13514,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:49Z",
+      "lastAttemptAt": "2026-10-05T20:44:07Z",
       "name": "Flamengo",
       "nextReviewAfter": null,
       "provenance": {
@@ -13610,7 +13610,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:49Z",
+      "lastAttemptAt": "2026-10-05T20:44:09Z",
       "name": "Fluminense",
       "nextReviewAfter": null,
       "provenance": {
@@ -13802,7 +13802,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:52Z",
+      "lastAttemptAt": "2026-10-05T20:39:30Z",
       "name": "Frankfurt",
       "nextReviewAfter": null,
       "provenance": {
@@ -13834,7 +13834,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:37Z",
+      "lastAttemptAt": "2026-10-05T20:43:23Z",
       "name": "Freiburg",
       "nextReviewAfter": null,
       "provenance": {
@@ -13898,9 +13898,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Frosinone Calcio",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -13930,7 +13930,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:05Z",
+      "lastAttemptAt": "2026-10-05T20:40:22Z",
       "name": "Frosinone",
       "nextReviewAfter": null,
       "provenance": {
@@ -13994,7 +13994,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:42Z",
+      "lastAttemptAt": "2026-10-05T20:38:42Z",
       "name": "Fulham",
       "nextReviewAfter": null,
       "provenance": {
@@ -14026,9 +14026,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "GD Estoril Praia",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -14090,9 +14090,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Genoa CFC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -14122,7 +14122,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:23Z",
+      "lastAttemptAt": "2026-10-05T20:36:43Z",
       "name": "Genoa",
       "nextReviewAfter": null,
       "provenance": {
@@ -14250,7 +14250,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:55Z",
+      "lastAttemptAt": "2026-10-05T20:39:44Z",
       "name": "Getafe",
       "nextReviewAfter": null,
       "provenance": {
@@ -14378,7 +14378,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:07Z",
+      "lastAttemptAt": "2026-10-05T20:35:12Z",
       "name": "Gil Vicente",
       "nextReviewAfter": null,
       "provenance": {
@@ -14538,7 +14538,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:48Z",
+      "lastAttemptAt": "2026-10-05T20:39:12Z",
       "name": "Go Ahead",
       "nextReviewAfter": null,
       "provenance": {
@@ -14794,7 +14794,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:52Z",
+      "lastAttemptAt": "2026-10-05T20:44:20Z",
       "name": "Grêmio",
       "nextReviewAfter": null,
       "provenance": {
@@ -14826,7 +14826,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:33Z",
+      "lastAttemptAt": "2026-10-05T20:43:10Z",
       "name": "Groningen",
       "nextReviewAfter": null,
       "provenance": {
@@ -15050,9 +15050,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Hannover 96",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -15210,7 +15210,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:08Z",
+      "lastAttemptAt": "2026-10-05T20:35:20Z",
       "name": "Heerenveen",
       "nextReviewAfter": null,
       "provenance": {
@@ -15274,7 +15274,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:28Z",
+      "lastAttemptAt": "2026-10-05T20:37:18Z",
       "name": "Hoffenheim",
       "nextReviewAfter": null,
       "provenance": {
@@ -15370,7 +15370,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:28Z",
+      "lastAttemptAt": "2026-10-05T20:37:19Z",
       "name": "HSV",
       "nextReviewAfter": null,
       "provenance": {
@@ -15466,7 +15466,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:28Z",
+      "lastAttemptAt": "2026-10-05T20:42:48Z",
       "name": "Hull City",
       "nextReviewAfter": null,
       "provenance": {
@@ -15946,7 +15946,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:51Z",
+      "lastAttemptAt": "2026-10-05T20:39:25Z",
       "name": "Inter",
       "nextReviewAfter": null,
       "provenance": {
@@ -16010,7 +16010,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:52Z",
+      "lastAttemptAt": "2026-10-05T20:44:23Z",
       "name": "Internacional",
       "nextReviewAfter": null,
       "provenance": {
@@ -16106,7 +16106,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:41Z",
+      "lastAttemptAt": "2026-10-05T20:38:40Z",
       "name": "Ipswich Town",
       "nextReviewAfter": null,
       "provenance": {
@@ -16522,7 +16522,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:44Z",
+      "lastAttemptAt": "2026-10-05T20:43:43Z",
       "name": "Juventus",
       "nextReviewAfter": null,
       "provenance": {
@@ -16842,7 +16842,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:25Z",
+      "lastAttemptAt": "2026-10-05T20:42:23Z",
       "name": "Lazio",
       "nextReviewAfter": null,
       "provenance": {
@@ -16938,7 +16938,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:50Z",
+      "lastAttemptAt": "2026-10-05T20:39:23Z",
       "name": "Le Havre",
       "nextReviewAfter": null,
       "provenance": {
@@ -17002,9 +17002,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Le Mans FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -17034,7 +17034,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:02Z",
+      "lastAttemptAt": "2026-10-05T20:40:13Z",
       "name": "Le Mans",
       "nextReviewAfter": null,
       "provenance": {
@@ -17098,7 +17098,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:24Z",
+      "lastAttemptAt": "2026-10-05T20:42:18Z",
       "name": "Lecce",
       "nextReviewAfter": null,
       "provenance": {
@@ -17162,7 +17162,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:16Z",
+      "lastAttemptAt": "2026-10-05T20:36:05Z",
       "name": "Leeds United",
       "nextReviewAfter": null,
       "provenance": {
@@ -17290,7 +17290,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:30Z",
+      "lastAttemptAt": "2026-10-05T20:37:13Z",
       "name": "Leverkusen",
       "nextReviewAfter": null,
       "provenance": {
@@ -17450,9 +17450,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Lille OSC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -17482,7 +17482,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:49Z",
+      "lastAttemptAt": "2026-10-05T20:39:16Z",
       "name": "Lille",
       "nextReviewAfter": null,
       "provenance": {
@@ -17514,9 +17514,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Lincoln City FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -17546,7 +17546,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:32Z",
+      "lastAttemptAt": "2026-10-05T20:37:57Z",
       "name": "Lincoln City",
       "nextReviewAfter": null,
       "provenance": {
@@ -17642,7 +17642,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:36Z",
+      "lastAttemptAt": "2026-10-05T20:43:18Z",
       "name": "Liverpool",
       "nextReviewAfter": null,
       "provenance": {
@@ -17770,7 +17770,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:03Z",
+      "lastAttemptAt": "2026-10-05T20:40:16Z",
       "name": "Lorient",
       "nextReviewAfter": null,
       "provenance": {
@@ -17866,7 +17866,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:29Z",
+      "lastAttemptAt": "2026-10-05T20:42:56Z",
       "name": "M'gladbach",
       "nextReviewAfter": null,
       "provenance": {
@@ -17962,7 +17962,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:29Z",
+      "lastAttemptAt": "2026-10-05T20:37:10Z",
       "name": "Mainz",
       "nextReviewAfter": null,
       "provenance": {
@@ -18058,7 +18058,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:13Z",
+      "lastAttemptAt": "2026-10-05T20:35:48Z",
       "name": "Málaga",
       "nextReviewAfter": null,
       "provenance": {
@@ -18122,7 +18122,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:36Z",
+      "lastAttemptAt": "2026-10-05T20:43:20Z",
       "name": "Man City",
       "nextReviewAfter": null,
       "provenance": {
@@ -18154,7 +18154,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:53Z",
+      "lastAttemptAt": "2026-10-05T20:39:34Z",
       "name": "Man United",
       "nextReviewAfter": null,
       "provenance": {
@@ -18314,9 +18314,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Manchester United FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -18378,7 +18378,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:57Z",
+      "lastAttemptAt": "2026-10-05T20:39:57Z",
       "name": "Marítimo",
       "nextReviewAfter": null,
       "provenance": {
@@ -18410,7 +18410,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:43Z",
+      "lastAttemptAt": "2026-10-05T20:43:47Z",
       "name": "Marseille",
       "nextReviewAfter": null,
       "provenance": {
@@ -18538,9 +18538,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Middlesbrough FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -18570,7 +18570,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:33Z",
+      "lastAttemptAt": "2026-10-05T20:38:04Z",
       "name": "Middlesbrough",
       "nextReviewAfter": null,
       "provenance": {
@@ -18634,7 +18634,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:39Z",
+      "lastAttemptAt": "2026-10-05T20:43:27Z",
       "name": "Milan",
       "nextReviewAfter": null,
       "provenance": {
@@ -18698,9 +18698,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Millwall FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -18730,7 +18730,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:39Z",
+      "lastAttemptAt": "2026-10-05T20:38:28Z",
       "name": "Millwall",
       "nextReviewAfter": null,
       "provenance": {
@@ -18762,7 +18762,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:45Z",
+      "lastAttemptAt": "2026-10-05T20:43:49Z",
       "name": "Mineiro",
       "nextReviewAfter": null,
       "provenance": {
@@ -18922,7 +18922,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:53Z",
+      "lastAttemptAt": "2026-10-05T20:44:30Z",
       "name": "Mirassol",
       "nextReviewAfter": null,
       "provenance": {
@@ -19018,7 +19018,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:06Z",
+      "lastAttemptAt": "2026-10-05T20:40:25Z",
       "name": "Monaco",
       "nextReviewAfter": null,
       "provenance": {
@@ -19210,7 +19210,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:25Z",
+      "lastAttemptAt": "2026-10-05T20:42:35Z",
       "name": "Monza",
       "nextReviewAfter": null,
       "provenance": {
@@ -19274,7 +19274,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:06Z",
+      "lastAttemptAt": "2026-10-05T20:35:10Z",
       "name": "Moreirense",
       "nextReviewAfter": null,
       "provenance": {
@@ -19434,7 +19434,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:05Z",
+      "lastAttemptAt": "2026-10-05T20:40:20Z",
       "name": "Napoli",
       "nextReviewAfter": null,
       "provenance": {
@@ -19594,7 +19594,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:09Z",
+      "lastAttemptAt": "2026-10-05T20:40:51Z",
       "name": "NEC",
       "nextReviewAfter": null,
       "provenance": {
@@ -19914,7 +19914,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:22Z",
+      "lastAttemptAt": "2026-10-05T20:42:09Z",
       "name": "Nice",
       "nextReviewAfter": null,
       "provenance": {
@@ -20042,9 +20042,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Norwich City FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -20074,7 +20074,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:18Z",
+      "lastAttemptAt": "2026-10-05T20:36:16Z",
       "name": "Norwich",
       "nextReviewAfter": null,
       "provenance": {
@@ -20170,7 +20170,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:27Z",
+      "lastAttemptAt": "2026-10-05T20:42:44Z",
       "name": "Nottingham",
       "nextReviewAfter": null,
       "provenance": {
@@ -20522,7 +20522,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:11Z",
+      "lastAttemptAt": "2026-10-05T20:35:34Z",
       "name": "Olympique Lyon",
       "nextReviewAfter": null,
       "provenance": {
@@ -20778,7 +20778,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:40Z",
+      "lastAttemptAt": "2026-10-05T20:43:31Z",
       "name": "Osasuna",
       "nextReviewAfter": null,
       "provenance": {
@@ -20938,7 +20938,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:50Z",
+      "lastAttemptAt": "2026-10-05T20:44:16Z",
       "name": "Palmeiras",
       "nextReviewAfter": null,
       "provenance": {
@@ -21034,7 +21034,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:02Z",
+      "lastAttemptAt": "2026-10-05T20:34:33Z",
       "name": "Paranaense",
       "nextReviewAfter": null,
       "provenance": {
@@ -21130,7 +21130,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:04Z",
+      "lastAttemptAt": "2026-10-05T20:40:17Z",
       "name": "Paris FC",
       "nextReviewAfter": null,
       "provenance": {
@@ -21226,9 +21226,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Paris Saint-Germain FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -21354,9 +21354,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Parma Calcio 1913",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -21386,7 +21386,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:51Z",
+      "lastAttemptAt": "2026-10-05T20:39:26Z",
       "name": "Parma",
       "nextReviewAfter": null,
       "provenance": {
@@ -21770,7 +21770,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:58Z",
+      "lastAttemptAt": "2026-10-05T20:39:58Z",
       "name": "Porto",
       "nextReviewAfter": null,
       "provenance": {
@@ -21802,7 +21802,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:17Z",
+      "lastAttemptAt": "2026-10-05T20:41:43Z",
       "name": "Portsmouth",
       "nextReviewAfter": null,
       "provenance": {
@@ -21866,7 +21866,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:39Z",
+      "lastAttemptAt": "2026-10-05T20:38:26Z",
       "name": "Preston NE",
       "nextReviewAfter": null,
       "provenance": {
@@ -21898,9 +21898,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Preston North End FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -21930,7 +21930,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:02Z",
+      "lastAttemptAt": "2026-10-05T20:40:10Z",
       "name": "PSG",
       "nextReviewAfter": null,
       "provenance": {
@@ -21994,7 +21994,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:08Z",
+      "lastAttemptAt": "2026-10-05T20:35:19Z",
       "name": "PSV",
       "nextReviewAfter": null,
       "provenance": {
@@ -22122,7 +22122,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:12Z",
+      "lastAttemptAt": "2026-10-05T20:35:39Z",
       "name": "QPR",
       "nextReviewAfter": null,
       "provenance": {
@@ -22410,9 +22410,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Rayo Vallecano de Madrid",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -22442,7 +22442,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:21Z",
+      "lastAttemptAt": "2026-10-05T20:36:34Z",
       "name": "Rayo Vallecano",
       "nextReviewAfter": null,
       "provenance": {
@@ -22538,7 +22538,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:52Z",
+      "lastAttemptAt": "2026-10-05T20:39:29Z",
       "name": "RB Leipzig",
       "nextReviewAfter": null,
       "provenance": {
@@ -22634,7 +22634,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:11Z",
+      "lastAttemptAt": "2026-10-05T20:35:33Z",
       "name": "RC Lens",
       "nextReviewAfter": null,
       "provenance": {
@@ -22794,7 +22794,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:40Z",
+      "lastAttemptAt": "2026-10-05T20:43:30Z",
       "name": "Real Betis",
       "nextReviewAfter": null,
       "provenance": {
@@ -22922,7 +22922,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:40:33Z",
       "name": "Real Madrid",
       "nextReviewAfter": null,
       "provenance": {
@@ -23146,7 +23146,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:30Z",
+      "lastAttemptAt": "2026-10-05T20:42:59Z",
       "name": "Real Sociedad",
       "nextReviewAfter": null,
       "provenance": {
@@ -23370,7 +23370,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:32Z",
+      "lastAttemptAt": "2026-10-05T20:43:03Z",
       "name": "Rio Ave",
       "nextReviewAfter": null,
       "provenance": {
@@ -23498,7 +23498,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:16Z",
+      "lastAttemptAt": "2026-10-05T20:41:34Z",
       "name": "Roma",
       "nextReviewAfter": null,
       "provenance": {
@@ -23818,7 +23818,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:47Z",
+      "lastAttemptAt": "2026-10-05T20:39:08Z",
       "name": "Santa Clara",
       "nextReviewAfter": null,
       "provenance": {
@@ -23850,7 +23850,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:46Z",
+      "lastAttemptAt": "2026-10-05T20:43:56Z",
       "name": "Santander",
       "nextReviewAfter": null,
       "provenance": {
@@ -23946,7 +23946,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:45Z",
+      "lastAttemptAt": "2026-10-05T20:43:50Z",
       "name": "Santos",
       "nextReviewAfter": null,
       "provenance": {
@@ -24106,7 +24106,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:13Z",
+      "lastAttemptAt": "2026-10-05T20:41:13Z",
       "name": "São Paulo",
       "nextReviewAfter": null,
       "provenance": {
@@ -24202,7 +24202,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:38Z",
+      "lastAttemptAt": "2026-10-05T20:43:26Z",
       "name": "Sassuolo",
       "nextReviewAfter": null,
       "provenance": {
@@ -24458,9 +24458,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "SC Internacional",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -24554,7 +24554,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:25Z",
+      "lastAttemptAt": "2026-10-05T20:36:55Z",
       "name": "SC Paderborn",
       "nextReviewAfter": null,
       "provenance": {
@@ -24618,7 +24618,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:37Z",
+      "lastAttemptAt": "2026-10-05T20:43:24Z",
       "name": "Schalke",
       "nextReviewAfter": null,
       "provenance": {
@@ -24929,18 +24929,18 @@
       "wikidataQid": null
     },
     "team:sg dynamo dresden@2 bundesliga": {
-      "artworkProperty": null,
-      "artworkProvider": null,
-      "artworkUrl": null,
+      "artworkProperty": "P154",
+      "artworkProvider": "wikidata-commons",
+      "artworkUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Logo_Dinamo_Dresde_desde_2011.svg/330px-Logo_Dinamo_Dresde_desde_2011.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "attemptCount": 1,
       "cacheKey": "team:sg dynamo dresden@2 bundesliga",
-      "candidateUrl": null,
+      "candidateUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Logo_Dinamo_Dresde_desde_2011.svg/330px-Logo_Dinamo_Dresde_desde_2011.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "entityType": "club",
-      "fetchStatus": "not_checked",
+      "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:01Z",
       "name": "SG Dynamo Dresden",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": null,
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -24948,17 +24948,17 @@
         "providerEntityId": null,
         "resolverVersion": 4,
         "sha256": null,
-        "sourceFile": null,
+        "sourceFile": "Logo Dinamo Dresde desde 2011.svg",
         "sourceUrl": null,
         "supersededRejection": null
       },
-      "publishable": false,
+      "publishable": true,
       "rejectedAt": null,
       "rejectedReason": null,
-      "resolutionStatus": "unresolved",
-      "semanticStatus": "unresolved",
-      "visualStatus": "not_checked",
-      "wikidataQid": null
+      "resolutionStatus": "validated",
+      "semanticStatus": "validated",
+      "visualStatus": "approved",
+      "wikidataQid": "Q141931"
     },
     "team:sheffield united fc@championship": {
       "artworkProperty": null,
@@ -24970,9 +24970,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Sheffield United FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -25002,7 +25002,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:32Z",
+      "lastAttemptAt": "2026-10-05T20:37:49Z",
       "name": "Sheffield Utd",
       "nextReviewAfter": null,
       "provenance": {
@@ -25034,7 +25034,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:59Z",
+      "lastAttemptAt": "2026-10-05T20:40:00Z",
       "name": "Sittard",
       "nextReviewAfter": null,
       "provenance": {
@@ -25066,7 +25066,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:41Z",
+      "lastAttemptAt": "2026-10-05T20:43:35Z",
       "name": "SL Benfica",
       "nextReviewAfter": null,
       "provenance": {
@@ -25226,7 +25226,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:17Z",
+      "lastAttemptAt": "2026-10-05T20:41:40Z",
       "name": "Southampton",
       "nextReviewAfter": null,
       "provenance": {
@@ -25354,7 +25354,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:48Z",
+      "lastAttemptAt": "2026-10-05T20:39:14Z",
       "name": "Sparta",
       "nextReviewAfter": null,
       "provenance": {
@@ -25420,7 +25420,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Sport Lisboa e Benfica",
-      "nextReviewAfter": "2026-10-06T06:40:33Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -25642,7 +25642,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:15Z",
+      "lastAttemptAt": "2026-10-05T20:35:56Z",
       "name": "Sporting CP",
       "nextReviewAfter": null,
       "provenance": {
@@ -25834,9 +25834,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "SSC Napoli",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -25898,9 +25898,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Stade Brestois 29",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -25994,7 +25994,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:34Z",
+      "lastAttemptAt": "2026-10-05T20:43:12Z",
       "name": "Stade Rennais",
       "nextReviewAfter": null,
       "provenance": {
@@ -26026,9 +26026,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Stoke City FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -26058,7 +26058,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:36Z",
+      "lastAttemptAt": "2026-10-05T20:38:18Z",
       "name": "Stoke",
       "nextReviewAfter": null,
       "provenance": {
@@ -26122,7 +26122,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:23Z",
+      "lastAttemptAt": "2026-10-05T20:42:11Z",
       "name": "Strasbourg",
       "nextReviewAfter": null,
       "provenance": {
@@ -26154,7 +26154,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:26Z",
+      "lastAttemptAt": "2026-10-05T20:36:55Z",
       "name": "Stuttgart",
       "nextReviewAfter": null,
       "provenance": {
@@ -26218,7 +26218,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:40Z",
+      "lastAttemptAt": "2026-10-05T20:38:34Z",
       "name": "Sunderland",
       "nextReviewAfter": null,
       "provenance": {
@@ -26282,9 +26282,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "SV Darmstadt 98",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -26378,9 +26378,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Swansea City AFC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -26410,7 +26410,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:17Z",
+      "lastAttemptAt": "2026-10-05T20:36:11Z",
       "name": "Swansea",
       "nextReviewAfter": null,
       "provenance": {
@@ -26602,7 +26602,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:20Z",
+      "lastAttemptAt": "2026-10-05T20:41:54Z",
       "name": "Telstar",
       "nextReviewAfter": null,
       "provenance": {
@@ -26858,9 +26858,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Tottenham Hotspur FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -26890,7 +26890,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:54Z",
+      "lastAttemptAt": "2026-10-05T20:39:35Z",
       "name": "Tottenham",
       "nextReviewAfter": null,
       "provenance": {
@@ -26954,9 +26954,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Toulouse FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -26986,7 +26986,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:06Z",
+      "lastAttemptAt": "2026-10-05T20:40:28Z",
       "name": "Toulouse",
       "nextReviewAfter": null,
       "provenance": {
@@ -27050,7 +27050,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:42Z",
+      "lastAttemptAt": "2026-10-05T20:43:45Z",
       "name": "Troyes",
       "nextReviewAfter": null,
       "provenance": {
@@ -27082,9 +27082,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "TSG 1899 Hoffenheim",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -27242,7 +27242,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:59Z",
+      "lastAttemptAt": "2026-10-05T20:40:01Z",
       "name": "Twente",
       "nextReviewAfter": null,
       "provenance": {
@@ -27370,7 +27370,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:24Z",
+      "lastAttemptAt": "2026-10-05T20:36:48Z",
       "name": "Union Berlin",
       "nextReviewAfter": null,
       "provenance": {
@@ -27658,7 +27658,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:14Z",
+      "lastAttemptAt": "2026-10-05T20:41:21Z",
       "name": "Utrecht",
       "nextReviewAfter": null,
       "provenance": {
@@ -27786,7 +27786,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:47Z",
+      "lastAttemptAt": "2026-10-05T20:43:59Z",
       "name": "Valencia",
       "nextReviewAfter": null,
       "provenance": {
@@ -27882,7 +27882,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:12Z",
+      "lastAttemptAt": "2026-10-05T20:41:05Z",
       "name": "Vasco da Gama",
       "nextReviewAfter": null,
       "provenance": {
@@ -28129,18 +28129,18 @@
       "wikidataQid": "Q105861"
     },
     "team:vfl osnabruck@2 bundesliga": {
-      "artworkProperty": null,
-      "artworkProvider": null,
-      "artworkUrl": null,
+      "artworkProperty": "P154",
+      "artworkProvider": "wikidata-commons",
+      "artworkUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/VfL_Osnabr%C3%BCck_%281930er_Jahre_Kurmark%29.svg/330px-VfL_Osnabr%C3%BCck_%281930er_Jahre_Kurmark%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "attemptCount": 1,
       "cacheKey": "team:vfl osnabruck@2 bundesliga",
-      "candidateUrl": null,
+      "candidateUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/VfL_Osnabr%C3%BCck_%281930er_Jahre_Kurmark%29.svg/330px-VfL_Osnabr%C3%BCck_%281930er_Jahre_Kurmark%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "entityType": "club",
-      "fetchStatus": "not_checked",
+      "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:44:53Z",
       "name": "VfL Osnabrück",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": null,
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -28148,17 +28148,17 @@
         "providerEntityId": null,
         "resolverVersion": 4,
         "sha256": null,
-        "sourceFile": null,
+        "sourceFile": "VfL Osnabrück (1930er Jahre Kurmark).svg",
         "sourceUrl": null,
         "supersededRejection": null
       },
-      "publishable": false,
+      "publishable": true,
       "rejectedAt": null,
       "rejectedReason": null,
-      "resolutionStatus": "unresolved",
-      "semanticStatus": "unresolved",
-      "visualStatus": "not_checked",
-      "wikidataQid": null
+      "resolutionStatus": "validated",
+      "semanticStatus": "validated",
+      "visualStatus": "approved",
+      "wikidataQid": "Q160530"
     },
     "team:vfl wolfsburg@2 bundesliga": {
       "artworkProperty": null,
@@ -28170,9 +28170,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:38:39Z",
+      "lastAttemptAt": "2026-10-05T20:44:41Z",
       "name": "VfL Wolfsburg",
-      "nextReviewAfter": "2026-10-05T20:38:39Z",
+      "nextReviewAfter": "2026-10-06T08:44:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -28298,7 +28298,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:08Z",
+      "lastAttemptAt": "2026-10-05T20:40:35Z",
       "name": "Villarreal",
       "nextReviewAfter": null,
       "provenance": {
@@ -28394,7 +28394,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:41Z",
+      "lastAttemptAt": "2026-10-05T20:43:36Z",
       "name": "Vitória SC",
       "nextReviewAfter": null,
       "provenance": {
@@ -28426,7 +28426,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:13Z",
+      "lastAttemptAt": "2026-10-05T20:41:17Z",
       "name": "Vitória",
       "nextReviewAfter": null,
       "provenance": {
@@ -28490,7 +28490,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:44Z",
+      "lastAttemptAt": "2026-10-05T20:38:48Z",
       "name": "Watford",
       "nextReviewAfter": null,
       "provenance": {
@@ -28554,7 +28554,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:19Z",
+      "lastAttemptAt": "2026-10-05T20:36:21Z",
       "name": "West Brom",
       "nextReviewAfter": null,
       "provenance": {
@@ -28586,9 +28586,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "West Bromwich Albion FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -28650,7 +28650,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:12Z",
+      "lastAttemptAt": "2026-10-05T20:35:37Z",
       "name": "West Ham",
       "nextReviewAfter": null,
       "provenance": {
@@ -28746,7 +28746,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:15Z",
+      "lastAttemptAt": "2026-10-05T20:41:25Z",
       "name": "Willem II",
       "nextReviewAfter": null,
       "provenance": {
@@ -28778,9 +28778,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T08:39:07Z",
+      "lastAttemptAt": "2026-10-05T20:45:09Z",
       "name": "Wolverhampton Wanderers FC",
-      "nextReviewAfter": "2026-10-05T20:39:07Z",
+      "nextReviewAfter": "2026-10-06T08:45:09Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-04T06:10:51Z",
@@ -28810,7 +28810,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:34Z",
+      "lastAttemptAt": "2026-10-05T20:38:06Z",
       "name": "Wolverhampton",
       "nextReviewAfter": null,
       "provenance": {
@@ -28842,7 +28842,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:38:35Z",
+      "lastAttemptAt": "2026-10-05T20:38:13Z",
       "name": "Wrexham",
       "nextReviewAfter": null,
       "provenance": {
@@ -28874,7 +28874,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-10-05T18:39:21Z",
+      "lastAttemptAt": "2026-10-05T20:41:59Z",
       "name": "Zwolle",
       "nextReviewAfter": null,
       "provenance": {
@@ -28897,7 +28897,7 @@
       "wikidataQid": null
     }
   },
-  "generatedAt": "2026-10-05T18:40:33Z",
+  "generatedAt": "2026-10-05T20:45:09Z",
   "retryPolicy": {
     "rejectedAutomaticRetry": false,
     "unresolvedDays": 7

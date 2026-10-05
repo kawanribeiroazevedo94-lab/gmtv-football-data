@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-05T18:40:33Z",
+  "generatedAt": "2026-10-05T20:45:09Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8019,6 +8019,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:Q479351",
+      "name": "Darmstadt 98",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SV_Darmstadt_98_Logo.svg/330px-SV_Darmstadt_98_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:den haag@eredivisie",
       "name": "Den Haag",
       "kind": "team",
@@ -8449,6 +8463,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:Q141931",
+      "name": "SG Dynamo Dresden",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Logo_Dinamo_Dresde_desde_2011.svg/330px-Logo_Dinamo_Dresde_desde_2011.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:sheffield utd@championship",
       "name": "Sheffield Utd",
       "kind": "team",
@@ -8589,6 +8617,20 @@
         "VfL Bochum"
       ],
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/VfL_Bochum_logo.svg/330px-VfL_Bochum_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q160530",
+      "name": "VfL Osnabrück",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/VfL_Osnabr%C3%BCck_%281930er_Jahre_Kurmark%29.svg/330px-VfL_Osnabr%C3%BCck_%281930er_Jahre_Kurmark%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "league": null,
       "leagues": [
         "ger.2"
