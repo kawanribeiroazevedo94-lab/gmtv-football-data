@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-05T16:36:47.060939Z",
+  "generatedAt": "2026-10-05T18:40:33.073008Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-05",
@@ -5011,7 +5011,7 @@
             "idProvider": "bsd",
             "name": "Karlsruher SC",
             "fullName": "Karlsruher SC",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Karlsruher_SC_Logo_2.svg/330px-Karlsruher_SC_Logo_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "karlsruher"
           },
           "sources": [
@@ -5053,7 +5053,7 @@
             "idProvider": "bsd",
             "name": "SpVgg Greuther Fürth",
             "fullName": "SpVgg Greuther Fürth",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/SpVgg_Greuther_F%C3%BCrth_2017.svg/330px-SpVgg_Greuther_F%C3%BCrth_2017.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "spvgg greuther furth"
           },
           "sources": [
@@ -5087,7 +5087,7 @@
             "idProvider": "openligadb",
             "name": "VfL Bochum",
             "fullName": "VfL Bochum",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/VfL_Bochum_logo.svg/330px-VfL_Bochum_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "vfl bochum"
           },
           "away": {
@@ -12034,7 +12034,7 @@
         "idProvider": "bsd",
         "name": "Karlsruher SC",
         "fullName": "Karlsruher SC",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Karlsruher_SC_Logo_2.svg/330px-Karlsruher_SC_Logo_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "karlsruher"
       },
       "sources": [
@@ -12076,7 +12076,7 @@
         "idProvider": "bsd",
         "name": "SpVgg Greuther Fürth",
         "fullName": "SpVgg Greuther Fürth",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/SpVgg_Greuther_F%C3%BCrth_2017.svg/330px-SpVgg_Greuther_F%C3%BCrth_2017.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "spvgg greuther furth"
       },
       "sources": [
@@ -12110,7 +12110,7 @@
         "idProvider": "openligadb",
         "name": "VfL Bochum",
         "fullName": "VfL Bochum",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/VfL_Bochum_logo.svg/330px-VfL_Bochum_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "vfl bochum"
       },
       "away": {
