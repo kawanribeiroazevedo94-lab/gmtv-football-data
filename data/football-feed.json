@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-05T06:44:58.215255Z",
+  "generatedAt": "2026-10-05T08:39:07.694654Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-05",
@@ -2400,7 +2400,7 @@
             "idProvider": "bsd",
             "name": "SV 07 Elversberg",
             "fullName": "SV 07 Elversberg",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/330px-SV_Elversberg_Logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "sv 07 elversberg"
           },
           "sources": [
@@ -2443,7 +2443,7 @@
             "idProvider": "bsd",
             "name": "Bayer 04 Leverkusen",
             "fullName": "Bayer 04 Leverkusen",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_TSV_Bayer_04_Leverkusen.svg/330px-Logo_TSV_Bayer_04_Leverkusen.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "bayer 04 leverkusen"
           },
           "sources": [
@@ -9430,7 +9430,7 @@
         "idProvider": "bsd",
         "name": "SV 07 Elversberg",
         "fullName": "SV 07 Elversberg",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/330px-SV_Elversberg_Logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "sv 07 elversberg"
       },
       "sources": [
@@ -9473,7 +9473,7 @@
         "idProvider": "bsd",
         "name": "Bayer 04 Leverkusen",
         "fullName": "Bayer 04 Leverkusen",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_TSV_Bayer_04_Leverkusen.svg/330px-Logo_TSV_Bayer_04_Leverkusen.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "bayer 04 leverkusen"
       },
       "sources": [

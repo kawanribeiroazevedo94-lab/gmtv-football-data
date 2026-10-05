@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-05T06:44:58Z",
+  "generatedAt": "2026-10-05T08:39:08Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7825,6 +7825,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:Q104761",
+      "name": "Bayer 04 Leverkusen",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_TSV_Bayer_04_Leverkusen.svg/330px-Logo_TSV_Bayer_04_Leverkusen.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:birmingham@championship",
       "name": "Birmingham",
       "kind": "team",
@@ -8482,6 +8496,20 @@
       "league": null,
       "leagues": [],
       "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q692691",
+      "name": "SV 07 Elversberg",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/330px-SV_Elversberg_Logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
       "status": "validated"
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-05T06:44:58.215255Z",
+  "generatedAt": "2026-10-05T08:39:07.694654Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-05",
@@ -6089,13 +6089,13 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/330px-SV_Elversberg_Logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
             }
           },
           "sources": [
@@ -6195,13 +6195,13 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_TSV_Bayer_04_Leverkusen.svg/330px-Logo_TSV_Bayer_04_Leverkusen.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
             }
           },
           "sources": [
@@ -25045,13 +25045,13 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/330px-SV_Elversberg_Logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
         }
       },
       "sources": [
@@ -25151,13 +25151,13 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_TSV_Bayer_04_Leverkusen.svg/330px-Logo_TSV_Bayer_04_Leverkusen.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
         }
       },
       "sources": [
