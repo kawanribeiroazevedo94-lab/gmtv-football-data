@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-05T02:33:29Z",
+  "generatedAt": "2026-10-05T04:37:28Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7689,6 +7689,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:1 fc koln@bundesliga",
+      "name": "1. FC Köln",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/1.png",
+      "league": null,
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:Q15786",
       "name": "1. FC Nürnberg",
       "kind": "team",
@@ -7731,6 +7745,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:amadora@primeira liga",
+      "name": "Amadora",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/9136.png",
+      "league": null,
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:angers sco@ligue 1",
       "name": "Angers SCO",
       "kind": "team",
@@ -7742,6 +7770,20 @@
         "fra.1"
       ],
       "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q105844",
+      "name": "Arminia Bielefeld",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg/330px-Arminia_Bielefeld_Logo_2021%E2%80%93.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
       "status": "validated"
     },
     {
@@ -7819,6 +7861,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:Q101959",
+      "name": "Borussia M'gladbach",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Borussia_M%C3%B6nchengladbach_logo.svg/330px-Borussia_M%C3%B6nchengladbach_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:brighton hove@premier league",
       "name": "Brighton Hove",
       "kind": "team",
@@ -7883,6 +7939,32 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:cd nacional@primeira liga",
+      "name": "CD Nacional",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/5529.png",
+      "league": null,
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:celta@primera division",
+      "name": "Celta",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/558.png",
+      "league": null,
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:charlton@championship",
       "name": "Charlton",
       "kind": "team",
@@ -7906,6 +7988,34 @@
         "bra.1"
       ],
       "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:como 1907@serie a",
+      "name": "Como 1907",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/7397.png",
+      "league": null,
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:den haag@eredivisie",
+      "name": "Den Haag",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/680.png",
+      "league": null,
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
       "status": "validated"
     },
     {
@@ -7963,6 +8073,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:Q32494",
+      "name": "FC Schalke 04",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/FC_Schalke_04_Logo.svg/330px-FC_Schalke_04_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:go ahead@eredivisie",
       "name": "Go Ahead",
       "kind": "team",
@@ -7991,6 +8115,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:groningen@eredivisie",
+      "name": "Groningen",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/677.png",
+      "league": null,
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:Q51974",
       "name": "Hamburger SV",
       "kind": "team",
@@ -8000,6 +8138,20 @@
       "league": null,
       "leagues": [
         "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q102720",
+      "name": "Hertha BSC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Hertha_BSC_Logo_2012.svg/330px-Hertha_BSC_Logo_2012.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
       ],
       "country": "Germany",
       "status": "validated"
@@ -8073,6 +8225,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:m gladbach@bundesliga",
+      "name": "M'gladbach",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/18.png",
+      "league": null,
+      "leagues": [
+        "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:middlesbrough@championship",
       "name": "Middlesbrough",
       "kind": "team",
@@ -8137,6 +8303,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:nottingham@premier league",
+      "name": "Nottingham",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/351.png",
+      "league": null,
+      "leagues": [
+        "eng.1"
+      ],
+      "country": "England",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:olympique lyon@ligue 1",
       "name": "Olympique Lyon",
       "kind": "team",
@@ -8162,6 +8342,18 @@
         "bra.1"
       ],
       "country": "Brazil",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:portsmouth@championship",
+      "name": "Portsmouth",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/325.png",
+      "league": null,
+      "leagues": [],
+      "country": null,
       "status": "validated"
     },
     {
@@ -8200,6 +8392,18 @@
         "fra.1"
       ],
       "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:santander@primera division",
+      "name": "Santander",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/5335.png",
+      "league": null,
+      "leagues": [],
+      "country": null,
       "status": "validated"
     },
     {
@@ -8243,6 +8447,32 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:sl benfica@primeira liga",
+      "name": "SL Benfica",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/1903.png",
+      "league": null,
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:southampton@championship",
+      "name": "Southampton",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/340.png",
+      "league": null,
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:stoke@championship",
       "name": "Stoke",
       "kind": "team",
@@ -8278,6 +8508,48 @@
         "ned.1"
       ],
       "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:utrecht@eredivisie",
+      "name": "Utrecht",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/676.png",
+      "league": null,
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q105861",
+      "name": "VfL Bochum 1848",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/VfL_Bochum_logo.svg/330px-VfL_Bochum_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:vitoria sc@primeira liga",
+      "name": "Vitória SC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/5543.png",
+      "league": null,
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
       "status": "validated"
     },
     {
@@ -8338,6 +8610,20 @@
       "league": null,
       "leagues": [],
       "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:zwolle@eredivisie",
+      "name": "Zwolle",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/684.png",
+      "league": null,
+      "leagues": [
+        "ned.1"
+      ],
+      "country": "Netherlands",
       "status": "validated"
     }
   ]
