@@ -1,25 +1,25 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-06T02:22:24.830853Z",
+  "generatedAt": "2026-10-06T11:21:02.887326Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-10-05",
-    "to": "2026-10-11"
+    "from": "2026-10-06",
+    "to": "2026-10-12"
   },
   "sources": {
     "footballData": {
       "ok": true,
-      "matches": 90,
+      "matches": 98,
       "error": null
     },
     "openFootball": {
       "ok": true,
-      "matches": 91,
+      "matches": 98,
       "datasets": [
         {
           "dataset": "2026-27/en.1.json",
           "ok": true,
-          "matchesInWindow": 9
+          "matchesInWindow": 10
         },
         {
           "dataset": "2026-27/en.2.json",
@@ -34,12 +34,12 @@
         {
           "dataset": "2026-27/es.1.json",
           "ok": true,
-          "matchesInWindow": 9
+          "matchesInWindow": 10
         },
         {
           "dataset": "2026-27/it.1.json",
           "ok": true,
-          "matchesInWindow": 8
+          "matchesInWindow": 10
         },
         {
           "dataset": "2026-27/fr.1.json",
@@ -54,25 +54,25 @@
         {
           "dataset": "2026-27/pt.1.json",
           "ok": true,
-          "matchesInWindow": 8
+          "matchesInWindow": 9
         },
         {
           "dataset": "2026/br.1.json",
           "ok": true,
-          "matchesInWindow": 18
+          "matchesInWindow": 20
         }
       ]
     },
     "bsd": {
       "configured": true,
       "ok": true,
-      "matches": 50,
-      "pages": 4,
+      "matches": 57,
+      "pages": 3,
       "error": null
     },
     "openLigaDB": {
       "ok": true,
-      "matches": 36,
+      "matches": 38,
       "competitions": [
         {
           "shortcut": "bl1",
@@ -106,14 +106,14 @@
           "shortcut": "la1",
           "providerCompetitionId": 4936,
           "ok": true,
-          "matchesInWindow": 9,
+          "matchesInWindow": 10,
           "error": null
         },
         {
           "shortcut": "pl",
           "providerCompetitionId": 5996,
           "ok": true,
-          "matchesInWindow": 9,
+          "matchesInWindow": 10,
           "error": null
         }
       ]
@@ -153,19 +153,13 @@
       "teamsUnresolved": []
     },
     "wikidataArtwork": {
-      "cachedEntries": 903
+      "cachedEntries": 920
     }
   },
   "days": [
     {
-      "date": "2026-10-05",
-      "label": "HOJE",
-      "count": 0,
-      "matches": []
-    },
-    {
       "date": "2026-10-06",
-      "label": "06/10",
+      "label": "HOJE",
       "count": 3,
       "matches": [
         {
@@ -1863,7 +1857,7 @@
             "idProvider": "bsd",
             "name": "Energie Cottbus",
             "fullName": "Energie Cottbus",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Logo_Energie_Cottbus.svg/330px-Logo_Energie_Cottbus.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "energie cottbus"
           },
           "sources": [
@@ -1904,7 +1898,7 @@
             "idProvider": "openligadb",
             "name": "Energie Cottbus",
             "fullName": "Energie Cottbus",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Logo_Energie_Cottbus.svg/330px-Logo_Energie_Cottbus.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "energie cottbus"
           },
           "sources": [
@@ -4736,8 +4730,8 @@
         {
           "id": "fd:555039",
           "date": "2026-10-10",
-          "kickoff": "17:00",
-          "utcDate": "2026-10-10T20:00:00Z",
+          "kickoff": "18:00",
+          "utcDate": "2026-10-10T21:00:00Z",
           "status": "TIMED",
           "competition": {
             "id": 2013,
@@ -7223,6 +7217,722 @@
           "sourcePriority": 100
         }
       ]
+    },
+    {
+      "date": "2026-10-12",
+      "label": "12/10",
+      "count": 19,
+      "matches": [
+        {
+          "id": "fd:558579",
+          "date": "2026-10-12",
+          "kickoff": "13:30",
+          "utcDate": "2026-10-12T16:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2019,
+            "idProvider": "football-data",
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/c111.png",
+            "normalized": "serie a"
+          },
+          "home": {
+            "id": 102,
+            "idProvider": "football-data",
+            "name": "Atalanta",
+            "fullName": "Atalanta BC",
+            "crest": "https://crests.football-data.org/102.png",
+            "normalized": "atalanta"
+          },
+          "away": {
+            "id": 454,
+            "idProvider": "football-data",
+            "name": "Venezia FC",
+            "fullName": "Venezia FC",
+            "crest": "https://crests.football-data.org/454.png",
+            "normalized": "venezia"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "of:67676fb4efe74008",
+          "date": "2026-10-12",
+          "kickoff": "13:30",
+          "utcDate": "2026-10-12T16:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/c111.png",
+            "normalized": "serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "Atalanta BC",
+            "fullName": "Atalanta BC",
+            "crest": null,
+            "normalized": "atalanta bc"
+          },
+          "away": {
+            "id": null,
+            "name": "Venezia FC",
+            "fullName": "Venezia FC",
+            "crest": "https://crests.football-data.org/454.png",
+            "normalized": "venezia"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "fd:558587",
+          "date": "2026-10-12",
+          "kickoff": "15:45",
+          "utcDate": "2026-10-12T18:45:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2019,
+            "idProvider": "football-data",
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/c111.png",
+            "normalized": "serie a"
+          },
+          "home": {
+            "id": 586,
+            "idProvider": "football-data",
+            "name": "Torino",
+            "fullName": "Torino FC",
+            "crest": "https://crests.football-data.org/586.png",
+            "normalized": "torino"
+          },
+          "away": {
+            "id": 115,
+            "idProvider": "football-data",
+            "name": "Udinese",
+            "fullName": "Udinese Calcio",
+            "crest": "https://crests.football-data.org/115.png",
+            "normalized": "udinese"
+          },
+          "sources": [
+            "football-data",
+            "openfootball"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "bsd:10179",
+          "date": "2026-10-12",
+          "kickoff": "16:00",
+          "utcDate": "2026-10-12T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 152,
+            "idProvider": "bsd",
+            "name": "Fortaleza",
+            "fullName": "Fortaleza",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+            "normalized": "fortaleza"
+          },
+          "away": {
+            "id": 831,
+            "idProvider": "bsd",
+            "name": "CRB",
+            "fullName": "CRB",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+            "normalized": "crb"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10179,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "fd:555034",
+          "date": "2026-10-12",
+          "kickoff": "16:00",
+          "utcDate": "2026-10-12T19:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 4241,
+            "idProvider": "football-data",
+            "name": "Coritiba",
+            "fullName": "Coritiba FBC",
+            "crest": "https://crests.football-data.org/4241.png",
+            "normalized": "coritiba"
+          },
+          "away": {
+            "id": 1770,
+            "idProvider": "football-data",
+            "name": "Botafogo",
+            "fullName": "Botafogo FR",
+            "crest": "https://crests.football-data.org/1770.png",
+            "normalized": "botafogo"
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "oldb:85409",
+          "date": "2026-10-12",
+          "kickoff": "16:00",
+          "utcDate": "2026-10-12T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 4936,
+            "idProvider": "openligadb",
+            "code": "PD",
+            "name": "LaLiga",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
+            "normalized": "laliga"
+          },
+          "home": {
+            "id": 1803,
+            "idProvider": "openligadb",
+            "name": "Levante UD",
+            "fullName": "Levante UD",
+            "crest": null,
+            "normalized": "levante ud"
+          },
+          "away": {
+            "id": 1139,
+            "idProvider": "openligadb",
+            "name": "FC Sevilla",
+            "fullName": "FC Sevilla",
+            "crest": null,
+            "normalized": "sevilla"
+          },
+          "sources": [
+            "openligadb",
+            "openfootball"
+          ],
+          "sourcePriority": 70,
+          "provenance": {
+            "provider": "openligadb",
+            "providerMatchId": 85409,
+            "providerCompetitionId": 4936,
+            "shortcut": "la1"
+          }
+        },
+        {
+          "id": "fd:560597",
+          "date": "2026-10-12",
+          "kickoff": "16:00",
+          "utcDate": "2026-10-12T19:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2021,
+            "idProvider": "football-data",
+            "code": "PL",
+            "name": "Premier League",
+            "logo": "https://crests.football-data.org/PL.png",
+            "normalized": "premier league"
+          },
+          "home": {
+            "id": 1076,
+            "idProvider": "football-data",
+            "name": "Coventry City",
+            "fullName": "Coventry City FC",
+            "crest": "https://crests.football-data.org/1076.png",
+            "normalized": "coventry city"
+          },
+          "away": {
+            "id": 67,
+            "idProvider": "football-data",
+            "name": "Newcastle",
+            "fullName": "Newcastle United FC",
+            "crest": "https://crests.football-data.org/67.png",
+            "normalized": "newcastle"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "oldb:86587",
+          "date": "2026-10-12",
+          "kickoff": "16:00",
+          "utcDate": "2026-10-12T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 5996,
+            "idProvider": "openligadb",
+            "code": "PL",
+            "name": "Premier League",
+            "logo": "https://crests.football-data.org/PL.png",
+            "normalized": "premier league"
+          },
+          "home": {
+            "id": 8795,
+            "idProvider": "openligadb",
+            "name": "Coventry City",
+            "fullName": "Coventry City",
+            "crest": "https://crests.football-data.org/1076.png",
+            "normalized": "coventry city"
+          },
+          "away": {
+            "id": 1075,
+            "idProvider": "openligadb",
+            "name": "Newcastle United FC",
+            "fullName": "Newcastle United FC",
+            "crest": null,
+            "normalized": "newcastle united"
+          },
+          "sources": [
+            "openligadb",
+            "openfootball"
+          ],
+          "sourcePriority": 70,
+          "provenance": {
+            "provider": "openligadb",
+            "providerMatchId": 86587,
+            "providerCompetitionId": 5996,
+            "shortcut": "pl"
+          }
+        },
+        {
+          "id": "fd:564704",
+          "date": "2026-10-12",
+          "kickoff": "16:00",
+          "utcDate": "2026-10-12T19:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2014,
+            "idProvider": "football-data",
+            "code": "PD",
+            "name": "Primera Division",
+            "logo": "https://crests.football-data.org/laliga.png",
+            "normalized": "primera division"
+          },
+          "home": {
+            "id": 88,
+            "idProvider": "football-data",
+            "name": "Levante",
+            "fullName": "Levante UD",
+            "crest": "https://crests.football-data.org/88.png",
+            "normalized": "levante"
+          },
+          "away": {
+            "id": 559,
+            "idProvider": "football-data",
+            "name": "Sevilla FC",
+            "fullName": "Sevilla FC",
+            "crest": "https://crests.football-data.org/559.png",
+            "normalized": "sevilla"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "fd:567325",
+          "date": "2026-10-12",
+          "kickoff": "16:15",
+          "utcDate": "2026-10-12T19:15:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2017,
+            "idProvider": "football-data",
+            "code": "PPL",
+            "name": "Primeira Liga",
+            "logo": "https://crests.football-data.org/PPL.png",
+            "normalized": "primeira liga"
+          },
+          "home": {
+            "id": 5531,
+            "idProvider": "football-data",
+            "name": "Famalicão",
+            "fullName": "FC Famalicão",
+            "crest": "https://crests.football-data.org/5531.png",
+            "normalized": "famalicao"
+          },
+          "away": {
+            "id": 7822,
+            "idProvider": "football-data",
+            "name": "Alverca",
+            "fullName": "FC Alverca",
+            "crest": "https://crests.football-data.org/7822.png",
+            "normalized": "alverca"
+          },
+          "sources": [
+            "football-data",
+            "openfootball"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "bsd:10180",
+          "date": "2026-10-12",
+          "kickoff": "19:00",
+          "utcDate": "2026-10-12T22:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 836,
+            "idProvider": "bsd",
+            "name": "Grêmio Novorizontino",
+            "fullName": "Grêmio Novorizontino",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+            "normalized": "gremio novorizontino"
+          },
+          "away": {
+            "id": 844,
+            "idProvider": "bsd",
+            "name": "Ponte Preta",
+            "fullName": "Ponte Preta",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+            "normalized": "ponte preta"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10180,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "bsd:7286",
+          "date": "2026-10-12",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-12T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 9,
+            "idProvider": "bsd",
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": 373,
+            "idProvider": "bsd",
+            "name": "Chapecoense",
+            "fullName": "Chapecoense",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+            "normalized": "chapecoense"
+          },
+          "away": {
+            "id": 371,
+            "idProvider": "bsd",
+            "name": "Athletico",
+            "fullName": "Athletico",
+            "crest": null,
+            "normalized": "athletico"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 7286,
+            "providerLeagueId": 9,
+            "providerSeasonId": 28
+          }
+        },
+        {
+          "id": "of:2bb6a8be12c95e8c",
+          "date": "2026-10-12",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-12T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "Chapecoense AF",
+            "fullName": "Chapecoense AF",
+            "crest": null,
+            "normalized": "chapecoense af"
+          },
+          "away": {
+            "id": null,
+            "name": "CA Paranaense",
+            "fullName": "CA Paranaense",
+            "crest": null,
+            "normalized": "paranaense"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "bsd:10177",
+          "date": "2026-10-12",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-12T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 929,
+            "idProvider": "bsd",
+            "name": "Criciúma",
+            "fullName": "Criciúma",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+            "normalized": "criciuma"
+          },
+          "away": {
+            "id": 838,
+            "idProvider": "bsd",
+            "name": "América Mineiro",
+            "fullName": "América Mineiro",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+            "normalized": "america mineiro"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10177,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "fd:555033",
+          "date": "2026-10-12",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-12T22:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 1772,
+            "idProvider": "football-data",
+            "name": "Chapecoense",
+            "fullName": "Chapecoense AF",
+            "crest": "https://crests.football-data.org/1772_large.png",
+            "normalized": "chapecoense"
+          },
+          "away": {
+            "id": 1768,
+            "idProvider": "football-data",
+            "name": "Paranaense",
+            "fullName": "CA Paranaense",
+            "crest": "https://crests.football-data.org/1768.png",
+            "normalized": "paranaense"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "of:3178d8b06a7001c4",
+          "date": "2026-10-12",
+          "kickoff": "21:00",
+          "utcDate": "2026-10-13T00:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "RB Bragantino",
+            "fullName": "RB Bragantino",
+            "crest": null,
+            "normalized": "rb bragantino"
+          },
+          "away": {
+            "id": null,
+            "name": "Cruzeiro EC",
+            "fullName": "Cruzeiro EC",
+            "crest": null,
+            "normalized": "cruzeiro"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "bsd:7291",
+          "date": "2026-10-12",
+          "kickoff": "21:00",
+          "utcDate": "2026-10-13T00:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 9,
+            "idProvider": "bsd",
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": 168,
+            "idProvider": "bsd",
+            "name": "Red Bull Bragantino",
+            "fullName": "Red Bull Bragantino",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+            "normalized": "red bull bragantino"
+          },
+          "away": {
+            "id": 150,
+            "idProvider": "bsd",
+            "name": "Cruzeiro",
+            "fullName": "Cruzeiro",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+            "normalized": "cruzeiro"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 7291,
+            "providerLeagueId": 9,
+            "providerSeasonId": 28
+          }
+        },
+        {
+          "id": "bsd:10176",
+          "date": "2026-10-12",
+          "kickoff": "21:00",
+          "utcDate": "2026-10-13T00:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 927,
+            "idProvider": "bsd",
+            "name": "Botafogo-SP",
+            "fullName": "Botafogo-SP",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+            "normalized": "botafogo sp"
+          },
+          "away": {
+            "id": 169,
+            "idProvider": "bsd",
+            "name": "Ceará",
+            "fullName": "Ceará",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+            "normalized": "ceara"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10176,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
+          "id": "fd:555032",
+          "date": "2026-10-12",
+          "kickoff": "21:00",
+          "utcDate": "2026-10-13T00:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 4286,
+            "idProvider": "football-data",
+            "name": "Bragantino",
+            "fullName": "RB Bragantino",
+            "crest": "https://crests.football-data.org/4286.png",
+            "normalized": "bragantino"
+          },
+          "away": {
+            "id": 1771,
+            "idProvider": "football-data",
+            "name": "Cruzeiro",
+            "fullName": "Cruzeiro EC",
+            "crest": "https://crests.football-data.org/1771.png",
+            "normalized": "cruzeiro"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        }
+      ]
     }
   ],
   "matches": [
@@ -8893,7 +9603,7 @@
         "idProvider": "bsd",
         "name": "Energie Cottbus",
         "fullName": "Energie Cottbus",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Logo_Energie_Cottbus.svg/330px-Logo_Energie_Cottbus.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "energie cottbus"
       },
       "sources": [
@@ -8934,7 +9644,7 @@
         "idProvider": "openligadb",
         "name": "Energie Cottbus",
         "fullName": "Energie Cottbus",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Logo_Energie_Cottbus.svg/330px-Logo_Energie_Cottbus.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "energie cottbus"
       },
       "sources": [
@@ -11766,8 +12476,8 @@
     {
       "id": "fd:555039",
       "date": "2026-10-10",
-      "kickoff": "17:00",
-      "utcDate": "2026-10-10T20:00:00Z",
+      "kickoff": "18:00",
+      "utcDate": "2026-10-10T21:00:00Z",
       "status": "TIMED",
       "competition": {
         "id": 2013,
@@ -14242,6 +14952,715 @@
         "football-data",
         "bsd",
         "openfootball"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "fd:558579",
+      "date": "2026-10-12",
+      "kickoff": "13:30",
+      "utcDate": "2026-10-12T16:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2019,
+        "idProvider": "football-data",
+        "code": "SA",
+        "name": "Serie A",
+        "logo": "https://crests.football-data.org/c111.png",
+        "normalized": "serie a"
+      },
+      "home": {
+        "id": 102,
+        "idProvider": "football-data",
+        "name": "Atalanta",
+        "fullName": "Atalanta BC",
+        "crest": "https://crests.football-data.org/102.png",
+        "normalized": "atalanta"
+      },
+      "away": {
+        "id": 454,
+        "idProvider": "football-data",
+        "name": "Venezia FC",
+        "fullName": "Venezia FC",
+        "crest": "https://crests.football-data.org/454.png",
+        "normalized": "venezia"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "of:67676fb4efe74008",
+      "date": "2026-10-12",
+      "kickoff": "13:30",
+      "utcDate": "2026-10-12T16:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "SA",
+        "name": "Serie A",
+        "logo": "https://crests.football-data.org/c111.png",
+        "normalized": "serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "Atalanta BC",
+        "fullName": "Atalanta BC",
+        "crest": null,
+        "normalized": "atalanta bc"
+      },
+      "away": {
+        "id": null,
+        "name": "Venezia FC",
+        "fullName": "Venezia FC",
+        "crest": "https://crests.football-data.org/454.png",
+        "normalized": "venezia"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "fd:558587",
+      "date": "2026-10-12",
+      "kickoff": "15:45",
+      "utcDate": "2026-10-12T18:45:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2019,
+        "idProvider": "football-data",
+        "code": "SA",
+        "name": "Serie A",
+        "logo": "https://crests.football-data.org/c111.png",
+        "normalized": "serie a"
+      },
+      "home": {
+        "id": 586,
+        "idProvider": "football-data",
+        "name": "Torino",
+        "fullName": "Torino FC",
+        "crest": "https://crests.football-data.org/586.png",
+        "normalized": "torino"
+      },
+      "away": {
+        "id": 115,
+        "idProvider": "football-data",
+        "name": "Udinese",
+        "fullName": "Udinese Calcio",
+        "crest": "https://crests.football-data.org/115.png",
+        "normalized": "udinese"
+      },
+      "sources": [
+        "football-data",
+        "openfootball"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "bsd:10179",
+      "date": "2026-10-12",
+      "kickoff": "16:00",
+      "utcDate": "2026-10-12T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 152,
+        "idProvider": "bsd",
+        "name": "Fortaleza",
+        "fullName": "Fortaleza",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+        "normalized": "fortaleza"
+      },
+      "away": {
+        "id": 831,
+        "idProvider": "bsd",
+        "name": "CRB",
+        "fullName": "CRB",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+        "normalized": "crb"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10179,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "fd:555034",
+      "date": "2026-10-12",
+      "kickoff": "16:00",
+      "utcDate": "2026-10-12T19:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 4241,
+        "idProvider": "football-data",
+        "name": "Coritiba",
+        "fullName": "Coritiba FBC",
+        "crest": "https://crests.football-data.org/4241.png",
+        "normalized": "coritiba"
+      },
+      "away": {
+        "id": 1770,
+        "idProvider": "football-data",
+        "name": "Botafogo",
+        "fullName": "Botafogo FR",
+        "crest": "https://crests.football-data.org/1770.png",
+        "normalized": "botafogo"
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "oldb:85409",
+      "date": "2026-10-12",
+      "kickoff": "16:00",
+      "utcDate": "2026-10-12T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 4936,
+        "idProvider": "openligadb",
+        "code": "PD",
+        "name": "LaLiga",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
+        "normalized": "laliga"
+      },
+      "home": {
+        "id": 1803,
+        "idProvider": "openligadb",
+        "name": "Levante UD",
+        "fullName": "Levante UD",
+        "crest": null,
+        "normalized": "levante ud"
+      },
+      "away": {
+        "id": 1139,
+        "idProvider": "openligadb",
+        "name": "FC Sevilla",
+        "fullName": "FC Sevilla",
+        "crest": null,
+        "normalized": "sevilla"
+      },
+      "sources": [
+        "openligadb",
+        "openfootball"
+      ],
+      "sourcePriority": 70,
+      "provenance": {
+        "provider": "openligadb",
+        "providerMatchId": 85409,
+        "providerCompetitionId": 4936,
+        "shortcut": "la1"
+      }
+    },
+    {
+      "id": "fd:560597",
+      "date": "2026-10-12",
+      "kickoff": "16:00",
+      "utcDate": "2026-10-12T19:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2021,
+        "idProvider": "football-data",
+        "code": "PL",
+        "name": "Premier League",
+        "logo": "https://crests.football-data.org/PL.png",
+        "normalized": "premier league"
+      },
+      "home": {
+        "id": 1076,
+        "idProvider": "football-data",
+        "name": "Coventry City",
+        "fullName": "Coventry City FC",
+        "crest": "https://crests.football-data.org/1076.png",
+        "normalized": "coventry city"
+      },
+      "away": {
+        "id": 67,
+        "idProvider": "football-data",
+        "name": "Newcastle",
+        "fullName": "Newcastle United FC",
+        "crest": "https://crests.football-data.org/67.png",
+        "normalized": "newcastle"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "oldb:86587",
+      "date": "2026-10-12",
+      "kickoff": "16:00",
+      "utcDate": "2026-10-12T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 5996,
+        "idProvider": "openligadb",
+        "code": "PL",
+        "name": "Premier League",
+        "logo": "https://crests.football-data.org/PL.png",
+        "normalized": "premier league"
+      },
+      "home": {
+        "id": 8795,
+        "idProvider": "openligadb",
+        "name": "Coventry City",
+        "fullName": "Coventry City",
+        "crest": "https://crests.football-data.org/1076.png",
+        "normalized": "coventry city"
+      },
+      "away": {
+        "id": 1075,
+        "idProvider": "openligadb",
+        "name": "Newcastle United FC",
+        "fullName": "Newcastle United FC",
+        "crest": null,
+        "normalized": "newcastle united"
+      },
+      "sources": [
+        "openligadb",
+        "openfootball"
+      ],
+      "sourcePriority": 70,
+      "provenance": {
+        "provider": "openligadb",
+        "providerMatchId": 86587,
+        "providerCompetitionId": 5996,
+        "shortcut": "pl"
+      }
+    },
+    {
+      "id": "fd:564704",
+      "date": "2026-10-12",
+      "kickoff": "16:00",
+      "utcDate": "2026-10-12T19:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2014,
+        "idProvider": "football-data",
+        "code": "PD",
+        "name": "Primera Division",
+        "logo": "https://crests.football-data.org/laliga.png",
+        "normalized": "primera division"
+      },
+      "home": {
+        "id": 88,
+        "idProvider": "football-data",
+        "name": "Levante",
+        "fullName": "Levante UD",
+        "crest": "https://crests.football-data.org/88.png",
+        "normalized": "levante"
+      },
+      "away": {
+        "id": 559,
+        "idProvider": "football-data",
+        "name": "Sevilla FC",
+        "fullName": "Sevilla FC",
+        "crest": "https://crests.football-data.org/559.png",
+        "normalized": "sevilla"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "fd:567325",
+      "date": "2026-10-12",
+      "kickoff": "16:15",
+      "utcDate": "2026-10-12T19:15:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2017,
+        "idProvider": "football-data",
+        "code": "PPL",
+        "name": "Primeira Liga",
+        "logo": "https://crests.football-data.org/PPL.png",
+        "normalized": "primeira liga"
+      },
+      "home": {
+        "id": 5531,
+        "idProvider": "football-data",
+        "name": "Famalicão",
+        "fullName": "FC Famalicão",
+        "crest": "https://crests.football-data.org/5531.png",
+        "normalized": "famalicao"
+      },
+      "away": {
+        "id": 7822,
+        "idProvider": "football-data",
+        "name": "Alverca",
+        "fullName": "FC Alverca",
+        "crest": "https://crests.football-data.org/7822.png",
+        "normalized": "alverca"
+      },
+      "sources": [
+        "football-data",
+        "openfootball"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "bsd:10180",
+      "date": "2026-10-12",
+      "kickoff": "19:00",
+      "utcDate": "2026-10-12T22:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 836,
+        "idProvider": "bsd",
+        "name": "Grêmio Novorizontino",
+        "fullName": "Grêmio Novorizontino",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+        "normalized": "gremio novorizontino"
+      },
+      "away": {
+        "id": 844,
+        "idProvider": "bsd",
+        "name": "Ponte Preta",
+        "fullName": "Ponte Preta",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+        "normalized": "ponte preta"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10180,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "bsd:7286",
+      "date": "2026-10-12",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-12T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 9,
+        "idProvider": "bsd",
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": 373,
+        "idProvider": "bsd",
+        "name": "Chapecoense",
+        "fullName": "Chapecoense",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+        "normalized": "chapecoense"
+      },
+      "away": {
+        "id": 371,
+        "idProvider": "bsd",
+        "name": "Athletico",
+        "fullName": "Athletico",
+        "crest": null,
+        "normalized": "athletico"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 7286,
+        "providerLeagueId": 9,
+        "providerSeasonId": 28
+      }
+    },
+    {
+      "id": "of:2bb6a8be12c95e8c",
+      "date": "2026-10-12",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-12T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "Chapecoense AF",
+        "fullName": "Chapecoense AF",
+        "crest": null,
+        "normalized": "chapecoense af"
+      },
+      "away": {
+        "id": null,
+        "name": "CA Paranaense",
+        "fullName": "CA Paranaense",
+        "crest": null,
+        "normalized": "paranaense"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "bsd:10177",
+      "date": "2026-10-12",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-12T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 929,
+        "idProvider": "bsd",
+        "name": "Criciúma",
+        "fullName": "Criciúma",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+        "normalized": "criciuma"
+      },
+      "away": {
+        "id": 838,
+        "idProvider": "bsd",
+        "name": "América Mineiro",
+        "fullName": "América Mineiro",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+        "normalized": "america mineiro"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10177,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "fd:555033",
+      "date": "2026-10-12",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-12T22:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 1772,
+        "idProvider": "football-data",
+        "name": "Chapecoense",
+        "fullName": "Chapecoense AF",
+        "crest": "https://crests.football-data.org/1772_large.png",
+        "normalized": "chapecoense"
+      },
+      "away": {
+        "id": 1768,
+        "idProvider": "football-data",
+        "name": "Paranaense",
+        "fullName": "CA Paranaense",
+        "crest": "https://crests.football-data.org/1768.png",
+        "normalized": "paranaense"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "of:3178d8b06a7001c4",
+      "date": "2026-10-12",
+      "kickoff": "21:00",
+      "utcDate": "2026-10-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "RB Bragantino",
+        "fullName": "RB Bragantino",
+        "crest": null,
+        "normalized": "rb bragantino"
+      },
+      "away": {
+        "id": null,
+        "name": "Cruzeiro EC",
+        "fullName": "Cruzeiro EC",
+        "crest": null,
+        "normalized": "cruzeiro"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "bsd:7291",
+      "date": "2026-10-12",
+      "kickoff": "21:00",
+      "utcDate": "2026-10-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 9,
+        "idProvider": "bsd",
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": 168,
+        "idProvider": "bsd",
+        "name": "Red Bull Bragantino",
+        "fullName": "Red Bull Bragantino",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+        "normalized": "red bull bragantino"
+      },
+      "away": {
+        "id": 150,
+        "idProvider": "bsd",
+        "name": "Cruzeiro",
+        "fullName": "Cruzeiro",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+        "normalized": "cruzeiro"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 7291,
+        "providerLeagueId": 9,
+        "providerSeasonId": 28
+      }
+    },
+    {
+      "id": "bsd:10176",
+      "date": "2026-10-12",
+      "kickoff": "21:00",
+      "utcDate": "2026-10-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 927,
+        "idProvider": "bsd",
+        "name": "Botafogo-SP",
+        "fullName": "Botafogo-SP",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+        "normalized": "botafogo sp"
+      },
+      "away": {
+        "id": 169,
+        "idProvider": "bsd",
+        "name": "Ceará",
+        "fullName": "Ceará",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+        "normalized": "ceara"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10176,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
+      "id": "fd:555032",
+      "date": "2026-10-12",
+      "kickoff": "21:00",
+      "utcDate": "2026-10-13T00:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 4286,
+        "idProvider": "football-data",
+        "name": "Bragantino",
+        "fullName": "RB Bragantino",
+        "crest": "https://crests.football-data.org/4286.png",
+        "normalized": "bragantino"
+      },
+      "away": {
+        "id": 1771,
+        "idProvider": "football-data",
+        "name": "Cruzeiro",
+        "fullName": "Cruzeiro EC",
+        "crest": "https://crests.football-data.org/1771.png",
+        "normalized": "cruzeiro"
+      },
+      "sources": [
+        "football-data"
       ],
       "sourcePriority": 100
     }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-06T02:22:25Z",
+  "generatedAt": "2026-10-06T11:21:03Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8073,12 +8073,40 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:Q107818",
+      "name": "Energie Cottbus",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Logo_Energie_Cottbus.svg/330px-Logo_Energie_Cottbus.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:estoril praia@primeira liga",
       "name": "Estoril Praia",
       "kind": "team",
       "entityType": "club",
       "aliases": [],
       "url": "https://crests.football-data.org/582.png",
+      "league": null,
+      "leagues": [
+        "por.1"
+      ],
+      "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:famalicao@primeira liga",
+      "name": "Famalicão",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/5531.png",
       "league": null,
       "leagues": [
         "por.1"
@@ -8463,6 +8491,18 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:sevilla fc@primera division",
+      "name": "Sevilla FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/559.png",
+      "league": null,
+      "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:Q141931",
       "name": "SG Dynamo Dresden",
       "kind": "team",
@@ -8606,6 +8646,20 @@
         "ned.1"
       ],
       "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:venezia fc@serie a",
+      "name": "Venezia FC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/454.png",
+      "league": null,
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
       "status": "validated"
     },
     {
