@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-06T23:53:13Z",
+  "generatedAt": "2026-10-07T06:07:59Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7813,6 +7813,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:atleti@uefa champions league",
+      "name": "Atleti",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/78.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:az@eredivisie",
       "name": "AZ",
       "kind": "team",
@@ -7835,6 +7849,20 @@
       "url": "https://crests.football-data.org/81.png",
       "league": null,
       "leagues": [],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:barca@uefa champions league",
+      "name": "Barça",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/81.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
       "country": null,
       "status": "validated"
     },
@@ -8005,6 +8033,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:club brugge@uefa champions league",
+      "name": "Club Brugge",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/851.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:clube do remo@campeonato brasileiro serie a",
       "name": "Clube do Remo",
       "kind": "team",
@@ -8137,9 +8179,10 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/330px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "league": null,
       "leagues": [
-        "ger.1"
+        "ger.1",
+        "uefa.champions"
       ],
-      "country": "Germany",
+      "country": null,
       "status": "validated"
     },
     {
@@ -8154,6 +8197,20 @@
         "ger.1"
       ],
       "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:galatasaray@uefa champions league",
+      "name": "Galatasaray",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/610.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
       "status": "validated"
     },
     {
@@ -8266,6 +8323,20 @@
         "ita.1"
       ],
       "country": "Italy",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:inter@uefa champions league",
+      "name": "Inter",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/108.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
       "status": "validated"
     },
     {
@@ -8479,6 +8550,34 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:rc lens@uefa champions league",
+      "name": "RC Lens",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/546.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:sabah fk@uefa champions league",
+      "name": "Sabah FK",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/10233.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:santander@primera division",
       "name": "Santander",
       "kind": "team",
@@ -8571,6 +8670,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:slavia praha@uefa champions league",
+      "name": "Slavia Praha",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/930.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:southampton@championship",
       "name": "Southampton",
       "kind": "team",
@@ -8594,6 +8707,20 @@
         "ger.2"
       ],
       "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q2641",
+      "name": "SSC Napoli",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/SSC_Napoli_2024_%28deep_blue_navy%29.svg/330px-SSC_Napoli_2024_%28deep_blue_navy%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
       "status": "validated"
     },
     {
@@ -8704,6 +8831,34 @@
         "ger.2"
       ],
       "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q211177",
+      "name": "Viking FK",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Viking_Logo.png/330px-Viking_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:viking@uefa champions league",
+      "name": "Viking",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/5720.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
       "status": "validated"
     },
     {
