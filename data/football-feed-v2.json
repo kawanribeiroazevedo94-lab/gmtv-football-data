@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-07T06:07:58.890710Z",
+  "generatedAt": "2026-10-07T13:31:15.700381Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-07",
@@ -4215,13 +4215,13 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannover_96_Logo.svg/330px-Hannover_96_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
             }
           },
           "sources": [
@@ -28676,13 +28676,13 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannover_96_Logo.svg/330px-Hannover_96_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
         }
       },
       "sources": [

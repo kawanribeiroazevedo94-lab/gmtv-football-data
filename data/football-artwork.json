@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T06:07:59Z",
+  "generatedAt": "2026-10-07T13:31:16Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8265,6 +8265,20 @@
       "league": null,
       "leagues": [
         "ger.1"
+      ],
+      "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q33748",
+      "name": "Hannover 96",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannover_96_Logo.svg/330px-Hannover_96_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
       ],
       "country": "Germany",
       "status": "validated"

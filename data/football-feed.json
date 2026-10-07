@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-07T06:07:58.890710Z",
+  "generatedAt": "2026-10-07T13:31:15.700381Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-07",
@@ -1685,7 +1685,7 @@
             "idProvider": "bsd",
             "name": "Hannover 96",
             "fullName": "Hannover 96",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannover_96_Logo.svg/330px-Hannover_96_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "hannover 96"
           },
           "sources": [
@@ -10785,7 +10785,7 @@
         "idProvider": "bsd",
         "name": "Hannover 96",
         "fullName": "Hannover 96",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannover_96_Logo.svg/330px-Hannover_96_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "hannover 96"
       },
       "sources": [
