@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-07T13:31:15.700381Z",
+  "generatedAt": "2026-10-07T20:03:11.535151Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-07",
@@ -21205,13 +21205,13 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Slavia-symbol-nowordmark-RGB.png/330px-Slavia-symbol-nowordmark-RGB.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
             }
           },
           "sources": [
@@ -45645,13 +45645,13 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Slavia-symbol-nowordmark-RGB.png/330px-Slavia-symbol-nowordmark-RGB.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
         }
       },
       "sources": [
