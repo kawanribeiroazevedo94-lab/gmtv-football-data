@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-08T00:17:13Z",
+  "generatedAt": "2026-10-08T06:13:47Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7905,6 +7905,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:bod glimt@uefa champions league",
+      "name": "Bodø/Glimt",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/5721.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:bolton@championship",
       "name": "Bolton",
       "kind": "team",
@@ -8075,6 +8089,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:como 1907@uefa champions league",
+      "name": "Como 1907",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/7397.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:Q479351",
       "name": "Darmstadt 98",
       "kind": "team",
@@ -8197,6 +8225,20 @@
         "ger.1"
       ],
       "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:fenerbahce@uefa champions league",
+      "name": "Fenerbahçe",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/613.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
       "status": "validated"
     },
     {
@@ -8368,6 +8410,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:lask@uefa champions league",
+      "name": "LASK",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/2016.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:le havre@ligue 1",
       "name": "Le Havre",
       "kind": "team",
@@ -8497,6 +8553,20 @@
         "fra.1"
       ],
       "country": "France",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:pae aek@uefa champions league",
+      "name": "PAE AEK",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/1899.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
       "status": "validated"
     },
     {
@@ -8644,6 +8714,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:team:shaktar@uefa champions league",
+      "name": "Shaktar",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/1887.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:sheffield utd@championship",
       "name": "Sheffield Utd",
       "kind": "team",
@@ -8684,6 +8768,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:Q192253",
+      "name": "ŠK Slovan Bratislava",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/SK_Slovan_Bratislava_logo.svg/330px-SK_Slovan_Bratislava_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:sl benfica@primeira liga",
       "name": "SL Benfica",
       "kind": "team",
@@ -8695,6 +8793,20 @@
         "por.1"
       ],
       "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:sl bratislava@uefa champions league",
+      "name": "Sl. Bratislava",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/7509.png",
+      "league": null,
+      "leagues": [
+        "uefa.champions"
+      ],
+      "country": null,
       "status": "validated"
     },
     {
