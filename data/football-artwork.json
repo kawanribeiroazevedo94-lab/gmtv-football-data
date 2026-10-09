@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-09T00:26:48Z",
+  "generatedAt": "2026-10-09T09:10:57Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8242,6 +8242,20 @@
       "status": "validated"
     },
     {
+      "id": "cache:team:Q425599",
+      "name": "FK Jablonec",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/FK_Jablonec_logo.svg/330px-FK_Jablonec_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "uefa.europa.conf"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
       "id": "cache:team:team:galatasaray@uefa champions league",
       "name": "Galatasaray",
       "kind": "team",
@@ -8751,6 +8765,20 @@
         "ned.1"
       ],
       "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q205685",
+      "name": "SK Brann",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Brann_logo.svg/330px-Brann_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "uefa.europa.conf"
+      ],
+      "country": null,
       "status": "validated"
     },
     {
