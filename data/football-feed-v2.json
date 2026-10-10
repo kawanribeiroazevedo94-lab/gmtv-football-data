@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-10T05:58:21.433860Z",
+  "generatedAt": "2026-10-10T12:39:06.275226Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-10",
@@ -683,7 +683,7 @@
           "date": "2026-10-10",
           "kickoff": "08:30",
           "utcDate": "2026-10-10T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -871,7 +871,7 @@
           "date": "2026-10-10",
           "kickoff": "08:30",
           "utcDate": "2026-10-10T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1059,7 +1059,7 @@
           "date": "2026-10-10",
           "kickoff": "08:30",
           "utcDate": "2026-10-10T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1247,7 +1247,7 @@
           "date": "2026-10-10",
           "kickoff": "08:30",
           "utcDate": "2026-10-10T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": "competition:premier-league",
             "entityType": "competition",
@@ -1439,7 +1439,7 @@
           "date": "2026-10-10",
           "kickoff": "09:00",
           "utcDate": "2026-10-10T12:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -4957,103 +4957,6 @@
           }
         },
         {
-          "id": "fd:567321",
-          "date": "2026-10-10",
-          "kickoff": "11:30",
-          "utcDate": "2026-10-10T14:30:00Z",
-          "status": "TIMED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Primeira Liga",
-            "fullName": null,
-            "normalized": "primeira liga",
-            "country": null,
-            "externalIds": {
-              "football-data": "2017"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/PPL.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "PPL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Casa Pia",
-            "fullName": "Casa Pia AC",
-            "normalized": "casa pia",
-            "country": null,
-            "externalIds": {
-              "football-data": "6618"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/6618.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Santa Clara",
-            "fullName": "CD Santa Clara",
-            "normalized": "santa clara",
-            "country": null,
-            "externalIds": {
-              "football-data": "5530"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/5530.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100,
-          "provenance": {
-            "fixtureSources": [
-              "football-data"
-            ],
-            "sourcePriority": 100,
-            "sourceDetails": {}
-          }
-        },
-        {
           "id": "of:13b39ef2b31ac903",
           "date": "2026-10-10",
           "kickoff": "11:30",
@@ -8129,6 +8032,103 @@
               "openfootball"
             ],
             "sourcePriority": 50,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "fd:567321",
+          "date": "2026-10-10",
+          "kickoff": "16:30",
+          "utcDate": "2026-10-10T19:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Primeira Liga",
+            "fullName": null,
+            "normalized": "primeira liga",
+            "country": null,
+            "externalIds": {
+              "football-data": "2017"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/PPL.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "PPL"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Casa Pia",
+            "fullName": "Casa Pia AC",
+            "normalized": "casa pia",
+            "country": null,
+            "externalIds": {
+              "football-data": "6618"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/6618.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Santa Clara",
+            "fullName": "CD Santa Clara",
+            "normalized": "santa clara",
+            "country": null,
+            "externalIds": {
+              "football-data": "5530"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/5530.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
             "sourceDetails": {}
           }
         },
@@ -31644,7 +31644,7 @@
       "date": "2026-10-10",
       "kickoff": "08:30",
       "utcDate": "2026-10-10T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -31832,7 +31832,7 @@
       "date": "2026-10-10",
       "kickoff": "08:30",
       "utcDate": "2026-10-10T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -32020,7 +32020,7 @@
       "date": "2026-10-10",
       "kickoff": "08:30",
       "utcDate": "2026-10-10T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -32208,7 +32208,7 @@
       "date": "2026-10-10",
       "kickoff": "08:30",
       "utcDate": "2026-10-10T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": "competition:premier-league",
         "entityType": "competition",
@@ -32400,7 +32400,7 @@
       "date": "2026-10-10",
       "kickoff": "09:00",
       "utcDate": "2026-10-10T12:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -35918,103 +35918,6 @@
       }
     },
     {
-      "id": "fd:567321",
-      "date": "2026-10-10",
-      "kickoff": "11:30",
-      "utcDate": "2026-10-10T14:30:00Z",
-      "status": "TIMED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Primeira Liga",
-        "fullName": null,
-        "normalized": "primeira liga",
-        "country": null,
-        "externalIds": {
-          "football-data": "2017"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/PPL.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "PPL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Casa Pia",
-        "fullName": "Casa Pia AC",
-        "normalized": "casa pia",
-        "country": null,
-        "externalIds": {
-          "football-data": "6618"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/6618.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Santa Clara",
-        "fullName": "CD Santa Clara",
-        "normalized": "santa clara",
-        "country": null,
-        "externalIds": {
-          "football-data": "5530"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/5530.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100,
-      "provenance": {
-        "fixtureSources": [
-          "football-data"
-        ],
-        "sourcePriority": 100,
-        "sourceDetails": {}
-      }
-    },
-    {
       "id": "of:13b39ef2b31ac903",
       "date": "2026-10-10",
       "kickoff": "11:30",
@@ -39090,6 +38993,103 @@
           "openfootball"
         ],
         "sourcePriority": 50,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "fd:567321",
+      "date": "2026-10-10",
+      "kickoff": "16:30",
+      "utcDate": "2026-10-10T19:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Primeira Liga",
+        "fullName": null,
+        "normalized": "primeira liga",
+        "country": null,
+        "externalIds": {
+          "football-data": "2017"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/PPL.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "PPL"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Casa Pia",
+        "fullName": "Casa Pia AC",
+        "normalized": "casa pia",
+        "country": null,
+        "externalIds": {
+          "football-data": "6618"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/6618.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Santa Clara",
+        "fullName": "CD Santa Clara",
+        "normalized": "santa clara",
+        "country": null,
+        "externalIds": {
+          "football-data": "5530"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/5530.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
         "sourceDetails": {}
       }
     },

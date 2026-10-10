@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-10T05:58:21.433860Z",
+  "generatedAt": "2026-10-10T12:39:06.275226Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-10",
@@ -373,7 +373,7 @@
           "date": "2026-10-10",
           "kickoff": "08:30",
           "utcDate": "2026-10-10T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2016,
             "idProvider": "football-data",
@@ -440,7 +440,7 @@
           "date": "2026-10-10",
           "kickoff": "08:30",
           "utcDate": "2026-10-10T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2016,
             "idProvider": "football-data",
@@ -507,7 +507,7 @@
           "date": "2026-10-10",
           "kickoff": "08:30",
           "utcDate": "2026-10-10T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2016,
             "idProvider": "football-data",
@@ -574,7 +574,7 @@
           "date": "2026-10-10",
           "kickoff": "08:30",
           "utcDate": "2026-10-10T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2021,
             "idProvider": "football-data",
@@ -643,7 +643,7 @@
           "date": "2026-10-10",
           "kickoff": "09:00",
           "utcDate": "2026-10-10T12:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2014,
             "idProvider": "football-data",
@@ -1942,41 +1942,6 @@
           "sourcePriority": 50
         },
         {
-          "id": "fd:567321",
-          "date": "2026-10-10",
-          "kickoff": "11:30",
-          "utcDate": "2026-10-10T14:30:00Z",
-          "status": "TIMED",
-          "competition": {
-            "id": 2017,
-            "idProvider": "football-data",
-            "code": "PPL",
-            "name": "Primeira Liga",
-            "logo": "https://crests.football-data.org/PPL.png",
-            "normalized": "primeira liga"
-          },
-          "home": {
-            "id": 6618,
-            "idProvider": "football-data",
-            "name": "Casa Pia",
-            "fullName": "Casa Pia AC",
-            "crest": "https://crests.football-data.org/6618.png",
-            "normalized": "casa pia"
-          },
-          "away": {
-            "id": 5530,
-            "idProvider": "football-data",
-            "name": "Santa Clara",
-            "fullName": "CD Santa Clara",
-            "crest": "https://crests.football-data.org/5530.png",
-            "normalized": "santa clara"
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100
-        },
-        {
           "id": "of:13b39ef2b31ac903",
           "date": "2026-10-10",
           "kickoff": "11:30",
@@ -3100,6 +3065,41 @@
             "openfootball"
           ],
           "sourcePriority": 50
+        },
+        {
+          "id": "fd:567321",
+          "date": "2026-10-10",
+          "kickoff": "16:30",
+          "utcDate": "2026-10-10T19:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2017,
+            "idProvider": "football-data",
+            "code": "PPL",
+            "name": "Primeira Liga",
+            "logo": "https://crests.football-data.org/PPL.png",
+            "normalized": "primeira liga"
+          },
+          "home": {
+            "id": 6618,
+            "idProvider": "football-data",
+            "name": "Casa Pia",
+            "fullName": "Casa Pia AC",
+            "crest": "https://crests.football-data.org/6618.png",
+            "normalized": "casa pia"
+          },
+          "away": {
+            "id": 5530,
+            "idProvider": "football-data",
+            "name": "Santa Clara",
+            "fullName": "CD Santa Clara",
+            "crest": "https://crests.football-data.org/5530.png",
+            "normalized": "santa clara"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
         },
         {
           "id": "fd:555039",
@@ -12089,7 +12089,7 @@
       "date": "2026-10-10",
       "kickoff": "08:30",
       "utcDate": "2026-10-10T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2016,
         "idProvider": "football-data",
@@ -12156,7 +12156,7 @@
       "date": "2026-10-10",
       "kickoff": "08:30",
       "utcDate": "2026-10-10T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2016,
         "idProvider": "football-data",
@@ -12223,7 +12223,7 @@
       "date": "2026-10-10",
       "kickoff": "08:30",
       "utcDate": "2026-10-10T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2016,
         "idProvider": "football-data",
@@ -12290,7 +12290,7 @@
       "date": "2026-10-10",
       "kickoff": "08:30",
       "utcDate": "2026-10-10T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2021,
         "idProvider": "football-data",
@@ -12359,7 +12359,7 @@
       "date": "2026-10-10",
       "kickoff": "09:00",
       "utcDate": "2026-10-10T12:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2014,
         "idProvider": "football-data",
@@ -13658,41 +13658,6 @@
       "sourcePriority": 50
     },
     {
-      "id": "fd:567321",
-      "date": "2026-10-10",
-      "kickoff": "11:30",
-      "utcDate": "2026-10-10T14:30:00Z",
-      "status": "TIMED",
-      "competition": {
-        "id": 2017,
-        "idProvider": "football-data",
-        "code": "PPL",
-        "name": "Primeira Liga",
-        "logo": "https://crests.football-data.org/PPL.png",
-        "normalized": "primeira liga"
-      },
-      "home": {
-        "id": 6618,
-        "idProvider": "football-data",
-        "name": "Casa Pia",
-        "fullName": "Casa Pia AC",
-        "crest": "https://crests.football-data.org/6618.png",
-        "normalized": "casa pia"
-      },
-      "away": {
-        "id": 5530,
-        "idProvider": "football-data",
-        "name": "Santa Clara",
-        "fullName": "CD Santa Clara",
-        "crest": "https://crests.football-data.org/5530.png",
-        "normalized": "santa clara"
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100
-    },
-    {
       "id": "of:13b39ef2b31ac903",
       "date": "2026-10-10",
       "kickoff": "11:30",
@@ -14816,6 +14781,41 @@
         "openfootball"
       ],
       "sourcePriority": 50
+    },
+    {
+      "id": "fd:567321",
+      "date": "2026-10-10",
+      "kickoff": "16:30",
+      "utcDate": "2026-10-10T19:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2017,
+        "idProvider": "football-data",
+        "code": "PPL",
+        "name": "Primeira Liga",
+        "logo": "https://crests.football-data.org/PPL.png",
+        "normalized": "primeira liga"
+      },
+      "home": {
+        "id": 6618,
+        "idProvider": "football-data",
+        "name": "Casa Pia",
+        "fullName": "Casa Pia AC",
+        "crest": "https://crests.football-data.org/6618.png",
+        "normalized": "casa pia"
+      },
+      "away": {
+        "id": 5530,
+        "idProvider": "football-data",
+        "name": "Santa Clara",
+        "fullName": "CD Santa Clara",
+        "crest": "https://crests.football-data.org/5530.png",
+        "normalized": "santa clara"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
     },
     {
       "id": "fd:555039",
