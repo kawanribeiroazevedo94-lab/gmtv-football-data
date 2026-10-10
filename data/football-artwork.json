@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-09T22:45:03Z",
+  "generatedAt": "2026-10-10T05:58:21Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8182,6 +8182,20 @@
         "por.1"
       ],
       "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:team:estudiantes lp@copa libertadores",
+      "name": "Estudiantes LP",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://crests.football-data.org/2051.png",
+      "league": null,
+      "leagues": [
+        "conmebol.libertadores"
+      ],
+      "country": null,
       "status": "validated"
     },
     {
