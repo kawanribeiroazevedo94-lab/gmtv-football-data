@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-12T15:34:30.023305Z",
+  "generatedAt": "2026-10-12T23:03:48.786339Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-12",
@@ -167,7 +167,7 @@
           "date": "2026-10-12",
           "kickoff": "13:30",
           "utcDate": "2026-10-12T16:30:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2019,
             "idProvider": "football-data",
@@ -234,7 +234,7 @@
           "date": "2026-10-12",
           "kickoff": "15:45",
           "utcDate": "2026-10-12T18:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2019,
             "idProvider": "football-data",
@@ -270,7 +270,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 34,
             "idProvider": "bsd",
@@ -311,7 +311,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -347,7 +347,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4936,
             "idProvider": "openligadb",
@@ -389,7 +389,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2021,
             "idProvider": "football-data",
@@ -424,7 +424,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 5996,
             "idProvider": "openligadb",
@@ -466,7 +466,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2014,
             "idProvider": "football-data",
@@ -501,7 +501,7 @@
           "date": "2026-10-12",
           "kickoff": "16:15",
           "utcDate": "2026-10-12T19:15:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2017,
             "idProvider": "football-data",
@@ -692,7 +692,7 @@
           "date": "2026-10-12",
           "kickoff": "19:30",
           "utcDate": "2026-10-12T22:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -9818,7 +9818,7 @@
             "id": null,
             "name": "Udinese Calcio",
             "fullName": "Udinese Calcio",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Udinese_Calcio_2010.svg/330px-Udinese_Calcio_2010.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "udinese"
           },
           "away": {
@@ -11985,7 +11985,7 @@
       "date": "2026-10-12",
       "kickoff": "13:30",
       "utcDate": "2026-10-12T16:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2019,
         "idProvider": "football-data",
@@ -12052,7 +12052,7 @@
       "date": "2026-10-12",
       "kickoff": "15:45",
       "utcDate": "2026-10-12T18:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2019,
         "idProvider": "football-data",
@@ -12088,7 +12088,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 34,
         "idProvider": "bsd",
@@ -12129,7 +12129,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
@@ -12165,7 +12165,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4936,
         "idProvider": "openligadb",
@@ -12207,7 +12207,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2021,
         "idProvider": "football-data",
@@ -12242,7 +12242,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 5996,
         "idProvider": "openligadb",
@@ -12284,7 +12284,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2014,
         "idProvider": "football-data",
@@ -12319,7 +12319,7 @@
       "date": "2026-10-12",
       "kickoff": "16:15",
       "utcDate": "2026-10-12T19:15:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2017,
         "idProvider": "football-data",
@@ -12510,7 +12510,7 @@
       "date": "2026-10-12",
       "kickoff": "19:30",
       "utcDate": "2026-10-12T22:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
@@ -21594,7 +21594,7 @@
         "id": null,
         "name": "Udinese Calcio",
         "fullName": "Udinese Calcio",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Udinese_Calcio_2010.svg/330px-Udinese_Calcio_2010.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "udinese"
       },
       "away": {

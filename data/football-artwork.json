@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-12T15:34:30Z",
+  "generatedAt": "2026-10-12T23:03:49Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8959,6 +8959,20 @@
         "ned.1"
       ],
       "country": "Netherlands",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q2798",
+      "name": "Udinese Calcio",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Udinese_Calcio_2010.svg/330px-Udinese_Calcio_2010.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
       "status": "validated"
     },
     {

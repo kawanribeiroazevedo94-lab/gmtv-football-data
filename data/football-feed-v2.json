@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-12T15:34:30.023305Z",
+  "generatedAt": "2026-10-12T23:03:48.786339Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-12",
@@ -171,7 +171,7 @@
           "date": "2026-10-12",
           "kickoff": "13:30",
           "utcDate": "2026-10-12T16:30:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -359,7 +359,7 @@
           "date": "2026-10-12",
           "kickoff": "15:45",
           "utcDate": "2026-10-12T18:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -458,7 +458,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-b",
             "entityType": "competition",
@@ -560,7 +560,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-a",
             "entityType": "competition",
@@ -660,7 +660,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -764,7 +764,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:premier-league",
             "entityType": "competition",
@@ -861,7 +861,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:premier-league",
             "entityType": "competition",
@@ -965,7 +965,7 @@
           "date": "2026-10-12",
           "kickoff": "16:00",
           "utcDate": "2026-10-12T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1062,7 +1062,7 @@
           "date": "2026-10-12",
           "kickoff": "16:15",
           "utcDate": "2026-10-12T19:15:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1560,7 +1560,7 @@
           "date": "2026-10-12",
           "kickoff": "19:30",
           "utcDate": "2026-10-12T22:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": "competition:brasileirao-serie-a",
             "entityType": "competition",
@@ -25593,13 +25593,13 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Udinese_Calcio_2010.svg/330px-Udinese_Calcio_2010.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
             }
           },
           "away": {
@@ -31404,7 +31404,7 @@
       "date": "2026-10-12",
       "kickoff": "13:30",
       "utcDate": "2026-10-12T16:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -31592,7 +31592,7 @@
       "date": "2026-10-12",
       "kickoff": "15:45",
       "utcDate": "2026-10-12T18:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -31691,7 +31691,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-b",
         "entityType": "competition",
@@ -31793,7 +31793,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-a",
         "entityType": "competition",
@@ -31893,7 +31893,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -31997,7 +31997,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:premier-league",
         "entityType": "competition",
@@ -32094,7 +32094,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:premier-league",
         "entityType": "competition",
@@ -32198,7 +32198,7 @@
       "date": "2026-10-12",
       "kickoff": "16:00",
       "utcDate": "2026-10-12T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -32295,7 +32295,7 @@
       "date": "2026-10-12",
       "kickoff": "16:15",
       "utcDate": "2026-10-12T19:15:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -32793,7 +32793,7 @@
       "date": "2026-10-12",
       "kickoff": "19:30",
       "utcDate": "2026-10-12T22:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": "competition:brasileirao-serie-a",
         "entityType": "competition",
@@ -56784,13 +56784,13 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Udinese_Calcio_2010.svg/330px-Udinese_Calcio_2010.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
         }
       },
       "away": {
