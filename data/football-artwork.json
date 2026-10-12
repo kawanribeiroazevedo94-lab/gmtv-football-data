@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-11T23:44:56Z",
+  "generatedAt": "2026-10-12T06:05:13Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8107,7 +8107,9 @@
       "name": "Darmstadt 98",
       "kind": "team",
       "entityType": "club",
-      "aliases": [],
+      "aliases": [
+        "SV Darmstadt 98"
+      ],
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SV_Darmstadt_98_Logo.svg/330px-SV_Darmstadt_98_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "league": null,
       "leagues": [
@@ -8140,6 +8142,22 @@
       "league": null,
       "leagues": [],
       "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q141931",
+      "name": "Dynamo Dresden",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [
+        "SG Dynamo Dresden"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Logo_Dinamo_Dresde_desde_2011.svg/330px-Logo_Dinamo_Dresde_desde_2011.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ger.2"
+      ],
+      "country": "Germany",
       "status": "validated"
     },
     {
@@ -8725,20 +8743,6 @@
       "league": null,
       "leagues": [],
       "country": null,
-      "status": "validated"
-    },
-    {
-      "id": "cache:team:Q141931",
-      "name": "SG Dynamo Dresden",
-      "kind": "team",
-      "entityType": "club",
-      "aliases": [],
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Logo_Dinamo_Dresde_desde_2011.svg/330px-Logo_Dinamo_Dresde_desde_2011.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "league": null,
-      "leagues": [
-        "ger.2"
-      ],
-      "country": "Germany",
       "status": "validated"
     },
     {
