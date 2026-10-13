@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-13T06:52:56Z",
+  "generatedAt": "2026-10-13T16:05:35Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7756,6 +7756,20 @@
         "por.1"
       ],
       "country": "Portugal",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q2052",
+      "name": "ACF Fiorentina",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg/330px-ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "ita.1"
+      ],
+      "country": "Italy",
       "status": "validated"
     },
     {

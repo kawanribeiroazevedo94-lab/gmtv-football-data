@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-13T06:52:56.425894Z",
+  "generatedAt": "2026-10-13T16:05:34.809110Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-13",
@@ -136,8 +136,8 @@
           "key": "uecl",
           "page": "2026–27 UEFA Conference League league phase",
           "pageId": 84084273,
-          "revisionId": 1375264669,
-          "revisionTimestamp": "2026-09-16T20:03:34Z",
+          "revisionId": 1380028243,
+          "revisionTimestamp": "2026-10-13T10:20:33Z",
           "ok": true,
           "matchesInWindow": 0,
           "error": null
@@ -9773,7 +9773,7 @@
             "id": null,
             "name": "ACF Fiorentina",
             "fullName": "ACF Fiorentina",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg/330px-ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "acf fiorentina"
           },
           "away": {
@@ -21207,7 +21207,7 @@
         "id": null,
         "name": "ACF Fiorentina",
         "fullName": "ACF Fiorentina",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg/330px-ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "acf fiorentina"
       },
       "away": {
