@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T17:06:05.520344Z",
+  "generatedAt": "2026-10-15T21:28:15.680336Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-15",
@@ -136,8 +136,8 @@
           "key": "uecl",
           "page": "2026–27 UEFA Conference League league phase",
           "pageId": 84084273,
-          "revisionId": 1380379373,
-          "revisionTimestamp": "2026-10-15T11:41:19Z",
+          "revisionId": 1380464150,
+          "revisionTimestamp": "2026-10-15T21:23:56Z",
           "ok": true,
           "matchesInWindow": 0,
           "error": null
@@ -167,7 +167,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -208,7 +208,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -249,7 +249,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -290,7 +290,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -331,7 +331,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -372,7 +372,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -413,7 +413,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -454,7 +454,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -495,7 +495,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -536,7 +536,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -577,7 +577,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -618,7 +618,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -700,7 +700,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -742,7 +742,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -865,7 +865,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -947,7 +947,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -988,7 +988,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1111,7 +1111,7 @@
           "date": "2026-10-15",
           "kickoff": "13:45",
           "utcDate": "2026-10-15T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1193,7 +1193,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1234,7 +1234,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1275,7 +1275,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1316,7 +1316,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1357,7 +1357,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1398,7 +1398,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1439,7 +1439,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1480,7 +1480,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1562,7 +1562,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1644,7 +1644,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1685,7 +1685,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1849,7 +1849,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1890,7 +1890,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1972,7 +1972,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -2013,7 +2013,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -2096,7 +2096,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -2137,7 +2137,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -2219,7 +2219,7 @@
           "date": "2026-10-15",
           "kickoff": "16:00",
           "utcDate": "2026-10-15T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -10941,7 +10941,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -10982,7 +10982,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -11023,7 +11023,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -11064,7 +11064,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -11105,7 +11105,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -11146,7 +11146,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -11187,7 +11187,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -11228,7 +11228,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -11269,7 +11269,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -11310,7 +11310,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -11351,7 +11351,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11392,7 +11392,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11474,7 +11474,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11516,7 +11516,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11639,7 +11639,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11721,7 +11721,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11762,7 +11762,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11885,7 +11885,7 @@
       "date": "2026-10-15",
       "kickoff": "13:45",
       "utcDate": "2026-10-15T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11967,7 +11967,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -12008,7 +12008,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -12049,7 +12049,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -12090,7 +12090,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -12131,7 +12131,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -12172,7 +12172,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -12213,7 +12213,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -12254,7 +12254,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -12336,7 +12336,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -12418,7 +12418,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -12459,7 +12459,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -12623,7 +12623,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -12664,7 +12664,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -12746,7 +12746,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -12787,7 +12787,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -12870,7 +12870,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -12911,7 +12911,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -12993,7 +12993,7 @@
       "date": "2026-10-15",
       "kickoff": "16:00",
       "utcDate": "2026-10-15T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
