@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T00:29:36Z",
+  "generatedAt": "2026-10-16T07:15:15Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8283,6 +8283,20 @@
       "league": null,
       "leagues": [
         "uefa.champions"
+      ],
+      "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q128897",
+      "name": "FK Borac Banja Luka",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/FK_Borac_Banja_Luka_logo.png/330px-FK_Borac_Banja_Luka_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "uefa.europa.conf"
       ],
       "country": null,
       "status": "validated"
