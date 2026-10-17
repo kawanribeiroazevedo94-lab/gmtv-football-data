@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-16T21:15:17.920827Z",
+  "generatedAt": "2026-10-17T00:34:23.773531Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-16",
@@ -674,7 +674,7 @@
           "date": "2026-10-16",
           "kickoff": "19:30",
           "utcDate": "2026-10-16T22:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 34,
             "idProvider": "bsd",
@@ -715,7 +715,7 @@
           "date": "2026-10-16",
           "kickoff": "20:00",
           "utcDate": "2026-10-16T23:00:00Z",
-          "status": "TIMED",
+          "status": "PAUSED",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -11408,7 +11408,7 @@
       "date": "2026-10-16",
       "kickoff": "19:30",
       "utcDate": "2026-10-16T22:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 34,
         "idProvider": "bsd",
@@ -11449,7 +11449,7 @@
       "date": "2026-10-16",
       "kickoff": "20:00",
       "utcDate": "2026-10-16T23:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
