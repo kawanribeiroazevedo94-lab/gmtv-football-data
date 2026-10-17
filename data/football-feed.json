@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-17T07:03:00.397956Z",
+  "generatedAt": "2026-10-17T12:17:08.721281Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-17",
@@ -72,7 +72,7 @@
     },
     "openLigaDB": {
       "ok": true,
-      "matches": 75,
+      "matches": 76,
       "competitions": [
         {
           "shortcut": "bl1",
@@ -106,7 +106,7 @@
           "shortcut": "la1",
           "providerCompetitionId": 4936,
           "ok": true,
-          "matchesInWindow": 10,
+          "matchesInWindow": 11,
           "error": null
         },
         {
@@ -136,8 +136,8 @@
           "key": "uecl",
           "page": "2026–27 UEFA Conference League league phase",
           "pageId": 84084273,
-          "revisionId": 1380543322,
-          "revisionTimestamp": "2026-10-16T10:53:36Z",
+          "revisionId": 1380704139,
+          "revisionTimestamp": "2026-10-17T10:02:29Z",
           "ok": true,
           "matchesInWindow": 0,
           "error": null
@@ -373,7 +373,7 @@
           "date": "2026-10-17",
           "kickoff": "08:30",
           "utcDate": "2026-10-17T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2016,
             "idProvider": "football-data",
@@ -440,7 +440,7 @@
           "date": "2026-10-17",
           "kickoff": "08:30",
           "utcDate": "2026-10-17T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2016,
             "idProvider": "football-data",
@@ -476,7 +476,7 @@
           "date": "2026-10-17",
           "kickoff": "08:30",
           "utcDate": "2026-10-17T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2016,
             "idProvider": "football-data",
@@ -543,7 +543,7 @@
           "date": "2026-10-17",
           "kickoff": "08:30",
           "utcDate": "2026-10-17T11:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2021,
             "idProvider": "football-data",
@@ -653,7 +653,7 @@
           "date": "2026-10-17",
           "kickoff": "09:00",
           "utcDate": "2026-10-17T12:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2014,
             "idProvider": "football-data",
@@ -10300,7 +10300,7 @@
     {
       "date": "2026-10-23",
       "label": "23/10",
-      "count": 22,
+      "count": 23,
       "matches": [
         {
           "id": "bsd:602695",
@@ -10822,6 +10822,47 @@
           "sourcePriority": 50
         },
         {
+          "id": "oldb:85425",
+          "date": "2026-10-23",
+          "kickoff": "16:00",
+          "utcDate": "2026-10-23T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 4936,
+            "idProvider": "openligadb",
+            "code": "PD",
+            "name": "LaLiga",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
+            "normalized": "laliga"
+          },
+          "home": {
+            "id": 4257,
+            "idProvider": "openligadb",
+            "name": "Deportivo Alaves",
+            "fullName": "Deportivo Alaves",
+            "crest": null,
+            "normalized": "deportivo alaves"
+          },
+          "away": {
+            "id": 1284,
+            "idProvider": "openligadb",
+            "name": "FC Malaga",
+            "fullName": "FC Malaga",
+            "crest": null,
+            "normalized": "malaga"
+          },
+          "sources": [
+            "openligadb"
+          ],
+          "sourcePriority": 70,
+          "provenance": {
+            "provider": "openligadb",
+            "providerMatchId": 85425,
+            "providerCompetitionId": 4936,
+            "shortcut": "la1"
+          }
+        },
+        {
           "id": "fd:560620",
           "date": "2026-10-23",
           "kickoff": "16:00",
@@ -11333,7 +11374,7 @@
       "date": "2026-10-17",
       "kickoff": "08:30",
       "utcDate": "2026-10-17T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2016,
         "idProvider": "football-data",
@@ -11400,7 +11441,7 @@
       "date": "2026-10-17",
       "kickoff": "08:30",
       "utcDate": "2026-10-17T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2016,
         "idProvider": "football-data",
@@ -11436,7 +11477,7 @@
       "date": "2026-10-17",
       "kickoff": "08:30",
       "utcDate": "2026-10-17T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2016,
         "idProvider": "football-data",
@@ -11503,7 +11544,7 @@
       "date": "2026-10-17",
       "kickoff": "08:30",
       "utcDate": "2026-10-17T11:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2021,
         "idProvider": "football-data",
@@ -11613,7 +11654,7 @@
       "date": "2026-10-17",
       "kickoff": "09:00",
       "utcDate": "2026-10-17T12:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2014,
         "idProvider": "football-data",
@@ -21738,6 +21779,47 @@
         "openfootball"
       ],
       "sourcePriority": 50
+    },
+    {
+      "id": "oldb:85425",
+      "date": "2026-10-23",
+      "kickoff": "16:00",
+      "utcDate": "2026-10-23T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 4936,
+        "idProvider": "openligadb",
+        "code": "PD",
+        "name": "LaLiga",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
+        "normalized": "laliga"
+      },
+      "home": {
+        "id": 4257,
+        "idProvider": "openligadb",
+        "name": "Deportivo Alaves",
+        "fullName": "Deportivo Alaves",
+        "crest": null,
+        "normalized": "deportivo alaves"
+      },
+      "away": {
+        "id": 1284,
+        "idProvider": "openligadb",
+        "name": "FC Malaga",
+        "fullName": "FC Malaga",
+        "crest": null,
+        "normalized": "malaga"
+      },
+      "sources": [
+        "openligadb"
+      ],
+      "sourcePriority": 70,
+      "provenance": {
+        "provider": "openligadb",
+        "providerMatchId": 85425,
+        "providerCompetitionId": 4936,
+        "shortcut": "la1"
+      }
     },
     {
       "id": "fd:560620",
