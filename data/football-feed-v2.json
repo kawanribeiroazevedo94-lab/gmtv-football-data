@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-18T18:42:20.617209Z",
+  "generatedAt": "2026-10-18T22:29:50.669721Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-18",
@@ -4634,7 +4634,7 @@
           "date": "2026-10-18",
           "kickoff": "15:00",
           "utcDate": "2026-10-18T18:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -4822,7 +4822,7 @@
           "date": "2026-10-18",
           "kickoff": "15:00",
           "utcDate": "2026-10-18T18:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -4919,7 +4919,7 @@
           "date": "2026-10-18",
           "kickoff": "15:45",
           "utcDate": "2026-10-18T18:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -5107,7 +5107,7 @@
           "date": "2026-10-18",
           "kickoff": "15:45",
           "utcDate": "2026-10-18T18:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -5295,7 +5295,7 @@
           "date": "2026-10-18",
           "kickoff": "16:00",
           "utcDate": "2026-10-18T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-b",
             "entityType": "competition",
@@ -5397,7 +5397,7 @@
           "date": "2026-10-18",
           "kickoff": "16:00",
           "utcDate": "2026-10-18T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-b",
             "entityType": "competition",
@@ -5499,7 +5499,7 @@
           "date": "2026-10-18",
           "kickoff": "16:00",
           "utcDate": "2026-10-18T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-b",
             "entityType": "competition",
@@ -5601,7 +5601,7 @@
           "date": "2026-10-18",
           "kickoff": "16:00",
           "utcDate": "2026-10-18T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-a",
             "entityType": "competition",
@@ -5701,7 +5701,7 @@
           "date": "2026-10-18",
           "kickoff": "16:00",
           "utcDate": "2026-10-18T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-a",
             "entityType": "competition",
@@ -5801,7 +5801,7 @@
           "date": "2026-10-18",
           "kickoff": "16:00",
           "utcDate": "2026-10-18T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -6004,7 +6004,7 @@
           "date": "2026-10-18",
           "kickoff": "18:30",
           "utcDate": "2026-10-18T21:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": "competition:brasileirao-serie-a",
             "entityType": "competition",
@@ -34111,7 +34111,7 @@
       "date": "2026-10-18",
       "kickoff": "15:00",
       "utcDate": "2026-10-18T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -34299,7 +34299,7 @@
       "date": "2026-10-18",
       "kickoff": "15:00",
       "utcDate": "2026-10-18T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -34396,7 +34396,7 @@
       "date": "2026-10-18",
       "kickoff": "15:45",
       "utcDate": "2026-10-18T18:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -34584,7 +34584,7 @@
       "date": "2026-10-18",
       "kickoff": "15:45",
       "utcDate": "2026-10-18T18:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -34772,7 +34772,7 @@
       "date": "2026-10-18",
       "kickoff": "16:00",
       "utcDate": "2026-10-18T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-b",
         "entityType": "competition",
@@ -34874,7 +34874,7 @@
       "date": "2026-10-18",
       "kickoff": "16:00",
       "utcDate": "2026-10-18T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-b",
         "entityType": "competition",
@@ -34976,7 +34976,7 @@
       "date": "2026-10-18",
       "kickoff": "16:00",
       "utcDate": "2026-10-18T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-b",
         "entityType": "competition",
@@ -35078,7 +35078,7 @@
       "date": "2026-10-18",
       "kickoff": "16:00",
       "utcDate": "2026-10-18T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-a",
         "entityType": "competition",
@@ -35178,7 +35178,7 @@
       "date": "2026-10-18",
       "kickoff": "16:00",
       "utcDate": "2026-10-18T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-a",
         "entityType": "competition",
@@ -35278,7 +35278,7 @@
       "date": "2026-10-18",
       "kickoff": "16:00",
       "utcDate": "2026-10-18T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -35481,7 +35481,7 @@
       "date": "2026-10-18",
       "kickoff": "18:30",
       "utcDate": "2026-10-18T21:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": "competition:brasileirao-serie-a",
         "entityType": "competition",
