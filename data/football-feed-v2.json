@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-19T20:01:37.250368Z",
+  "generatedAt": "2026-10-19T23:46:51.279872Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-19",
@@ -270,7 +270,7 @@
           "date": "2026-10-19",
           "kickoff": "15:45",
           "utcDate": "2026-10-19T18:45:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -549,7 +549,7 @@
           "date": "2026-10-19",
           "kickoff": "16:00",
           "utcDate": "2026-10-19T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:premier-league",
             "entityType": "competition",
@@ -750,7 +750,7 @@
           "date": "2026-10-19",
           "kickoff": "16:00",
           "utcDate": "2026-10-19T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -849,7 +849,7 @@
           "date": "2026-10-19",
           "kickoff": "16:15",
           "utcDate": "2026-10-19T19:15:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1048,7 +1048,7 @@
           "date": "2026-10-19",
           "kickoff": "20:00",
           "utcDate": "2026-10-19T23:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": "competition:brasileirao-serie-a",
             "entityType": "competition",
@@ -30334,7 +30334,7 @@
       "date": "2026-10-19",
       "kickoff": "15:45",
       "utcDate": "2026-10-19T18:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -30613,7 +30613,7 @@
       "date": "2026-10-19",
       "kickoff": "16:00",
       "utcDate": "2026-10-19T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:premier-league",
         "entityType": "competition",
@@ -30814,7 +30814,7 @@
       "date": "2026-10-19",
       "kickoff": "16:00",
       "utcDate": "2026-10-19T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -30913,7 +30913,7 @@
       "date": "2026-10-19",
       "kickoff": "16:15",
       "utcDate": "2026-10-19T19:15:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -31112,7 +31112,7 @@
       "date": "2026-10-19",
       "kickoff": "20:00",
       "utcDate": "2026-10-19T23:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": "competition:brasileirao-serie-a",
         "entityType": "competition",
