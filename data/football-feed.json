@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T17:13:19.965589Z",
+  "generatedAt": "2026-10-20T21:42:20.596755Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-20",
@@ -167,7 +167,7 @@
           "date": "2026-10-20",
           "kickoff": "13:45",
           "utcDate": "2026-10-20T16:45:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -202,7 +202,7 @@
           "date": "2026-10-20",
           "kickoff": "13:45",
           "utcDate": "2026-10-20T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -243,7 +243,7 @@
           "date": "2026-10-20",
           "kickoff": "13:45",
           "utcDate": "2026-10-20T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4946,
             "idProvider": "openligadb",
@@ -284,7 +284,7 @@
           "date": "2026-10-20",
           "kickoff": "13:45",
           "utcDate": "2026-10-20T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4946,
             "idProvider": "openligadb",
@@ -325,7 +325,7 @@
           "date": "2026-10-20",
           "kickoff": "13:45",
           "utcDate": "2026-10-20T16:45:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -360,7 +360,7 @@
           "date": "2026-10-20",
           "kickoff": "13:45",
           "utcDate": "2026-10-20T16:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -401,7 +401,7 @@
           "date": "2026-10-20",
           "kickoff": "15:45",
           "utcDate": "2026-10-20T18:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2016,
             "idProvider": "football-data",
@@ -468,7 +468,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4946,
             "idProvider": "openligadb",
@@ -509,7 +509,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -550,7 +550,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -592,7 +592,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -627,7 +627,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -669,7 +669,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -704,7 +704,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -745,7 +745,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4946,
             "idProvider": "openligadb",
@@ -786,7 +786,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -821,7 +821,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -856,7 +856,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -897,7 +897,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4946,
             "idProvider": "openligadb",
@@ -938,7 +938,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -973,7 +973,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -1008,7 +1008,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -1049,7 +1049,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4946,
             "idProvider": "openligadb",
@@ -1090,7 +1090,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -1125,7 +1125,7 @@
           "date": "2026-10-20",
           "kickoff": "16:00",
           "utcDate": "2026-10-20T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -11482,7 +11482,7 @@
       "date": "2026-10-20",
       "kickoff": "13:45",
       "utcDate": "2026-10-20T16:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -11517,7 +11517,7 @@
       "date": "2026-10-20",
       "kickoff": "13:45",
       "utcDate": "2026-10-20T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
@@ -11558,7 +11558,7 @@
       "date": "2026-10-20",
       "kickoff": "13:45",
       "utcDate": "2026-10-20T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4946,
         "idProvider": "openligadb",
@@ -11599,7 +11599,7 @@
       "date": "2026-10-20",
       "kickoff": "13:45",
       "utcDate": "2026-10-20T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4946,
         "idProvider": "openligadb",
@@ -11640,7 +11640,7 @@
       "date": "2026-10-20",
       "kickoff": "13:45",
       "utcDate": "2026-10-20T16:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -11675,7 +11675,7 @@
       "date": "2026-10-20",
       "kickoff": "13:45",
       "utcDate": "2026-10-20T16:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
@@ -11716,7 +11716,7 @@
       "date": "2026-10-20",
       "kickoff": "15:45",
       "utcDate": "2026-10-20T18:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2016,
         "idProvider": "football-data",
@@ -11783,7 +11783,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4946,
         "idProvider": "openligadb",
@@ -11824,7 +11824,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
@@ -11865,7 +11865,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
@@ -11907,7 +11907,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -11942,7 +11942,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
@@ -11984,7 +11984,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -12019,7 +12019,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
@@ -12060,7 +12060,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4946,
         "idProvider": "openligadb",
@@ -12101,7 +12101,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -12136,7 +12136,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -12171,7 +12171,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
@@ -12212,7 +12212,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4946,
         "idProvider": "openligadb",
@@ -12253,7 +12253,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -12288,7 +12288,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -12323,7 +12323,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
@@ -12364,7 +12364,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4946,
         "idProvider": "openligadb",
@@ -12405,7 +12405,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -12440,7 +12440,7 @@
       "date": "2026-10-20",
       "kickoff": "16:00",
       "utcDate": "2026-10-20T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
