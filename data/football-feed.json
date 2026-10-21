@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-21T07:45:12.098416Z",
+  "generatedAt": "2026-10-21T13:52:45.053301Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-21",
@@ -4212,7 +4212,7 @@
     {
       "date": "2026-10-24",
       "label": "24/10",
-      "count": 96,
+      "count": 95,
       "matches": [
         {
           "id": "bsd:602697",
@@ -6297,41 +6297,6 @@
           "sourcePriority": 50
         },
         {
-          "id": "fd:559655",
-          "date": "2026-10-24",
-          "kickoff": "12:15",
-          "utcDate": "2026-10-24T15:15:00Z",
-          "status": "TIMED",
-          "competition": {
-            "id": 2015,
-            "idProvider": "football-data",
-            "code": "FL1",
-            "name": "Ligue 1",
-            "logo": "https://crests.football-data.org/FL1.png",
-            "normalized": "ligue 1"
-          },
-          "home": {
-            "id": 511,
-            "idProvider": "football-data",
-            "name": "Toulouse",
-            "fullName": "Toulouse FC",
-            "crest": "https://crests.football-data.org/511.png",
-            "normalized": "toulouse"
-          },
-          "away": {
-            "id": 531,
-            "idProvider": "football-data",
-            "name": "Troyes",
-            "fullName": "ES Troyes AC",
-            "crest": "https://crests.football-data.org/531.png",
-            "normalized": "troyes"
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100
-        },
-        {
           "id": "of:f63dbfb429d05d85",
           "date": "2026-10-24",
           "kickoff": "12:15",
@@ -7661,7 +7626,7 @@
     {
       "date": "2026-10-25",
       "label": "25/10",
-      "count": 70,
+      "count": 71,
       "matches": [
         {
           "id": "of:f88c5486fc11aaf6",
@@ -9446,6 +9411,41 @@
             "openfootball"
           ],
           "sourcePriority": 50
+        },
+        {
+          "id": "fd:559655",
+          "date": "2026-10-25",
+          "kickoff": "13:15",
+          "utcDate": "2026-10-25T16:15:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2015,
+            "idProvider": "football-data",
+            "code": "FL1",
+            "name": "Ligue 1",
+            "logo": "https://crests.football-data.org/FL1.png",
+            "normalized": "ligue 1"
+          },
+          "home": {
+            "id": 511,
+            "idProvider": "football-data",
+            "name": "Toulouse",
+            "fullName": "Toulouse FC",
+            "crest": "https://crests.football-data.org/511.png",
+            "normalized": "toulouse"
+          },
+          "away": {
+            "id": 531,
+            "idProvider": "football-data",
+            "name": "Troyes",
+            "fullName": "ES Troyes AC",
+            "crest": "https://crests.football-data.org/531.png",
+            "normalized": "troyes"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
         },
         {
           "id": "fd:565836",
@@ -16761,41 +16761,6 @@
       "sourcePriority": 50
     },
     {
-      "id": "fd:559655",
-      "date": "2026-10-24",
-      "kickoff": "12:15",
-      "utcDate": "2026-10-24T15:15:00Z",
-      "status": "TIMED",
-      "competition": {
-        "id": 2015,
-        "idProvider": "football-data",
-        "code": "FL1",
-        "name": "Ligue 1",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "normalized": "ligue 1"
-      },
-      "home": {
-        "id": 511,
-        "idProvider": "football-data",
-        "name": "Toulouse",
-        "fullName": "Toulouse FC",
-        "crest": "https://crests.football-data.org/511.png",
-        "normalized": "toulouse"
-      },
-      "away": {
-        "id": 531,
-        "idProvider": "football-data",
-        "name": "Troyes",
-        "fullName": "ES Troyes AC",
-        "crest": "https://crests.football-data.org/531.png",
-        "normalized": "troyes"
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100
-    },
-    {
       "id": "of:f63dbfb429d05d85",
       "date": "2026-10-24",
       "kickoff": "12:15",
@@ -19903,6 +19868,41 @@
         "openfootball"
       ],
       "sourcePriority": 50
+    },
+    {
+      "id": "fd:559655",
+      "date": "2026-10-25",
+      "kickoff": "13:15",
+      "utcDate": "2026-10-25T16:15:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2015,
+        "idProvider": "football-data",
+        "code": "FL1",
+        "name": "Ligue 1",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "normalized": "ligue 1"
+      },
+      "home": {
+        "id": 511,
+        "idProvider": "football-data",
+        "name": "Toulouse",
+        "fullName": "Toulouse FC",
+        "crest": "https://crests.football-data.org/511.png",
+        "normalized": "toulouse"
+      },
+      "away": {
+        "id": 531,
+        "idProvider": "football-data",
+        "name": "Troyes",
+        "fullName": "ES Troyes AC",
+        "crest": "https://crests.football-data.org/531.png",
+        "normalized": "troyes"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
     },
     {
       "id": "fd:565836",

@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-21T07:45:12.098416Z",
+  "generatedAt": "2026-10-21T13:52:45.053301Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-21",
@@ -10463,7 +10463,7 @@
     {
       "date": "2026-10-24",
       "label": "24/10",
-      "count": 96,
+      "count": 95,
       "matches": [
         {
           "id": "bsd:602697",
@@ -16166,103 +16166,6 @@
           }
         },
         {
-          "id": "fd:559655",
-          "date": "2026-10-24",
-          "kickoff": "12:15",
-          "utcDate": "2026-10-24T15:15:00Z",
-          "status": "TIMED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Ligue 1",
-            "fullName": null,
-            "normalized": "ligue 1",
-            "country": null,
-            "externalIds": {
-              "football-data": "2015"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/FL1.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "FL1"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Toulouse",
-            "fullName": "Toulouse FC",
-            "normalized": "toulouse",
-            "country": null,
-            "externalIds": {
-              "football-data": "511"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/511.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Troyes",
-            "fullName": "ES Troyes AC",
-            "normalized": "troyes",
-            "country": null,
-            "externalIds": {
-              "football-data": "531"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/531.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100,
-          "provenance": {
-            "fixtureSources": [
-              "football-data"
-            ],
-            "sourcePriority": 100,
-            "sourceDetails": {}
-          }
-        },
-        {
           "id": "of:f63dbfb429d05d85",
           "date": "2026-10-24",
           "kickoff": "12:15",
@@ -19812,7 +19715,7 @@
     {
       "date": "2026-10-25",
       "label": "25/10",
-      "count": 70,
+      "count": 71,
       "matches": [
         {
           "id": "of:f88c5486fc11aaf6",
@@ -24693,6 +24596,103 @@
               "openfootball"
             ],
             "sourcePriority": 50,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "fd:559655",
+          "date": "2026-10-25",
+          "kickoff": "13:15",
+          "utcDate": "2026-10-25T16:15:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Ligue 1",
+            "fullName": null,
+            "normalized": "ligue 1",
+            "country": null,
+            "externalIds": {
+              "football-data": "2015"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/FL1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "FL1"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Toulouse",
+            "fullName": "Toulouse FC",
+            "normalized": "toulouse",
+            "country": null,
+            "externalIds": {
+              "football-data": "511"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/511.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Troyes",
+            "fullName": "ES Troyes AC",
+            "normalized": "troyes",
+            "country": null,
+            "externalIds": {
+              "football-data": "531"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/531.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
             "sourceDetails": {}
           }
         },
@@ -43901,103 +43901,6 @@
       }
     },
     {
-      "id": "fd:559655",
-      "date": "2026-10-24",
-      "kickoff": "12:15",
-      "utcDate": "2026-10-24T15:15:00Z",
-      "status": "TIMED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Ligue 1",
-        "fullName": null,
-        "normalized": "ligue 1",
-        "country": null,
-        "externalIds": {
-          "football-data": "2015"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/FL1.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "FL1"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Toulouse",
-        "fullName": "Toulouse FC",
-        "normalized": "toulouse",
-        "country": null,
-        "externalIds": {
-          "football-data": "511"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/511.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Troyes",
-        "fullName": "ES Troyes AC",
-        "normalized": "troyes",
-        "country": null,
-        "externalIds": {
-          "football-data": "531"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/531.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100,
-      "provenance": {
-        "fixtureSources": [
-          "football-data"
-        ],
-        "sourcePriority": 100,
-        "sourceDetails": {}
-      }
-    },
-    {
       "id": "of:f63dbfb429d05d85",
       "date": "2026-10-24",
       "kickoff": "12:15",
@@ -52421,6 +52324,103 @@
           "openfootball"
         ],
         "sourcePriority": 50,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "fd:559655",
+      "date": "2026-10-25",
+      "kickoff": "13:15",
+      "utcDate": "2026-10-25T16:15:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Ligue 1",
+        "fullName": null,
+        "normalized": "ligue 1",
+        "country": null,
+        "externalIds": {
+          "football-data": "2015"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/FL1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "FL1"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Toulouse",
+        "fullName": "Toulouse FC",
+        "normalized": "toulouse",
+        "country": null,
+        "externalIds": {
+          "football-data": "511"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/511.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Troyes",
+        "fullName": "ES Troyes AC",
+        "normalized": "troyes",
+        "country": null,
+        "externalIds": {
+          "football-data": "531"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/531.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
         "sourceDetails": {}
       }
     },
