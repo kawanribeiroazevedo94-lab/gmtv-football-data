@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-22T11:59:17.343383Z",
+  "generatedAt": "2026-10-22T17:15:26.670602Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-22",
@@ -136,8 +136,8 @@
           "key": "uecl",
           "page": "2026–27 UEFA Conference League league phase",
           "pageId": 84084273,
-          "revisionId": 1381149971,
-          "revisionTimestamp": "2026-10-20T08:37:40Z",
+          "revisionId": 1381453551,
+          "revisionTimestamp": "2026-10-22T16:35:00Z",
           "ok": true,
           "matchesInWindow": 0,
           "error": null
@@ -171,7 +171,7 @@
           "date": "2026-10-22",
           "kickoff": "11:30",
           "utcDate": "2026-10-22T14:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -28179,7 +28179,7 @@
       "date": "2026-10-22",
       "kickoff": "11:30",
       "utcDate": "2026-10-22T14:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
