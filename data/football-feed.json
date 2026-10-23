@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T00:45:17.489457Z",
+  "generatedAt": "2026-10-23T07:38:21.718350Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-10-22",
-    "to": "2026-10-28"
+    "from": "2026-10-23",
+    "to": "2026-10-29"
   },
   "sources": {
     "footballData": {
       "ok": true,
-      "matches": 100,
+      "matches": 105,
       "error": null
     },
     "openFootball": {
       "ok": true,
-      "matches": 106,
+      "matches": 108,
       "datasets": [
         {
           "dataset": "2026-27/en.1.json",
@@ -39,7 +39,7 @@
         {
           "dataset": "2026-27/it.1.json",
           "ok": true,
-          "matchesInWindow": 18
+          "matchesInWindow": 20
         },
         {
           "dataset": "2026-27/fr.1.json",
@@ -66,13 +66,13 @@
     "bsd": {
       "configured": true,
       "ok": true,
-      "matches": 79,
+      "matches": 46,
       "pages": 5,
       "error": null
     },
     "openLigaDB": {
       "ok": true,
-      "matches": 56,
+      "matches": 38,
       "competitions": [
         {
           "shortcut": "bl1",
@@ -99,7 +99,7 @@
           "shortcut": "uel2026",
           "providerCompetitionId": 6000,
           "ok": true,
-          "matchesInWindow": 18,
+          "matchesInWindow": 0,
           "error": null
         },
         {
@@ -120,7 +120,7 @@
     },
     "wikimediaFixtures": {
       "ok": true,
-      "matches": 5,
+      "matches": 9,
       "pages": [
         {
           "key": "uwcl",
@@ -129,15 +129,15 @@
           "revisionId": 1380337516,
           "revisionTimestamp": "2026-10-15T03:24:53Z",
           "ok": true,
-          "matchesInWindow": 5,
+          "matchesInWindow": 9,
           "error": null
         },
         {
           "key": "uecl",
           "page": "2026–27 UEFA Conference League league phase",
           "pageId": 84084273,
-          "revisionId": 1381498571,
-          "revisionTimestamp": "2026-10-22T22:41:18Z",
+          "revisionId": 1381550767,
+          "revisionTimestamp": "2026-10-23T07:22:09Z",
           "ok": true,
           "matchesInWindow": 0,
           "error": null
@@ -153,2149 +153,13 @@
       "teamsUnresolved": []
     },
     "wikidataArtwork": {
-      "cachedEntries": 1123
+      "cachedEntries": 1124
     }
   },
   "days": [
     {
-      "date": "2026-10-22",
-      "label": "HOJE",
-      "count": 52,
-      "matches": [
-        {
-          "id": "bsd:601338",
-          "date": "2026-10-22",
-          "kickoff": "11:30",
-          "utcDate": "2026-10-22T14:30:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 126,
-            "idProvider": "bsd",
-            "name": "FC Kairat Almaty",
-            "fullName": "FC Kairat Almaty",
-            "crest": null,
-            "normalized": "kairat almaty"
-          },
-          "away": {
-            "id": 149,
-            "idProvider": "bsd",
-            "name": "Panathinaikos FC",
-            "fullName": "Panathinaikos FC",
-            "crest": null,
-            "normalized": "panathinaikos"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601338,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601337",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 395,
-            "idProvider": "bsd",
-            "name": "FC Iberia 1999",
-            "fullName": "FC Iberia 1999",
-            "crest": null,
-            "normalized": "iberia 1999"
-          },
-          "away": {
-            "id": 441,
-            "idProvider": "bsd",
-            "name": "Mjällby AIF",
-            "fullName": "Mjällby AIF",
-            "crest": null,
-            "normalized": "mjallby aif"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601337,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601352",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 1332,
-            "idProvider": "bsd",
-            "name": "FC Nordsjælland",
-            "fullName": "FC Nordsjælland",
-            "crest": null,
-            "normalized": "nordsj lland"
-          },
-          "away": {
-            "id": 345,
-            "idProvider": "bsd",
-            "name": "CSKA Sofia",
-            "fullName": "CSKA Sofia",
-            "crest": null,
-            "normalized": "cska sofia"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601352,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601362",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 131,
-            "idProvider": "bsd",
-            "name": "FK Crvena zvezda",
-            "fullName": "FK Crvena zvezda",
-            "crest": null,
-            "normalized": "fk crvena zvezda"
-          },
-          "away": {
-            "id": 124,
-            "idProvider": "bsd",
-            "name": "FC København",
-            "fullName": "FC København",
-            "crest": null,
-            "normalized": "k benhavn"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601362,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601365",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 4078,
-            "idProvider": "bsd",
-            "name": "FK Jablonec",
-            "fullName": "FK Jablonec",
-            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/FK_Jablonec_logo.svg/330px-FK_Jablonec_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "normalized": "fk jablonec"
-          },
-          "away": {
-            "id": 5,
-            "idProvider": "bsd",
-            "name": "Brighton & Hove Albion",
-            "fullName": "Brighton & Hove Albion",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-            "normalized": "brighton hove albion"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601365,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601369",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 3575,
-            "idProvider": "bsd",
-            "name": "FK Kauno Žalgiris",
-            "fullName": "FK Kauno Žalgiris",
-            "crest": null,
-            "normalized": "fk kauno zalgiris"
-          },
-          "away": {
-            "id": 141,
-            "idProvider": "bsd",
-            "name": "SK Brann",
-            "fullName": "SK Brann",
-            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Brann_logo.svg/330px-Brann_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "normalized": "sk brann"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601369,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601372",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 50,
-            "idProvider": "bsd",
-            "name": "Getafe",
-            "fullName": "Getafe",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-            "normalized": "getafe"
-          },
-          "away": {
-            "id": 254,
-            "idProvider": "bsd",
-            "name": "FC Lugano",
-            "fullName": "FC Lugano",
-            "crest": null,
-            "normalized": "lugano"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601372,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601381",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 398,
-            "idProvider": "bsd",
-            "name": "Inter Club d'Escaldes",
-            "fullName": "Inter Club d'Escaldes",
-            "crest": null,
-            "normalized": "inter d escaldes"
-          },
-          "away": {
-            "id": 359,
-            "idProvider": "bsd",
-            "name": "Universitatea Craiova",
-            "fullName": "Universitatea Craiova",
-            "crest": null,
-            "normalized": "universitatea craiova"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601381,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601397",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 119,
-            "idProvider": "bsd",
-            "name": "Pafos FC",
-            "fullName": "Pafos FC",
-            "crest": null,
-            "normalized": "pafos"
-          },
-          "away": {
-            "id": 2838,
-            "idProvider": "bsd",
-            "name": "Riga FC",
-            "fullName": "Riga FC",
-            "crest": null,
-            "normalized": "riga"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601397,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601417",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 197,
-            "idProvider": "bsd",
-            "name": "Trabzonspor",
-            "fullName": "Trabzonspor",
-            "crest": null,
-            "normalized": "trabzonspor"
-          },
-          "away": {
-            "id": 231,
-            "idProvider": "bsd",
-            "name": "Heart of Midlothian",
-            "fullName": "Heart of Midlothian",
-            "crest": null,
-            "normalized": "heart of midlothian"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601417,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "oldb:87808",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 1208,
-            "idProvider": "openligadb",
-            "name": "Dinamo Zagreb",
-            "fullName": "Dinamo Zagreb",
-            "crest": null,
-            "normalized": "dinamo zagreb"
-          },
-          "away": {
-            "id": 443,
-            "idProvider": "openligadb",
-            "name": "NEC Nijmegen",
-            "fullName": "NEC Nijmegen",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
-            "normalized": "nec nijmegen"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87808,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601213",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 3298,
-            "idProvider": "bsd",
-            "name": "FC Ararat-Armenia",
-            "fullName": "FC Ararat-Armenia",
-            "crest": null,
-            "normalized": "ararat armenia"
-          },
-          "away": {
-            "id": 180,
-            "idProvider": "bsd",
-            "name": "AZ Alkmaar",
-            "fullName": "AZ Alkmaar",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
-            "normalized": "az alkmaar"
-          },
-          "sources": [
-            "bsd",
-            "openligadb"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601213,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "oldb:87807",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 5250,
-            "idProvider": "openligadb",
-            "name": "Ferencváros Budapest",
-            "fullName": "Ferencváros Budapest",
-            "crest": null,
-            "normalized": "ferencvaros budapest"
-          },
-          "away": {
-            "id": 8877,
-            "idProvider": "openligadb",
-            "name": "SC União Torreense",
-            "fullName": "SC União Torreense",
-            "crest": null,
-            "normalized": "uniao torreense"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87807,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601224",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 143,
-            "idProvider": "bsd",
-            "name": "Ferencváros TC",
-            "fullName": "Ferencváros TC",
-            "crest": null,
-            "normalized": "ferencvaros tc"
-          },
-          "away": {
-            "id": 2213,
-            "idProvider": "bsd",
-            "name": "Torreense",
-            "fullName": "Torreense",
-            "crest": null,
-            "normalized": "torreense"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601224,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "bsd:601228",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 133,
-            "idProvider": "bsd",
-            "name": "GNK Dinamo Zagreb",
-            "fullName": "GNK Dinamo Zagreb",
-            "crest": null,
-            "normalized": "gnk dinamo zagreb"
-          },
-          "away": {
-            "id": 171,
-            "idProvider": "bsd",
-            "name": "NEC Nijmegen",
-            "fullName": "NEC Nijmegen",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
-            "normalized": "nec nijmegen"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601228,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "bsd:601238",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 73,
-            "idProvider": "bsd",
-            "name": "Juventus",
-            "fullName": "Juventus",
-            "crest": null,
-            "normalized": "juventus"
-          },
-          "away": {
-            "id": 97,
-            "idProvider": "bsd",
-            "name": "Stade Rennais",
-            "fullName": "Stade Rennais",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-            "normalized": "stade rennais"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601238,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "oldb:87809",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 369,
-            "idProvider": "openligadb",
-            "name": "Juventus Turin",
-            "fullName": "Juventus Turin",
-            "crest": null,
-            "normalized": "juventus turin"
-          },
-          "away": {
-            "id": 4639,
-            "idProvider": "openligadb",
-            "name": "Stade Rennes",
-            "fullName": "Stade Rennes",
-            "crest": null,
-            "normalized": "stade rennes"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87809,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601243",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 375,
-            "idProvider": "bsd",
-            "name": "Lech Poznań",
-            "fullName": "Lech Poznań",
-            "crest": null,
-            "normalized": "lech poznan"
-          },
-          "away": {
-            "id": 7,
-            "idProvider": "bsd",
-            "name": "Sunderland",
-            "fullName": "Sunderland",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
-            "normalized": "sunderland"
-          },
-          "sources": [
-            "bsd",
-            "openligadb"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601243,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "bsd:601261",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 332,
-            "idProvider": "bsd",
-            "name": "OFI Crete",
-            "fullName": "OFI Crete",
-            "crest": null,
-            "normalized": "ofi crete"
-          },
-          "away": {
-            "id": 85,
-            "idProvider": "bsd",
-            "name": "Bayer 04 Leverkusen",
-            "fullName": "Bayer 04 Leverkusen",
-            "crest": null,
-            "normalized": "bayer 04 leverkusen"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601261,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "oldb:87747",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 8811,
-            "idProvider": "openligadb",
-            "name": "OFI Kreta",
-            "fullName": "OFI Kreta",
-            "crest": null,
-            "normalized": "ofi kreta"
-          },
-          "away": {
-            "id": 6,
-            "idProvider": "openligadb",
-            "name": "Bayer 04 Leverkusen",
-            "fullName": "Bayer 04 Leverkusen",
-            "crest": null,
-            "normalized": "bayer 04 leverkusen"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87747,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601296",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 116,
-            "idProvider": "bsd",
-            "name": "Royale Union Saint-Gilloise",
-            "fullName": "Royale Union Saint-Gilloise",
-            "crest": null,
-            "normalized": "royale union saint gilloise"
-          },
-          "away": {
-            "id": 416,
-            "idProvider": "bsd",
-            "name": "Hapoel Be'er Sheva",
-            "fullName": "Hapoel Be'er Sheva",
-            "crest": null,
-            "normalized": "hapoel be er sheva"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601296,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "bsd:601297",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 128,
-            "idProvider": "bsd",
-            "name": "SK Sturm Graz",
-            "fullName": "SK Sturm Graz",
-            "crest": null,
-            "normalized": "sk sturm graz"
-          },
-          "away": {
-            "id": 98,
-            "idProvider": "bsd",
-            "name": "Olympique de Marseille",
-            "fullName": "Olympique de Marseille",
-            "crest": null,
-            "normalized": "olympique marseille"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601297,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "oldb:87812",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 2491,
-            "idProvider": "openligadb",
-            "name": "Sturm Graz",
-            "fullName": "Sturm Graz",
-            "crest": null,
-            "normalized": "sturm graz"
-          },
-          "away": {
-            "id": 2557,
-            "idProvider": "openligadb",
-            "name": "Olympique Marseille",
-            "fullName": "Olympique Marseille",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-            "normalized": "olympique marseille"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87812,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "oldb:87811",
-          "date": "2026-10-22",
-          "kickoff": "13:45",
-          "utcDate": "2026-10-22T16:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 4825,
-            "idProvider": "openligadb",
-            "name": "Union Saint-Gilloise",
-            "fullName": "Union Saint-Gilloise",
-            "crest": null,
-            "normalized": "union saint gilloise"
-          },
-          "away": {
-            "id": 4462,
-            "idProvider": "openligadb",
-            "name": "Hapoel Beer Scheva",
-            "fullName": "Hapoel Beer Scheva",
-            "crest": null,
-            "normalized": "hapoel beer scheva"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87811,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601317",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 122,
-            "idProvider": "bsd",
-            "name": "AFC Ajax",
-            "fullName": "AFC Ajax",
-            "crest": null,
-            "normalized": "ajax"
-          },
-          "away": {
-            "id": 71,
-            "idProvider": "bsd",
-            "name": "Atalanta",
-            "fullName": "Atalanta",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-            "normalized": "atalanta"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601317,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601322",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 2372,
-            "idProvider": "bsd",
-            "name": "AGF",
-            "fullName": "AGF",
-            "crest": null,
-            "normalized": "agf"
-          },
-          "away": {
-            "id": 401,
-            "idProvider": "bsd",
-            "name": "KF Egnatia",
-            "fullName": "KF Egnatia",
-            "crest": null,
-            "normalized": "kf egnatia"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601322,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601323",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 101,
-            "idProvider": "bsd",
-            "name": "AS Monaco",
-            "fullName": "AS Monaco",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-            "normalized": "as monaco"
-          },
-          "away": {
-            "id": 89,
-            "idProvider": "bsd",
-            "name": "SC Freiburg",
-            "fullName": "SC Freiburg",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
-            "normalized": "freiburg"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601323,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601349",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 127,
-            "idProvider": "bsd",
-            "name": "FC Midtjylland",
-            "fullName": "FC Midtjylland",
-            "crest": null,
-            "normalized": "midtjylland"
-          },
-          "away": {
-            "id": 244,
-            "idProvider": "bsd",
-            "name": "Sint-Truidense VV",
-            "fullName": "Sint-Truidense VV",
-            "crest": null,
-            "normalized": "sint truidense vv"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601349,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601355",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 255,
-            "idProvider": "bsd",
-            "name": "FC Thun",
-            "fullName": "FC Thun",
-            "crest": null,
-            "normalized": "thun"
-          },
-          "away": {
-            "id": 2343,
-            "idProvider": "bsd",
-            "name": "HNK Hajduk Split",
-            "fullName": "HNK Hajduk Split",
-            "crest": null,
-            "normalized": "hnk hajduk split"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601355,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601360",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 2313,
-            "idProvider": "bsd",
-            "name": "FK Borac Banja Luka",
-            "fullName": "FK Borac Banja Luka",
-            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/FK_Borac_Banja_Luka_logo.png/330px-FK_Borac_Banja_Luka_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "normalized": "fk borac banja luka"
-          },
-          "away": {
-            "id": 377,
-            "idProvider": "bsd",
-            "name": "Kuopion Palloseura",
-            "fullName": "Kuopion Palloseura",
-            "crest": null,
-            "normalized": "kuopion palloseura"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601360,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601390",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 382,
-            "idProvider": "bsd",
-            "name": "Lincoln Red Imps",
-            "fullName": "Lincoln Red Imps",
-            "crest": null,
-            "normalized": "lincoln red imps"
-          },
-          "away": {
-            "id": 178,
-            "idProvider": "bsd",
-            "name": "FC Twente",
-            "fullName": "FC Twente",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
-            "normalized": "twente"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601390,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "bsd:601413",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 83,
-            "idProvider": "bsd",
-            "code": "UECL",
-            "name": "UEFA Conference League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-            "normalized": "uefa conference league"
-          },
-          "home": {
-            "id": 31,
-            "idProvider": "bsd",
-            "name": "Sporting Braga",
-            "fullName": "Sporting Braga",
-            "crest": null,
-            "normalized": "sporting braga"
-          },
-          "away": {
-            "id": 245,
-            "idProvider": "bsd",
-            "name": "KAA Gent",
-            "fullName": "KAA Gent",
-            "crest": null,
-            "normalized": "kaa gent"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601413,
-            "providerLeagueId": 83,
-            "providerSeasonId": 1606
-          }
-        },
-        {
-          "id": "oldb:87813",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 2942,
-            "idProvider": "openligadb",
-            "name": "AFC Bournemouth",
-            "fullName": "AFC Bournemouth",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
-            "normalized": "bournemouth"
-          },
-          "away": {
-            "id": 441,
-            "idProvider": "openligadb",
-            "name": "AC Mailand",
-            "fullName": "AC Mailand",
-            "crest": null,
-            "normalized": "mailand"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87813,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "oldb:87814",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 1837,
-            "idProvider": "openligadb",
-            "name": "Besiktas Istanbul",
-            "fullName": "Besiktas Istanbul",
-            "crest": null,
-            "normalized": "besiktas istanbul"
-          },
-          "away": {
-            "id": 2489,
-            "idProvider": "openligadb",
-            "name": "Crystal Palace FC",
-            "fullName": "Crystal Palace FC",
-            "crest": null,
-            "normalized": "crystal palace"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87814,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601195",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 196,
-            "idProvider": "bsd",
-            "name": "Beşiktaş JK",
-            "fullName": "Beşiktaş JK",
-            "crest": null,
-            "normalized": "besiktas jk"
-          },
-          "away": {
-            "id": 14,
-            "idProvider": "bsd",
-            "name": "Crystal Palace",
-            "fullName": "Crystal Palace",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-            "normalized": "crystal palace"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601195,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "bsd:601197",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 2,
-            "idProvider": "bsd",
-            "name": "Bournemouth",
-            "fullName": "Bournemouth",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
-            "normalized": "bournemouth"
-          },
-          "away": {
-            "id": 63,
-            "idProvider": "bsd",
-            "name": "AC Milan",
-            "fullName": "AC Milan",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-            "normalized": "milan"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601197,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "bsd:601207",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 132,
-            "idProvider": "bsd",
-            "name": "Celtic",
-            "fullName": "Celtic",
-            "crest": null,
-            "normalized": "celtic"
-          },
-          "away": {
-            "id": 49,
-            "idProvider": "bsd",
-            "name": "Celta Vigo",
-            "fullName": "Celta Vigo",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-            "normalized": "celta vigo"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601207,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "oldb:87815",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 2804,
-            "idProvider": "openligadb",
-            "name": "Celtic Glasgow",
-            "fullName": "Celtic Glasgow",
-            "crest": null,
-            "normalized": "celtic glasgow"
-          },
-          "away": {
-            "id": 2175,
-            "idProvider": "openligadb",
-            "name": "Celta Vigo",
-            "fullName": "Celta Vigo",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-            "normalized": "celta vigo"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87815,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601220",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 144,
-            "idProvider": "bsd",
-            "name": "FC Viktoria Plzeň",
-            "fullName": "FC Viktoria Plzeň",
-            "crest": null,
-            "normalized": "viktoria plzen"
-          },
-          "away": {
-            "id": 348,
-            "idProvider": "bsd",
-            "name": "Levski Sofia",
-            "fullName": "Levski Sofia",
-            "crest": null,
-            "normalized": "levski sofia"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601220,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "oldb:87817",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 632,
-            "idProvider": "openligadb",
-            "name": "Jagiellonia Bialystok",
-            "fullName": "Jagiellonia Bialystok",
-            "crest": null,
-            "normalized": "jagiellonia bialystok"
-          },
-          "away": {
-            "id": 1216,
-            "idProvider": "openligadb",
-            "name": "RSC Anderlecht",
-            "fullName": "RSC Anderlecht",
-            "crest": null,
-            "normalized": "rsc anderlecht"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87817,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601234",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 420,
-            "idProvider": "bsd",
-            "name": "Jagiellonia Białystok",
-            "fullName": "Jagiellonia Białystok",
-            "crest": null,
-            "normalized": "jagiellonia bia ystok"
-          },
-          "away": {
-            "id": 240,
-            "idProvider": "bsd",
-            "name": "RSC Anderlecht",
-            "fullName": "RSC Anderlecht",
-            "crest": null,
-            "normalized": "rsc anderlecht"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601234,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "bsd:601249",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 2081,
-            "idProvider": "bsd",
-            "name": "Lillestrøm SK",
-            "fullName": "Lillestrøm SK",
-            "crest": null,
-            "normalized": "lillestr m sk"
-          },
-          "away": {
-            "id": 48,
-            "idProvider": "bsd",
-            "name": "Real Sociedad",
-            "fullName": "Real Sociedad",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-            "normalized": "real sociedad"
-          },
-          "sources": [
-            "bsd",
-            "openligadb"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601249,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "bsd:601258",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 406,
-            "idProvider": "bsd",
-            "name": "NK Celje",
-            "fullName": "NK Celje",
-            "crest": null,
-            "normalized": "nk celje"
-          },
-          "away": {
-            "id": 147,
-            "idProvider": "bsd",
-            "name": "Red Bull Salzburg",
-            "fullName": "Red Bull Salzburg",
-            "crest": null,
-            "normalized": "red bull salzburg"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601258,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "oldb:87819",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 8885,
-            "idProvider": "openligadb",
-            "name": "NK Celje",
-            "fullName": "NK Celje",
-            "crest": null,
-            "normalized": "nk celje"
-          },
-          "away": {
-            "id": 1201,
-            "idProvider": "openligadb",
-            "name": "RB Salzburg",
-            "fullName": "RB Salzburg",
-            "crest": null,
-            "normalized": "rb salzburg"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87819,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601266",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 118,
-            "idProvider": "bsd",
-            "name": "Olympiacos FC",
-            "fullName": "Olympiacos FC",
-            "crest": null,
-            "normalized": "olympiacos"
-          },
-          "away": {
-            "id": 1340,
-            "idProvider": "bsd",
-            "name": "AC Sparta Praha",
-            "fullName": "AC Sparta Praha",
-            "crest": null,
-            "normalized": "sparta praha"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601266,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "oldb:87820",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 436,
-            "idProvider": "openligadb",
-            "name": "Olympiakos Piräus",
-            "fullName": "Olympiakos Piräus",
-            "crest": null,
-            "normalized": "olympiakos piraus"
-          },
-          "away": {
-            "id": 4199,
-            "idProvider": "openligadb",
-            "name": "Sparta Prag",
-            "fullName": "Sparta Prag",
-            "crest": null,
-            "normalized": "sparta prag"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87820,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601277",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 2346,
-            "idProvider": "bsd",
-            "name": "Omonia Nicosia",
-            "fullName": "Omonia Nicosia",
-            "crest": null,
-            "normalized": "omonia nicosia"
-          },
-          "away": {
-            "id": 37,
-            "idProvider": "bsd",
-            "name": "Benfica",
-            "fullName": "Benfica",
-            "crest": null,
-            "normalized": "benfica"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601277,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "oldb:87821",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 5705,
-            "idProvider": "openligadb",
-            "name": "Omonia Nikosia",
-            "fullName": "Omonia Nikosia",
-            "crest": null,
-            "normalized": "omonia nikosia"
-          },
-          "away": {
-            "id": 1816,
-            "idProvider": "openligadb",
-            "name": "Benfica Lissabon",
-            "fullName": "Benfica Lissabon",
-            "crest": null,
-            "normalized": "benfica lissabon"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87821,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "bsd:601309",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 8,
-            "idProvider": "bsd",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 86,
-            "idProvider": "bsd",
-            "name": "TSG Hoffenheim",
-            "fullName": "TSG Hoffenheim",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
-            "normalized": "tsg hoffenheim"
-          },
-          "away": {
-            "id": 100,
-            "idProvider": "bsd",
-            "name": "Olympique Lyonnais",
-            "fullName": "Olympique Lyonnais",
-            "crest": null,
-            "normalized": "olympique lyonnais"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 601309,
-            "providerLeagueId": 8,
-            "providerSeasonId": 1269
-          }
-        },
-        {
-          "id": "oldb:87746",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 175,
-            "idProvider": "openligadb",
-            "name": "TSG Hoffenheim",
-            "fullName": "TSG Hoffenheim",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
-            "normalized": "tsg hoffenheim"
-          },
-          "away": {
-            "id": 1819,
-            "idProvider": "openligadb",
-            "name": "Olympique Lyon",
-            "fullName": "Olympique Lyon",
-            "crest": null,
-            "normalized": "olympique lyon"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87746,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "oldb:87816",
-          "date": "2026-10-22",
-          "kickoff": "16:00",
-          "utcDate": "2026-10-22T19:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 4468,
-            "idProvider": "openligadb",
-            "name": "Viktoria Pilsen",
-            "fullName": "Viktoria Pilsen",
-            "crest": null,
-            "normalized": "viktoria pilsen"
-          },
-          "away": {
-            "id": 1206,
-            "idProvider": "openligadb",
-            "name": "Levski Sofia",
-            "fullName": "Levski Sofia",
-            "crest": null,
-            "normalized": "levski sofia"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87816,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
-          "id": "fd:576425",
-          "date": "2026-10-22",
-          "kickoff": "21:30",
-          "utcDate": "2026-10-23T00:30:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 2152,
-            "idProvider": "football-data",
-            "code": "CLI",
-            "name": "Copa Libertadores",
-            "logo": "https://crests.football-data.org/CLI.svg",
-            "normalized": "copa libertadores"
-          },
-          "home": {
-            "id": 1783,
-            "idProvider": "football-data",
-            "name": "Flamengo",
-            "fullName": "CR Flamengo",
-            "crest": "https://crests.football-data.org/1783.png",
-            "normalized": "flamengo"
-          },
-          "away": {
-            "id": 2051,
-            "idProvider": "football-data",
-            "name": "Estudiantes LP",
-            "fullName": "Estudiantes de La Plata",
-            "crest": "https://crests.football-data.org/2051.png",
-            "normalized": "estudiantes lp"
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100
-        }
-      ]
-    },
-    {
       "date": "2026-10-23",
-      "label": "23/10",
+      "label": "HOJE",
       "count": 23,
       "matches": [
         {
@@ -10612,10 +8476,391 @@
           "sourcePriority": 100
         },
         {
-          "id": "bsd:7315",
+          "id": "fd:555061",
           "date": "2026-10-28",
           "kickoff": "21:30",
           "utcDate": "2026-10-29T00:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 1777,
+            "idProvider": "football-data",
+            "name": "Bahia",
+            "fullName": "EC Bahia",
+            "crest": "https://crests.football-data.org/1777.png",
+            "normalized": "bahia"
+          },
+          "away": {
+            "id": 1776,
+            "idProvider": "football-data",
+            "name": "São Paulo",
+            "fullName": "São Paulo FC",
+            "crest": "https://crests.football-data.org/1776.png",
+            "normalized": "sao paulo"
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "fd:555067",
+          "date": "2026-10-28",
+          "kickoff": "21:30",
+          "utcDate": "2026-10-29T00:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 4287,
+            "idProvider": "football-data",
+            "name": "Clube do Remo",
+            "fullName": "Clube do Remo",
+            "crest": "https://crests.football-data.org/4287.png",
+            "normalized": "remo"
+          },
+          "away": {
+            "id": 1770,
+            "idProvider": "football-data",
+            "name": "Botafogo",
+            "fullName": "Botafogo FR",
+            "crest": "https://crests.football-data.org/1770.png",
+            "normalized": "botafogo"
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "label": "29/10",
+      "count": 12,
+      "matches": [
+        {
+          "id": "fd:558558",
+          "date": "2026-10-29",
+          "kickoff": "14:30",
+          "utcDate": "2026-10-29T17:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2019,
+            "idProvider": "football-data",
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/c111.png",
+            "normalized": "serie a"
+          },
+          "home": {
+            "id": 470,
+            "idProvider": "football-data",
+            "name": "Frosinone",
+            "fullName": "Frosinone Calcio",
+            "crest": "https://crests.football-data.org/470.png",
+            "normalized": "frosinone"
+          },
+          "away": {
+            "id": 5890,
+            "idProvider": "football-data",
+            "name": "Lecce",
+            "fullName": "US Lecce",
+            "crest": "https://crests.football-data.org/5890.png",
+            "normalized": "lecce"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "of:dfd0b1bde1de3dee",
+          "date": "2026-10-29",
+          "kickoff": "14:30",
+          "utcDate": "2026-10-29T17:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/c111.png",
+            "normalized": "serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "Frosinone Calcio",
+            "fullName": "Frosinone Calcio",
+            "crest": null,
+            "normalized": "frosinone"
+          },
+          "away": {
+            "id": null,
+            "name": "US Lecce",
+            "fullName": "US Lecce",
+            "crest": null,
+            "normalized": "us lecce"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "wm:68d273e1817261af",
+          "date": "2026-10-29",
+          "kickoff": "14:45",
+          "utcDate": "2026-10-29T17:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Austria Wien",
+            "fullName": "Austria Wien",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
+            "normalized": "austria wien"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Juventus",
+            "fullName": "Juventus",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
+            "normalized": "juventus"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1380337516,
+            "revisionTimestamp": "2026-10-15T03:24:53Z"
+          }
+        },
+        {
+          "id": "wm:17d94cbb576ac1a9",
+          "date": "2026-10-29",
+          "kickoff": "14:45",
+          "utcDate": "2026-10-29T17:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Paris FC",
+            "fullName": "Paris FC",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
+            "normalized": "paris"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "BK Häcken",
+            "fullName": "BK Häcken",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
+            "normalized": "bk hacken"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1380337516,
+            "revisionTimestamp": "2026-10-15T03:24:53Z"
+          }
+        },
+        {
+          "id": "of:e61e6335f6af71db",
+          "date": "2026-10-29",
+          "kickoff": "16:45",
+          "utcDate": "2026-10-29T19:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/c111.png",
+            "normalized": "serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "ACF Fiorentina",
+            "fullName": "ACF Fiorentina",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg/330px-ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "acf fiorentina"
+          },
+          "away": {
+            "id": null,
+            "name": "Atalanta BC",
+            "fullName": "Atalanta BC",
+            "crest": null,
+            "normalized": "atalanta bc"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "fd:558551",
+          "date": "2026-10-29",
+          "kickoff": "16:45",
+          "utcDate": "2026-10-29T19:45:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2019,
+            "idProvider": "football-data",
+            "code": "SA",
+            "name": "Serie A",
+            "logo": "https://crests.football-data.org/c111.png",
+            "normalized": "serie a"
+          },
+          "home": {
+            "id": 99,
+            "idProvider": "football-data",
+            "name": "Fiorentina",
+            "fullName": "ACF Fiorentina",
+            "crest": "https://crests.football-data.org/99.png",
+            "normalized": "fiorentina"
+          },
+          "away": {
+            "id": 102,
+            "idProvider": "football-data",
+            "name": "Atalanta",
+            "fullName": "Atalanta BC",
+            "crest": "https://crests.football-data.org/102.png",
+            "normalized": "atalanta"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "wm:18217293b29c68e4",
+          "date": "2026-10-29",
+          "kickoff": "17:00",
+          "utcDate": "2026-10-29T20:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "HB Køge",
+            "fullName": "HB Køge",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21127.png",
+            "normalized": "hb k ge"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Barcelona",
+            "fullName": "Barcelona",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
+            "normalized": "barcelona"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1380337516,
+            "revisionTimestamp": "2026-10-15T03:24:53Z"
+          }
+        },
+        {
+          "id": "wm:10aa385ecde6d7da",
+          "date": "2026-10-29",
+          "kickoff": "17:00",
+          "utcDate": "2026-10-29T20:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Manchester City",
+            "fullName": "Manchester City",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
+            "normalized": "manchester city"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Paris Saint-Germain",
+            "fullName": "Paris Saint-Germain",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
+            "normalized": "paris saint germain"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1380337516,
+            "revisionTimestamp": "2026-10-15T03:24:53Z"
+          }
+        },
+        {
+          "id": "bsd:7314",
+          "date": "2026-10-29",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-29T22:30:00Z",
           "status": "SCHEDULED",
           "competition": {
             "id": 9,
@@ -10626,20 +8871,20 @@
             "normalized": "brasileirao serie a"
           },
           "home": {
-            "id": 166,
+            "id": 155,
             "idProvider": "bsd",
-            "name": "Bahia",
-            "fullName": "Bahia",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-            "normalized": "bahia"
+            "name": "Atlético Mineiro",
+            "fullName": "Atlético Mineiro",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+            "normalized": "atletico mineiro"
           },
           "away": {
-            "id": 158,
+            "id": 150,
             "idProvider": "bsd",
-            "name": "São Paulo",
-            "fullName": "São Paulo",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-            "normalized": "sao paulo"
+            "name": "Cruzeiro",
+            "fullName": "Cruzeiro",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+            "normalized": "cruzeiro"
           },
           "sources": [
             "bsd"
@@ -10647,16 +8892,87 @@
           "sourcePriority": 80,
           "provenance": {
             "provider": "bsd",
-            "providerEventId": 7315,
+            "providerEventId": 7314,
             "providerLeagueId": 9,
             "providerSeasonId": 28
           }
         },
         {
-          "id": "bsd:7321",
-          "date": "2026-10-28",
+          "id": "fd:555060",
+          "date": "2026-10-29",
+          "kickoff": "19:30",
+          "utcDate": "2026-10-29T22:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 1766,
+            "idProvider": "football-data",
+            "name": "Mineiro",
+            "fullName": "CA Mineiro",
+            "crest": "https://crests.football-data.org/1766.png",
+            "normalized": "mineiro"
+          },
+          "away": {
+            "id": 1771,
+            "idProvider": "football-data",
+            "name": "Cruzeiro",
+            "fullName": "Cruzeiro EC",
+            "crest": "https://crests.football-data.org/1771.png",
+            "normalized": "cruzeiro"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "fd:555069",
+          "date": "2026-10-29",
+          "kickoff": "20:00",
+          "utcDate": "2026-10-29T23:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 1780,
+            "idProvider": "football-data",
+            "name": "Vasco da Gama",
+            "fullName": "CR Vasco da Gama",
+            "crest": "https://crests.football-data.org/1780.png",
+            "normalized": "vasco gama"
+          },
+          "away": {
+            "id": 1783,
+            "idProvider": "football-data",
+            "name": "Flamengo",
+            "fullName": "CR Flamengo",
+            "crest": "https://crests.football-data.org/1783.png",
+            "normalized": "flamengo"
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "bsd:7319",
+          "date": "2026-10-29",
           "kickoff": "21:30",
-          "utcDate": "2026-10-29T00:30:00Z",
+          "utcDate": "2026-10-30T00:30:00Z",
           "status": "SCHEDULED",
           "competition": {
             "id": 9,
@@ -10667,20 +8983,20 @@
             "normalized": "brasileirao serie a"
           },
           "home": {
-            "id": 372,
+            "id": 154,
             "idProvider": "bsd",
-            "name": "Remo",
-            "fullName": "Remo",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-            "normalized": "remo"
+            "name": "Grêmio",
+            "fullName": "Grêmio",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+            "normalized": "gremio"
           },
           "away": {
-            "id": 163,
+            "id": 371,
             "idProvider": "bsd",
-            "name": "Botafogo",
-            "fullName": "Botafogo",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-            "normalized": "botafogo"
+            "name": "Athletico",
+            "fullName": "Athletico",
+            "crest": null,
+            "normalized": "athletico"
           },
           "sources": [
             "bsd"
@@ -10688,7 +9004,7 @@
           "sourcePriority": 80,
           "provenance": {
             "provider": "bsd",
-            "providerEventId": 7321,
+            "providerEventId": 7319,
             "providerLeagueId": 9,
             "providerSeasonId": 28
           }
@@ -10697,2135 +9013,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "bsd:601338",
-      "date": "2026-10-22",
-      "kickoff": "11:30",
-      "utcDate": "2026-10-22T14:30:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 126,
-        "idProvider": "bsd",
-        "name": "FC Kairat Almaty",
-        "fullName": "FC Kairat Almaty",
-        "crest": null,
-        "normalized": "kairat almaty"
-      },
-      "away": {
-        "id": 149,
-        "idProvider": "bsd",
-        "name": "Panathinaikos FC",
-        "fullName": "Panathinaikos FC",
-        "crest": null,
-        "normalized": "panathinaikos"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601338,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601337",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 395,
-        "idProvider": "bsd",
-        "name": "FC Iberia 1999",
-        "fullName": "FC Iberia 1999",
-        "crest": null,
-        "normalized": "iberia 1999"
-      },
-      "away": {
-        "id": 441,
-        "idProvider": "bsd",
-        "name": "Mjällby AIF",
-        "fullName": "Mjällby AIF",
-        "crest": null,
-        "normalized": "mjallby aif"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601337,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601352",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 1332,
-        "idProvider": "bsd",
-        "name": "FC Nordsjælland",
-        "fullName": "FC Nordsjælland",
-        "crest": null,
-        "normalized": "nordsj lland"
-      },
-      "away": {
-        "id": 345,
-        "idProvider": "bsd",
-        "name": "CSKA Sofia",
-        "fullName": "CSKA Sofia",
-        "crest": null,
-        "normalized": "cska sofia"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601352,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601362",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 131,
-        "idProvider": "bsd",
-        "name": "FK Crvena zvezda",
-        "fullName": "FK Crvena zvezda",
-        "crest": null,
-        "normalized": "fk crvena zvezda"
-      },
-      "away": {
-        "id": 124,
-        "idProvider": "bsd",
-        "name": "FC København",
-        "fullName": "FC København",
-        "crest": null,
-        "normalized": "k benhavn"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601362,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601365",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 4078,
-        "idProvider": "bsd",
-        "name": "FK Jablonec",
-        "fullName": "FK Jablonec",
-        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/FK_Jablonec_logo.svg/330px-FK_Jablonec_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "normalized": "fk jablonec"
-      },
-      "away": {
-        "id": 5,
-        "idProvider": "bsd",
-        "name": "Brighton & Hove Albion",
-        "fullName": "Brighton & Hove Albion",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-        "normalized": "brighton hove albion"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601365,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601369",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 3575,
-        "idProvider": "bsd",
-        "name": "FK Kauno Žalgiris",
-        "fullName": "FK Kauno Žalgiris",
-        "crest": null,
-        "normalized": "fk kauno zalgiris"
-      },
-      "away": {
-        "id": 141,
-        "idProvider": "bsd",
-        "name": "SK Brann",
-        "fullName": "SK Brann",
-        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Brann_logo.svg/330px-Brann_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "normalized": "sk brann"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601369,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601372",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 50,
-        "idProvider": "bsd",
-        "name": "Getafe",
-        "fullName": "Getafe",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-        "normalized": "getafe"
-      },
-      "away": {
-        "id": 254,
-        "idProvider": "bsd",
-        "name": "FC Lugano",
-        "fullName": "FC Lugano",
-        "crest": null,
-        "normalized": "lugano"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601372,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601381",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 398,
-        "idProvider": "bsd",
-        "name": "Inter Club d'Escaldes",
-        "fullName": "Inter Club d'Escaldes",
-        "crest": null,
-        "normalized": "inter d escaldes"
-      },
-      "away": {
-        "id": 359,
-        "idProvider": "bsd",
-        "name": "Universitatea Craiova",
-        "fullName": "Universitatea Craiova",
-        "crest": null,
-        "normalized": "universitatea craiova"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601381,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601397",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 119,
-        "idProvider": "bsd",
-        "name": "Pafos FC",
-        "fullName": "Pafos FC",
-        "crest": null,
-        "normalized": "pafos"
-      },
-      "away": {
-        "id": 2838,
-        "idProvider": "bsd",
-        "name": "Riga FC",
-        "fullName": "Riga FC",
-        "crest": null,
-        "normalized": "riga"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601397,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601417",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 197,
-        "idProvider": "bsd",
-        "name": "Trabzonspor",
-        "fullName": "Trabzonspor",
-        "crest": null,
-        "normalized": "trabzonspor"
-      },
-      "away": {
-        "id": 231,
-        "idProvider": "bsd",
-        "name": "Heart of Midlothian",
-        "fullName": "Heart of Midlothian",
-        "crest": null,
-        "normalized": "heart of midlothian"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601417,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "oldb:87808",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 1208,
-        "idProvider": "openligadb",
-        "name": "Dinamo Zagreb",
-        "fullName": "Dinamo Zagreb",
-        "crest": null,
-        "normalized": "dinamo zagreb"
-      },
-      "away": {
-        "id": 443,
-        "idProvider": "openligadb",
-        "name": "NEC Nijmegen",
-        "fullName": "NEC Nijmegen",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
-        "normalized": "nec nijmegen"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87808,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601213",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 3298,
-        "idProvider": "bsd",
-        "name": "FC Ararat-Armenia",
-        "fullName": "FC Ararat-Armenia",
-        "crest": null,
-        "normalized": "ararat armenia"
-      },
-      "away": {
-        "id": 180,
-        "idProvider": "bsd",
-        "name": "AZ Alkmaar",
-        "fullName": "AZ Alkmaar",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
-        "normalized": "az alkmaar"
-      },
-      "sources": [
-        "bsd",
-        "openligadb"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601213,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "oldb:87807",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 5250,
-        "idProvider": "openligadb",
-        "name": "Ferencváros Budapest",
-        "fullName": "Ferencváros Budapest",
-        "crest": null,
-        "normalized": "ferencvaros budapest"
-      },
-      "away": {
-        "id": 8877,
-        "idProvider": "openligadb",
-        "name": "SC União Torreense",
-        "fullName": "SC União Torreense",
-        "crest": null,
-        "normalized": "uniao torreense"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87807,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601224",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 143,
-        "idProvider": "bsd",
-        "name": "Ferencváros TC",
-        "fullName": "Ferencváros TC",
-        "crest": null,
-        "normalized": "ferencvaros tc"
-      },
-      "away": {
-        "id": 2213,
-        "idProvider": "bsd",
-        "name": "Torreense",
-        "fullName": "Torreense",
-        "crest": null,
-        "normalized": "torreense"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601224,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "bsd:601228",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 133,
-        "idProvider": "bsd",
-        "name": "GNK Dinamo Zagreb",
-        "fullName": "GNK Dinamo Zagreb",
-        "crest": null,
-        "normalized": "gnk dinamo zagreb"
-      },
-      "away": {
-        "id": 171,
-        "idProvider": "bsd",
-        "name": "NEC Nijmegen",
-        "fullName": "NEC Nijmegen",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
-        "normalized": "nec nijmegen"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601228,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "bsd:601238",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 73,
-        "idProvider": "bsd",
-        "name": "Juventus",
-        "fullName": "Juventus",
-        "crest": null,
-        "normalized": "juventus"
-      },
-      "away": {
-        "id": 97,
-        "idProvider": "bsd",
-        "name": "Stade Rennais",
-        "fullName": "Stade Rennais",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-        "normalized": "stade rennais"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601238,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "oldb:87809",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 369,
-        "idProvider": "openligadb",
-        "name": "Juventus Turin",
-        "fullName": "Juventus Turin",
-        "crest": null,
-        "normalized": "juventus turin"
-      },
-      "away": {
-        "id": 4639,
-        "idProvider": "openligadb",
-        "name": "Stade Rennes",
-        "fullName": "Stade Rennes",
-        "crest": null,
-        "normalized": "stade rennes"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87809,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601243",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 375,
-        "idProvider": "bsd",
-        "name": "Lech Poznań",
-        "fullName": "Lech Poznań",
-        "crest": null,
-        "normalized": "lech poznan"
-      },
-      "away": {
-        "id": 7,
-        "idProvider": "bsd",
-        "name": "Sunderland",
-        "fullName": "Sunderland",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
-        "normalized": "sunderland"
-      },
-      "sources": [
-        "bsd",
-        "openligadb"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601243,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "bsd:601261",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 332,
-        "idProvider": "bsd",
-        "name": "OFI Crete",
-        "fullName": "OFI Crete",
-        "crest": null,
-        "normalized": "ofi crete"
-      },
-      "away": {
-        "id": 85,
-        "idProvider": "bsd",
-        "name": "Bayer 04 Leverkusen",
-        "fullName": "Bayer 04 Leverkusen",
-        "crest": null,
-        "normalized": "bayer 04 leverkusen"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601261,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "oldb:87747",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 8811,
-        "idProvider": "openligadb",
-        "name": "OFI Kreta",
-        "fullName": "OFI Kreta",
-        "crest": null,
-        "normalized": "ofi kreta"
-      },
-      "away": {
-        "id": 6,
-        "idProvider": "openligadb",
-        "name": "Bayer 04 Leverkusen",
-        "fullName": "Bayer 04 Leverkusen",
-        "crest": null,
-        "normalized": "bayer 04 leverkusen"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87747,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601296",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 116,
-        "idProvider": "bsd",
-        "name": "Royale Union Saint-Gilloise",
-        "fullName": "Royale Union Saint-Gilloise",
-        "crest": null,
-        "normalized": "royale union saint gilloise"
-      },
-      "away": {
-        "id": 416,
-        "idProvider": "bsd",
-        "name": "Hapoel Be'er Sheva",
-        "fullName": "Hapoel Be'er Sheva",
-        "crest": null,
-        "normalized": "hapoel be er sheva"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601296,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "bsd:601297",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 128,
-        "idProvider": "bsd",
-        "name": "SK Sturm Graz",
-        "fullName": "SK Sturm Graz",
-        "crest": null,
-        "normalized": "sk sturm graz"
-      },
-      "away": {
-        "id": 98,
-        "idProvider": "bsd",
-        "name": "Olympique de Marseille",
-        "fullName": "Olympique de Marseille",
-        "crest": null,
-        "normalized": "olympique marseille"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601297,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "oldb:87812",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 2491,
-        "idProvider": "openligadb",
-        "name": "Sturm Graz",
-        "fullName": "Sturm Graz",
-        "crest": null,
-        "normalized": "sturm graz"
-      },
-      "away": {
-        "id": 2557,
-        "idProvider": "openligadb",
-        "name": "Olympique Marseille",
-        "fullName": "Olympique Marseille",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-        "normalized": "olympique marseille"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87812,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "oldb:87811",
-      "date": "2026-10-22",
-      "kickoff": "13:45",
-      "utcDate": "2026-10-22T16:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 4825,
-        "idProvider": "openligadb",
-        "name": "Union Saint-Gilloise",
-        "fullName": "Union Saint-Gilloise",
-        "crest": null,
-        "normalized": "union saint gilloise"
-      },
-      "away": {
-        "id": 4462,
-        "idProvider": "openligadb",
-        "name": "Hapoel Beer Scheva",
-        "fullName": "Hapoel Beer Scheva",
-        "crest": null,
-        "normalized": "hapoel beer scheva"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87811,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601317",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 122,
-        "idProvider": "bsd",
-        "name": "AFC Ajax",
-        "fullName": "AFC Ajax",
-        "crest": null,
-        "normalized": "ajax"
-      },
-      "away": {
-        "id": 71,
-        "idProvider": "bsd",
-        "name": "Atalanta",
-        "fullName": "Atalanta",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-        "normalized": "atalanta"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601317,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601322",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 2372,
-        "idProvider": "bsd",
-        "name": "AGF",
-        "fullName": "AGF",
-        "crest": null,
-        "normalized": "agf"
-      },
-      "away": {
-        "id": 401,
-        "idProvider": "bsd",
-        "name": "KF Egnatia",
-        "fullName": "KF Egnatia",
-        "crest": null,
-        "normalized": "kf egnatia"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601322,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601323",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 101,
-        "idProvider": "bsd",
-        "name": "AS Monaco",
-        "fullName": "AS Monaco",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-        "normalized": "as monaco"
-      },
-      "away": {
-        "id": 89,
-        "idProvider": "bsd",
-        "name": "SC Freiburg",
-        "fullName": "SC Freiburg",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
-        "normalized": "freiburg"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601323,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601349",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 127,
-        "idProvider": "bsd",
-        "name": "FC Midtjylland",
-        "fullName": "FC Midtjylland",
-        "crest": null,
-        "normalized": "midtjylland"
-      },
-      "away": {
-        "id": 244,
-        "idProvider": "bsd",
-        "name": "Sint-Truidense VV",
-        "fullName": "Sint-Truidense VV",
-        "crest": null,
-        "normalized": "sint truidense vv"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601349,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601355",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 255,
-        "idProvider": "bsd",
-        "name": "FC Thun",
-        "fullName": "FC Thun",
-        "crest": null,
-        "normalized": "thun"
-      },
-      "away": {
-        "id": 2343,
-        "idProvider": "bsd",
-        "name": "HNK Hajduk Split",
-        "fullName": "HNK Hajduk Split",
-        "crest": null,
-        "normalized": "hnk hajduk split"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601355,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601360",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 2313,
-        "idProvider": "bsd",
-        "name": "FK Borac Banja Luka",
-        "fullName": "FK Borac Banja Luka",
-        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/FK_Borac_Banja_Luka_logo.png/330px-FK_Borac_Banja_Luka_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "normalized": "fk borac banja luka"
-      },
-      "away": {
-        "id": 377,
-        "idProvider": "bsd",
-        "name": "Kuopion Palloseura",
-        "fullName": "Kuopion Palloseura",
-        "crest": null,
-        "normalized": "kuopion palloseura"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601360,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601390",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 382,
-        "idProvider": "bsd",
-        "name": "Lincoln Red Imps",
-        "fullName": "Lincoln Red Imps",
-        "crest": null,
-        "normalized": "lincoln red imps"
-      },
-      "away": {
-        "id": 178,
-        "idProvider": "bsd",
-        "name": "FC Twente",
-        "fullName": "FC Twente",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
-        "normalized": "twente"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601390,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "bsd:601413",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 83,
-        "idProvider": "bsd",
-        "code": "UECL",
-        "name": "UEFA Conference League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/20296.png",
-        "normalized": "uefa conference league"
-      },
-      "home": {
-        "id": 31,
-        "idProvider": "bsd",
-        "name": "Sporting Braga",
-        "fullName": "Sporting Braga",
-        "crest": null,
-        "normalized": "sporting braga"
-      },
-      "away": {
-        "id": 245,
-        "idProvider": "bsd",
-        "name": "KAA Gent",
-        "fullName": "KAA Gent",
-        "crest": null,
-        "normalized": "kaa gent"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601413,
-        "providerLeagueId": 83,
-        "providerSeasonId": 1606
-      }
-    },
-    {
-      "id": "oldb:87813",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 2942,
-        "idProvider": "openligadb",
-        "name": "AFC Bournemouth",
-        "fullName": "AFC Bournemouth",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
-        "normalized": "bournemouth"
-      },
-      "away": {
-        "id": 441,
-        "idProvider": "openligadb",
-        "name": "AC Mailand",
-        "fullName": "AC Mailand",
-        "crest": null,
-        "normalized": "mailand"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87813,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "oldb:87814",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 1837,
-        "idProvider": "openligadb",
-        "name": "Besiktas Istanbul",
-        "fullName": "Besiktas Istanbul",
-        "crest": null,
-        "normalized": "besiktas istanbul"
-      },
-      "away": {
-        "id": 2489,
-        "idProvider": "openligadb",
-        "name": "Crystal Palace FC",
-        "fullName": "Crystal Palace FC",
-        "crest": null,
-        "normalized": "crystal palace"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87814,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601195",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 196,
-        "idProvider": "bsd",
-        "name": "Beşiktaş JK",
-        "fullName": "Beşiktaş JK",
-        "crest": null,
-        "normalized": "besiktas jk"
-      },
-      "away": {
-        "id": 14,
-        "idProvider": "bsd",
-        "name": "Crystal Palace",
-        "fullName": "Crystal Palace",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-        "normalized": "crystal palace"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601195,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "bsd:601197",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 2,
-        "idProvider": "bsd",
-        "name": "Bournemouth",
-        "fullName": "Bournemouth",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
-        "normalized": "bournemouth"
-      },
-      "away": {
-        "id": 63,
-        "idProvider": "bsd",
-        "name": "AC Milan",
-        "fullName": "AC Milan",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-        "normalized": "milan"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601197,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "bsd:601207",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 132,
-        "idProvider": "bsd",
-        "name": "Celtic",
-        "fullName": "Celtic",
-        "crest": null,
-        "normalized": "celtic"
-      },
-      "away": {
-        "id": 49,
-        "idProvider": "bsd",
-        "name": "Celta Vigo",
-        "fullName": "Celta Vigo",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-        "normalized": "celta vigo"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601207,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "oldb:87815",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 2804,
-        "idProvider": "openligadb",
-        "name": "Celtic Glasgow",
-        "fullName": "Celtic Glasgow",
-        "crest": null,
-        "normalized": "celtic glasgow"
-      },
-      "away": {
-        "id": 2175,
-        "idProvider": "openligadb",
-        "name": "Celta Vigo",
-        "fullName": "Celta Vigo",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-        "normalized": "celta vigo"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87815,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601220",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 144,
-        "idProvider": "bsd",
-        "name": "FC Viktoria Plzeň",
-        "fullName": "FC Viktoria Plzeň",
-        "crest": null,
-        "normalized": "viktoria plzen"
-      },
-      "away": {
-        "id": 348,
-        "idProvider": "bsd",
-        "name": "Levski Sofia",
-        "fullName": "Levski Sofia",
-        "crest": null,
-        "normalized": "levski sofia"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601220,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "oldb:87817",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 632,
-        "idProvider": "openligadb",
-        "name": "Jagiellonia Bialystok",
-        "fullName": "Jagiellonia Bialystok",
-        "crest": null,
-        "normalized": "jagiellonia bialystok"
-      },
-      "away": {
-        "id": 1216,
-        "idProvider": "openligadb",
-        "name": "RSC Anderlecht",
-        "fullName": "RSC Anderlecht",
-        "crest": null,
-        "normalized": "rsc anderlecht"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87817,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601234",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 420,
-        "idProvider": "bsd",
-        "name": "Jagiellonia Białystok",
-        "fullName": "Jagiellonia Białystok",
-        "crest": null,
-        "normalized": "jagiellonia bia ystok"
-      },
-      "away": {
-        "id": 240,
-        "idProvider": "bsd",
-        "name": "RSC Anderlecht",
-        "fullName": "RSC Anderlecht",
-        "crest": null,
-        "normalized": "rsc anderlecht"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601234,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "bsd:601249",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 2081,
-        "idProvider": "bsd",
-        "name": "Lillestrøm SK",
-        "fullName": "Lillestrøm SK",
-        "crest": null,
-        "normalized": "lillestr m sk"
-      },
-      "away": {
-        "id": 48,
-        "idProvider": "bsd",
-        "name": "Real Sociedad",
-        "fullName": "Real Sociedad",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-        "normalized": "real sociedad"
-      },
-      "sources": [
-        "bsd",
-        "openligadb"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601249,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "bsd:601258",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 406,
-        "idProvider": "bsd",
-        "name": "NK Celje",
-        "fullName": "NK Celje",
-        "crest": null,
-        "normalized": "nk celje"
-      },
-      "away": {
-        "id": 147,
-        "idProvider": "bsd",
-        "name": "Red Bull Salzburg",
-        "fullName": "Red Bull Salzburg",
-        "crest": null,
-        "normalized": "red bull salzburg"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601258,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "oldb:87819",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 8885,
-        "idProvider": "openligadb",
-        "name": "NK Celje",
-        "fullName": "NK Celje",
-        "crest": null,
-        "normalized": "nk celje"
-      },
-      "away": {
-        "id": 1201,
-        "idProvider": "openligadb",
-        "name": "RB Salzburg",
-        "fullName": "RB Salzburg",
-        "crest": null,
-        "normalized": "rb salzburg"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87819,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601266",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 118,
-        "idProvider": "bsd",
-        "name": "Olympiacos FC",
-        "fullName": "Olympiacos FC",
-        "crest": null,
-        "normalized": "olympiacos"
-      },
-      "away": {
-        "id": 1340,
-        "idProvider": "bsd",
-        "name": "AC Sparta Praha",
-        "fullName": "AC Sparta Praha",
-        "crest": null,
-        "normalized": "sparta praha"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601266,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "oldb:87820",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 436,
-        "idProvider": "openligadb",
-        "name": "Olympiakos Piräus",
-        "fullName": "Olympiakos Piräus",
-        "crest": null,
-        "normalized": "olympiakos piraus"
-      },
-      "away": {
-        "id": 4199,
-        "idProvider": "openligadb",
-        "name": "Sparta Prag",
-        "fullName": "Sparta Prag",
-        "crest": null,
-        "normalized": "sparta prag"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87820,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601277",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 2346,
-        "idProvider": "bsd",
-        "name": "Omonia Nicosia",
-        "fullName": "Omonia Nicosia",
-        "crest": null,
-        "normalized": "omonia nicosia"
-      },
-      "away": {
-        "id": 37,
-        "idProvider": "bsd",
-        "name": "Benfica",
-        "fullName": "Benfica",
-        "crest": null,
-        "normalized": "benfica"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601277,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "oldb:87821",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 5705,
-        "idProvider": "openligadb",
-        "name": "Omonia Nikosia",
-        "fullName": "Omonia Nikosia",
-        "crest": null,
-        "normalized": "omonia nikosia"
-      },
-      "away": {
-        "id": 1816,
-        "idProvider": "openligadb",
-        "name": "Benfica Lissabon",
-        "fullName": "Benfica Lissabon",
-        "crest": null,
-        "normalized": "benfica lissabon"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87821,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "bsd:601309",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 8,
-        "idProvider": "bsd",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 86,
-        "idProvider": "bsd",
-        "name": "TSG Hoffenheim",
-        "fullName": "TSG Hoffenheim",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
-        "normalized": "tsg hoffenheim"
-      },
-      "away": {
-        "id": 100,
-        "idProvider": "bsd",
-        "name": "Olympique Lyonnais",
-        "fullName": "Olympique Lyonnais",
-        "crest": null,
-        "normalized": "olympique lyonnais"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 601309,
-        "providerLeagueId": 8,
-        "providerSeasonId": 1269
-      }
-    },
-    {
-      "id": "oldb:87746",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 175,
-        "idProvider": "openligadb",
-        "name": "TSG Hoffenheim",
-        "fullName": "TSG Hoffenheim",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
-        "normalized": "tsg hoffenheim"
-      },
-      "away": {
-        "id": 1819,
-        "idProvider": "openligadb",
-        "name": "Olympique Lyon",
-        "fullName": "Olympique Lyon",
-        "crest": null,
-        "normalized": "olympique lyon"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87746,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "oldb:87816",
-      "date": "2026-10-22",
-      "kickoff": "16:00",
-      "utcDate": "2026-10-22T19:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 4468,
-        "idProvider": "openligadb",
-        "name": "Viktoria Pilsen",
-        "fullName": "Viktoria Pilsen",
-        "crest": null,
-        "normalized": "viktoria pilsen"
-      },
-      "away": {
-        "id": 1206,
-        "idProvider": "openligadb",
-        "name": "Levski Sofia",
-        "fullName": "Levski Sofia",
-        "crest": null,
-        "normalized": "levski sofia"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87816,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
-      "id": "fd:576425",
-      "date": "2026-10-22",
-      "kickoff": "21:30",
-      "utcDate": "2026-10-23T00:30:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 2152,
-        "idProvider": "football-data",
-        "code": "CLI",
-        "name": "Copa Libertadores",
-        "logo": "https://crests.football-data.org/CLI.svg",
-        "normalized": "copa libertadores"
-      },
-      "home": {
-        "id": 1783,
-        "idProvider": "football-data",
-        "name": "Flamengo",
-        "fullName": "CR Flamengo",
-        "crest": "https://crests.football-data.org/1783.png",
-        "normalized": "flamengo"
-      },
-      "away": {
-        "id": 2051,
-        "idProvider": "football-data",
-        "name": "Estudiantes LP",
-        "fullName": "Estudiantes de La Plata",
-        "crest": "https://crests.football-data.org/2051.png",
-        "normalized": "estudiantes lp"
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100
-    },
     {
       "id": "bsd:602695",
       "date": "2026-10-23",
@@ -21105,10 +17292,384 @@
       "sourcePriority": 100
     },
     {
-      "id": "bsd:7315",
+      "id": "fd:555061",
       "date": "2026-10-28",
       "kickoff": "21:30",
       "utcDate": "2026-10-29T00:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 1777,
+        "idProvider": "football-data",
+        "name": "Bahia",
+        "fullName": "EC Bahia",
+        "crest": "https://crests.football-data.org/1777.png",
+        "normalized": "bahia"
+      },
+      "away": {
+        "id": 1776,
+        "idProvider": "football-data",
+        "name": "São Paulo",
+        "fullName": "São Paulo FC",
+        "crest": "https://crests.football-data.org/1776.png",
+        "normalized": "sao paulo"
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "fd:555067",
+      "date": "2026-10-28",
+      "kickoff": "21:30",
+      "utcDate": "2026-10-29T00:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 4287,
+        "idProvider": "football-data",
+        "name": "Clube do Remo",
+        "fullName": "Clube do Remo",
+        "crest": "https://crests.football-data.org/4287.png",
+        "normalized": "remo"
+      },
+      "away": {
+        "id": 1770,
+        "idProvider": "football-data",
+        "name": "Botafogo",
+        "fullName": "Botafogo FR",
+        "crest": "https://crests.football-data.org/1770.png",
+        "normalized": "botafogo"
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "fd:558558",
+      "date": "2026-10-29",
+      "kickoff": "14:30",
+      "utcDate": "2026-10-29T17:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2019,
+        "idProvider": "football-data",
+        "code": "SA",
+        "name": "Serie A",
+        "logo": "https://crests.football-data.org/c111.png",
+        "normalized": "serie a"
+      },
+      "home": {
+        "id": 470,
+        "idProvider": "football-data",
+        "name": "Frosinone",
+        "fullName": "Frosinone Calcio",
+        "crest": "https://crests.football-data.org/470.png",
+        "normalized": "frosinone"
+      },
+      "away": {
+        "id": 5890,
+        "idProvider": "football-data",
+        "name": "Lecce",
+        "fullName": "US Lecce",
+        "crest": "https://crests.football-data.org/5890.png",
+        "normalized": "lecce"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "of:dfd0b1bde1de3dee",
+      "date": "2026-10-29",
+      "kickoff": "14:30",
+      "utcDate": "2026-10-29T17:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "SA",
+        "name": "Serie A",
+        "logo": "https://crests.football-data.org/c111.png",
+        "normalized": "serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "Frosinone Calcio",
+        "fullName": "Frosinone Calcio",
+        "crest": null,
+        "normalized": "frosinone"
+      },
+      "away": {
+        "id": null,
+        "name": "US Lecce",
+        "fullName": "US Lecce",
+        "crest": null,
+        "normalized": "us lecce"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "wm:68d273e1817261af",
+      "date": "2026-10-29",
+      "kickoff": "14:45",
+      "utcDate": "2026-10-29T17:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Austria Wien",
+        "fullName": "Austria Wien",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
+        "normalized": "austria wien"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Juventus",
+        "fullName": "Juventus",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
+        "normalized": "juventus"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1380337516,
+        "revisionTimestamp": "2026-10-15T03:24:53Z"
+      }
+    },
+    {
+      "id": "wm:17d94cbb576ac1a9",
+      "date": "2026-10-29",
+      "kickoff": "14:45",
+      "utcDate": "2026-10-29T17:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Paris FC",
+        "fullName": "Paris FC",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
+        "normalized": "paris"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "BK Häcken",
+        "fullName": "BK Häcken",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
+        "normalized": "bk hacken"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1380337516,
+        "revisionTimestamp": "2026-10-15T03:24:53Z"
+      }
+    },
+    {
+      "id": "of:e61e6335f6af71db",
+      "date": "2026-10-29",
+      "kickoff": "16:45",
+      "utcDate": "2026-10-29T19:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "SA",
+        "name": "Serie A",
+        "logo": "https://crests.football-data.org/c111.png",
+        "normalized": "serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "ACF Fiorentina",
+        "fullName": "ACF Fiorentina",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg/330px-ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "acf fiorentina"
+      },
+      "away": {
+        "id": null,
+        "name": "Atalanta BC",
+        "fullName": "Atalanta BC",
+        "crest": null,
+        "normalized": "atalanta bc"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "fd:558551",
+      "date": "2026-10-29",
+      "kickoff": "16:45",
+      "utcDate": "2026-10-29T19:45:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2019,
+        "idProvider": "football-data",
+        "code": "SA",
+        "name": "Serie A",
+        "logo": "https://crests.football-data.org/c111.png",
+        "normalized": "serie a"
+      },
+      "home": {
+        "id": 99,
+        "idProvider": "football-data",
+        "name": "Fiorentina",
+        "fullName": "ACF Fiorentina",
+        "crest": "https://crests.football-data.org/99.png",
+        "normalized": "fiorentina"
+      },
+      "away": {
+        "id": 102,
+        "idProvider": "football-data",
+        "name": "Atalanta",
+        "fullName": "Atalanta BC",
+        "crest": "https://crests.football-data.org/102.png",
+        "normalized": "atalanta"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "wm:18217293b29c68e4",
+      "date": "2026-10-29",
+      "kickoff": "17:00",
+      "utcDate": "2026-10-29T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "HB Køge",
+        "fullName": "HB Køge",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21127.png",
+        "normalized": "hb k ge"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Barcelona",
+        "fullName": "Barcelona",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/20091.png",
+        "normalized": "barcelona"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1380337516,
+        "revisionTimestamp": "2026-10-15T03:24:53Z"
+      }
+    },
+    {
+      "id": "wm:10aa385ecde6d7da",
+      "date": "2026-10-29",
+      "kickoff": "17:00",
+      "utcDate": "2026-10-29T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Manchester City",
+        "fullName": "Manchester City",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
+        "normalized": "manchester city"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Paris Saint-Germain",
+        "fullName": "Paris Saint-Germain",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
+        "normalized": "paris saint germain"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1380337516,
+        "revisionTimestamp": "2026-10-15T03:24:53Z"
+      }
+    },
+    {
+      "id": "bsd:7314",
+      "date": "2026-10-29",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-29T22:30:00Z",
       "status": "SCHEDULED",
       "competition": {
         "id": 9,
@@ -21119,20 +17680,20 @@
         "normalized": "brasileirao serie a"
       },
       "home": {
-        "id": 166,
+        "id": 155,
         "idProvider": "bsd",
-        "name": "Bahia",
-        "fullName": "Bahia",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-        "normalized": "bahia"
+        "name": "Atlético Mineiro",
+        "fullName": "Atlético Mineiro",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+        "normalized": "atletico mineiro"
       },
       "away": {
-        "id": 158,
+        "id": 150,
         "idProvider": "bsd",
-        "name": "São Paulo",
-        "fullName": "São Paulo",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-        "normalized": "sao paulo"
+        "name": "Cruzeiro",
+        "fullName": "Cruzeiro",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+        "normalized": "cruzeiro"
       },
       "sources": [
         "bsd"
@@ -21140,16 +17701,87 @@
       "sourcePriority": 80,
       "provenance": {
         "provider": "bsd",
-        "providerEventId": 7315,
+        "providerEventId": 7314,
         "providerLeagueId": 9,
         "providerSeasonId": 28
       }
     },
     {
-      "id": "bsd:7321",
-      "date": "2026-10-28",
+      "id": "fd:555060",
+      "date": "2026-10-29",
+      "kickoff": "19:30",
+      "utcDate": "2026-10-29T22:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 1766,
+        "idProvider": "football-data",
+        "name": "Mineiro",
+        "fullName": "CA Mineiro",
+        "crest": "https://crests.football-data.org/1766.png",
+        "normalized": "mineiro"
+      },
+      "away": {
+        "id": 1771,
+        "idProvider": "football-data",
+        "name": "Cruzeiro",
+        "fullName": "Cruzeiro EC",
+        "crest": "https://crests.football-data.org/1771.png",
+        "normalized": "cruzeiro"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "fd:555069",
+      "date": "2026-10-29",
+      "kickoff": "20:00",
+      "utcDate": "2026-10-29T23:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 1780,
+        "idProvider": "football-data",
+        "name": "Vasco da Gama",
+        "fullName": "CR Vasco da Gama",
+        "crest": "https://crests.football-data.org/1780.png",
+        "normalized": "vasco gama"
+      },
+      "away": {
+        "id": 1783,
+        "idProvider": "football-data",
+        "name": "Flamengo",
+        "fullName": "CR Flamengo",
+        "crest": "https://crests.football-data.org/1783.png",
+        "normalized": "flamengo"
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "bsd:7319",
+      "date": "2026-10-29",
       "kickoff": "21:30",
-      "utcDate": "2026-10-29T00:30:00Z",
+      "utcDate": "2026-10-30T00:30:00Z",
       "status": "SCHEDULED",
       "competition": {
         "id": 9,
@@ -21160,20 +17792,20 @@
         "normalized": "brasileirao serie a"
       },
       "home": {
-        "id": 372,
+        "id": 154,
         "idProvider": "bsd",
-        "name": "Remo",
-        "fullName": "Remo",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-        "normalized": "remo"
+        "name": "Grêmio",
+        "fullName": "Grêmio",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+        "normalized": "gremio"
       },
       "away": {
-        "id": 163,
+        "id": 371,
         "idProvider": "bsd",
-        "name": "Botafogo",
-        "fullName": "Botafogo",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-        "normalized": "botafogo"
+        "name": "Athletico",
+        "fullName": "Athletico",
+        "crest": null,
+        "normalized": "athletico"
       },
       "sources": [
         "bsd"
@@ -21181,7 +17813,7 @@
       "sourcePriority": 80,
       "provenance": {
         "provider": "bsd",
-        "providerEventId": 7321,
+        "providerEventId": 7319,
         "providerLeagueId": 9,
         "providerSeasonId": 28
       }
