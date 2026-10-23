@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-23T07:38:21.718350Z",
+  "generatedAt": "2026-10-23T13:32:00.592058Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-23",
@@ -136,8 +136,8 @@
           "key": "uecl",
           "page": "2026–27 UEFA Conference League league phase",
           "pageId": 84084273,
-          "revisionId": 1381550767,
-          "revisionTimestamp": "2026-10-23T07:22:09Z",
+          "revisionId": 1381554825,
+          "revisionTimestamp": "2026-10-23T08:22:21Z",
           "ok": true,
           "matchesInWindow": 0,
           "error": null
@@ -11689,7 +11689,7 @@
     {
       "date": "2026-10-25",
       "label": "25/10",
-      "count": 71,
+      "count": 70,
       "matches": [
         {
           "id": "of:f88c5486fc11aaf6",
@@ -17837,103 +17837,6 @@
           }
         },
         {
-          "id": "fd:559648",
-          "date": "2026-10-25",
-          "kickoff": "16:45",
-          "utcDate": "2026-10-25T19:45:00Z",
-          "status": "TIMED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Ligue 1",
-            "fullName": null,
-            "normalized": "ligue 1",
-            "country": null,
-            "externalIds": {
-              "football-data": "2015"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/FL1.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "FL1"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "PSG",
-            "fullName": "Paris Saint-Germain FC",
-            "normalized": "psg",
-            "country": null,
-            "externalIds": {
-              "football-data": "524"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/524.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Olympique Lyon",
-            "fullName": "Olympique Lyonnais",
-            "normalized": "olympique lyon",
-            "country": null,
-            "externalIds": {
-              "football-data": "523"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/523.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100,
-          "provenance": {
-            "fixtureSources": [
-              "football-data"
-            ],
-            "sourcePriority": 100,
-            "sourceDetails": {}
-          }
-        },
-        {
           "id": "of:1fda18bfeafa3ea1",
           "date": "2026-10-25",
           "kickoff": "16:45",
@@ -18515,7 +18418,7 @@
     {
       "date": "2026-10-26",
       "label": "26/10",
-      "count": 8,
+      "count": 9,
       "matches": [
         {
           "id": "of:241061860e315a3e",
@@ -18686,6 +18589,103 @@
             "artwork": {
               "status": "validated",
               "url": "https://crests.football-data.org/1903.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "fd:559648",
+          "date": "2026-10-26",
+          "kickoff": "16:30",
+          "utcDate": "2026-10-26T19:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Ligue 1",
+            "fullName": null,
+            "normalized": "ligue 1",
+            "country": null,
+            "externalIds": {
+              "football-data": "2015"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/FL1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "FL1"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "PSG",
+            "fullName": "Paris Saint-Germain FC",
+            "normalized": "psg",
+            "country": null,
+            "externalIds": {
+              "football-data": "524"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/524.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Olympique Lyon",
+            "fullName": "Olympique Lyonnais",
+            "normalized": "olympique lyon",
+            "country": null,
+            "externalIds": {
+              "football-data": "523"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/523.png",
               "provider": "football-data",
               "property": "curated-file",
               "semanticStatus": "validated",
@@ -41688,103 +41688,6 @@
       }
     },
     {
-      "id": "fd:559648",
-      "date": "2026-10-25",
-      "kickoff": "16:45",
-      "utcDate": "2026-10-25T19:45:00Z",
-      "status": "TIMED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Ligue 1",
-        "fullName": null,
-        "normalized": "ligue 1",
-        "country": null,
-        "externalIds": {
-          "football-data": "2015"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/FL1.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "FL1"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "PSG",
-        "fullName": "Paris Saint-Germain FC",
-        "normalized": "psg",
-        "country": null,
-        "externalIds": {
-          "football-data": "524"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/524.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Olympique Lyon",
-        "fullName": "Olympique Lyonnais",
-        "normalized": "olympique lyon",
-        "country": null,
-        "externalIds": {
-          "football-data": "523"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/523.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100,
-      "provenance": {
-        "fixtureSources": [
-          "football-data"
-        ],
-        "sourcePriority": 100,
-        "sourceDetails": {}
-      }
-    },
-    {
       "id": "of:1fda18bfeafa3ea1",
       "date": "2026-10-25",
       "kickoff": "16:45",
@@ -42530,6 +42433,103 @@
         "artwork": {
           "status": "validated",
           "url": "https://crests.football-data.org/1903.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "fd:559648",
+      "date": "2026-10-26",
+      "kickoff": "16:30",
+      "utcDate": "2026-10-26T19:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Ligue 1",
+        "fullName": null,
+        "normalized": "ligue 1",
+        "country": null,
+        "externalIds": {
+          "football-data": "2015"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/FL1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "FL1"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "PSG",
+        "fullName": "Paris Saint-Germain FC",
+        "normalized": "psg",
+        "country": null,
+        "externalIds": {
+          "football-data": "524"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/524.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Olympique Lyon",
+        "fullName": "Olympique Lyonnais",
+        "normalized": "olympique lyon",
+        "country": null,
+        "externalIds": {
+          "football-data": "523"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/523.png",
           "provider": "football-data",
           "property": "curated-file",
           "semanticStatus": "validated",

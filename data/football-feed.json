@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T07:38:21.718350Z",
+  "generatedAt": "2026-10-23T13:32:00.592058Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-23",
@@ -136,8 +136,8 @@
           "key": "uecl",
           "page": "2026–27 UEFA Conference League league phase",
           "pageId": 84084273,
-          "revisionId": 1381550767,
-          "revisionTimestamp": "2026-10-23T07:22:09Z",
+          "revisionId": 1381554825,
+          "revisionTimestamp": "2026-10-23T08:22:21Z",
           "ok": true,
           "matchesInWindow": 0,
           "error": null
@@ -4438,7 +4438,7 @@
     {
       "date": "2026-10-25",
       "label": "25/10",
-      "count": 71,
+      "count": 70,
       "matches": [
         {
           "id": "of:f88c5486fc11aaf6",
@@ -6688,41 +6688,6 @@
           "sourcePriority": 50
         },
         {
-          "id": "fd:559648",
-          "date": "2026-10-25",
-          "kickoff": "16:45",
-          "utcDate": "2026-10-25T19:45:00Z",
-          "status": "TIMED",
-          "competition": {
-            "id": 2015,
-            "idProvider": "football-data",
-            "code": "FL1",
-            "name": "Ligue 1",
-            "logo": "https://crests.football-data.org/FL1.png",
-            "normalized": "ligue 1"
-          },
-          "home": {
-            "id": 524,
-            "idProvider": "football-data",
-            "name": "PSG",
-            "fullName": "Paris Saint-Germain FC",
-            "crest": "https://crests.football-data.org/524.png",
-            "normalized": "psg"
-          },
-          "away": {
-            "id": 523,
-            "idProvider": "football-data",
-            "name": "Olympique Lyon",
-            "fullName": "Olympique Lyonnais",
-            "crest": "https://crests.football-data.org/523.png",
-            "normalized": "olympique lyon"
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100
-        },
-        {
           "id": "of:1fda18bfeafa3ea1",
           "date": "2026-10-25",
           "kickoff": "16:45",
@@ -6938,7 +6903,7 @@
     {
       "date": "2026-10-26",
       "label": "26/10",
-      "count": 8,
+      "count": 9,
       "matches": [
         {
           "id": "of:241061860e315a3e",
@@ -7001,6 +6966,41 @@
             "fullName": "Sport Lisboa e Benfica",
             "crest": "https://crests.football-data.org/1903.png",
             "normalized": "sl benfica"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "fd:559648",
+          "date": "2026-10-26",
+          "kickoff": "16:30",
+          "utcDate": "2026-10-26T19:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2015,
+            "idProvider": "football-data",
+            "code": "FL1",
+            "name": "Ligue 1",
+            "logo": "https://crests.football-data.org/FL1.png",
+            "normalized": "ligue 1"
+          },
+          "home": {
+            "id": 524,
+            "idProvider": "football-data",
+            "name": "PSG",
+            "fullName": "Paris Saint-Germain FC",
+            "crest": "https://crests.football-data.org/524.png",
+            "normalized": "psg"
+          },
+          "away": {
+            "id": 523,
+            "idProvider": "football-data",
+            "name": "Olympique Lyon",
+            "fullName": "Olympique Lyonnais",
+            "crest": "https://crests.football-data.org/523.png",
+            "normalized": "olympique lyon"
           },
           "sources": [
             "football-data"
@@ -15525,41 +15525,6 @@
       "sourcePriority": 50
     },
     {
-      "id": "fd:559648",
-      "date": "2026-10-25",
-      "kickoff": "16:45",
-      "utcDate": "2026-10-25T19:45:00Z",
-      "status": "TIMED",
-      "competition": {
-        "id": 2015,
-        "idProvider": "football-data",
-        "code": "FL1",
-        "name": "Ligue 1",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "normalized": "ligue 1"
-      },
-      "home": {
-        "id": 524,
-        "idProvider": "football-data",
-        "name": "PSG",
-        "fullName": "Paris Saint-Germain FC",
-        "crest": "https://crests.football-data.org/524.png",
-        "normalized": "psg"
-      },
-      "away": {
-        "id": 523,
-        "idProvider": "football-data",
-        "name": "Olympique Lyon",
-        "fullName": "Olympique Lyonnais",
-        "crest": "https://crests.football-data.org/523.png",
-        "normalized": "olympique lyon"
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100
-    },
-    {
       "id": "of:1fda18bfeafa3ea1",
       "date": "2026-10-25",
       "kickoff": "16:45",
@@ -15831,6 +15796,41 @@
         "fullName": "Sport Lisboa e Benfica",
         "crest": "https://crests.football-data.org/1903.png",
         "normalized": "sl benfica"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "fd:559648",
+      "date": "2026-10-26",
+      "kickoff": "16:30",
+      "utcDate": "2026-10-26T19:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2015,
+        "idProvider": "football-data",
+        "code": "FL1",
+        "name": "Ligue 1",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "normalized": "ligue 1"
+      },
+      "home": {
+        "id": 524,
+        "idProvider": "football-data",
+        "name": "PSG",
+        "fullName": "Paris Saint-Germain FC",
+        "crest": "https://crests.football-data.org/524.png",
+        "normalized": "psg"
+      },
+      "away": {
+        "id": 523,
+        "idProvider": "football-data",
+        "name": "Olympique Lyon",
+        "fullName": "Olympique Lyonnais",
+        "crest": "https://crests.football-data.org/523.png",
+        "normalized": "olympique lyon"
       },
       "sources": [
         "football-data"
