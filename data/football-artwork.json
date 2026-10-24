@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-23T23:13:00Z",
+  "generatedAt": "2026-10-24T04:43:33Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -7805,7 +7805,9 @@
       "name": "Arminia Bielefeld",
       "kind": "team",
       "entityType": "club",
-      "aliases": [],
+      "aliases": [
+        "DSC Arminia Bielefeld"
+      ],
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg/330px-Arminia_Bielefeld_Logo_2021%E2%80%93.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "league": null,
       "leagues": [
