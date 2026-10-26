@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-25T20:55:58.786582Z",
+  "generatedAt": "2026-10-26T00:28:12.335428Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-25",
@@ -1504,7 +1504,7 @@
           "date": "2026-10-25",
           "kickoff": "12:15",
           "utcDate": "2026-10-25T15:15:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4936,
             "idProvider": "openligadb",
@@ -2168,7 +2168,7 @@
           "date": "2026-10-25",
           "kickoff": "14:30",
           "utcDate": "2026-10-25T17:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4936,
             "idProvider": "openligadb",
@@ -2347,7 +2347,7 @@
           "date": "2026-10-25",
           "kickoff": "16:00",
           "utcDate": "2026-10-25T19:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2003,
             "idProvider": "football-data",
@@ -2446,7 +2446,7 @@
           "date": "2026-10-25",
           "kickoff": "16:45",
           "utcDate": "2026-10-25T19:45:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2019,
             "idProvider": "football-data",
@@ -2482,7 +2482,7 @@
           "date": "2026-10-25",
           "kickoff": "17:00",
           "utcDate": "2026-10-25T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4936,
             "idProvider": "openligadb",
@@ -2523,7 +2523,7 @@
           "date": "2026-10-25",
           "kickoff": "17:00",
           "utcDate": "2026-10-25T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2014,
             "idProvider": "football-data",
@@ -2558,7 +2558,7 @@
           "date": "2026-10-25",
           "kickoff": "17:30",
           "utcDate": "2026-10-25T20:30:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "id": 2017,
             "idProvider": "football-data",
@@ -9957,7 +9957,7 @@
       "date": "2026-10-25",
       "kickoff": "12:15",
       "utcDate": "2026-10-25T15:15:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4936,
         "idProvider": "openligadb",
@@ -10621,7 +10621,7 @@
       "date": "2026-10-25",
       "kickoff": "14:30",
       "utcDate": "2026-10-25T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4936,
         "idProvider": "openligadb",
@@ -10800,7 +10800,7 @@
       "date": "2026-10-25",
       "kickoff": "16:00",
       "utcDate": "2026-10-25T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2003,
         "idProvider": "football-data",
@@ -10899,7 +10899,7 @@
       "date": "2026-10-25",
       "kickoff": "16:45",
       "utcDate": "2026-10-25T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2019,
         "idProvider": "football-data",
@@ -10935,7 +10935,7 @@
       "date": "2026-10-25",
       "kickoff": "17:00",
       "utcDate": "2026-10-25T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4936,
         "idProvider": "openligadb",
@@ -10976,7 +10976,7 @@
       "date": "2026-10-25",
       "kickoff": "17:00",
       "utcDate": "2026-10-25T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2014,
         "idProvider": "football-data",
@@ -11011,7 +11011,7 @@
       "date": "2026-10-25",
       "kickoff": "17:30",
       "utcDate": "2026-10-25T20:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "id": 2017,
         "idProvider": "football-data",
