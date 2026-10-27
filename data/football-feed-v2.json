@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-10-27T07:57:29.238227Z",
+  "generatedAt": "2026-10-27T14:37:25.746450Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-27",
@@ -126,8 +126,8 @@
           "key": "uwcl",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382143731,
-          "revisionTimestamp": "2026-10-26T21:50:01Z",
+          "revisionId": 1382238219,
+          "revisionTimestamp": "2026-10-27T13:56:31Z",
           "ok": true,
           "matchesInWindow": 9,
           "error": null
@@ -2336,8 +2336,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1382143731,
-              "revisionTimestamp": "2026-10-26T21:50:01Z"
+              "revisionId": 1382238219,
+              "revisionTimestamp": "2026-10-27T13:56:31Z"
             }
           }
         },
@@ -2433,8 +2433,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1382143731,
-              "revisionTimestamp": "2026-10-26T21:50:01Z"
+              "revisionId": 1382238219,
+              "revisionTimestamp": "2026-10-27T13:56:31Z"
             }
           }
         },
@@ -2530,8 +2530,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1382143731,
-              "revisionTimestamp": "2026-10-26T21:50:01Z"
+              "revisionId": 1382238219,
+              "revisionTimestamp": "2026-10-27T13:56:31Z"
             }
           }
         },
@@ -3003,8 +3003,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1382143731,
-              "revisionTimestamp": "2026-10-26T21:50:01Z"
+              "revisionId": 1382238219,
+              "revisionTimestamp": "2026-10-27T13:56:31Z"
             }
           }
         },
@@ -3100,8 +3100,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1382143731,
-              "revisionTimestamp": "2026-10-26T21:50:01Z"
+              "revisionId": 1382238219,
+              "revisionTimestamp": "2026-10-27T13:56:31Z"
             }
           }
         },
@@ -3992,8 +3992,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1382143731,
-              "revisionTimestamp": "2026-10-26T21:50:01Z"
+              "revisionId": 1382238219,
+              "revisionTimestamp": "2026-10-27T13:56:31Z"
             }
           }
         },
@@ -4089,8 +4089,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1382143731,
-              "revisionTimestamp": "2026-10-26T21:50:01Z"
+              "revisionId": 1382238219,
+              "revisionTimestamp": "2026-10-27T13:56:31Z"
             }
           }
         },
@@ -4374,8 +4374,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1382143731,
-              "revisionTimestamp": "2026-10-26T21:50:01Z"
+              "revisionId": 1382238219,
+              "revisionTimestamp": "2026-10-27T13:56:31Z"
             }
           }
         },
@@ -4471,8 +4471,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1382143731,
-              "revisionTimestamp": "2026-10-26T21:50:01Z"
+              "revisionId": 1382238219,
+              "revisionTimestamp": "2026-10-27T13:56:31Z"
             }
           }
         },
@@ -4981,7 +4981,7 @@
     {
       "date": "2026-10-30",
       "label": "30/10",
-      "count": 18,
+      "count": 19,
       "matches": [
         {
           "id": "bsd:602704",
@@ -5576,6 +5576,103 @@
               "openfootball"
             ],
             "sourcePriority": 50,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "fd:559646",
+          "date": "2026-10-30",
+          "kickoff": "15:00",
+          "utcDate": "2026-10-30T18:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Ligue 1",
+            "fullName": null,
+            "normalized": "ligue 1",
+            "country": null,
+            "externalIds": {
+              "football-data": "2015"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/FL1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "FL1"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Nice",
+            "fullName": "OGC Nice",
+            "normalized": "nice",
+            "country": null,
+            "externalIds": {
+              "football-data": "522"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/522.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Stade Rennais",
+            "fullName": "Stade Rennais FC 1901",
+            "normalized": "stade rennais",
+            "country": null,
+            "externalIds": {
+              "football-data": "529"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/529.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
             "sourceDetails": {}
           }
         },
@@ -6752,7 +6849,7 @@
     {
       "date": "2026-10-31",
       "label": "31/10",
-      "count": 88,
+      "count": 85,
       "matches": [
         {
           "id": "bsd:602706",
@@ -12018,103 +12115,6 @@
           }
         },
         {
-          "id": "fd:559646",
-          "date": "2026-10-31",
-          "kickoff": "13:15",
-          "utcDate": "2026-10-31T16:15:00Z",
-          "status": "TIMED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Ligue 1",
-            "fullName": null,
-            "normalized": "ligue 1",
-            "country": null,
-            "externalIds": {
-              "football-data": "2015"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/FL1.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "FL1"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Nice",
-            "fullName": "OGC Nice",
-            "normalized": "nice",
-            "country": null,
-            "externalIds": {
-              "football-data": "522"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/522.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Stade Rennais",
-            "fullName": "Stade Rennais FC 1901",
-            "normalized": "stade rennais",
-            "country": null,
-            "externalIds": {
-              "football-data": "529"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/529.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100,
-          "provenance": {
-            "fixtureSources": [
-              "football-data"
-            ],
-            "sourcePriority": 100,
-            "sourceDetails": {}
-          }
-        },
-        {
           "id": "of:699d8898724405a9",
           "date": "2026-10-31",
           "kickoff": "13:15",
@@ -13772,200 +13772,6 @@
           }
         },
         {
-          "id": "fd:559641",
-          "date": "2026-10-31",
-          "kickoff": "16:45",
-          "utcDate": "2026-10-31T19:45:00Z",
-          "status": "TIMED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Ligue 1",
-            "fullName": null,
-            "normalized": "ligue 1",
-            "country": null,
-            "externalIds": {
-              "football-data": "2015"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/FL1.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "FL1"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Lorient",
-            "fullName": "FC Lorient",
-            "normalized": "lorient",
-            "country": null,
-            "externalIds": {
-              "football-data": "525"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/525.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Brest",
-            "fullName": "Stade Brestois 29",
-            "normalized": "brest",
-            "country": null,
-            "externalIds": {
-              "football-data": "512"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/512.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100,
-          "provenance": {
-            "fixtureSources": [
-              "football-data"
-            ],
-            "sourcePriority": 100,
-            "sourceDetails": {}
-          }
-        },
-        {
-          "id": "fd:559640",
-          "date": "2026-10-31",
-          "kickoff": "16:45",
-          "utcDate": "2026-10-31T19:45:00Z",
-          "status": "TIMED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Ligue 1",
-            "fullName": null,
-            "normalized": "ligue 1",
-            "country": null,
-            "externalIds": {
-              "football-data": "2015"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/FL1.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "FL1"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Olympique Lyon",
-            "fullName": "Olympique Lyonnais",
-            "normalized": "olympique lyon",
-            "country": null,
-            "externalIds": {
-              "football-data": "523"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/523.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Angers SCO",
-            "fullName": "Angers SCO",
-            "normalized": "angers sco",
-            "country": null,
-            "externalIds": {
-              "football-data": "532"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/532.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100,
-          "provenance": {
-            "fixtureSources": [
-              "football-data"
-            ],
-            "sourcePriority": 100,
-            "sourceDetails": {}
-          }
-        },
-        {
           "id": "of:114295d5f4c0c670",
           "date": "2026-10-31",
           "kickoff": "16:45",
@@ -15325,7 +15131,7 @@
     {
       "date": "2026-11-01",
       "label": "01/11",
-      "count": 56,
+      "count": 57,
       "matches": [
         {
           "id": "of:54c2a7771d1939b9",
@@ -18576,6 +18382,103 @@
           }
         },
         {
+          "id": "fd:559640",
+          "date": "2026-11-01",
+          "kickoff": "13:15",
+          "utcDate": "2026-11-01T16:15:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Ligue 1",
+            "fullName": null,
+            "normalized": "ligue 1",
+            "country": null,
+            "externalIds": {
+              "football-data": "2015"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/FL1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "FL1"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Olympique Lyon",
+            "fullName": "Olympique Lyonnais",
+            "normalized": "olympique lyon",
+            "country": null,
+            "externalIds": {
+              "football-data": "523"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/523.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Angers SCO",
+            "fullName": "Angers SCO",
+            "normalized": "angers sco",
+            "country": null,
+            "externalIds": {
+              "football-data": "532"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/532.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        },
+        {
           "id": "fd:559642",
           "date": "2026-11-01",
           "kickoff": "13:15",
@@ -20704,7 +20607,7 @@
     {
       "date": "2026-11-02",
       "label": "02/11",
-      "count": 17,
+      "count": 18,
       "matches": [
         {
           "id": "fd:558541",
@@ -20994,6 +20897,103 @@
               "providerLeagueId": 34,
               "providerSeasonId": 52
             }
+          }
+        },
+        {
+          "id": "fd:559641",
+          "date": "2026-11-02",
+          "kickoff": "16:45",
+          "utcDate": "2026-11-02T19:45:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Ligue 1",
+            "fullName": null,
+            "normalized": "ligue 1",
+            "country": null,
+            "externalIds": {
+              "football-data": "2015"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/FL1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "FL1"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Lorient",
+            "fullName": "FC Lorient",
+            "normalized": "lorient",
+            "country": null,
+            "externalIds": {
+              "football-data": "525"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/525.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Brest",
+            "fullName": "Stade Brestois 29",
+            "normalized": "brest",
+            "country": null,
+            "externalIds": {
+              "football-data": "512"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/512.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
           }
         },
         {
@@ -24531,8 +24531,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382143731,
-          "revisionTimestamp": "2026-10-26T21:50:01Z"
+          "revisionId": 1382238219,
+          "revisionTimestamp": "2026-10-27T13:56:31Z"
         }
       }
     },
@@ -24628,8 +24628,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382143731,
-          "revisionTimestamp": "2026-10-26T21:50:01Z"
+          "revisionId": 1382238219,
+          "revisionTimestamp": "2026-10-27T13:56:31Z"
         }
       }
     },
@@ -24725,8 +24725,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382143731,
-          "revisionTimestamp": "2026-10-26T21:50:01Z"
+          "revisionId": 1382238219,
+          "revisionTimestamp": "2026-10-27T13:56:31Z"
         }
       }
     },
@@ -25198,8 +25198,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382143731,
-          "revisionTimestamp": "2026-10-26T21:50:01Z"
+          "revisionId": 1382238219,
+          "revisionTimestamp": "2026-10-27T13:56:31Z"
         }
       }
     },
@@ -25295,8 +25295,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382143731,
-          "revisionTimestamp": "2026-10-26T21:50:01Z"
+          "revisionId": 1382238219,
+          "revisionTimestamp": "2026-10-27T13:56:31Z"
         }
       }
     },
@@ -26180,8 +26180,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382143731,
-          "revisionTimestamp": "2026-10-26T21:50:01Z"
+          "revisionId": 1382238219,
+          "revisionTimestamp": "2026-10-27T13:56:31Z"
         }
       }
     },
@@ -26277,8 +26277,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382143731,
-          "revisionTimestamp": "2026-10-26T21:50:01Z"
+          "revisionId": 1382238219,
+          "revisionTimestamp": "2026-10-27T13:56:31Z"
         }
       }
     },
@@ -26562,8 +26562,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382143731,
-          "revisionTimestamp": "2026-10-26T21:50:01Z"
+          "revisionId": 1382238219,
+          "revisionTimestamp": "2026-10-27T13:56:31Z"
         }
       }
     },
@@ -26659,8 +26659,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382143731,
-          "revisionTimestamp": "2026-10-26T21:50:01Z"
+          "revisionId": 1382238219,
+          "revisionTimestamp": "2026-10-27T13:56:31Z"
         }
       }
     },
@@ -27757,6 +27757,103 @@
           "openfootball"
         ],
         "sourcePriority": 50,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "fd:559646",
+      "date": "2026-10-30",
+      "kickoff": "15:00",
+      "utcDate": "2026-10-30T18:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Ligue 1",
+        "fullName": null,
+        "normalized": "ligue 1",
+        "country": null,
+        "externalIds": {
+          "football-data": "2015"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/FL1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "FL1"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Nice",
+        "fullName": "OGC Nice",
+        "normalized": "nice",
+        "country": null,
+        "externalIds": {
+          "football-data": "522"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/522.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Stade Rennais",
+        "fullName": "Stade Rennais FC 1901",
+        "normalized": "stade rennais",
+        "country": null,
+        "externalIds": {
+          "football-data": "529"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/529.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
         "sourceDetails": {}
       }
     },
@@ -34192,103 +34289,6 @@
       }
     },
     {
-      "id": "fd:559646",
-      "date": "2026-10-31",
-      "kickoff": "13:15",
-      "utcDate": "2026-10-31T16:15:00Z",
-      "status": "TIMED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Ligue 1",
-        "fullName": null,
-        "normalized": "ligue 1",
-        "country": null,
-        "externalIds": {
-          "football-data": "2015"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/FL1.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "FL1"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Nice",
-        "fullName": "OGC Nice",
-        "normalized": "nice",
-        "country": null,
-        "externalIds": {
-          "football-data": "522"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/522.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Stade Rennais",
-        "fullName": "Stade Rennais FC 1901",
-        "normalized": "stade rennais",
-        "country": null,
-        "externalIds": {
-          "football-data": "529"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/529.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100,
-      "provenance": {
-        "fixtureSources": [
-          "football-data"
-        ],
-        "sourcePriority": 100,
-        "sourceDetails": {}
-      }
-    },
-    {
       "id": "of:699d8898724405a9",
       "date": "2026-10-31",
       "kickoff": "13:15",
@@ -35942,200 +35942,6 @@
           "openfootball"
         ],
         "sourcePriority": 50,
-        "sourceDetails": {}
-      }
-    },
-    {
-      "id": "fd:559641",
-      "date": "2026-10-31",
-      "kickoff": "16:45",
-      "utcDate": "2026-10-31T19:45:00Z",
-      "status": "TIMED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Ligue 1",
-        "fullName": null,
-        "normalized": "ligue 1",
-        "country": null,
-        "externalIds": {
-          "football-data": "2015"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/FL1.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "FL1"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Lorient",
-        "fullName": "FC Lorient",
-        "normalized": "lorient",
-        "country": null,
-        "externalIds": {
-          "football-data": "525"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/525.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Brest",
-        "fullName": "Stade Brestois 29",
-        "normalized": "brest",
-        "country": null,
-        "externalIds": {
-          "football-data": "512"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/512.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100,
-      "provenance": {
-        "fixtureSources": [
-          "football-data"
-        ],
-        "sourcePriority": 100,
-        "sourceDetails": {}
-      }
-    },
-    {
-      "id": "fd:559640",
-      "date": "2026-10-31",
-      "kickoff": "16:45",
-      "utcDate": "2026-10-31T19:45:00Z",
-      "status": "TIMED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Ligue 1",
-        "fullName": null,
-        "normalized": "ligue 1",
-        "country": null,
-        "externalIds": {
-          "football-data": "2015"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/FL1.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "FL1"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Olympique Lyon",
-        "fullName": "Olympique Lyonnais",
-        "normalized": "olympique lyon",
-        "country": null,
-        "externalIds": {
-          "football-data": "523"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/523.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Angers SCO",
-        "fullName": "Angers SCO",
-        "normalized": "angers sco",
-        "country": null,
-        "externalIds": {
-          "football-data": "532"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/532.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100,
-      "provenance": {
-        "fixtureSources": [
-          "football-data"
-        ],
-        "sourcePriority": 100,
         "sourceDetails": {}
       }
     },
@@ -40743,6 +40549,103 @@
       }
     },
     {
+      "id": "fd:559640",
+      "date": "2026-11-01",
+      "kickoff": "13:15",
+      "utcDate": "2026-11-01T16:15:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Ligue 1",
+        "fullName": null,
+        "normalized": "ligue 1",
+        "country": null,
+        "externalIds": {
+          "football-data": "2015"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/FL1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "FL1"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Olympique Lyon",
+        "fullName": "Olympique Lyonnais",
+        "normalized": "olympique lyon",
+        "country": null,
+        "externalIds": {
+          "football-data": "523"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/523.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Angers SCO",
+        "fullName": "Angers SCO",
+        "normalized": "angers sco",
+        "country": null,
+        "externalIds": {
+          "football-data": "532"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/532.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
       "id": "fd:559642",
       "date": "2026-11-01",
       "kickoff": "13:15",
@@ -43154,6 +43057,103 @@
           "providerLeagueId": 34,
           "providerSeasonId": 52
         }
+      }
+    },
+    {
+      "id": "fd:559641",
+      "date": "2026-11-02",
+      "kickoff": "16:45",
+      "utcDate": "2026-11-02T19:45:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Ligue 1",
+        "fullName": null,
+        "normalized": "ligue 1",
+        "country": null,
+        "externalIds": {
+          "football-data": "2015"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/FL1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "FL1"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Lorient",
+        "fullName": "FC Lorient",
+        "normalized": "lorient",
+        "country": null,
+        "externalIds": {
+          "football-data": "525"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/525.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Brest",
+        "fullName": "Stade Brestois 29",
+        "normalized": "brest",
+        "country": null,
+        "externalIds": {
+          "football-data": "512"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/512.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
       }
     },
     {
