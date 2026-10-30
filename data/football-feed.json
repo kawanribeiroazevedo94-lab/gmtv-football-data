@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-29T19:44:12.271509Z",
+  "generatedAt": "2026-10-30T00:00:41.334515Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-10-29",
@@ -126,8 +126,8 @@
           "key": "uwcl",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1382640936,
-          "revisionTimestamp": "2026-10-29T16:16:42Z",
+          "revisionId": 1382707674,
+          "revisionTimestamp": "2026-10-29T22:06:47Z",
           "ok": true,
           "matchesInWindow": 4,
           "error": null
@@ -267,8 +267,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1382640936,
-            "revisionTimestamp": "2026-10-29T16:16:42Z"
+            "revisionId": 1382707674,
+            "revisionTimestamp": "2026-10-29T22:06:47Z"
           }
         },
         {
@@ -309,8 +309,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1382640936,
-            "revisionTimestamp": "2026-10-29T16:16:42Z"
+            "revisionId": 1382707674,
+            "revisionTimestamp": "2026-10-29T22:06:47Z"
           }
         },
         {
@@ -350,7 +350,7 @@
           "date": "2026-10-29",
           "kickoff": "16:45",
           "utcDate": "2026-10-29T19:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2019,
             "idProvider": "football-data",
@@ -418,8 +418,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1382640936,
-            "revisionTimestamp": "2026-10-29T16:16:42Z"
+            "revisionId": 1382707674,
+            "revisionTimestamp": "2026-10-29T22:06:47Z"
           }
         },
         {
@@ -460,8 +460,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1382640936,
-            "revisionTimestamp": "2026-10-29T16:16:42Z"
+            "revisionId": 1382707674,
+            "revisionTimestamp": "2026-10-29T22:06:47Z"
           }
         },
         {
@@ -510,7 +510,7 @@
           "date": "2026-10-29",
           "kickoff": "19:30",
           "utcDate": "2026-10-29T22:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -545,7 +545,7 @@
           "date": "2026-10-29",
           "kickoff": "20:00",
           "utcDate": "2026-10-29T23:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -10413,8 +10413,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1382640936,
-        "revisionTimestamp": "2026-10-29T16:16:42Z"
+        "revisionId": 1382707674,
+        "revisionTimestamp": "2026-10-29T22:06:47Z"
       }
     },
     {
@@ -10455,8 +10455,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1382640936,
-        "revisionTimestamp": "2026-10-29T16:16:42Z"
+        "revisionId": 1382707674,
+        "revisionTimestamp": "2026-10-29T22:06:47Z"
       }
     },
     {
@@ -10496,7 +10496,7 @@
       "date": "2026-10-29",
       "kickoff": "16:45",
       "utcDate": "2026-10-29T19:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2019,
         "idProvider": "football-data",
@@ -10564,8 +10564,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1382640936,
-        "revisionTimestamp": "2026-10-29T16:16:42Z"
+        "revisionId": 1382707674,
+        "revisionTimestamp": "2026-10-29T22:06:47Z"
       }
     },
     {
@@ -10606,8 +10606,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1382640936,
-        "revisionTimestamp": "2026-10-29T16:16:42Z"
+        "revisionId": 1382707674,
+        "revisionTimestamp": "2026-10-29T22:06:47Z"
       }
     },
     {
@@ -10656,7 +10656,7 @@
       "date": "2026-10-29",
       "kickoff": "19:30",
       "utcDate": "2026-10-29T22:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
@@ -10691,7 +10691,7 @@
       "date": "2026-10-29",
       "kickoff": "20:00",
       "utcDate": "2026-10-29T23:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
