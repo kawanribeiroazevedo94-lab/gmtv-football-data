@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-02T16:02:33.580011Z",
+  "generatedAt": "2026-11-02T23:36:19.478098Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-02",
@@ -153,7 +153,7 @@
       "teamsUnresolved": []
     },
     "wikidataArtwork": {
-      "cachedEntries": 1148
+      "cachedEntries": 1149
     }
   },
   "days": [
@@ -167,7 +167,7 @@
           "date": "2026-11-02",
           "kickoff": "14:30",
           "utcDate": "2026-11-02T17:30:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2019,
             "idProvider": "football-data",
@@ -234,7 +234,7 @@
           "date": "2026-11-02",
           "kickoff": "16:00",
           "utcDate": "2026-11-02T19:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 34,
             "idProvider": "bsd",
@@ -275,7 +275,7 @@
           "date": "2026-11-02",
           "kickoff": "16:45",
           "utcDate": "2026-11-02T19:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2015,
             "idProvider": "football-data",
@@ -310,7 +310,7 @@
           "date": "2026-11-02",
           "kickoff": "16:45",
           "utcDate": "2026-11-02T19:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2019,
             "idProvider": "football-data",
@@ -418,7 +418,7 @@
           "date": "2026-11-02",
           "kickoff": "17:00",
           "utcDate": "2026-11-02T20:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2021,
             "idProvider": "football-data",
@@ -495,7 +495,7 @@
           "date": "2026-11-02",
           "kickoff": "17:00",
           "utcDate": "2026-11-02T20:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2014,
             "idProvider": "football-data",
@@ -530,7 +530,7 @@
           "date": "2026-11-02",
           "kickoff": "17:15",
           "utcDate": "2026-11-02T20:15:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2017,
             "idProvider": "football-data",
@@ -597,7 +597,7 @@
           "date": "2026-11-02",
           "kickoff": "17:15",
           "utcDate": "2026-11-02T20:15:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2017,
             "idProvider": "football-data",
@@ -664,7 +664,7 @@
           "date": "2026-11-02",
           "kickoff": "18:00",
           "utcDate": "2026-11-02T21:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 34,
             "idProvider": "bsd",
@@ -746,7 +746,7 @@
           "date": "2026-11-02",
           "kickoff": "20:00",
           "utcDate": "2026-11-02T23:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -1762,10 +1762,10 @@
           "away": {
             "id": 106,
             "idProvider": "bsd",
-            "name": "Lille",
-            "fullName": "Lille",
-            "crest": "https://crests.football-data.org/521.png",
-            "normalized": "lille"
+            "name": "LOSC Lille",
+            "fullName": "LOSC Lille",
+            "crest": null,
+            "normalized": "losc lille"
           },
           "sources": [
             "bsd"
@@ -4101,7 +4101,7 @@
     {
       "date": "2026-11-05",
       "label": "05/11",
-      "count": 53,
+      "count": 54,
       "matches": [
         {
           "id": "bsd:601320",
@@ -6197,6 +6197,47 @@
           }
         },
         {
+          "id": "bsd:10216",
+          "date": "2026-11-05",
+          "kickoff": "19:30",
+          "utcDate": "2026-11-05T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 927,
+            "idProvider": "bsd",
+            "name": "Botafogo-SP",
+            "fullName": "Botafogo-SP",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+            "normalized": "botafogo sp"
+          },
+          "away": {
+            "id": 821,
+            "idProvider": "bsd",
+            "name": "Londrina",
+            "fullName": "Londrina",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+            "normalized": "londrina"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10216,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
           "id": "fd:555077",
           "date": "2026-11-05",
           "kickoff": "19:30",
@@ -6273,7 +6314,7 @@
     {
       "date": "2026-11-06",
       "label": "06/11",
-      "count": 21,
+      "count": 19,
       "matches": [
         {
           "id": "oldb:83684",
@@ -6903,47 +6944,6 @@
           "sourcePriority": 100
         },
         {
-          "id": "bsd:10216",
-          "date": "2026-11-06",
-          "kickoff": "19:30",
-          "utcDate": "2026-11-06T22:30:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 927,
-            "idProvider": "bsd",
-            "name": "Botafogo-SP",
-            "fullName": "Botafogo-SP",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-            "normalized": "botafogo sp"
-          },
-          "away": {
-            "id": 821,
-            "idProvider": "bsd",
-            "name": "Londrina",
-            "fullName": "Londrina",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-            "normalized": "londrina"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10216,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        },
-        {
           "id": "bsd:10222",
           "date": "2026-11-06",
           "kickoff": "19:30",
@@ -7019,54 +7019,13 @@
             "bsd"
           ],
           "sourcePriority": 100
-        },
-        {
-          "id": "bsd:10218",
-          "date": "2026-11-06",
-          "kickoff": "21:30",
-          "utcDate": "2026-11-07T00:30:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 863,
-            "idProvider": "bsd",
-            "name": "Cuiabá",
-            "fullName": "Cuiabá",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-            "normalized": "cuiaba"
-          },
-          "away": {
-            "id": 156,
-            "idProvider": "bsd",
-            "name": "Juventude",
-            "fullName": "Juventude",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-            "normalized": "juventude"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10218,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
         }
       ]
     },
     {
       "date": "2026-11-07",
       "label": "07/11",
-      "count": 83,
+      "count": 84,
       "matches": [
         {
           "id": "bsd:602715",
@@ -9943,6 +9902,47 @@
           "sourcePriority": 50
         },
         {
+          "id": "bsd:10218",
+          "date": "2026-11-07",
+          "kickoff": "20:00",
+          "utcDate": "2026-11-07T23:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 863,
+            "idProvider": "bsd",
+            "name": "Cuiabá",
+            "fullName": "Cuiabá",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+            "normalized": "cuiaba"
+          },
+          "away": {
+            "id": 156,
+            "idProvider": "bsd",
+            "name": "Juventude",
+            "fullName": "Juventude",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+            "normalized": "juventude"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10218,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
           "id": "bsd:10223",
           "date": "2026-11-07",
           "kickoff": "20:00",
@@ -12788,7 +12788,7 @@
       "date": "2026-11-02",
       "kickoff": "14:30",
       "utcDate": "2026-11-02T17:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2019,
         "idProvider": "football-data",
@@ -12855,7 +12855,7 @@
       "date": "2026-11-02",
       "kickoff": "16:00",
       "utcDate": "2026-11-02T19:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 34,
         "idProvider": "bsd",
@@ -12896,7 +12896,7 @@
       "date": "2026-11-02",
       "kickoff": "16:45",
       "utcDate": "2026-11-02T19:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2015,
         "idProvider": "football-data",
@@ -12931,7 +12931,7 @@
       "date": "2026-11-02",
       "kickoff": "16:45",
       "utcDate": "2026-11-02T19:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2019,
         "idProvider": "football-data",
@@ -13039,7 +13039,7 @@
       "date": "2026-11-02",
       "kickoff": "17:00",
       "utcDate": "2026-11-02T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2021,
         "idProvider": "football-data",
@@ -13116,7 +13116,7 @@
       "date": "2026-11-02",
       "kickoff": "17:00",
       "utcDate": "2026-11-02T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2014,
         "idProvider": "football-data",
@@ -13151,7 +13151,7 @@
       "date": "2026-11-02",
       "kickoff": "17:15",
       "utcDate": "2026-11-02T20:15:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2017,
         "idProvider": "football-data",
@@ -13218,7 +13218,7 @@
       "date": "2026-11-02",
       "kickoff": "17:15",
       "utcDate": "2026-11-02T20:15:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2017,
         "idProvider": "football-data",
@@ -13285,7 +13285,7 @@
       "date": "2026-11-02",
       "kickoff": "18:00",
       "utcDate": "2026-11-02T21:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 34,
         "idProvider": "bsd",
@@ -13367,7 +13367,7 @@
       "date": "2026-11-02",
       "kickoff": "20:00",
       "utcDate": "2026-11-02T23:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
@@ -14376,10 +14376,10 @@
       "away": {
         "id": 106,
         "idProvider": "bsd",
-        "name": "Lille",
-        "fullName": "Lille",
-        "crest": "https://crests.football-data.org/521.png",
-        "normalized": "lille"
+        "name": "LOSC Lille",
+        "fullName": "LOSC Lille",
+        "crest": null,
+        "normalized": "losc lille"
       },
       "sources": [
         "bsd"
@@ -18797,6 +18797,47 @@
       }
     },
     {
+      "id": "bsd:10216",
+      "date": "2026-11-05",
+      "kickoff": "19:30",
+      "utcDate": "2026-11-05T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 927,
+        "idProvider": "bsd",
+        "name": "Botafogo-SP",
+        "fullName": "Botafogo-SP",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+        "normalized": "botafogo sp"
+      },
+      "away": {
+        "id": 821,
+        "idProvider": "bsd",
+        "name": "Londrina",
+        "fullName": "Londrina",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+        "normalized": "londrina"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10216,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
       "id": "fd:555077",
       "date": "2026-11-05",
       "kickoff": "19:30",
@@ -19496,47 +19537,6 @@
       "sourcePriority": 100
     },
     {
-      "id": "bsd:10216",
-      "date": "2026-11-06",
-      "kickoff": "19:30",
-      "utcDate": "2026-11-06T22:30:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 927,
-        "idProvider": "bsd",
-        "name": "Botafogo-SP",
-        "fullName": "Botafogo-SP",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-        "normalized": "botafogo sp"
-      },
-      "away": {
-        "id": 821,
-        "idProvider": "bsd",
-        "name": "Londrina",
-        "fullName": "Londrina",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-        "normalized": "londrina"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10216,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
-    {
       "id": "bsd:10222",
       "date": "2026-11-06",
       "kickoff": "19:30",
@@ -19612,47 +19612,6 @@
         "bsd"
       ],
       "sourcePriority": 100
-    },
-    {
-      "id": "bsd:10218",
-      "date": "2026-11-06",
-      "kickoff": "21:30",
-      "utcDate": "2026-11-07T00:30:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 863,
-        "idProvider": "bsd",
-        "name": "Cuiabá",
-        "fullName": "Cuiabá",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-        "normalized": "cuiaba"
-      },
-      "away": {
-        "id": 156,
-        "idProvider": "bsd",
-        "name": "Juventude",
-        "fullName": "Juventude",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-        "normalized": "juventude"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10218,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
     },
     {
       "id": "bsd:602715",
@@ -22527,6 +22486,47 @@
         "openfootball"
       ],
       "sourcePriority": 50
+    },
+    {
+      "id": "bsd:10218",
+      "date": "2026-11-07",
+      "kickoff": "20:00",
+      "utcDate": "2026-11-07T23:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 863,
+        "idProvider": "bsd",
+        "name": "Cuiabá",
+        "fullName": "Cuiabá",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+        "normalized": "cuiaba"
+      },
+      "away": {
+        "id": 156,
+        "idProvider": "bsd",
+        "name": "Juventude",
+        "fullName": "Juventude",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+        "normalized": "juventude"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10218,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
     },
     {
       "id": "bsd:10223",
