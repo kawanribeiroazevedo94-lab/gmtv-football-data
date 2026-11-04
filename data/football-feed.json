@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-04T12:14:17.943800Z",
+  "generatedAt": "2026-11-04T19:49:55.603223Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-04",
@@ -487,7 +487,7 @@
           "date": "2026-11-04",
           "kickoff": "12:30",
           "utcDate": "2026-11-04T15:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -528,7 +528,7 @@
           "date": "2026-11-04",
           "kickoff": "14:45",
           "utcDate": "2026-11-04T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4946,
             "idProvider": "openligadb",
@@ -569,7 +569,7 @@
           "date": "2026-11-04",
           "kickoff": "14:45",
           "utcDate": "2026-11-04T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -610,7 +610,7 @@
           "date": "2026-11-04",
           "kickoff": "14:45",
           "utcDate": "2026-11-04T17:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -645,7 +645,7 @@
           "date": "2026-11-04",
           "kickoff": "14:45",
           "utcDate": "2026-11-04T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 7,
             "idProvider": "bsd",
@@ -686,7 +686,7 @@
           "date": "2026-11-04",
           "kickoff": "14:45",
           "utcDate": "2026-11-04T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4946,
             "idProvider": "openligadb",
@@ -727,7 +727,7 @@
           "date": "2026-11-04",
           "kickoff": "14:45",
           "utcDate": "2026-11-04T17:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2001,
             "idProvider": "football-data",
@@ -6833,41 +6833,6 @@
           "sourcePriority": 50
         },
         {
-          "id": "fd:559637",
-          "date": "2026-11-07",
-          "kickoff": "13:15",
-          "utcDate": "2026-11-07T16:15:00Z",
-          "status": "TIMED",
-          "competition": {
-            "id": 2015,
-            "idProvider": "football-data",
-            "code": "FL1",
-            "name": "Ligue 1",
-            "logo": "https://crests.football-data.org/FL1.png",
-            "normalized": "ligue 1"
-          },
-          "home": {
-            "id": 519,
-            "idProvider": "football-data",
-            "name": "Auxerre",
-            "fullName": "AJ Auxerre",
-            "crest": "https://crests.football-data.org/519.png",
-            "normalized": "auxerre"
-          },
-          "away": {
-            "id": 1045,
-            "idProvider": "football-data",
-            "name": "Paris FC",
-            "fullName": "Paris FC",
-            "crest": "https://crests.football-data.org/1045.png",
-            "normalized": "paris"
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100
-        },
-        {
           "id": "fd:558535",
           "date": "2026-11-07",
           "kickoff": "14:00",
@@ -7192,6 +7157,41 @@
           "sourcePriority": 100
         },
         {
+          "id": "fd:559637",
+          "date": "2026-11-07",
+          "kickoff": "15:00",
+          "utcDate": "2026-11-07T18:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2015,
+            "idProvider": "football-data",
+            "code": "FL1",
+            "name": "Ligue 1",
+            "logo": "https://crests.football-data.org/FL1.png",
+            "normalized": "ligue 1"
+          },
+          "home": {
+            "id": 519,
+            "idProvider": "football-data",
+            "name": "Auxerre",
+            "fullName": "AJ Auxerre",
+            "crest": "https://crests.football-data.org/519.png",
+            "normalized": "auxerre"
+          },
+          "away": {
+            "id": 1045,
+            "idProvider": "football-data",
+            "name": "Paris FC",
+            "fullName": "Paris FC",
+            "crest": "https://crests.football-data.org/1045.png",
+            "normalized": "paris"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        },
+        {
           "id": "fd:567347",
           "date": "2026-11-07",
           "kickoff": "15:00",
@@ -7350,41 +7350,6 @@
             "providerLeagueId": 94,
             "providerSeasonId": 1967
           }
-        },
-        {
-          "id": "fd:559635",
-          "date": "2026-11-07",
-          "kickoff": "16:45",
-          "utcDate": "2026-11-07T19:45:00Z",
-          "status": "TIMED",
-          "competition": {
-            "id": 2015,
-            "idProvider": "football-data",
-            "code": "FL1",
-            "name": "Ligue 1",
-            "logo": "https://crests.football-data.org/FL1.png",
-            "normalized": "ligue 1"
-          },
-          "home": {
-            "id": 524,
-            "idProvider": "football-data",
-            "name": "PSG",
-            "fullName": "Paris Saint-Germain FC",
-            "crest": "https://crests.football-data.org/524.png",
-            "normalized": "psg"
-          },
-          "away": {
-            "id": 531,
-            "idProvider": "football-data",
-            "name": "Troyes",
-            "fullName": "ES Troyes AC",
-            "crest": "https://crests.football-data.org/531.png",
-            "normalized": "troyes"
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100
         },
         {
           "id": "of:d430fec18268869d",
@@ -7585,6 +7550,41 @@
           "sources": [
             "football-data",
             "openligadb"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "fd:559635",
+          "date": "2026-11-07",
+          "kickoff": "17:05",
+          "utcDate": "2026-11-07T20:05:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2015,
+            "idProvider": "football-data",
+            "code": "FL1",
+            "name": "Ligue 1",
+            "logo": "https://crests.football-data.org/FL1.png",
+            "normalized": "ligue 1"
+          },
+          "home": {
+            "id": 524,
+            "idProvider": "football-data",
+            "name": "PSG",
+            "fullName": "Paris Saint-Germain FC",
+            "crest": "https://crests.football-data.org/524.png",
+            "normalized": "psg"
+          },
+          "away": {
+            "id": 531,
+            "idProvider": "football-data",
+            "name": "Troyes",
+            "fullName": "ES Troyes AC",
+            "crest": "https://crests.football-data.org/531.png",
+            "normalized": "troyes"
+          },
+          "sources": [
+            "football-data"
           ],
           "sourcePriority": 100
         },
@@ -11085,7 +11085,7 @@
       "date": "2026-11-04",
       "kickoff": "12:30",
       "utcDate": "2026-11-04T15:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11126,7 +11126,7 @@
       "date": "2026-11-04",
       "kickoff": "14:45",
       "utcDate": "2026-11-04T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4946,
         "idProvider": "openligadb",
@@ -11167,7 +11167,7 @@
       "date": "2026-11-04",
       "kickoff": "14:45",
       "utcDate": "2026-11-04T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
@@ -11208,7 +11208,7 @@
       "date": "2026-11-04",
       "kickoff": "14:45",
       "utcDate": "2026-11-04T17:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -11243,7 +11243,7 @@
       "date": "2026-11-04",
       "kickoff": "14:45",
       "utcDate": "2026-11-04T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 7,
         "idProvider": "bsd",
@@ -11284,7 +11284,7 @@
       "date": "2026-11-04",
       "kickoff": "14:45",
       "utcDate": "2026-11-04T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4946,
         "idProvider": "openligadb",
@@ -11325,7 +11325,7 @@
       "date": "2026-11-04",
       "kickoff": "14:45",
       "utcDate": "2026-11-04T17:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2001,
         "idProvider": "football-data",
@@ -17410,41 +17410,6 @@
       "sourcePriority": 50
     },
     {
-      "id": "fd:559637",
-      "date": "2026-11-07",
-      "kickoff": "13:15",
-      "utcDate": "2026-11-07T16:15:00Z",
-      "status": "TIMED",
-      "competition": {
-        "id": 2015,
-        "idProvider": "football-data",
-        "code": "FL1",
-        "name": "Ligue 1",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "normalized": "ligue 1"
-      },
-      "home": {
-        "id": 519,
-        "idProvider": "football-data",
-        "name": "Auxerre",
-        "fullName": "AJ Auxerre",
-        "crest": "https://crests.football-data.org/519.png",
-        "normalized": "auxerre"
-      },
-      "away": {
-        "id": 1045,
-        "idProvider": "football-data",
-        "name": "Paris FC",
-        "fullName": "Paris FC",
-        "crest": "https://crests.football-data.org/1045.png",
-        "normalized": "paris"
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100
-    },
-    {
       "id": "fd:558535",
       "date": "2026-11-07",
       "kickoff": "14:00",
@@ -17769,6 +17734,41 @@
       "sourcePriority": 100
     },
     {
+      "id": "fd:559637",
+      "date": "2026-11-07",
+      "kickoff": "15:00",
+      "utcDate": "2026-11-07T18:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2015,
+        "idProvider": "football-data",
+        "code": "FL1",
+        "name": "Ligue 1",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "normalized": "ligue 1"
+      },
+      "home": {
+        "id": 519,
+        "idProvider": "football-data",
+        "name": "Auxerre",
+        "fullName": "AJ Auxerre",
+        "crest": "https://crests.football-data.org/519.png",
+        "normalized": "auxerre"
+      },
+      "away": {
+        "id": 1045,
+        "idProvider": "football-data",
+        "name": "Paris FC",
+        "fullName": "Paris FC",
+        "crest": "https://crests.football-data.org/1045.png",
+        "normalized": "paris"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
+    },
+    {
       "id": "fd:567347",
       "date": "2026-11-07",
       "kickoff": "15:00",
@@ -17927,41 +17927,6 @@
         "providerLeagueId": 94,
         "providerSeasonId": 1967
       }
-    },
-    {
-      "id": "fd:559635",
-      "date": "2026-11-07",
-      "kickoff": "16:45",
-      "utcDate": "2026-11-07T19:45:00Z",
-      "status": "TIMED",
-      "competition": {
-        "id": 2015,
-        "idProvider": "football-data",
-        "code": "FL1",
-        "name": "Ligue 1",
-        "logo": "https://crests.football-data.org/FL1.png",
-        "normalized": "ligue 1"
-      },
-      "home": {
-        "id": 524,
-        "idProvider": "football-data",
-        "name": "PSG",
-        "fullName": "Paris Saint-Germain FC",
-        "crest": "https://crests.football-data.org/524.png",
-        "normalized": "psg"
-      },
-      "away": {
-        "id": 531,
-        "idProvider": "football-data",
-        "name": "Troyes",
-        "fullName": "ES Troyes AC",
-        "crest": "https://crests.football-data.org/531.png",
-        "normalized": "troyes"
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100
     },
     {
       "id": "of:d430fec18268869d",
@@ -18162,6 +18127,41 @@
       "sources": [
         "football-data",
         "openligadb"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "fd:559635",
+      "date": "2026-11-07",
+      "kickoff": "17:05",
+      "utcDate": "2026-11-07T20:05:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2015,
+        "idProvider": "football-data",
+        "code": "FL1",
+        "name": "Ligue 1",
+        "logo": "https://crests.football-data.org/FL1.png",
+        "normalized": "ligue 1"
+      },
+      "home": {
+        "id": 524,
+        "idProvider": "football-data",
+        "name": "PSG",
+        "fullName": "Paris Saint-Germain FC",
+        "crest": "https://crests.football-data.org/524.png",
+        "normalized": "psg"
+      },
+      "away": {
+        "id": 531,
+        "idProvider": "football-data",
+        "name": "Troyes",
+        "fullName": "ES Troyes AC",
+        "crest": "https://crests.football-data.org/531.png",
+        "normalized": "troyes"
+      },
+      "sources": [
+        "football-data"
       ],
       "sourcePriority": 100
     },
