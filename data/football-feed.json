@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T18:05:05.794903Z",
+  "generatedAt": "2026-11-05T23:41:29.076509Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-05",
@@ -72,7 +72,7 @@
     },
     "openLigaDB": {
       "ok": true,
-      "matches": 56,
+      "matches": 55,
       "competitions": [
         {
           "shortcut": "bl1",
@@ -99,7 +99,7 @@
           "shortcut": "uel2026",
           "providerCompetitionId": 6000,
           "ok": true,
-          "matchesInWindow": 18,
+          "matchesInWindow": 17,
           "error": null
         },
         {
@@ -136,8 +136,8 @@
           "key": "uecl",
           "page": "2026–27 UEFA Conference League league phase",
           "pageId": 84084273,
-          "revisionId": 1383563129,
-          "revisionTimestamp": "2026-11-03T10:12:33Z",
+          "revisionId": 1383973642,
+          "revisionTimestamp": "2026-11-05T22:43:46Z",
           "ok": true,
           "matchesInWindow": 0,
           "error": null
@@ -160,14 +160,14 @@
     {
       "date": "2026-11-05",
       "label": "HOJE",
-      "count": 54,
+      "count": 53,
       "matches": [
         {
           "id": "bsd:601320",
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -208,7 +208,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -249,7 +249,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -290,7 +290,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -331,7 +331,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -372,7 +372,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -413,7 +413,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -454,7 +454,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -495,7 +495,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -536,7 +536,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -577,7 +577,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -618,7 +618,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -659,7 +659,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -701,7 +701,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -742,7 +742,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -783,7 +783,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -824,7 +824,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -865,7 +865,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -906,7 +906,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -947,7 +947,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -988,7 +988,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -1029,7 +1029,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1070,7 +1070,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -1111,7 +1111,7 @@
           "date": "2026-11-05",
           "kickoff": "14:45",
           "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -1148,52 +1148,11 @@
           }
         },
         {
-          "id": "oldb:87829",
-          "date": "2026-11-05",
-          "kickoff": "14:45",
-          "utcDate": "2026-11-05T17:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 6000,
-            "idProvider": "openligadb",
-            "code": "UEL",
-            "name": "UEFA Europa League",
-            "logo": "https://crests.football-data.org/EL.png",
-            "normalized": "uefa europa league"
-          },
-          "home": {
-            "id": 4639,
-            "idProvider": "openligadb",
-            "name": "Stade Rennes",
-            "fullName": "Stade Rennes",
-            "crest": null,
-            "normalized": "stade rennes"
-          },
-          "away": {
-            "id": 436,
-            "idProvider": "openligadb",
-            "name": "Olympiakos Piräus",
-            "fullName": "Olympiakos Piräus",
-            "crest": null,
-            "normalized": "olympiakos piraus"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87829,
-            "providerCompetitionId": 6000,
-            "shortcut": "uel2026"
-          }
-        },
-        {
           "id": "bsd:601325",
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1234,7 +1193,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1275,7 +1234,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1316,7 +1275,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1357,7 +1316,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1398,7 +1357,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1439,7 +1398,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1480,7 +1439,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1521,7 +1480,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 83,
             "idProvider": "bsd",
@@ -1562,7 +1521,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1603,7 +1562,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -1644,7 +1603,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1686,7 +1645,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1727,7 +1686,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -1768,7 +1727,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1809,7 +1768,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -1850,7 +1809,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1887,11 +1846,11 @@
           }
         },
         {
-          "id": "oldb:87831",
+          "id": "oldb:88758",
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -1922,7 +1881,7 @@
           "sourcePriority": 70,
           "provenance": {
             "provider": "openligadb",
-            "providerMatchId": 87831,
+            "providerMatchId": 88758,
             "providerCompetitionId": 6000,
             "shortcut": "uel2026"
           }
@@ -1932,7 +1891,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -1973,7 +1932,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -2014,7 +1973,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -2055,7 +2014,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -2096,7 +2055,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -2137,7 +2096,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -2178,7 +2137,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 6000,
             "idProvider": "openligadb",
@@ -2219,7 +2178,7 @@
           "date": "2026-11-05",
           "kickoff": "17:00",
           "utcDate": "2026-11-05T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 8,
             "idProvider": "bsd",
@@ -2301,7 +2260,7 @@
           "date": "2026-11-05",
           "kickoff": "19:30",
           "utcDate": "2026-11-05T22:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -9203,7 +9162,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -9244,7 +9203,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -9285,7 +9244,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -9326,7 +9285,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -9367,7 +9326,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -9408,7 +9367,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -9449,7 +9408,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -9490,7 +9449,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -9531,7 +9490,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -9572,7 +9531,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -9613,7 +9572,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -9654,7 +9613,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -9695,7 +9654,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -9737,7 +9696,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -9778,7 +9737,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -9819,7 +9778,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -9860,7 +9819,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -9901,7 +9860,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -9942,7 +9901,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -9983,7 +9942,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -10024,7 +9983,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -10065,7 +10024,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -10106,7 +10065,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -10147,7 +10106,7 @@
       "date": "2026-11-05",
       "kickoff": "14:45",
       "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -10184,52 +10143,11 @@
       }
     },
     {
-      "id": "oldb:87829",
-      "date": "2026-11-05",
-      "kickoff": "14:45",
-      "utcDate": "2026-11-05T17:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 6000,
-        "idProvider": "openligadb",
-        "code": "UEL",
-        "name": "UEFA Europa League",
-        "logo": "https://crests.football-data.org/EL.png",
-        "normalized": "uefa europa league"
-      },
-      "home": {
-        "id": 4639,
-        "idProvider": "openligadb",
-        "name": "Stade Rennes",
-        "fullName": "Stade Rennes",
-        "crest": null,
-        "normalized": "stade rennes"
-      },
-      "away": {
-        "id": 436,
-        "idProvider": "openligadb",
-        "name": "Olympiakos Piräus",
-        "fullName": "Olympiakos Piräus",
-        "crest": null,
-        "normalized": "olympiakos piraus"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87829,
-        "providerCompetitionId": 6000,
-        "shortcut": "uel2026"
-      }
-    },
-    {
       "id": "bsd:601325",
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -10270,7 +10188,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -10311,7 +10229,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -10352,7 +10270,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -10393,7 +10311,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -10434,7 +10352,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -10475,7 +10393,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -10516,7 +10434,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -10557,7 +10475,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 83,
         "idProvider": "bsd",
@@ -10598,7 +10516,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -10639,7 +10557,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -10680,7 +10598,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -10722,7 +10640,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -10763,7 +10681,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -10804,7 +10722,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -10845,7 +10763,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -10886,7 +10804,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -10923,11 +10841,11 @@
       }
     },
     {
-      "id": "oldb:87831",
+      "id": "oldb:88758",
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -10958,7 +10876,7 @@
       "sourcePriority": 70,
       "provenance": {
         "provider": "openligadb",
-        "providerMatchId": 87831,
+        "providerMatchId": 88758,
         "providerCompetitionId": 6000,
         "shortcut": "uel2026"
       }
@@ -10968,7 +10886,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11009,7 +10927,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -11050,7 +10968,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -11091,7 +11009,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11132,7 +11050,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -11173,7 +11091,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11214,7 +11132,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 6000,
         "idProvider": "openligadb",
@@ -11255,7 +11173,7 @@
       "date": "2026-11-05",
       "kickoff": "17:00",
       "utcDate": "2026-11-05T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 8,
         "idProvider": "bsd",
@@ -11337,7 +11255,7 @@
       "date": "2026-11-05",
       "kickoff": "19:30",
       "utcDate": "2026-11-05T22:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
