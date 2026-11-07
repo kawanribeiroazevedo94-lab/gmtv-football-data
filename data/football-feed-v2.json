@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-06T21:33:56.241248Z",
+  "generatedAt": "2026-11-07T01:59:47.346072Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-06",
@@ -970,7 +970,7 @@
           "date": "2026-11-06",
           "kickoff": "16:45",
           "utcDate": "2026-11-06T19:45:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1158,7 +1158,7 @@
           "date": "2026-11-06",
           "kickoff": "16:45",
           "utcDate": "2026-11-06T19:45:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1257,7 +1257,7 @@
           "date": "2026-11-06",
           "kickoff": "17:00",
           "utcDate": "2026-11-06T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1547,7 +1547,7 @@
           "date": "2026-11-06",
           "kickoff": "17:00",
           "utcDate": "2026-11-06T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:premier-league",
             "entityType": "competition",
@@ -1646,7 +1646,7 @@
           "date": "2026-11-06",
           "kickoff": "17:00",
           "utcDate": "2026-11-06T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1743,7 +1743,7 @@
           "date": "2026-11-06",
           "kickoff": "17:45",
           "utcDate": "2026-11-06T20:45:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1842,7 +1842,7 @@
           "date": "2026-11-06",
           "kickoff": "19:30",
           "utcDate": "2026-11-06T22:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-b",
             "entityType": "competition",
@@ -1944,7 +1944,7 @@
           "date": "2026-11-06",
           "kickoff": "20:00",
           "utcDate": "2026-11-06T23:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-a",
             "entityType": "competition",
@@ -2563,7 +2563,7 @@
           "date": "2026-11-07",
           "kickoff": "09:30",
           "utcDate": "2026-11-07T12:30:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -2751,7 +2751,7 @@
           "date": "2026-11-07",
           "kickoff": "09:30",
           "utcDate": "2026-11-07T12:30:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -2939,7 +2939,7 @@
           "date": "2026-11-07",
           "kickoff": "09:30",
           "utcDate": "2026-11-07T12:30:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -4524,7 +4524,7 @@
           "date": "2026-11-07",
           "kickoff": "12:00",
           "utcDate": "2026-11-07T15:00:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -4712,7 +4712,7 @@
           "date": "2026-11-07",
           "kickoff": "12:00",
           "utcDate": "2026-11-07T15:00:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -4900,7 +4900,7 @@
           "date": "2026-11-07",
           "kickoff": "12:00",
           "utcDate": "2026-11-07T15:00:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -5088,7 +5088,7 @@
           "date": "2026-11-07",
           "kickoff": "12:00",
           "utcDate": "2026-11-07T15:00:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -5276,7 +5276,7 @@
           "date": "2026-11-07",
           "kickoff": "12:00",
           "utcDate": "2026-11-07T15:00:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -5464,7 +5464,7 @@
           "date": "2026-11-07",
           "kickoff": "12:00",
           "utcDate": "2026-11-07T15:00:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -5652,7 +5652,7 @@
           "date": "2026-11-07",
           "kickoff": "12:00",
           "utcDate": "2026-11-07T15:00:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -5751,7 +5751,7 @@
           "date": "2026-11-07",
           "kickoff": "12:00",
           "utcDate": "2026-11-07T15:00:00Z",
-          "status": "TIMED",
+          "status": "SCHEDULED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -19380,7 +19380,7 @@
       "date": "2026-11-06",
       "kickoff": "16:45",
       "utcDate": "2026-11-06T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -19568,7 +19568,7 @@
       "date": "2026-11-06",
       "kickoff": "16:45",
       "utcDate": "2026-11-06T19:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -19667,7 +19667,7 @@
       "date": "2026-11-06",
       "kickoff": "17:00",
       "utcDate": "2026-11-06T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -19957,7 +19957,7 @@
       "date": "2026-11-06",
       "kickoff": "17:00",
       "utcDate": "2026-11-06T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:premier-league",
         "entityType": "competition",
@@ -20056,7 +20056,7 @@
       "date": "2026-11-06",
       "kickoff": "17:00",
       "utcDate": "2026-11-06T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -20153,7 +20153,7 @@
       "date": "2026-11-06",
       "kickoff": "17:45",
       "utcDate": "2026-11-06T20:45:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -20252,7 +20252,7 @@
       "date": "2026-11-06",
       "kickoff": "19:30",
       "utcDate": "2026-11-06T22:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-b",
         "entityType": "competition",
@@ -20354,7 +20354,7 @@
       "date": "2026-11-06",
       "kickoff": "20:00",
       "utcDate": "2026-11-06T23:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-a",
         "entityType": "competition",
@@ -20966,7 +20966,7 @@
       "date": "2026-11-07",
       "kickoff": "09:30",
       "utcDate": "2026-11-07T12:30:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -21154,7 +21154,7 @@
       "date": "2026-11-07",
       "kickoff": "09:30",
       "utcDate": "2026-11-07T12:30:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -21342,7 +21342,7 @@
       "date": "2026-11-07",
       "kickoff": "09:30",
       "utcDate": "2026-11-07T12:30:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -22927,7 +22927,7 @@
       "date": "2026-11-07",
       "kickoff": "12:00",
       "utcDate": "2026-11-07T15:00:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23115,7 +23115,7 @@
       "date": "2026-11-07",
       "kickoff": "12:00",
       "utcDate": "2026-11-07T15:00:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23303,7 +23303,7 @@
       "date": "2026-11-07",
       "kickoff": "12:00",
       "utcDate": "2026-11-07T15:00:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23491,7 +23491,7 @@
       "date": "2026-11-07",
       "kickoff": "12:00",
       "utcDate": "2026-11-07T15:00:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23679,7 +23679,7 @@
       "date": "2026-11-07",
       "kickoff": "12:00",
       "utcDate": "2026-11-07T15:00:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23867,7 +23867,7 @@
       "date": "2026-11-07",
       "kickoff": "12:00",
       "utcDate": "2026-11-07T15:00:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -24055,7 +24055,7 @@
       "date": "2026-11-07",
       "kickoff": "12:00",
       "utcDate": "2026-11-07T15:00:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -24154,7 +24154,7 @@
       "date": "2026-11-07",
       "kickoff": "12:00",
       "utcDate": "2026-11-07T15:00:00Z",
-      "status": "TIMED",
+      "status": "SCHEDULED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
