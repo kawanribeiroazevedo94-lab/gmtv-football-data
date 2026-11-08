@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-08T01:29:19Z",
+  "generatedAt": "2026-11-08T09:03:28Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8259,6 +8259,20 @@
         "uefa.champions"
       ],
       "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q8806",
+      "name": "FC Getafe",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Getafe_CF_Logo.png/330px-Getafe_CF_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
       "status": "validated"
     },
     {
