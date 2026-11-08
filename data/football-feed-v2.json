@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-07T21:55:07.704101Z",
+  "generatedAt": "2026-11-08T01:29:19.462726Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-07",
@@ -5472,103 +5472,6 @@
           }
         },
         {
-          "id": "fd:567352",
-          "date": "2026-11-07",
-          "kickoff": "12:30",
-          "utcDate": "2026-11-07T15:30:00Z",
-          "status": "POSTPONED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Primeira Liga",
-            "fullName": null,
-            "normalized": "primeira liga",
-            "country": null,
-            "externalIds": {
-              "football-data": "2017"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/PPL.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "PPL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "CD Nacional",
-            "fullName": "CD Nacional",
-            "normalized": "cd nacional",
-            "country": null,
-            "externalIds": {
-              "football-data": "5529"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/5529.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Acad. Viseu",
-            "fullName": "Académico de Viseu FC",
-            "normalized": "acad viseu",
-            "country": null,
-            "externalIds": {
-              "football-data": "5527"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/5527.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100,
-          "provenance": {
-            "fixtureSources": [
-              "football-data"
-            ],
-            "sourcePriority": 100,
-            "sourceDetails": {}
-          }
-        },
-        {
           "id": "of:a5a2c10816a16877",
           "date": "2026-11-07",
           "kickoff": "12:30",
@@ -7415,7 +7318,7 @@
           "date": "2026-11-07",
           "kickoff": "17:00",
           "utcDate": "2026-11-07T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -7603,7 +7506,7 @@
           "date": "2026-11-07",
           "kickoff": "17:00",
           "utcDate": "2026-11-07T20:00:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -7702,7 +7605,7 @@
           "date": "2026-11-07",
           "kickoff": "17:05",
           "utcDate": "2026-11-07T20:05:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -7799,7 +7702,7 @@
           "date": "2026-11-07",
           "kickoff": "17:30",
           "utcDate": "2026-11-07T20:30:00Z",
-          "status": "IN_PLAY",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -7987,7 +7890,7 @@
           "date": "2026-11-07",
           "kickoff": "20:00",
           "utcDate": "2026-11-07T23:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-b",
             "entityType": "competition",
@@ -8089,7 +7992,7 @@
           "date": "2026-11-07",
           "kickoff": "20:00",
           "utcDate": "2026-11-07T23:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-b",
             "entityType": "competition",
@@ -8184,6 +8087,103 @@
               "providerLeagueId": 34,
               "providerSeasonId": 52
             }
+          }
+        },
+        {
+          "id": "fd:567348",
+          "date": "2026-11-07",
+          "kickoff": "21:00",
+          "utcDate": "2026-11-08T00:00:00Z",
+          "status": "POSTPONED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Primeira Liga",
+            "fullName": null,
+            "normalized": "primeira liga",
+            "country": null,
+            "externalIds": {
+              "football-data": "2017"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/PPL.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "PPL"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Estoril Praia",
+            "fullName": "GD Estoril Praia",
+            "normalized": "estoril praia",
+            "country": null,
+            "externalIds": {
+              "football-data": "582"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/582.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Marítimo",
+            "fullName": "CS Marítimo",
+            "normalized": "maritimo",
+            "country": null,
+            "externalIds": {
+              "football-data": "5575"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/5575.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
           }
         },
         {
@@ -11743,6 +11743,103 @@
           }
         },
         {
+          "id": "fd:567352",
+          "date": "2026-11-08",
+          "kickoff": "12:30",
+          "utcDate": "2026-11-08T15:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Primeira Liga",
+            "fullName": null,
+            "normalized": "primeira liga",
+            "country": null,
+            "externalIds": {
+              "football-data": "2017"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/PPL.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "PPL"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "CD Nacional",
+            "fullName": "CD Nacional",
+            "normalized": "cd nacional",
+            "country": null,
+            "externalIds": {
+              "football-data": "5529"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/5529.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Acad. Viseu",
+            "fullName": "Académico de Viseu FC",
+            "normalized": "acad viseu",
+            "country": null,
+            "externalIds": {
+              "football-data": "5527"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/5527.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        },
+        {
           "id": "of:b57521bf7a4e0eb2",
           "date": "2026-11-08",
           "kickoff": "12:30",
@@ -11830,103 +11927,6 @@
               "openfootball"
             ],
             "sourcePriority": 50,
-            "sourceDetails": {}
-          }
-        },
-        {
-          "id": "fd:567348",
-          "date": "2026-11-08",
-          "kickoff": "12:30",
-          "utcDate": "2026-11-08T15:30:00Z",
-          "status": "TIMED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Primeira Liga",
-            "fullName": null,
-            "normalized": "primeira liga",
-            "country": null,
-            "externalIds": {
-              "football-data": "2017"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/PPL.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "PPL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Estoril Praia",
-            "fullName": "GD Estoril Praia",
-            "normalized": "estoril praia",
-            "country": null,
-            "externalIds": {
-              "football-data": "582"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/582.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Marítimo",
-            "fullName": "CS Marítimo",
-            "normalized": "maritimo",
-            "country": null,
-            "externalIds": {
-              "football-data": "5575"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://crests.football-data.org/5575.png",
-              "provider": "football-data",
-              "property": "curated-file",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "football-data"
-          ],
-          "sourcePriority": 100,
-          "provenance": {
-            "fixtureSources": [
-              "football-data"
-            ],
-            "sourcePriority": 100,
             "sourceDetails": {}
           }
         },
@@ -22008,103 +22008,6 @@
       }
     },
     {
-      "id": "fd:567352",
-      "date": "2026-11-07",
-      "kickoff": "12:30",
-      "utcDate": "2026-11-07T15:30:00Z",
-      "status": "POSTPONED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Primeira Liga",
-        "fullName": null,
-        "normalized": "primeira liga",
-        "country": null,
-        "externalIds": {
-          "football-data": "2017"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/PPL.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "PPL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "CD Nacional",
-        "fullName": "CD Nacional",
-        "normalized": "cd nacional",
-        "country": null,
-        "externalIds": {
-          "football-data": "5529"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/5529.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Acad. Viseu",
-        "fullName": "Académico de Viseu FC",
-        "normalized": "acad viseu",
-        "country": null,
-        "externalIds": {
-          "football-data": "5527"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/5527.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100,
-      "provenance": {
-        "fixtureSources": [
-          "football-data"
-        ],
-        "sourcePriority": 100,
-        "sourceDetails": {}
-      }
-    },
-    {
       "id": "of:a5a2c10816a16877",
       "date": "2026-11-07",
       "kickoff": "12:30",
@@ -23951,7 +23854,7 @@
       "date": "2026-11-07",
       "kickoff": "17:00",
       "utcDate": "2026-11-07T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -24139,7 +24042,7 @@
       "date": "2026-11-07",
       "kickoff": "17:00",
       "utcDate": "2026-11-07T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -24238,7 +24141,7 @@
       "date": "2026-11-07",
       "kickoff": "17:05",
       "utcDate": "2026-11-07T20:05:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -24335,7 +24238,7 @@
       "date": "2026-11-07",
       "kickoff": "17:30",
       "utcDate": "2026-11-07T20:30:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -24523,7 +24426,7 @@
       "date": "2026-11-07",
       "kickoff": "20:00",
       "utcDate": "2026-11-07T23:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-b",
         "entityType": "competition",
@@ -24625,7 +24528,7 @@
       "date": "2026-11-07",
       "kickoff": "20:00",
       "utcDate": "2026-11-07T23:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-b",
         "entityType": "competition",
@@ -24720,6 +24623,103 @@
           "providerLeagueId": 34,
           "providerSeasonId": 52
         }
+      }
+    },
+    {
+      "id": "fd:567348",
+      "date": "2026-11-07",
+      "kickoff": "21:00",
+      "utcDate": "2026-11-08T00:00:00Z",
+      "status": "POSTPONED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Primeira Liga",
+        "fullName": null,
+        "normalized": "primeira liga",
+        "country": null,
+        "externalIds": {
+          "football-data": "2017"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/PPL.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "PPL"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Estoril Praia",
+        "fullName": "GD Estoril Praia",
+        "normalized": "estoril praia",
+        "country": null,
+        "externalIds": {
+          "football-data": "582"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/582.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Marítimo",
+        "fullName": "CS Marítimo",
+        "normalized": "maritimo",
+        "country": null,
+        "externalIds": {
+          "football-data": "5575"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/5575.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
       }
     },
     {
@@ -28272,6 +28272,103 @@
       }
     },
     {
+      "id": "fd:567352",
+      "date": "2026-11-08",
+      "kickoff": "12:30",
+      "utcDate": "2026-11-08T15:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Primeira Liga",
+        "fullName": null,
+        "normalized": "primeira liga",
+        "country": null,
+        "externalIds": {
+          "football-data": "2017"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/PPL.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "PPL"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "CD Nacional",
+        "fullName": "CD Nacional",
+        "normalized": "cd nacional",
+        "country": null,
+        "externalIds": {
+          "football-data": "5529"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/5529.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Acad. Viseu",
+        "fullName": "Académico de Viseu FC",
+        "normalized": "acad viseu",
+        "country": null,
+        "externalIds": {
+          "football-data": "5527"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/5527.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
       "id": "of:b57521bf7a4e0eb2",
       "date": "2026-11-08",
       "kickoff": "12:30",
@@ -28359,103 +28456,6 @@
           "openfootball"
         ],
         "sourcePriority": 50,
-        "sourceDetails": {}
-      }
-    },
-    {
-      "id": "fd:567348",
-      "date": "2026-11-08",
-      "kickoff": "12:30",
-      "utcDate": "2026-11-08T15:30:00Z",
-      "status": "TIMED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Primeira Liga",
-        "fullName": null,
-        "normalized": "primeira liga",
-        "country": null,
-        "externalIds": {
-          "football-data": "2017"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/PPL.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "PPL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Estoril Praia",
-        "fullName": "GD Estoril Praia",
-        "normalized": "estoril praia",
-        "country": null,
-        "externalIds": {
-          "football-data": "582"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/582.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Marítimo",
-        "fullName": "CS Marítimo",
-        "normalized": "maritimo",
-        "country": null,
-        "externalIds": {
-          "football-data": "5575"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://crests.football-data.org/5575.png",
-          "provider": "football-data",
-          "property": "curated-file",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "football-data"
-      ],
-      "sourcePriority": 100,
-      "provenance": {
-        "fixtureSources": [
-          "football-data"
-        ],
-        "sourcePriority": 100,
         "sourceDetails": {}
       }
     },
