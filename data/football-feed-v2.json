@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-10T04:08:15.587991Z",
+  "generatedAt": "2026-11-10T12:41:08.377577Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-10",
@@ -1056,7 +1056,7 @@
     {
       "date": "2026-11-12",
       "label": "12/11",
-      "count": 1,
+      "count": 3,
       "matches": [
         {
           "id": "wm:b9c061282a1c4f1d",
@@ -1154,6 +1154,210 @@
               "revisionTimestamp": "2026-11-09T11:55:04Z"
             }
           }
+        },
+        {
+          "id": "bsd:10231",
+          "date": "2026-11-12",
+          "kickoff": "19:00",
+          "utcDate": "2026-11-12T22:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Ponte Preta",
+            "fullName": "Ponte Preta",
+            "normalized": "ponte preta",
+            "country": null,
+            "externalIds": {
+              "bsd": "844"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Operário-PR",
+            "fullName": "Operário-PR",
+            "normalized": "operario pr",
+            "country": null,
+            "externalIds": {
+              "bsd": "828"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10231,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
+        },
+        {
+          "id": "bsd:10233",
+          "date": "2026-11-12",
+          "kickoff": "20:00",
+          "utcDate": "2026-11-12T23:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "São Bernardo",
+            "fullName": "São Bernardo",
+            "normalized": "sao bernardo",
+            "country": null,
+            "externalIds": {
+              "bsd": "841"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Athletic Club",
+            "fullName": "Athletic Club",
+            "normalized": "athletic",
+            "country": null,
+            "externalIds": {
+              "bsd": "843"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10233,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
         }
       ]
     },
@@ -1166,7 +1370,7 @@
     {
       "date": "2026-11-14",
       "label": "14/11",
-      "count": 12,
+      "count": 10,
       "matches": [
         {
           "id": "bsd:10224",
@@ -1781,108 +1985,6 @@
           }
         },
         {
-          "id": "bsd:10231",
-          "date": "2026-11-14",
-          "kickoff": "16:30",
-          "utcDate": "2026-11-14T19:30:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": "competition:brasileirao-serie-b",
-            "entityType": "competition",
-            "identityStatus": "resolved",
-            "canonicalName": "Brasileirão Série B",
-            "displayName": "Brasileirão Série B",
-            "fullName": null,
-            "normalized": "brasileirao serie b",
-            "country": "Brazil",
-            "externalIds": {
-              "bsd": "34"
-            },
-            "wikidataQid": null,
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "BSB"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Ponte Preta",
-            "fullName": "Ponte Preta",
-            "normalized": "ponte preta",
-            "country": null,
-            "externalIds": {
-              "bsd": "844"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Operário-PR",
-            "fullName": "Operário-PR",
-            "normalized": "operario pr",
-            "country": null,
-            "externalIds": {
-              "bsd": "828"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "fixtureSources": [
-              "bsd"
-            ],
-            "sourcePriority": 80,
-            "sourceDetails": {
-              "provider": "bsd",
-              "providerEventId": 10231,
-              "providerLeagueId": 34,
-              "providerSeasonId": 52
-            }
-          }
-        },
-        {
           "id": "bsd:10232",
           "date": "2026-11-14",
           "kickoff": "16:30",
@@ -1979,108 +2081,6 @@
             "sourceDetails": {
               "provider": "bsd",
               "providerEventId": 10232,
-              "providerLeagueId": 34,
-              "providerSeasonId": 52
-            }
-          }
-        },
-        {
-          "id": "bsd:10233",
-          "date": "2026-11-14",
-          "kickoff": "16:30",
-          "utcDate": "2026-11-14T19:30:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": "competition:brasileirao-serie-b",
-            "entityType": "competition",
-            "identityStatus": "resolved",
-            "canonicalName": "Brasileirão Série B",
-            "displayName": "Brasileirão Série B",
-            "fullName": null,
-            "normalized": "brasileirao serie b",
-            "country": "Brazil",
-            "externalIds": {
-              "bsd": "34"
-            },
-            "wikidataQid": null,
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "BSB"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "São Bernardo",
-            "fullName": "São Bernardo",
-            "normalized": "sao bernardo",
-            "country": null,
-            "externalIds": {
-              "bsd": "841"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Athletic Club",
-            "fullName": "Athletic Club",
-            "normalized": "athletic",
-            "country": null,
-            "externalIds": {
-              "bsd": "843"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "fixtureSources": [
-              "bsd"
-            ],
-            "sourcePriority": 80,
-            "sourceDetails": {
-              "provider": "bsd",
-              "providerEventId": 10233,
               "providerLeagueId": 34,
               "providerSeasonId": 52
             }
@@ -3378,6 +3378,210 @@
       }
     },
     {
+      "id": "bsd:10231",
+      "date": "2026-11-12",
+      "kickoff": "19:00",
+      "utcDate": "2026-11-12T22:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Ponte Preta",
+        "fullName": "Ponte Preta",
+        "normalized": "ponte preta",
+        "country": null,
+        "externalIds": {
+          "bsd": "844"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Operário-PR",
+        "fullName": "Operário-PR",
+        "normalized": "operario pr",
+        "country": null,
+        "externalIds": {
+          "bsd": "828"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10231,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
+      "id": "bsd:10233",
+      "date": "2026-11-12",
+      "kickoff": "20:00",
+      "utcDate": "2026-11-12T23:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "São Bernardo",
+        "fullName": "São Bernardo",
+        "normalized": "sao bernardo",
+        "country": null,
+        "externalIds": {
+          "bsd": "841"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Athletic Club",
+        "fullName": "Athletic Club",
+        "normalized": "athletic",
+        "country": null,
+        "externalIds": {
+          "bsd": "843"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10233,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
       "id": "bsd:10224",
       "date": "2026-11-14",
       "kickoff": "16:30",
@@ -3990,108 +4194,6 @@
       }
     },
     {
-      "id": "bsd:10231",
-      "date": "2026-11-14",
-      "kickoff": "16:30",
-      "utcDate": "2026-11-14T19:30:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": "competition:brasileirao-serie-b",
-        "entityType": "competition",
-        "identityStatus": "resolved",
-        "canonicalName": "Brasileirão Série B",
-        "displayName": "Brasileirão Série B",
-        "fullName": null,
-        "normalized": "brasileirao serie b",
-        "country": "Brazil",
-        "externalIds": {
-          "bsd": "34"
-        },
-        "wikidataQid": null,
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "BSB"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Ponte Preta",
-        "fullName": "Ponte Preta",
-        "normalized": "ponte preta",
-        "country": null,
-        "externalIds": {
-          "bsd": "844"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Operário-PR",
-        "fullName": "Operário-PR",
-        "normalized": "operario pr",
-        "country": null,
-        "externalIds": {
-          "bsd": "828"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "fixtureSources": [
-          "bsd"
-        ],
-        "sourcePriority": 80,
-        "sourceDetails": {
-          "provider": "bsd",
-          "providerEventId": 10231,
-          "providerLeagueId": 34,
-          "providerSeasonId": 52
-        }
-      }
-    },
-    {
       "id": "bsd:10232",
       "date": "2026-11-14",
       "kickoff": "16:30",
@@ -4188,108 +4290,6 @@
         "sourceDetails": {
           "provider": "bsd",
           "providerEventId": 10232,
-          "providerLeagueId": 34,
-          "providerSeasonId": 52
-        }
-      }
-    },
-    {
-      "id": "bsd:10233",
-      "date": "2026-11-14",
-      "kickoff": "16:30",
-      "utcDate": "2026-11-14T19:30:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": "competition:brasileirao-serie-b",
-        "entityType": "competition",
-        "identityStatus": "resolved",
-        "canonicalName": "Brasileirão Série B",
-        "displayName": "Brasileirão Série B",
-        "fullName": null,
-        "normalized": "brasileirao serie b",
-        "country": "Brazil",
-        "externalIds": {
-          "bsd": "34"
-        },
-        "wikidataQid": null,
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "BSB"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "São Bernardo",
-        "fullName": "São Bernardo",
-        "normalized": "sao bernardo",
-        "country": null,
-        "externalIds": {
-          "bsd": "841"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Athletic Club",
-        "fullName": "Athletic Club",
-        "normalized": "athletic",
-        "country": null,
-        "externalIds": {
-          "bsd": "843"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "fixtureSources": [
-          "bsd"
-        ],
-        "sourcePriority": 80,
-        "sourceDetails": {
-          "provider": "bsd",
-          "providerEventId": 10233,
           "providerLeagueId": 34,
           "providerSeasonId": 52
         }
