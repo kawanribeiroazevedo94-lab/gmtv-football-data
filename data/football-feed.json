@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-09T20:46:01.924431Z",
+  "generatedAt": "2026-11-10T04:08:15.587991Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-11-09",
-    "to": "2026-11-15"
+    "from": "2026-11-10",
+    "to": "2026-11-16"
   },
   "sources": {
     "footballData": {
@@ -67,7 +67,7 @@
       "configured": true,
       "ok": true,
       "matches": 12,
-      "pages": 3,
+      "pages": 2,
       "error": null
     },
     "openLigaDB": {
@@ -158,14 +158,8 @@
   },
   "days": [
     {
-      "date": "2026-11-09",
-      "label": "HOJE",
-      "count": 0,
-      "matches": []
-    },
-    {
       "date": "2026-11-10",
-      "label": "10/11",
+      "label": "HOJE",
       "count": 5,
       "matches": [
         {
@@ -383,7 +377,7 @@
     {
       "date": "2026-11-11",
       "label": "11/11",
-      "count": 3,
+      "count": 4,
       "matches": [
         {
           "id": "wm:a576bf7dcdc85b59",
@@ -510,6 +504,47 @@
             "revisionId": 1384661507,
             "revisionTimestamp": "2026-11-09T11:55:04Z"
           }
+        },
+        {
+          "id": "bsd:10230",
+          "date": "2026-11-11",
+          "kickoff": "19:00",
+          "utcDate": "2026-11-11T22:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 821,
+            "idProvider": "bsd",
+            "name": "Londrina",
+            "fullName": "Londrina",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+            "normalized": "londrina"
+          },
+          "away": {
+            "id": 928,
+            "idProvider": "bsd",
+            "name": "Náutico",
+            "fullName": "Náutico",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+            "normalized": "nautico"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 10230,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
         }
       ]
     },
@@ -571,7 +606,7 @@
     {
       "date": "2026-11-14",
       "label": "14/11",
-      "count": 13,
+      "count": 12,
       "matches": [
         {
           "id": "bsd:10224",
@@ -820,47 +855,6 @@
           }
         },
         {
-          "id": "bsd:10230",
-          "date": "2026-11-14",
-          "kickoff": "16:30",
-          "utcDate": "2026-11-14T19:30:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 821,
-            "idProvider": "bsd",
-            "name": "Londrina",
-            "fullName": "Londrina",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-            "normalized": "londrina"
-          },
-          "away": {
-            "id": 928,
-            "idProvider": "bsd",
-            "name": "Náutico",
-            "fullName": "Náutico",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-            "normalized": "nautico"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10230,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        },
-        {
           "id": "bsd:10231",
           "date": "2026-11-14",
           "kickoff": "16:30",
@@ -1100,6 +1094,12 @@
     {
       "date": "2026-11-15",
       "label": "15/11",
+      "count": 0,
+      "matches": []
+    },
+    {
+      "date": "2026-11-16",
+      "label": "16/11",
       "count": 0,
       "matches": []
     }
@@ -1442,6 +1442,47 @@
       }
     },
     {
+      "id": "bsd:10230",
+      "date": "2026-11-11",
+      "kickoff": "19:00",
+      "utcDate": "2026-11-11T22:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 821,
+        "idProvider": "bsd",
+        "name": "Londrina",
+        "fullName": "Londrina",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+        "normalized": "londrina"
+      },
+      "away": {
+        "id": 928,
+        "idProvider": "bsd",
+        "name": "Náutico",
+        "fullName": "Náutico",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+        "normalized": "nautico"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 10230,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
       "id": "wm:b9c061282a1c4f1d",
       "date": "2026-11-12",
       "kickoff": "14:45",
@@ -1725,47 +1766,6 @@
       "provenance": {
         "provider": "bsd",
         "providerEventId": 10229,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
-    {
-      "id": "bsd:10230",
-      "date": "2026-11-14",
-      "kickoff": "16:30",
-      "utcDate": "2026-11-14T19:30:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 821,
-        "idProvider": "bsd",
-        "name": "Londrina",
-        "fullName": "Londrina",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-        "normalized": "londrina"
-      },
-      "away": {
-        "id": 928,
-        "idProvider": "bsd",
-        "name": "Náutico",
-        "fullName": "Náutico",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-        "normalized": "nautico"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10230,
         "providerLeagueId": 34,
         "providerSeasonId": 52
       }

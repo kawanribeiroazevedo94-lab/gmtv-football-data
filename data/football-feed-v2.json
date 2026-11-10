@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-09T20:46:01.924431Z",
+  "generatedAt": "2026-11-10T04:08:15.587991Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-11-09",
-    "to": "2026-11-15"
+    "from": "2026-11-10",
+    "to": "2026-11-16"
   },
   "sources": {
     "footballData": {
@@ -67,7 +67,7 @@
       "configured": true,
       "ok": true,
       "matches": 12,
-      "pages": 3,
+      "pages": 2,
       "error": null
     },
     "openLigaDB": {
@@ -162,14 +162,8 @@
   },
   "days": [
     {
-      "date": "2026-11-09",
-      "label": "HOJE",
-      "count": 0,
-      "matches": []
-    },
-    {
       "date": "2026-11-10",
-      "label": "10/11",
+      "label": "HOJE",
       "count": 5,
       "matches": [
         {
@@ -662,7 +656,7 @@
     {
       "date": "2026-11-11",
       "label": "11/11",
-      "count": 3,
+      "count": 4,
       "matches": [
         {
           "id": "wm:a576bf7dcdc85b59",
@@ -954,6 +948,108 @@
               "revisionTimestamp": "2026-11-09T11:55:04Z"
             }
           }
+        },
+        {
+          "id": "bsd:10230",
+          "date": "2026-11-11",
+          "kickoff": "19:00",
+          "utcDate": "2026-11-11T22:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": "competition:brasileirao-serie-b",
+            "entityType": "competition",
+            "identityStatus": "resolved",
+            "canonicalName": "Brasileirão Série B",
+            "displayName": "Brasileirão Série B",
+            "fullName": null,
+            "normalized": "brasileirao serie b",
+            "country": "Brazil",
+            "externalIds": {
+              "bsd": "34"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BSB"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Londrina",
+            "fullName": "Londrina",
+            "normalized": "londrina",
+            "country": null,
+            "externalIds": {
+              "bsd": "821"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Náutico",
+            "fullName": "Náutico",
+            "normalized": "nautico",
+            "country": null,
+            "externalIds": {
+              "bsd": "928"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 10230,
+              "providerLeagueId": 34,
+              "providerSeasonId": 52
+            }
+          }
         }
       ]
     },
@@ -1070,7 +1166,7 @@
     {
       "date": "2026-11-14",
       "label": "14/11",
-      "count": 13,
+      "count": 12,
       "matches": [
         {
           "id": "bsd:10224",
@@ -1679,108 +1775,6 @@
             "sourceDetails": {
               "provider": "bsd",
               "providerEventId": 10229,
-              "providerLeagueId": 34,
-              "providerSeasonId": 52
-            }
-          }
-        },
-        {
-          "id": "bsd:10230",
-          "date": "2026-11-14",
-          "kickoff": "16:30",
-          "utcDate": "2026-11-14T19:30:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": "competition:brasileirao-serie-b",
-            "entityType": "competition",
-            "identityStatus": "resolved",
-            "canonicalName": "Brasileirão Série B",
-            "displayName": "Brasileirão Série B",
-            "fullName": null,
-            "normalized": "brasileirao serie b",
-            "country": "Brazil",
-            "externalIds": {
-              "bsd": "34"
-            },
-            "wikidataQid": null,
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "BSB"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Londrina",
-            "fullName": "Londrina",
-            "normalized": "londrina",
-            "country": null,
-            "externalIds": {
-              "bsd": "821"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Náutico",
-            "fullName": "Náutico",
-            "normalized": "nautico",
-            "country": null,
-            "externalIds": {
-              "bsd": "928"
-            },
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "fixtureSources": [
-              "bsd"
-            ],
-            "sourcePriority": 80,
-            "sourceDetails": {
-              "provider": "bsd",
-              "providerEventId": 10230,
               "providerLeagueId": 34,
               "providerSeasonId": 52
             }
@@ -2397,6 +2391,12 @@
     {
       "date": "2026-11-15",
       "label": "15/11",
+      "count": 0,
+      "matches": []
+    },
+    {
+      "date": "2026-11-16",
+      "label": "16/11",
       "count": 0,
       "matches": []
     }
@@ -3179,6 +3179,108 @@
       }
     },
     {
+      "id": "bsd:10230",
+      "date": "2026-11-11",
+      "kickoff": "19:00",
+      "utcDate": "2026-11-11T22:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": "competition:brasileirao-serie-b",
+        "entityType": "competition",
+        "identityStatus": "resolved",
+        "canonicalName": "Brasileirão Série B",
+        "displayName": "Brasileirão Série B",
+        "fullName": null,
+        "normalized": "brasileirao serie b",
+        "country": "Brazil",
+        "externalIds": {
+          "bsd": "34"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BSB"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Londrina",
+        "fullName": "Londrina",
+        "normalized": "londrina",
+        "country": null,
+        "externalIds": {
+          "bsd": "821"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Náutico",
+        "fullName": "Náutico",
+        "normalized": "nautico",
+        "country": null,
+        "externalIds": {
+          "bsd": "928"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 10230,
+          "providerLeagueId": 34,
+          "providerSeasonId": 52
+        }
+      }
+    },
+    {
       "id": "wm:b9c061282a1c4f1d",
       "date": "2026-11-12",
       "kickoff": "14:45",
@@ -3882,108 +3984,6 @@
         "sourceDetails": {
           "provider": "bsd",
           "providerEventId": 10229,
-          "providerLeagueId": 34,
-          "providerSeasonId": 52
-        }
-      }
-    },
-    {
-      "id": "bsd:10230",
-      "date": "2026-11-14",
-      "kickoff": "16:30",
-      "utcDate": "2026-11-14T19:30:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": "competition:brasileirao-serie-b",
-        "entityType": "competition",
-        "identityStatus": "resolved",
-        "canonicalName": "Brasileirão Série B",
-        "displayName": "Brasileirão Série B",
-        "fullName": null,
-        "normalized": "brasileirao serie b",
-        "country": "Brazil",
-        "externalIds": {
-          "bsd": "34"
-        },
-        "wikidataQid": null,
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "BSB"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Londrina",
-        "fullName": "Londrina",
-        "normalized": "londrina",
-        "country": null,
-        "externalIds": {
-          "bsd": "821"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Náutico",
-        "fullName": "Náutico",
-        "normalized": "nautico",
-        "country": null,
-        "externalIds": {
-          "bsd": "928"
-        },
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "fixtureSources": [
-          "bsd"
-        ],
-        "sourcePriority": 80,
-        "sourceDetails": {
-          "provider": "bsd",
-          "providerEventId": 10230,
           "providerLeagueId": 34,
           "providerSeasonId": 52
         }
