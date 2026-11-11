@@ -394,7 +394,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": "competition:brasileirao-serie-a",
-      "lastAttemptAt": "2026-11-11T01:56:54Z",
+      "lastAttemptAt": "2026-11-11T09:30:49Z",
       "name": "Campeonato Brasileiro Série A",
       "nextReviewAfter": null,
       "provenance": {
@@ -3372,7 +3372,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Académico de Viseu FC",
-      "nextReviewAfter": "2026-11-11T13:56:55Z",
+      "nextReviewAfter": "2026-11-11T21:30:51Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -10730,7 +10730,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-11T01:56:54Z",
+      "lastAttemptAt": "2026-11-11T09:30:50Z",
       "name": "Chapecoense",
       "nextReviewAfter": null,
       "provenance": {
@@ -14188,7 +14188,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "CF Estrela da Amadora",
-      "nextReviewAfter": "2026-11-11T13:56:55Z",
+      "nextReviewAfter": "2026-11-11T21:30:51Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -23498,7 +23498,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-11T01:56:53Z",
+      "lastAttemptAt": "2026-11-11T09:30:49Z",
       "name": "Mineiro",
       "nextReviewAfter": null,
       "provenance": {
@@ -23658,7 +23658,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-11T01:56:52Z",
+      "lastAttemptAt": "2026-11-11T09:30:48Z",
       "name": "Mirassol",
       "nextReviewAfter": null,
       "provenance": {
@@ -32300,7 +32300,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Sport Lisboa e Benfica",
-      "nextReviewAfter": "2026-11-11T13:56:55Z",
+      "nextReviewAfter": "2026-11-11T21:30:51Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -35402,7 +35402,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-11T01:56:55Z",
+      "lastAttemptAt": "2026-11-11T09:30:50Z",
       "name": "Vasco da Gama",
       "nextReviewAfter": null,
       "provenance": {
@@ -36769,7 +36769,7 @@
       "wikidataQid": null
     }
   },
-  "generatedAt": "2026-11-11T01:56:55Z",
+  "generatedAt": "2026-11-11T09:30:51Z",
   "retryPolicy": {
     "rejectedAutomaticRetry": false,
     "unresolvedDays": 7

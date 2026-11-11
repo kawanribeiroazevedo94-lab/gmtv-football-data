@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-11T01:56:55.527386Z",
+  "generatedAt": "2026-11-11T09:30:50.949306Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-11-10",
-    "to": "2026-11-16"
+    "from": "2026-11-11",
+    "to": "2026-11-17"
   },
   "sources": {
     "footballData": {
@@ -77,30 +77,30 @@
         {
           "shortcut": "bl1",
           "providerCompetitionId": 4937,
-          "ok": true,
+          "ok": false,
           "matchesInWindow": 0,
-          "error": null
+          "error": "HTTPError: HTTP Error 404: Not Found"
         },
         {
           "shortcut": "bl2",
           "providerCompetitionId": 4938,
-          "ok": true,
+          "ok": false,
           "matchesInWindow": 0,
-          "error": null
+          "error": "TimeoutError: The read operation timed out"
         },
         {
           "shortcut": "ucl",
           "providerCompetitionId": 4946,
-          "ok": true,
+          "ok": false,
           "matchesInWindow": 0,
-          "error": null
+          "error": "TimeoutError: The read operation timed out"
         },
         {
           "shortcut": "uel2026",
           "providerCompetitionId": 6000,
-          "ok": true,
+          "ok": false,
           "matchesInWindow": 0,
-          "error": null
+          "error": "TimeoutError: The read operation timed out"
         },
         {
           "shortcut": "la1",
@@ -112,24 +112,24 @@
         {
           "shortcut": "pl",
           "providerCompetitionId": 5996,
-          "ok": true,
+          "ok": false,
           "matchesInWindow": 0,
-          "error": null
+          "error": "HTTPError: HTTP Error 404: Not Found"
         }
       ]
     },
     "wikimediaFixtures": {
       "ok": true,
-      "matches": 9,
+      "matches": 4,
       "pages": [
         {
           "key": "uwcl",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1384935017,
-          "revisionTimestamp": "2026-11-10T22:08:17Z",
+          "revisionId": 1384996628,
+          "revisionTimestamp": "2026-11-11T08:15:25Z",
           "ok": true,
-          "matchesInWindow": 9,
+          "matchesInWindow": 4,
           "error": null
         },
         {
@@ -162,501 +162,9 @@
   },
   "days": [
     {
-      "date": "2026-11-10",
-      "label": "HOJE",
-      "count": 5,
-      "matches": [
-        {
-          "id": "wm:3ef7a66caa30fc93",
-          "date": "2026-11-10",
-          "kickoff": "14:45",
-          "utcDate": "2026-11-10T17:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "BK Häcken",
-            "fullName": "BK Häcken",
-            "normalized": "bk hacken",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Chelsea",
-            "fullName": "Chelsea",
-            "normalized": "chelsea",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1384935017,
-              "revisionTimestamp": "2026-11-10T22:08:17Z"
-            }
-          }
-        },
-        {
-          "id": "wm:ef95712ecc7e6725",
-          "date": "2026-11-10",
-          "kickoff": "14:45",
-          "utcDate": "2026-11-10T17:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Real Madrid",
-            "fullName": "Real Madrid",
-            "normalized": "real madrid",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Paris FC",
-            "fullName": "Paris FC",
-            "normalized": "paris",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1384935017,
-              "revisionTimestamp": "2026-11-10T22:08:17Z"
-            }
-          }
-        },
-        {
-          "id": "wm:7d11b5708b822632",
-          "date": "2026-11-10",
-          "kickoff": "17:00",
-          "utcDate": "2026-11-10T20:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": "club:internazionale-milano",
-            "entityType": "club",
-            "identityStatus": "resolved",
-            "canonicalName": "Internazionale",
-            "displayName": "Inter Milan",
-            "fullName": "Inter Milan",
-            "normalized": "inter milan",
-            "country": "Italy",
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131635.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": "club:manchester-city",
-            "entityType": "club",
-            "identityStatus": "resolved",
-            "canonicalName": "Manchester City",
-            "displayName": "Manchester City",
-            "fullName": "Manchester City",
-            "normalized": "manchester city",
-            "country": "England",
-            "externalIds": {},
-            "wikidataQid": "Q50602",
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1384935017,
-              "revisionTimestamp": "2026-11-10T22:08:17Z"
-            }
-          }
-        },
-        {
-          "id": "wm:f2ee89c9ead53eab",
-          "date": "2026-11-10",
-          "kickoff": "17:00",
-          "utcDate": "2026-11-10T20:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Paris Saint-Germain",
-            "fullName": "Paris Saint-Germain",
-            "normalized": "paris saint germain",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": "club:bayern-munich",
-            "entityType": "club",
-            "identityStatus": "resolved",
-            "canonicalName": "Bayern Munich",
-            "displayName": "Bayern Munich",
-            "fullName": "Bayern Munich",
-            "normalized": "bayern munich",
-            "country": "Germany",
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "validated",
-            "confidence": "high",
-            "resolutionStatus": "partial",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20103.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1384935017,
-              "revisionTimestamp": "2026-11-10T22:08:17Z"
-            }
-          }
-        },
-        {
-          "id": "wm:4aa457ed4b4840b5",
-          "date": "2026-11-10",
-          "kickoff": "17:00",
-          "utcDate": "2026-11-10T20:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Roma",
-            "fullName": "Roma",
-            "normalized": "roma",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Servette Chênois",
-            "fullName": "Servette Chênois",
-            "normalized": "servette chenois",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20835.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1384935017,
-              "revisionTimestamp": "2026-11-10T22:08:17Z"
-            }
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-11-11",
-      "label": "11/11",
-      "count": 4,
+      "label": "HOJE",
+      "count": 3,
       "matches": [
         {
           "id": "wm:a576bf7dcdc85b59",
@@ -750,105 +258,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1384935017,
-              "revisionTimestamp": "2026-11-10T22:08:17Z"
-            }
-          }
-        },
-        {
-          "id": "wm:ea485d6fcf9430d9",
-          "date": "2026-11-11",
-          "kickoff": "17:00",
-          "utcDate": "2026-11-11T20:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "gmId": null,
-            "entityType": "competition",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "UEFA Women's Champions League",
-            "fullName": null,
-            "normalized": "uefa women s champions league",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            },
-            "code": "UWCL"
-          },
-          "home": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Benfica",
-            "fullName": "Benfica",
-            "normalized": "benfica",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "away": {
-            "gmId": null,
-            "entityType": "club",
-            "identityStatus": "unresolved",
-            "canonicalName": null,
-            "displayName": "Austria Wien",
-            "fullName": "Austria Wien",
-            "normalized": "austria wien",
-            "country": null,
-            "externalIds": {},
-            "wikidataQid": null,
-            "validationStatus": "unresolved",
-            "confidence": "unknown",
-            "resolutionStatus": "unresolved",
-            "artwork": {
-              "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
-              "semanticStatus": "validated",
-              "fetchStatus": "ok",
-              "visualStatus": "approved"
-            }
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "fixtureSources": [
-              "wikimedia"
-            ],
-            "sourcePriority": 60,
-            "sourceDetails": {
-              "provider": "wikimedia",
-              "page": "2026–27 UEFA Women's Champions League league phase",
-              "pageId": 83018611,
-              "revisionId": 1384935017,
-              "revisionTimestamp": "2026-11-10T22:08:17Z"
+              "revisionId": 1384996628,
+              "revisionTimestamp": "2026-11-11T08:15:25Z"
             }
           }
         },
@@ -944,8 +355,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1384935017,
-              "revisionTimestamp": "2026-11-10T22:08:17Z"
+              "revisionId": 1384996628,
+              "revisionTimestamp": "2026-11-11T08:15:25Z"
             }
           }
         },
@@ -1056,7 +467,7 @@
     {
       "date": "2026-11-12",
       "label": "12/11",
-      "count": 3,
+      "count": 4,
       "matches": [
         {
           "id": "wm:b9c061282a1c4f1d",
@@ -1150,8 +561,105 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1384935017,
-              "revisionTimestamp": "2026-11-10T22:08:17Z"
+              "revisionId": 1384996628,
+              "revisionTimestamp": "2026-11-11T08:15:25Z"
+            }
+          }
+        },
+        {
+          "id": "wm:a8d29086e4a6a12e",
+          "date": "2026-11-12",
+          "kickoff": "17:00",
+          "utcDate": "2026-11-12T20:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "UEFA Women's Champions League",
+            "fullName": null,
+            "normalized": "uefa women s champions league",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "UWCL"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Benfica",
+            "fullName": "Benfica",
+            "normalized": "benfica",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Austria Wien",
+            "fullName": "Austria Wien",
+            "normalized": "austria wien",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "fixtureSources": [
+              "wikimedia"
+            ],
+            "sourcePriority": 60,
+            "sourceDetails": {
+              "provider": "wikimedia",
+              "page": "2026–27 UEFA Women's Champions League league phase",
+              "pageId": 83018611,
+              "revisionId": 1384996628,
+              "revisionTimestamp": "2026-11-11T08:15:25Z"
             }
           }
         },
@@ -2399,494 +1907,15 @@
       "label": "16/11",
       "count": 0,
       "matches": []
+    },
+    {
+      "date": "2026-11-17",
+      "label": "17/11",
+      "count": 0,
+      "matches": []
     }
   ],
   "matches": [
-    {
-      "id": "wm:3ef7a66caa30fc93",
-      "date": "2026-11-10",
-      "kickoff": "14:45",
-      "utcDate": "2026-11-10T17:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "BK Häcken",
-        "fullName": "BK Häcken",
-        "normalized": "bk hacken",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Chelsea",
-        "fullName": "Chelsea",
-        "normalized": "chelsea",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1384935017,
-          "revisionTimestamp": "2026-11-10T22:08:17Z"
-        }
-      }
-    },
-    {
-      "id": "wm:ef95712ecc7e6725",
-      "date": "2026-11-10",
-      "kickoff": "14:45",
-      "utcDate": "2026-11-10T17:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Real Madrid",
-        "fullName": "Real Madrid",
-        "normalized": "real madrid",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Paris FC",
-        "fullName": "Paris FC",
-        "normalized": "paris",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1384935017,
-          "revisionTimestamp": "2026-11-10T22:08:17Z"
-        }
-      }
-    },
-    {
-      "id": "wm:7d11b5708b822632",
-      "date": "2026-11-10",
-      "kickoff": "17:00",
-      "utcDate": "2026-11-10T20:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": "club:internazionale-milano",
-        "entityType": "club",
-        "identityStatus": "resolved",
-        "canonicalName": "Internazionale",
-        "displayName": "Inter Milan",
-        "fullName": "Inter Milan",
-        "normalized": "inter milan",
-        "country": "Italy",
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131635.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": "club:manchester-city",
-        "entityType": "club",
-        "identityStatus": "resolved",
-        "canonicalName": "Manchester City",
-        "displayName": "Manchester City",
-        "fullName": "Manchester City",
-        "normalized": "manchester city",
-        "country": "England",
-        "externalIds": {},
-        "wikidataQid": "Q50602",
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1384935017,
-          "revisionTimestamp": "2026-11-10T22:08:17Z"
-        }
-      }
-    },
-    {
-      "id": "wm:f2ee89c9ead53eab",
-      "date": "2026-11-10",
-      "kickoff": "17:00",
-      "utcDate": "2026-11-10T20:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Paris Saint-Germain",
-        "fullName": "Paris Saint-Germain",
-        "normalized": "paris saint germain",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": "club:bayern-munich",
-        "entityType": "club",
-        "identityStatus": "resolved",
-        "canonicalName": "Bayern Munich",
-        "displayName": "Bayern Munich",
-        "fullName": "Bayern Munich",
-        "normalized": "bayern munich",
-        "country": "Germany",
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "validated",
-        "confidence": "high",
-        "resolutionStatus": "partial",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20103.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1384935017,
-          "revisionTimestamp": "2026-11-10T22:08:17Z"
-        }
-      }
-    },
-    {
-      "id": "wm:4aa457ed4b4840b5",
-      "date": "2026-11-10",
-      "kickoff": "17:00",
-      "utcDate": "2026-11-10T20:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Roma",
-        "fullName": "Roma",
-        "normalized": "roma",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Servette Chênois",
-        "fullName": "Servette Chênois",
-        "normalized": "servette chenois",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20835.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1384935017,
-          "revisionTimestamp": "2026-11-10T22:08:17Z"
-        }
-      }
-    },
     {
       "id": "wm:a576bf7dcdc85b59",
       "date": "2026-11-11",
@@ -2979,105 +2008,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1384935017,
-          "revisionTimestamp": "2026-11-10T22:08:17Z"
-        }
-      }
-    },
-    {
-      "id": "wm:ea485d6fcf9430d9",
-      "date": "2026-11-11",
-      "kickoff": "17:00",
-      "utcDate": "2026-11-11T20:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "gmId": null,
-        "entityType": "competition",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "UEFA Women's Champions League",
-        "fullName": null,
-        "normalized": "uefa women s champions league",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        },
-        "code": "UWCL"
-      },
-      "home": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Benfica",
-        "fullName": "Benfica",
-        "normalized": "benfica",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "away": {
-        "gmId": null,
-        "entityType": "club",
-        "identityStatus": "unresolved",
-        "canonicalName": null,
-        "displayName": "Austria Wien",
-        "fullName": "Austria Wien",
-        "normalized": "austria wien",
-        "country": null,
-        "externalIds": {},
-        "wikidataQid": null,
-        "validationStatus": "unresolved",
-        "confidence": "unknown",
-        "resolutionStatus": "unresolved",
-        "artwork": {
-          "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
-          "semanticStatus": "validated",
-          "fetchStatus": "ok",
-          "visualStatus": "approved"
-        }
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "fixtureSources": [
-          "wikimedia"
-        ],
-        "sourcePriority": 60,
-        "sourceDetails": {
-          "provider": "wikimedia",
-          "page": "2026–27 UEFA Women's Champions League league phase",
-          "pageId": 83018611,
-          "revisionId": 1384935017,
-          "revisionTimestamp": "2026-11-10T22:08:17Z"
+          "revisionId": 1384996628,
+          "revisionTimestamp": "2026-11-11T08:15:25Z"
         }
       }
     },
@@ -3173,8 +2105,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1384935017,
-          "revisionTimestamp": "2026-11-10T22:08:17Z"
+          "revisionId": 1384996628,
+          "revisionTimestamp": "2026-11-11T08:15:25Z"
         }
       }
     },
@@ -3372,8 +2304,105 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1384935017,
-          "revisionTimestamp": "2026-11-10T22:08:17Z"
+          "revisionId": 1384996628,
+          "revisionTimestamp": "2026-11-11T08:15:25Z"
+        }
+      }
+    },
+    {
+      "id": "wm:a8d29086e4a6a12e",
+      "date": "2026-11-12",
+      "kickoff": "17:00",
+      "utcDate": "2026-11-12T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "UEFA Women's Champions League",
+        "fullName": null,
+        "normalized": "uefa women s champions league",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "UWCL"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Benfica",
+        "fullName": "Benfica",
+        "normalized": "benfica",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/20830.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Austria Wien",
+        "fullName": "Austria Wien",
+        "normalized": "austria wien",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/131643.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "fixtureSources": [
+          "wikimedia"
+        ],
+        "sourcePriority": 60,
+        "sourceDetails": {
+          "provider": "wikimedia",
+          "page": "2026–27 UEFA Women's Champions League league phase",
+          "pageId": 83018611,
+          "revisionId": 1384996628,
+          "revisionTimestamp": "2026-11-11T08:15:25Z"
         }
       }
     },
