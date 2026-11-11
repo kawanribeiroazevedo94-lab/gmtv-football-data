@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T09:30:50.949306Z",
+  "generatedAt": "2026-11-11T17:54:39.350019Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-11",
@@ -77,30 +77,30 @@
         {
           "shortcut": "bl1",
           "providerCompetitionId": 4937,
-          "ok": false,
+          "ok": true,
           "matchesInWindow": 0,
-          "error": "HTTPError: HTTP Error 404: Not Found"
+          "error": null
         },
         {
           "shortcut": "bl2",
           "providerCompetitionId": 4938,
-          "ok": false,
+          "ok": true,
           "matchesInWindow": 0,
-          "error": "TimeoutError: The read operation timed out"
+          "error": null
         },
         {
           "shortcut": "ucl",
           "providerCompetitionId": 4946,
-          "ok": false,
+          "ok": true,
           "matchesInWindow": 0,
-          "error": "TimeoutError: The read operation timed out"
+          "error": null
         },
         {
           "shortcut": "uel2026",
           "providerCompetitionId": 6000,
-          "ok": false,
+          "ok": true,
           "matchesInWindow": 0,
-          "error": "TimeoutError: The read operation timed out"
+          "error": null
         },
         {
           "shortcut": "la1",
@@ -112,9 +112,9 @@
         {
           "shortcut": "pl",
           "providerCompetitionId": 5996,
-          "ok": false,
+          "ok": true,
           "matchesInWindow": 0,
-          "error": "HTTPError: HTTP Error 404: Not Found"
+          "error": null
         }
       ]
     },
