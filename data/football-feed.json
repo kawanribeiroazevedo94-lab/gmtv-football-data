@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T00:45:44.635250Z",
+  "generatedAt": "2026-11-12T09:52:53.285988Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-11-11",
-    "to": "2026-11-17"
+    "from": "2026-11-12",
+    "to": "2026-11-18"
   },
   "sources": {
     "footballData": {
       "ok": true,
-      "matches": 2,
+      "matches": 6,
       "error": null
     },
     "openFootball": {
       "ok": true,
-      "matches": 0,
+      "matches": 10,
       "datasets": [
         {
           "dataset": "2026-27/en.1.json",
@@ -59,14 +59,14 @@
         {
           "dataset": "2026/br.1.json",
           "ok": true,
-          "matchesInWindow": 0
+          "matchesInWindow": 10
         }
       ]
     },
     "bsd": {
       "configured": true,
       "ok": true,
-      "matches": 12,
+      "matches": 17,
       "pages": 3,
       "error": null
     },
@@ -120,7 +120,7 @@
     },
     "wikimediaFixtures": {
       "ok": true,
-      "matches": 4,
+      "matches": 6,
       "pages": [
         {
           "key": "uwcl",
@@ -129,7 +129,7 @@
           "revisionId": 1385104372,
           "revisionTimestamp": "2026-11-11T22:13:19Z",
           "ok": true,
-          "matchesInWindow": 4,
+          "matchesInWindow": 6,
           "error": null
         },
         {
@@ -158,140 +158,8 @@
   },
   "days": [
     {
-      "date": "2026-11-11",
-      "label": "HOJE",
-      "count": 3,
-      "matches": [
-        {
-          "id": "wm:a576bf7dcdc85b59",
-          "date": "2026-11-11",
-          "kickoff": "14:45",
-          "utcDate": "2026-11-11T17:45:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "OH Leuven",
-            "fullName": "OH Leuven",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/131423.png",
-            "normalized": "oh leuven"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "HB Køge",
-            "fullName": "HB Køge",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21127.png",
-            "normalized": "hb k ge"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1385104372,
-            "revisionTimestamp": "2026-11-11T22:13:19Z"
-          }
-        },
-        {
-          "id": "wm:b326a2cc5d6261d9",
-          "date": "2026-11-11",
-          "kickoff": "17:00",
-          "utcDate": "2026-11-11T20:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "code": "UWCL",
-            "name": "UEFA Women's Champions League",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-            "normalized": "uefa women s champions league"
-          },
-          "home": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "Juventus",
-            "fullName": "Juventus",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
-            "normalized": "juventus"
-          },
-          "away": {
-            "id": null,
-            "idProvider": "wikimedia",
-            "name": "OL Lyonnes",
-            "fullName": "OL Lyonnes",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
-            "normalized": "ol lyonnes"
-          },
-          "sources": [
-            "wikimedia"
-          ],
-          "sourcePriority": 60,
-          "provenance": {
-            "provider": "wikimedia",
-            "page": "2026–27 UEFA Women's Champions League league phase",
-            "pageId": 83018611,
-            "revisionId": 1385104372,
-            "revisionTimestamp": "2026-11-11T22:13:19Z"
-          }
-        },
-        {
-          "id": "bsd:10230",
-          "date": "2026-11-11",
-          "kickoff": "19:00",
-          "utcDate": "2026-11-11T22:00:00Z",
-          "status": "FINISHED",
-          "competition": {
-            "id": 34,
-            "idProvider": "bsd",
-            "code": "BSB",
-            "name": "Brasileirão Série B",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-            "normalized": "brasileirao serie b"
-          },
-          "home": {
-            "id": 821,
-            "idProvider": "bsd",
-            "name": "Londrina",
-            "fullName": "Londrina",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-            "normalized": "londrina"
-          },
-          "away": {
-            "id": 928,
-            "idProvider": "bsd",
-            "name": "Náutico",
-            "fullName": "Náutico",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-            "normalized": "nautico"
-          },
-          "sources": [
-            "bsd"
-          ],
-          "sourcePriority": 80,
-          "provenance": {
-            "provider": "bsd",
-            "providerEventId": 10230,
-            "providerLeagueId": 34,
-            "providerSeasonId": 52
-          }
-        }
-      ]
-    },
-    {
       "date": "2026-11-12",
-      "label": "12/11",
+      "label": "HOJE",
       "count": 4,
       "matches": [
         {
@@ -891,134 +759,770 @@
       "label": "17/11",
       "count": 0,
       "matches": []
+    },
+    {
+      "date": "2026-11-18",
+      "label": "18/11",
+      "count": 21,
+      "matches": [
+        {
+          "id": "of:f56d8ba9174f1473",
+          "date": "2026-11-18",
+          "kickoff": "12:00",
+          "utcDate": "2026-11-18T15:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "CR Flamengo",
+            "fullName": "CR Flamengo",
+            "crest": null,
+            "normalized": "flamengo"
+          },
+          "away": {
+            "id": null,
+            "name": "CA Paranaense",
+            "fullName": "CA Paranaense",
+            "crest": null,
+            "normalized": "paranaense"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "of:73c99189ace313c7",
+          "date": "2026-11-18",
+          "kickoff": "12:00",
+          "utcDate": "2026-11-18T15:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "CR Vasco da Gama",
+            "fullName": "CR Vasco da Gama",
+            "crest": null,
+            "normalized": "vasco gama"
+          },
+          "away": {
+            "id": null,
+            "name": "SC Internacional",
+            "fullName": "SC Internacional",
+            "crest": null,
+            "normalized": "internacional"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "of:dd250fd5112e461b",
+          "date": "2026-11-18",
+          "kickoff": "12:00",
+          "utcDate": "2026-11-18T15:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "Clube do Remo",
+            "fullName": "Clube do Remo",
+            "crest": null,
+            "normalized": "remo"
+          },
+          "away": {
+            "id": null,
+            "name": "Chapecoense AF",
+            "fullName": "Chapecoense AF",
+            "crest": null,
+            "normalized": "chapecoense af"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "of:c16c14f4a2496d9a",
+          "date": "2026-11-18",
+          "kickoff": "12:00",
+          "utcDate": "2026-11-18T15:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "Coritiba FBC",
+            "fullName": "Coritiba FBC",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Coritiba_Foot_Ball_Club_logo.svg/330px-Coritiba_Foot_Ball_Club_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "coritiba"
+          },
+          "away": {
+            "id": null,
+            "name": "Santos FC",
+            "fullName": "Santos FC",
+            "crest": null,
+            "normalized": "santos"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "of:ac7dcef54d123fa4",
+          "date": "2026-11-18",
+          "kickoff": "12:00",
+          "utcDate": "2026-11-18T15:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "Cruzeiro EC",
+            "fullName": "Cruzeiro EC",
+            "crest": null,
+            "normalized": "cruzeiro"
+          },
+          "away": {
+            "id": null,
+            "name": "SE Palmeiras",
+            "fullName": "SE Palmeiras",
+            "crest": null,
+            "normalized": "palmeiras"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "of:12466b20a4db1938",
+          "date": "2026-11-18",
+          "kickoff": "12:00",
+          "utcDate": "2026-11-18T15:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "EC Vitória",
+            "fullName": "EC Vitória",
+            "crest": null,
+            "normalized": "vitoria"
+          },
+          "away": {
+            "id": null,
+            "name": "RB Bragantino",
+            "fullName": "RB Bragantino",
+            "crest": null,
+            "normalized": "rb bragantino"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "of:5b6ef2dcd16cca14",
+          "date": "2026-11-18",
+          "kickoff": "12:00",
+          "utcDate": "2026-11-18T15:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "Grêmio FBPA",
+            "fullName": "Grêmio FBPA",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/330px-Gremio_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "gremio fbpa"
+          },
+          "away": {
+            "id": null,
+            "name": "EC Bahia",
+            "fullName": "EC Bahia",
+            "crest": null,
+            "normalized": "bahia"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "of:b50489475947c1b0",
+          "date": "2026-11-18",
+          "kickoff": "12:00",
+          "utcDate": "2026-11-18T15:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "Mirassol FC",
+            "fullName": "Mirassol FC",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mirassol_FC_logo.png/330px-Mirassol_FC_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "mirassol"
+          },
+          "away": {
+            "id": null,
+            "name": "CA Mineiro",
+            "fullName": "CA Mineiro",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Clube_Atl%C3%A9tico_Mineiro_logo.svg/330px-Clube_Atl%C3%A9tico_Mineiro_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "mineiro"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "of:627337abf1bf47b5",
+          "date": "2026-11-18",
+          "kickoff": "12:00",
+          "utcDate": "2026-11-18T15:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "SC Corinthians Paulista",
+            "fullName": "SC Corinthians Paulista",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Corinthians23022007_%28cropped%29.jpg/330px-Corinthians23022007_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "corinthians paulista"
+          },
+          "away": {
+            "id": null,
+            "name": "Botafogo FR",
+            "fullName": "Botafogo FR",
+            "crest": null,
+            "normalized": "botafogo fr"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "of:1296df70af32975c",
+          "date": "2026-11-18",
+          "kickoff": "12:00",
+          "utcDate": "2026-11-18T15:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": null,
+            "name": "São Paulo FC",
+            "fullName": "São Paulo FC",
+            "crest": null,
+            "normalized": "sao paulo"
+          },
+          "away": {
+            "id": null,
+            "name": "Fluminense FC",
+            "fullName": "Fluminense FC",
+            "crest": null,
+            "normalized": "fluminense"
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50
+        },
+        {
+          "id": "wm:bab66735f400b2e8",
+          "date": "2026-11-18",
+          "kickoff": "14:45",
+          "utcDate": "2026-11-18T17:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "BK Häcken",
+            "fullName": "BK Häcken",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
+            "normalized": "bk hacken"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Manchester City",
+            "fullName": "Manchester City",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
+            "normalized": "manchester city"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1385104372,
+            "revisionTimestamp": "2026-11-11T22:13:19Z"
+          }
+        },
+        {
+          "id": "wm:56a8d999863d8656",
+          "date": "2026-11-18",
+          "kickoff": "14:45",
+          "utcDate": "2026-11-18T17:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Real Madrid",
+            "fullName": "Real Madrid",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+            "normalized": "real madrid"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Inter Milan",
+            "fullName": "Inter Milan",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/131635.png",
+            "normalized": "inter milan"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1385104372,
+            "revisionTimestamp": "2026-11-11T22:13:19Z"
+          }
+        },
+        {
+          "id": "wm:55c92f0c7a1111e1",
+          "date": "2026-11-18",
+          "kickoff": "17:00",
+          "utcDate": "2026-11-18T20:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Chelsea",
+            "fullName": "Chelsea",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
+            "normalized": "chelsea"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Paris Saint-Germain",
+            "fullName": "Paris Saint-Germain",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
+            "normalized": "paris saint germain"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1385104372,
+            "revisionTimestamp": "2026-11-11T22:13:19Z"
+          }
+        },
+        {
+          "id": "wm:bd88b93deb55ee12",
+          "date": "2026-11-18",
+          "kickoff": "17:00",
+          "utcDate": "2026-11-18T20:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "code": "UWCL",
+            "name": "UEFA Women's Champions League",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+            "normalized": "uefa women s champions league"
+          },
+          "home": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "Juventus",
+            "fullName": "Juventus",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
+            "normalized": "juventus"
+          },
+          "away": {
+            "id": null,
+            "idProvider": "wikimedia",
+            "name": "OH Leuven",
+            "fullName": "OH Leuven",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/131423.png",
+            "normalized": "oh leuven"
+          },
+          "sources": [
+            "wikimedia"
+          ],
+          "sourcePriority": 60,
+          "provenance": {
+            "provider": "wikimedia",
+            "page": "2026–27 UEFA Women's Champions League league phase",
+            "pageId": 83018611,
+            "revisionId": 1385104372,
+            "revisionTimestamp": "2026-11-11T22:13:19Z"
+          }
+        },
+        {
+          "id": "fd:555081",
+          "date": "2026-11-18",
+          "kickoff": "19:30",
+          "utcDate": "2026-11-18T22:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 4241,
+            "idProvider": "football-data",
+            "name": "Coritiba",
+            "fullName": "Coritiba FBC",
+            "crest": "https://crests.football-data.org/4241.png",
+            "normalized": "coritiba"
+          },
+          "away": {
+            "id": 6685,
+            "idProvider": "football-data",
+            "name": "Santos",
+            "fullName": "Santos FC",
+            "crest": "https://crests.football-data.org/6685.png",
+            "normalized": "santos"
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "fd:555086",
+          "date": "2026-11-18",
+          "kickoff": "20:00",
+          "utcDate": "2026-11-18T23:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 4287,
+            "idProvider": "football-data",
+            "name": "Clube do Remo",
+            "fullName": "Clube do Remo",
+            "crest": "https://crests.football-data.org/4287.png",
+            "normalized": "remo"
+          },
+          "away": {
+            "id": 1772,
+            "idProvider": "football-data",
+            "name": "Chapecoense",
+            "fullName": "Chapecoense AF",
+            "crest": "https://crests.football-data.org/1772_large.png",
+            "normalized": "chapecoense"
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "bsd:7337",
+          "date": "2026-11-18",
+          "kickoff": "20:30",
+          "utcDate": "2026-11-18T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 9,
+            "idProvider": "bsd",
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": 160,
+            "idProvider": "bsd",
+            "name": "Flamengo",
+            "fullName": "Flamengo",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+            "normalized": "flamengo"
+          },
+          "away": {
+            "id": 371,
+            "idProvider": "bsd",
+            "name": "Athletico",
+            "fullName": "Athletico",
+            "crest": null,
+            "normalized": "athletico"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 7337,
+            "providerLeagueId": 9,
+            "providerSeasonId": 28
+          }
+        },
+        {
+          "id": "fd:555082",
+          "date": "2026-11-18",
+          "kickoff": "20:30",
+          "utcDate": "2026-11-18T23:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 1771,
+            "idProvider": "football-data",
+            "name": "Cruzeiro",
+            "fullName": "Cruzeiro EC",
+            "crest": "https://crests.football-data.org/1771.png",
+            "normalized": "cruzeiro"
+          },
+          "away": {
+            "id": 1769,
+            "idProvider": "football-data",
+            "name": "Palmeiras",
+            "fullName": "SE Palmeiras",
+            "crest": "https://crests.football-data.org/1769.png",
+            "normalized": "palmeiras"
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "fd:555083",
+          "date": "2026-11-18",
+          "kickoff": "20:30",
+          "utcDate": "2026-11-18T23:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "id": 2013,
+            "idProvider": "football-data",
+            "code": "BSA",
+            "name": "Campeonato Brasileiro Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "campeonato brasileiro serie a"
+          },
+          "home": {
+            "id": 1783,
+            "idProvider": "football-data",
+            "name": "Flamengo",
+            "fullName": "CR Flamengo",
+            "crest": "https://crests.football-data.org/1783.png",
+            "normalized": "flamengo"
+          },
+          "away": {
+            "id": 1768,
+            "idProvider": "football-data",
+            "name": "Paranaense",
+            "fullName": "CA Paranaense",
+            "crest": "https://crests.football-data.org/1768.png",
+            "normalized": "paranaense"
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100
+        },
+        {
+          "id": "bsd:7334",
+          "date": "2026-11-18",
+          "kickoff": "21:30",
+          "utcDate": "2026-11-19T00:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 9,
+            "idProvider": "bsd",
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": 167,
+            "idProvider": "bsd",
+            "name": "Corinthians",
+            "fullName": "Corinthians",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+            "normalized": "corinthians"
+          },
+          "away": {
+            "id": 163,
+            "idProvider": "bsd",
+            "name": "Botafogo",
+            "fullName": "Botafogo",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+            "normalized": "botafogo"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 7334,
+            "providerLeagueId": 9,
+            "providerSeasonId": 28
+          }
+        },
+        {
+          "id": "bsd:7338",
+          "date": "2026-11-18",
+          "kickoff": "21:30",
+          "utcDate": "2026-11-19T00:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 9,
+            "idProvider": "bsd",
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": 154,
+            "idProvider": "bsd",
+            "name": "Grêmio",
+            "fullName": "Grêmio",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+            "normalized": "gremio"
+          },
+          "away": {
+            "id": 166,
+            "idProvider": "bsd",
+            "name": "Bahia",
+            "fullName": "Bahia",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+            "normalized": "bahia"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 7338,
+            "providerLeagueId": 9,
+            "providerSeasonId": 28
+          }
+        }
+      ]
     }
   ],
   "matches": [
-    {
-      "id": "wm:a576bf7dcdc85b59",
-      "date": "2026-11-11",
-      "kickoff": "14:45",
-      "utcDate": "2026-11-11T17:45:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "OH Leuven",
-        "fullName": "OH Leuven",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/131423.png",
-        "normalized": "oh leuven"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "HB Køge",
-        "fullName": "HB Køge",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21127.png",
-        "normalized": "hb k ge"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1385104372,
-        "revisionTimestamp": "2026-11-11T22:13:19Z"
-      }
-    },
-    {
-      "id": "wm:b326a2cc5d6261d9",
-      "date": "2026-11-11",
-      "kickoff": "17:00",
-      "utcDate": "2026-11-11T20:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "code": "UWCL",
-        "name": "UEFA Women's Champions League",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
-        "normalized": "uefa women s champions league"
-      },
-      "home": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "Juventus",
-        "fullName": "Juventus",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
-        "normalized": "juventus"
-      },
-      "away": {
-        "id": null,
-        "idProvider": "wikimedia",
-        "name": "OL Lyonnes",
-        "fullName": "OL Lyonnes",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19256.png",
-        "normalized": "ol lyonnes"
-      },
-      "sources": [
-        "wikimedia"
-      ],
-      "sourcePriority": 60,
-      "provenance": {
-        "provider": "wikimedia",
-        "page": "2026–27 UEFA Women's Champions League league phase",
-        "pageId": 83018611,
-        "revisionId": 1385104372,
-        "revisionTimestamp": "2026-11-11T22:13:19Z"
-      }
-    },
-    {
-      "id": "bsd:10230",
-      "date": "2026-11-11",
-      "kickoff": "19:00",
-      "utcDate": "2026-11-11T22:00:00Z",
-      "status": "FINISHED",
-      "competition": {
-        "id": 34,
-        "idProvider": "bsd",
-        "code": "BSB",
-        "name": "Brasileirão Série B",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
-        "normalized": "brasileirao serie b"
-      },
-      "home": {
-        "id": 821,
-        "idProvider": "bsd",
-        "name": "Londrina",
-        "fullName": "Londrina",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-        "normalized": "londrina"
-      },
-      "away": {
-        "id": 928,
-        "idProvider": "bsd",
-        "name": "Náutico",
-        "fullName": "Náutico",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-        "normalized": "nautico"
-      },
-      "sources": [
-        "bsd"
-      ],
-      "sourcePriority": 80,
-      "provenance": {
-        "provider": "bsd",
-        "providerEventId": 10230,
-        "providerLeagueId": 34,
-        "providerSeasonId": 52
-      }
-    },
     {
       "id": "wm:b9c061282a1c4f1d",
       "date": "2026-11-12",
@@ -1583,6 +2087,760 @@
         "bsd"
       ],
       "sourcePriority": 100
+    },
+    {
+      "id": "of:f56d8ba9174f1473",
+      "date": "2026-11-18",
+      "kickoff": "12:00",
+      "utcDate": "2026-11-18T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "CR Flamengo",
+        "fullName": "CR Flamengo",
+        "crest": null,
+        "normalized": "flamengo"
+      },
+      "away": {
+        "id": null,
+        "name": "CA Paranaense",
+        "fullName": "CA Paranaense",
+        "crest": null,
+        "normalized": "paranaense"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "of:73c99189ace313c7",
+      "date": "2026-11-18",
+      "kickoff": "12:00",
+      "utcDate": "2026-11-18T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "CR Vasco da Gama",
+        "fullName": "CR Vasco da Gama",
+        "crest": null,
+        "normalized": "vasco gama"
+      },
+      "away": {
+        "id": null,
+        "name": "SC Internacional",
+        "fullName": "SC Internacional",
+        "crest": null,
+        "normalized": "internacional"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "of:dd250fd5112e461b",
+      "date": "2026-11-18",
+      "kickoff": "12:00",
+      "utcDate": "2026-11-18T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "Clube do Remo",
+        "fullName": "Clube do Remo",
+        "crest": null,
+        "normalized": "remo"
+      },
+      "away": {
+        "id": null,
+        "name": "Chapecoense AF",
+        "fullName": "Chapecoense AF",
+        "crest": null,
+        "normalized": "chapecoense af"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "of:c16c14f4a2496d9a",
+      "date": "2026-11-18",
+      "kickoff": "12:00",
+      "utcDate": "2026-11-18T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "Coritiba FBC",
+        "fullName": "Coritiba FBC",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Coritiba_Foot_Ball_Club_logo.svg/330px-Coritiba_Foot_Ball_Club_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "coritiba"
+      },
+      "away": {
+        "id": null,
+        "name": "Santos FC",
+        "fullName": "Santos FC",
+        "crest": null,
+        "normalized": "santos"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "of:ac7dcef54d123fa4",
+      "date": "2026-11-18",
+      "kickoff": "12:00",
+      "utcDate": "2026-11-18T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "Cruzeiro EC",
+        "fullName": "Cruzeiro EC",
+        "crest": null,
+        "normalized": "cruzeiro"
+      },
+      "away": {
+        "id": null,
+        "name": "SE Palmeiras",
+        "fullName": "SE Palmeiras",
+        "crest": null,
+        "normalized": "palmeiras"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "of:12466b20a4db1938",
+      "date": "2026-11-18",
+      "kickoff": "12:00",
+      "utcDate": "2026-11-18T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "EC Vitória",
+        "fullName": "EC Vitória",
+        "crest": null,
+        "normalized": "vitoria"
+      },
+      "away": {
+        "id": null,
+        "name": "RB Bragantino",
+        "fullName": "RB Bragantino",
+        "crest": null,
+        "normalized": "rb bragantino"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "of:5b6ef2dcd16cca14",
+      "date": "2026-11-18",
+      "kickoff": "12:00",
+      "utcDate": "2026-11-18T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "Grêmio FBPA",
+        "fullName": "Grêmio FBPA",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/330px-Gremio_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "gremio fbpa"
+      },
+      "away": {
+        "id": null,
+        "name": "EC Bahia",
+        "fullName": "EC Bahia",
+        "crest": null,
+        "normalized": "bahia"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "of:b50489475947c1b0",
+      "date": "2026-11-18",
+      "kickoff": "12:00",
+      "utcDate": "2026-11-18T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "Mirassol FC",
+        "fullName": "Mirassol FC",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Mirassol_FC_logo.png/330px-Mirassol_FC_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "mirassol"
+      },
+      "away": {
+        "id": null,
+        "name": "CA Mineiro",
+        "fullName": "CA Mineiro",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Clube_Atl%C3%A9tico_Mineiro_logo.svg/330px-Clube_Atl%C3%A9tico_Mineiro_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "mineiro"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "of:627337abf1bf47b5",
+      "date": "2026-11-18",
+      "kickoff": "12:00",
+      "utcDate": "2026-11-18T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "SC Corinthians Paulista",
+        "fullName": "SC Corinthians Paulista",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Corinthians23022007_%28cropped%29.jpg/330px-Corinthians23022007_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "corinthians paulista"
+      },
+      "away": {
+        "id": null,
+        "name": "Botafogo FR",
+        "fullName": "Botafogo FR",
+        "crest": null,
+        "normalized": "botafogo fr"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "of:1296df70af32975c",
+      "date": "2026-11-18",
+      "kickoff": "12:00",
+      "utcDate": "2026-11-18T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": null,
+        "name": "São Paulo FC",
+        "fullName": "São Paulo FC",
+        "crest": null,
+        "normalized": "sao paulo"
+      },
+      "away": {
+        "id": null,
+        "name": "Fluminense FC",
+        "fullName": "Fluminense FC",
+        "crest": null,
+        "normalized": "fluminense"
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50
+    },
+    {
+      "id": "wm:bab66735f400b2e8",
+      "date": "2026-11-18",
+      "kickoff": "14:45",
+      "utcDate": "2026-11-18T17:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "BK Häcken",
+        "fullName": "BK Häcken",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
+        "normalized": "bk hacken"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Manchester City",
+        "fullName": "Manchester City",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
+        "normalized": "manchester city"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1385104372,
+        "revisionTimestamp": "2026-11-11T22:13:19Z"
+      }
+    },
+    {
+      "id": "wm:56a8d999863d8656",
+      "date": "2026-11-18",
+      "kickoff": "14:45",
+      "utcDate": "2026-11-18T17:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Real Madrid",
+        "fullName": "Real Madrid",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+        "normalized": "real madrid"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Inter Milan",
+        "fullName": "Inter Milan",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/131635.png",
+        "normalized": "inter milan"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1385104372,
+        "revisionTimestamp": "2026-11-11T22:13:19Z"
+      }
+    },
+    {
+      "id": "wm:55c92f0c7a1111e1",
+      "date": "2026-11-18",
+      "kickoff": "17:00",
+      "utcDate": "2026-11-18T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Chelsea",
+        "fullName": "Chelsea",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
+        "normalized": "chelsea"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Paris Saint-Germain",
+        "fullName": "Paris Saint-Germain",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
+        "normalized": "paris saint germain"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1385104372,
+        "revisionTimestamp": "2026-11-11T22:13:19Z"
+      }
+    },
+    {
+      "id": "wm:bd88b93deb55ee12",
+      "date": "2026-11-18",
+      "kickoff": "17:00",
+      "utcDate": "2026-11-18T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "code": "UWCL",
+        "name": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2408.png",
+        "normalized": "uefa women s champions league"
+      },
+      "home": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "Juventus",
+        "fullName": "Juventus",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20092.png",
+        "normalized": "juventus"
+      },
+      "away": {
+        "id": null,
+        "idProvider": "wikimedia",
+        "name": "OH Leuven",
+        "fullName": "OH Leuven",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/131423.png",
+        "normalized": "oh leuven"
+      },
+      "sources": [
+        "wikimedia"
+      ],
+      "sourcePriority": 60,
+      "provenance": {
+        "provider": "wikimedia",
+        "page": "2026–27 UEFA Women's Champions League league phase",
+        "pageId": 83018611,
+        "revisionId": 1385104372,
+        "revisionTimestamp": "2026-11-11T22:13:19Z"
+      }
+    },
+    {
+      "id": "fd:555081",
+      "date": "2026-11-18",
+      "kickoff": "19:30",
+      "utcDate": "2026-11-18T22:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 4241,
+        "idProvider": "football-data",
+        "name": "Coritiba",
+        "fullName": "Coritiba FBC",
+        "crest": "https://crests.football-data.org/4241.png",
+        "normalized": "coritiba"
+      },
+      "away": {
+        "id": 6685,
+        "idProvider": "football-data",
+        "name": "Santos",
+        "fullName": "Santos FC",
+        "crest": "https://crests.football-data.org/6685.png",
+        "normalized": "santos"
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "fd:555086",
+      "date": "2026-11-18",
+      "kickoff": "20:00",
+      "utcDate": "2026-11-18T23:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 4287,
+        "idProvider": "football-data",
+        "name": "Clube do Remo",
+        "fullName": "Clube do Remo",
+        "crest": "https://crests.football-data.org/4287.png",
+        "normalized": "remo"
+      },
+      "away": {
+        "id": 1772,
+        "idProvider": "football-data",
+        "name": "Chapecoense",
+        "fullName": "Chapecoense AF",
+        "crest": "https://crests.football-data.org/1772_large.png",
+        "normalized": "chapecoense"
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "bsd:7337",
+      "date": "2026-11-18",
+      "kickoff": "20:30",
+      "utcDate": "2026-11-18T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 9,
+        "idProvider": "bsd",
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": 160,
+        "idProvider": "bsd",
+        "name": "Flamengo",
+        "fullName": "Flamengo",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+        "normalized": "flamengo"
+      },
+      "away": {
+        "id": 371,
+        "idProvider": "bsd",
+        "name": "Athletico",
+        "fullName": "Athletico",
+        "crest": null,
+        "normalized": "athletico"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 7337,
+        "providerLeagueId": 9,
+        "providerSeasonId": 28
+      }
+    },
+    {
+      "id": "fd:555082",
+      "date": "2026-11-18",
+      "kickoff": "20:30",
+      "utcDate": "2026-11-18T23:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 1771,
+        "idProvider": "football-data",
+        "name": "Cruzeiro",
+        "fullName": "Cruzeiro EC",
+        "crest": "https://crests.football-data.org/1771.png",
+        "normalized": "cruzeiro"
+      },
+      "away": {
+        "id": 1769,
+        "idProvider": "football-data",
+        "name": "Palmeiras",
+        "fullName": "SE Palmeiras",
+        "crest": "https://crests.football-data.org/1769.png",
+        "normalized": "palmeiras"
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "fd:555083",
+      "date": "2026-11-18",
+      "kickoff": "20:30",
+      "utcDate": "2026-11-18T23:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "id": 2013,
+        "idProvider": "football-data",
+        "code": "BSA",
+        "name": "Campeonato Brasileiro Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "campeonato brasileiro serie a"
+      },
+      "home": {
+        "id": 1783,
+        "idProvider": "football-data",
+        "name": "Flamengo",
+        "fullName": "CR Flamengo",
+        "crest": "https://crests.football-data.org/1783.png",
+        "normalized": "flamengo"
+      },
+      "away": {
+        "id": 1768,
+        "idProvider": "football-data",
+        "name": "Paranaense",
+        "fullName": "CA Paranaense",
+        "crest": "https://crests.football-data.org/1768.png",
+        "normalized": "paranaense"
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100
+    },
+    {
+      "id": "bsd:7334",
+      "date": "2026-11-18",
+      "kickoff": "21:30",
+      "utcDate": "2026-11-19T00:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 9,
+        "idProvider": "bsd",
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": 167,
+        "idProvider": "bsd",
+        "name": "Corinthians",
+        "fullName": "Corinthians",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+        "normalized": "corinthians"
+      },
+      "away": {
+        "id": 163,
+        "idProvider": "bsd",
+        "name": "Botafogo",
+        "fullName": "Botafogo",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+        "normalized": "botafogo"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 7334,
+        "providerLeagueId": 9,
+        "providerSeasonId": 28
+      }
+    },
+    {
+      "id": "bsd:7338",
+      "date": "2026-11-18",
+      "kickoff": "21:30",
+      "utcDate": "2026-11-19T00:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 9,
+        "idProvider": "bsd",
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": 154,
+        "idProvider": "bsd",
+        "name": "Grêmio",
+        "fullName": "Grêmio",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+        "normalized": "gremio"
+      },
+      "away": {
+        "id": 166,
+        "idProvider": "bsd",
+        "name": "Bahia",
+        "fullName": "Bahia",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+        "normalized": "bahia"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 7338,
+        "providerLeagueId": 9,
+        "providerSeasonId": 28
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T00:45:44Z",
+  "generatedAt": "2026-11-12T09:52:53Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8116,6 +8116,20 @@
         "uefa.champions"
       ],
       "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q478317",
+      "name": "Coritiba FBC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Coritiba_Foot_Ball_Club_logo.svg/330px-Coritiba_Foot_Ball_Club_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
       "status": "validated"
     },
     {
