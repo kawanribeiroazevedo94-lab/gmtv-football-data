@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-12T18:21:02.793599Z",
+  "generatedAt": "2026-11-13T01:06:41.798059Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-12",
@@ -126,8 +126,8 @@
           "key": "uwcl",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1385104372,
-          "revisionTimestamp": "2026-11-11T22:13:19Z",
+          "revisionId": 1385345227,
+          "revisionTimestamp": "2026-11-12T22:20:47Z",
           "ok": true,
           "matchesInWindow": 6,
           "error": null
@@ -258,8 +258,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1385104372,
-              "revisionTimestamp": "2026-11-11T22:13:19Z"
+              "revisionId": 1385345227,
+              "revisionTimestamp": "2026-11-12T22:20:47Z"
             }
           }
         },
@@ -355,8 +355,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1385104372,
-              "revisionTimestamp": "2026-11-11T22:13:19Z"
+              "revisionId": 1385345227,
+              "revisionTimestamp": "2026-11-12T22:20:47Z"
             }
           }
         },
@@ -365,7 +365,7 @@
           "date": "2026-11-12",
           "kickoff": "19:00",
           "utcDate": "2026-11-12T22:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-b",
             "entityType": "competition",
@@ -467,7 +467,7 @@
           "date": "2026-11-12",
           "kickoff": "20:00",
           "utcDate": "2026-11-12T23:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:brasileirao-serie-b",
             "entityType": "competition",
@@ -2036,13 +2036,13 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/330px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
             }
           },
           "away": {
@@ -2638,8 +2638,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1385104372,
-              "revisionTimestamp": "2026-11-11T22:13:19Z"
+              "revisionId": 1385345227,
+              "revisionTimestamp": "2026-11-12T22:20:47Z"
             }
           }
         },
@@ -2735,8 +2735,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1385104372,
-              "revisionTimestamp": "2026-11-11T22:13:19Z"
+              "revisionId": 1385345227,
+              "revisionTimestamp": "2026-11-12T22:20:47Z"
             }
           }
         },
@@ -2832,8 +2832,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1385104372,
-              "revisionTimestamp": "2026-11-11T22:13:19Z"
+              "revisionId": 1385345227,
+              "revisionTimestamp": "2026-11-12T22:20:47Z"
             }
           }
         },
@@ -2929,8 +2929,8 @@
               "provider": "wikimedia",
               "page": "2026–27 UEFA Women's Champions League league phase",
               "pageId": 83018611,
-              "revisionId": 1385104372,
-              "revisionTimestamp": "2026-11-11T22:13:19Z"
+              "revisionId": 1385345227,
+              "revisionTimestamp": "2026-11-12T22:20:47Z"
             }
           }
         },
@@ -3734,8 +3734,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1385104372,
-          "revisionTimestamp": "2026-11-11T22:13:19Z"
+          "revisionId": 1385345227,
+          "revisionTimestamp": "2026-11-12T22:20:47Z"
         }
       }
     },
@@ -3831,8 +3831,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1385104372,
-          "revisionTimestamp": "2026-11-11T22:13:19Z"
+          "revisionId": 1385345227,
+          "revisionTimestamp": "2026-11-12T22:20:47Z"
         }
       }
     },
@@ -3841,7 +3841,7 @@
       "date": "2026-11-12",
       "kickoff": "19:00",
       "utcDate": "2026-11-12T22:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-b",
         "entityType": "competition",
@@ -3943,7 +3943,7 @@
       "date": "2026-11-12",
       "kickoff": "20:00",
       "utcDate": "2026-11-12T23:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:brasileirao-serie-b",
         "entityType": "competition",
@@ -5474,13 +5474,13 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/330px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
         }
       },
       "away": {
@@ -6076,8 +6076,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1385104372,
-          "revisionTimestamp": "2026-11-11T22:13:19Z"
+          "revisionId": 1385345227,
+          "revisionTimestamp": "2026-11-12T22:20:47Z"
         }
       }
     },
@@ -6173,8 +6173,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1385104372,
-          "revisionTimestamp": "2026-11-11T22:13:19Z"
+          "revisionId": 1385345227,
+          "revisionTimestamp": "2026-11-12T22:20:47Z"
         }
       }
     },
@@ -6270,8 +6270,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1385104372,
-          "revisionTimestamp": "2026-11-11T22:13:19Z"
+          "revisionId": 1385345227,
+          "revisionTimestamp": "2026-11-12T22:20:47Z"
         }
       }
     },
@@ -6367,8 +6367,8 @@
           "provider": "wikimedia",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1385104372,
-          "revisionTimestamp": "2026-11-11T22:13:19Z"
+          "revisionId": 1385345227,
+          "revisionTimestamp": "2026-11-12T22:20:47Z"
         }
       }
     },

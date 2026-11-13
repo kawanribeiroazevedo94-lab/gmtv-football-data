@@ -394,7 +394,7 @@
       "entityType": "competition",
       "fetchStatus": "ok",
       "gmId": "competition:brasileirao-serie-a",
-      "lastAttemptAt": "2026-11-12T18:21:01Z",
+      "lastAttemptAt": "2026-11-13T01:06:01Z",
       "name": "Campeonato Brasileiro Série A",
       "nextReviewAfter": null,
       "provenance": {
@@ -3372,7 +3372,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Académico de Viseu FC",
-      "nextReviewAfter": "2026-11-13T06:21:02Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -5962,9 +5962,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:19Z",
+      "lastAttemptAt": "2026-11-13T01:06:07Z",
       "name": "Athletico",
-      "nextReviewAfter": "2026-11-12T21:52:19Z",
+      "nextReviewAfter": "2026-11-13T13:06:07Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-02T04:32:22Z",
@@ -8746,9 +8746,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:29Z",
+      "lastAttemptAt": "2026-11-13T01:06:17Z",
       "name": "Botafogo FR",
-      "nextReviewAfter": "2026-11-12T21:52:29Z",
+      "nextReviewAfter": "2026-11-13T13:06:17Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -9738,9 +9738,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "CA Paranaense",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-06T11:21:03Z",
@@ -10666,9 +10666,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "Chapecoense AF",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -10730,7 +10730,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:20:59Z",
+      "lastAttemptAt": "2026-11-13T01:06:00Z",
       "name": "Chapecoense",
       "nextReviewAfter": null,
       "provenance": {
@@ -11242,9 +11242,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "Clube do Remo",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -11274,7 +11274,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:20:59Z",
+      "lastAttemptAt": "2026-11-13T01:05:59Z",
       "name": "Clube do Remo",
       "nextReviewAfter": null,
       "provenance": {
@@ -11818,7 +11818,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:20:57Z",
+      "lastAttemptAt": "2026-11-13T01:05:58Z",
       "name": "Coritiba",
       "nextReviewAfter": null,
       "provenance": {
@@ -11946,9 +11946,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "CR Flamengo",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-11T05:53:50Z",
@@ -11978,9 +11978,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "CR Vasco da Gama",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -12225,18 +12225,18 @@
       "wikidataQid": null
     },
     "team:cruzeiro ec@brasileirao serie a": {
-      "artworkProperty": null,
-      "artworkProvider": null,
-      "artworkUrl": null,
+      "artworkProperty": "P154",
+      "artworkProvider": "wikidata-commons",
+      "artworkUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/330px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "attemptCount": 1,
       "cacheKey": "team:cruzeiro ec@brasileirao serie a",
-      "candidateUrl": null,
+      "candidateUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/330px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "entityType": "club",
-      "fetchStatus": "not_checked",
+      "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:37Z",
       "name": "Cruzeiro EC",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": null,
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-06T11:21:03Z",
@@ -12244,17 +12244,17 @@
         "providerEntityId": null,
         "resolverVersion": 4,
         "sha256": null,
-        "sourceFile": null,
+        "sourceFile": "Cruzeiro Esporte Clube (logo).svg",
         "sourceUrl": null,
         "supersededRejection": null
       },
-      "publishable": false,
+      "publishable": true,
       "rejectedAt": null,
       "rejectedReason": null,
-      "resolutionStatus": "unresolved",
-      "semanticStatus": "unresolved",
-      "visualStatus": "not_checked",
-      "wikidataQid": null
+      "resolutionStatus": "validated",
+      "semanticStatus": "validated",
+      "visualStatus": "approved",
+      "wikidataQid": "Q188277"
     },
     "team:cruzeiro@brasileirao serie a": {
       "artworkProperty": "provider-logo",
@@ -12298,7 +12298,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:21:00Z",
+      "lastAttemptAt": "2026-11-13T01:06:00Z",
       "name": "Cruzeiro",
       "nextReviewAfter": null,
       "provenance": {
@@ -13514,9 +13514,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "EC Bahia",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-11T05:53:50Z",
@@ -13546,9 +13546,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "EC Vitória",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -14188,7 +14188,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "CF Estrela da Amadora",
-      "nextReviewAfter": "2026-11-13T06:21:02Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -16682,7 +16682,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:21:02Z",
+      "lastAttemptAt": "2026-11-13T01:06:02Z",
       "name": "Flamengo",
       "nextReviewAfter": null,
       "provenance": {
@@ -16778,9 +16778,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "Fluminense FC",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-11T05:53:50Z",
@@ -23498,7 +23498,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:20:55Z",
+      "lastAttemptAt": "2026-11-13T01:05:56Z",
       "name": "Mineiro",
       "nextReviewAfter": null,
       "provenance": {
@@ -23658,7 +23658,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:20:54Z",
+      "lastAttemptAt": "2026-11-13T01:05:55Z",
       "name": "Mirassol",
       "nextReviewAfter": null,
       "provenance": {
@@ -26314,7 +26314,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:21:01Z",
+      "lastAttemptAt": "2026-11-13T01:06:01Z",
       "name": "Palmeiras",
       "nextReviewAfter": null,
       "provenance": {
@@ -26474,7 +26474,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:21:02Z",
+      "lastAttemptAt": "2026-11-13T01:06:02Z",
       "name": "Paranaense",
       "nextReviewAfter": null,
       "provenance": {
@@ -28170,9 +28170,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "RB Bragantino",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-27T04:28:56Z",
@@ -30154,9 +30154,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:49Z",
+      "lastAttemptAt": "2026-11-13T01:06:29Z",
       "name": "Santos FC",
-      "nextReviewAfter": "2026-11-12T21:52:49Z",
+      "nextReviewAfter": "2026-11-13T13:06:29Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-11T05:53:50Z",
@@ -30218,7 +30218,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:20:58Z",
+      "lastAttemptAt": "2026-11-13T01:05:58Z",
       "name": "Santos",
       "nextReviewAfter": null,
       "provenance": {
@@ -30346,9 +30346,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "São Paulo FC",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-11T05:53:50Z",
@@ -30826,9 +30826,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "SC Internacional",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-01T04:33:17Z",
@@ -31082,9 +31082,9 @@
       "entityType": "club",
       "fetchStatus": "not_checked",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T09:52:53Z",
+      "lastAttemptAt": "2026-11-13T01:06:41Z",
       "name": "SE Palmeiras",
-      "nextReviewAfter": "2026-11-12T21:52:53Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-10-05T04:37:28Z",
@@ -32300,7 +32300,7 @@
       "gmId": null,
       "lastAttemptAt": null,
       "name": "Sport Lisboa e Benfica",
-      "nextReviewAfter": "2026-11-13T06:21:02Z",
+      "nextReviewAfter": "2026-11-13T13:06:41Z",
       "provenance": {
         "catalogId": null,
         "migratedAt": "2026-09-21T14:10:51Z",
@@ -35402,7 +35402,7 @@
       "entityType": "club",
       "fetchStatus": "ok",
       "gmId": null,
-      "lastAttemptAt": "2026-11-12T18:20:56Z",
+      "lastAttemptAt": "2026-11-13T01:05:57Z",
       "name": "Vasco da Gama",
       "nextReviewAfter": null,
       "provenance": {
@@ -36769,7 +36769,7 @@
       "wikidataQid": null
     }
   },
-  "generatedAt": "2026-11-12T18:21:02Z",
+  "generatedAt": "2026-11-13T01:06:41Z",
   "retryPolicy": {
     "rejectedAutomaticRetry": false,
     "unresolvedDays": 7
