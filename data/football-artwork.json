@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-13T09:34:07Z",
+  "generatedAt": "2026-11-13T17:46:45Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8803,6 +8803,20 @@
         "ger.1"
       ],
       "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q80964",
+      "name": "SE Palmeiras",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/330px-Palmeiras_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "bra.1"
+      ],
+      "country": "Brazil",
       "status": "validated"
     },
     {

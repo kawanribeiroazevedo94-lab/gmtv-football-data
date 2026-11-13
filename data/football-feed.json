@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-13T09:34:07.199822Z",
+  "generatedAt": "2026-11-13T17:46:45.469148Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-13",
@@ -744,7 +744,7 @@
             "id": null,
             "name": "SE Palmeiras",
             "fullName": "SE Palmeiras",
-            "crest": null,
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/330px-Palmeiras_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "palmeiras"
           },
           "sources": [
@@ -2261,7 +2261,7 @@
         "id": null,
         "name": "SE Palmeiras",
         "fullName": "SE Palmeiras",
-        "crest": null,
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/330px-Palmeiras_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "palmeiras"
       },
       "sources": [

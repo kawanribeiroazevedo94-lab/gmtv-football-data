@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-13T09:34:07.199822Z",
+  "generatedAt": "2026-11-13T17:46:45.469148Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-13",
@@ -1655,13 +1655,13 @@
             "confidence": "unknown",
             "resolutionStatus": "unresolved",
             "artwork": {
-              "status": "unresolved",
-              "url": null,
-              "provider": null,
-              "property": null,
-              "semanticStatus": "unresolved",
-              "fetchStatus": "not_checked",
-              "visualStatus": "not_checked"
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/330px-Palmeiras_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
             }
           },
           "sources": [
@@ -5585,13 +5585,13 @@
         "confidence": "unknown",
         "resolutionStatus": "unresolved",
         "artwork": {
-          "status": "unresolved",
-          "url": null,
-          "provider": null,
-          "property": null,
-          "semanticStatus": "unresolved",
-          "fetchStatus": "not_checked",
-          "visualStatus": "not_checked"
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/330px-Palmeiras_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
         }
       },
       "sources": [
