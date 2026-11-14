@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-13T23:36:10Z",
+  "generatedAt": "2026-11-14T06:28:25Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8230,6 +8230,20 @@
         "ger.2"
       ],
       "country": "Germany",
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q501693",
+      "name": "ES Troyes AC",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/ES_Troyes_AC.svg/330px-ES_Troyes_AC.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "fra.1"
+      ],
+      "country": "France",
       "status": "validated"
     },
     {

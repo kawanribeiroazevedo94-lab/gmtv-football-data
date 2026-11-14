@@ -1,20 +1,20 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-13T23:36:09.831803Z",
+  "generatedAt": "2026-11-14T06:28:25.172704Z",
   "timezone": "America/Sao_Paulo",
   "window": {
-    "from": "2026-11-13",
-    "to": "2026-11-19"
+    "from": "2026-11-14",
+    "to": "2026-11-20"
   },
   "sources": {
     "footballData": {
       "ok": true,
-      "matches": 10,
+      "matches": 14,
       "error": null
     },
     "openFootball": {
       "ok": true,
-      "matches": 10,
+      "matches": 12,
       "datasets": [
         {
           "dataset": "2026-27/en.1.json",
@@ -29,7 +29,7 @@
         {
           "dataset": "2026-27/de.1.json",
           "ok": true,
-          "matchesInWindow": 0
+          "matchesInWindow": 1
         },
         {
           "dataset": "2026-27/es.1.json",
@@ -44,7 +44,7 @@
         {
           "dataset": "2026-27/fr.1.json",
           "ok": true,
-          "matchesInWindow": 0
+          "matchesInWindow": 1
         },
         {
           "dataset": "2026-27/nl.1.json",
@@ -66,26 +66,26 @@
     "bsd": {
       "configured": true,
       "ok": true,
-      "matches": 18,
-      "pages": 3,
+      "matches": 21,
+      "pages": 4,
       "error": null
     },
     "openLigaDB": {
       "ok": true,
-      "matches": 0,
+      "matches": 4,
       "competitions": [
         {
           "shortcut": "bl1",
           "providerCompetitionId": 4937,
           "ok": true,
-          "matchesInWindow": 0,
+          "matchesInWindow": 1,
           "error": null
         },
         {
           "shortcut": "bl2",
           "providerCompetitionId": 4938,
           "ok": true,
-          "matchesInWindow": 0,
+          "matchesInWindow": 2,
           "error": null
         },
         {
@@ -106,7 +106,7 @@
           "shortcut": "la1",
           "providerCompetitionId": 4936,
           "ok": true,
-          "matchesInWindow": 0,
+          "matchesInWindow": 1,
           "error": null
         },
         {
@@ -153,7 +153,7 @@
       "teamsUnresolved": []
     },
     "wikidataArtwork": {
-      "cachedEntries": 1149
+      "cachedEntries": 1150
     }
   },
   "contracts": {
@@ -162,14 +162,8 @@
   },
   "days": [
     {
-      "date": "2026-11-13",
-      "label": "HOJE",
-      "count": 0,
-      "matches": []
-    },
-    {
       "date": "2026-11-14",
-      "label": "14/11",
+      "label": "HOJE",
       "count": 10,
       "matches": [
         {
@@ -4022,22 +4016,23 @@
           }
         },
         {
-          "id": "bsd:7341",
+          "id": "fd:555087",
           "date": "2026-11-19",
           "kickoff": "21:30",
           "utcDate": "2026-11-20T00:30:00Z",
-          "status": "SCHEDULED",
+          "status": "TIMED",
           "competition": {
             "gmId": "competition:brasileirao-serie-a",
             "entityType": "competition",
             "identityStatus": "resolved",
             "canonicalName": "Brasileirão Série A",
-            "displayName": "Brasileirão Série A",
+            "displayName": "Campeonato Brasileiro Série A",
             "fullName": null,
-            "normalized": "brasileirao serie a",
+            "normalized": "campeonato brasileiro serie a",
             "country": "Brazil",
             "externalIds": {
-              "bsd": "9"
+              "bsd": "9",
+              "football-data": "2013"
             },
             "wikidataQid": null,
             "validationStatus": "validated",
@@ -4046,7 +4041,7 @@
             "artwork": {
               "status": "validated",
               "url": "https://crests.football-data.org/bsa.png",
-              "provider": "football-data-curated",
+              "provider": "football-data",
               "property": "curated-file",
               "semanticStatus": "validated",
               "fetchStatus": "ok",
@@ -4060,11 +4055,11 @@
             "identityStatus": "unresolved",
             "canonicalName": null,
             "displayName": "São Paulo",
-            "fullName": "São Paulo",
+            "fullName": "São Paulo FC",
             "normalized": "sao paulo",
             "country": null,
             "externalIds": {
-              "bsd": "158"
+              "football-data": "1776"
             },
             "wikidataQid": null,
             "validationStatus": "unresolved",
@@ -4072,9 +4067,9 @@
             "resolutionStatus": "unresolved",
             "artwork": {
               "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-              "provider": "espn-catalog",
-              "property": "provider-logo",
+              "url": "https://crests.football-data.org/1776.png",
+              "provider": "football-data",
+              "property": "curated-file",
               "semanticStatus": "validated",
               "fetchStatus": "ok",
               "visualStatus": "approved"
@@ -4086,11 +4081,11 @@
             "identityStatus": "unresolved",
             "canonicalName": null,
             "displayName": "Fluminense",
-            "fullName": "Fluminense",
+            "fullName": "Fluminense FC",
             "normalized": "fluminense",
             "country": null,
             "externalIds": {
-              "bsd": "153"
+              "football-data": "1765"
             },
             "wikidataQid": null,
             "validationStatus": "unresolved",
@@ -4098,9 +4093,115 @@
             "resolutionStatus": "unresolved",
             "artwork": {
               "status": "validated",
-              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+              "url": "https://crests.football-data.org/1765.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data",
+            "bsd"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data",
+              "bsd"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "label": "20/11",
+      "count": 10,
+      "matches": [
+        {
+          "id": "bsd:602722",
+          "date": "2026-11-20",
+          "kickoff": "14:30",
+          "utcDate": "2026-11-20T17:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "2. Bundesliga",
+            "fullName": null,
+            "normalized": "2 bundesliga",
+            "country": null,
+            "externalIds": {
+              "bsd": "94"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
               "provider": "espn-catalog",
               "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BL2"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Arminia Bielefeld",
+            "fullName": "Arminia Bielefeld",
+            "normalized": "arminia bielefeld",
+            "country": null,
+            "externalIds": {
+              "bsd": "1839"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg/330px-Arminia_Bielefeld_Logo_2021%E2%80%93.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "1. FC Magdeburg",
+            "fullName": "1. FC Magdeburg",
+            "normalized": "1 magdeburg",
+            "country": null,
+            "externalIds": {
+              "bsd": "1838"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/330px-1._FC_Magdeburg.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
               "semanticStatus": "validated",
               "fetchStatus": "ok",
               "visualStatus": "approved"
@@ -4117,10 +4218,906 @@
             "sourcePriority": 80,
             "sourceDetails": {
               "provider": "bsd",
-              "providerEventId": 7341,
-              "providerLeagueId": 9,
-              "providerSeasonId": 28
+              "providerEventId": 602722,
+              "providerLeagueId": 94,
+              "providerSeasonId": 1967
             }
+          }
+        },
+        {
+          "id": "oldb:83705",
+          "date": "2026-11-20",
+          "kickoff": "14:30",
+          "utcDate": "2026-11-20T17:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "2. Bundesliga",
+            "fullName": null,
+            "normalized": "2 bundesliga",
+            "country": null,
+            "externalIds": {
+              "openligadb": "4938"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BL2"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "DSC Arminia Bielefeld",
+            "fullName": "DSC Arminia Bielefeld",
+            "normalized": "dsc arminia bielefeld",
+            "country": null,
+            "externalIds": {
+              "openligadb": "83"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg/330px-Arminia_Bielefeld_Logo_2021%E2%80%93.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "1. FC Magdeburg",
+            "fullName": "1. FC Magdeburg",
+            "normalized": "1 magdeburg",
+            "country": null,
+            "externalIds": {
+              "openligadb": "78"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/330px-1._FC_Magdeburg.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "openligadb"
+          ],
+          "sourcePriority": 70,
+          "provenance": {
+            "fixtureSources": [
+              "openligadb"
+            ],
+            "sourcePriority": 70,
+            "sourceDetails": {
+              "provider": "openligadb",
+              "providerMatchId": 83705,
+              "providerCompetitionId": 4938,
+              "shortcut": "bl2"
+            }
+          }
+        },
+        {
+          "id": "bsd:602723",
+          "date": "2026-11-20",
+          "kickoff": "14:30",
+          "utcDate": "2026-11-20T17:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "2. Bundesliga",
+            "fullName": null,
+            "normalized": "2 bundesliga",
+            "country": null,
+            "externalIds": {
+              "bsd": "94"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BL2"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Darmstadt 98",
+            "fullName": "Darmstadt 98",
+            "normalized": "darmstadt 98",
+            "country": null,
+            "externalIds": {
+              "bsd": "1295"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SV_Darmstadt_98_Logo.svg/330px-SV_Darmstadt_98_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "1. FC Heidenheim",
+            "fullName": "1. FC Heidenheim",
+            "normalized": "1 heidenheim",
+            "country": null,
+            "externalIds": {
+              "bsd": "81"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 602723,
+              "providerLeagueId": 94,
+              "providerSeasonId": 1967
+            }
+          }
+        },
+        {
+          "id": "oldb:83697",
+          "date": "2026-11-20",
+          "kickoff": "14:30",
+          "utcDate": "2026-11-20T17:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "2. Bundesliga",
+            "fullName": null,
+            "normalized": "2 bundesliga",
+            "country": null,
+            "externalIds": {
+              "openligadb": "4938"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BL2"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "SV Darmstadt 98",
+            "fullName": "SV Darmstadt 98",
+            "normalized": "sv darmstadt 98",
+            "country": null,
+            "externalIds": {
+              "openligadb": "118"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SV_Darmstadt_98_Logo.svg/330px-SV_Darmstadt_98_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "1. FC Heidenheim 1846",
+            "fullName": "1. FC Heidenheim 1846",
+            "normalized": "1 heidenheim 1846",
+            "country": null,
+            "externalIds": {
+              "openligadb": "199"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/330px-1._FC_Heidenheim_1846.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "openligadb"
+          ],
+          "sourcePriority": 70,
+          "provenance": {
+            "fixtureSources": [
+              "openligadb"
+            ],
+            "sourcePriority": 70,
+            "sourceDetails": {
+              "provider": "openligadb",
+              "providerMatchId": 83697,
+              "providerCompetitionId": 4938,
+              "shortcut": "bl2"
+            }
+          }
+        },
+        {
+          "id": "fd:565859",
+          "date": "2026-11-20",
+          "kickoff": "16:30",
+          "utcDate": "2026-11-20T19:30:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Bundesliga",
+            "fullName": null,
+            "normalized": "bundesliga",
+            "country": null,
+            "externalIds": {
+              "football-data": "2002"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/BL1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BL1"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Bayern",
+            "fullName": "FC Bayern München",
+            "normalized": "bayern",
+            "country": null,
+            "externalIds": {
+              "football-data": "5"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/5.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "1. FC Köln",
+            "fullName": "1. FC Köln",
+            "normalized": "1 koln",
+            "country": null,
+            "externalIds": {
+              "football-data": "1"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "bsd:213754",
+          "date": "2026-11-20",
+          "kickoff": "16:30",
+          "utcDate": "2026-11-20T19:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Bundesliga",
+            "fullName": null,
+            "normalized": "bundesliga",
+            "country": null,
+            "externalIds": {
+              "bsd": "5"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/BL1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "BL1"
+          },
+          "home": {
+            "gmId": "club:bayern-munich",
+            "entityType": "club",
+            "identityStatus": "resolved",
+            "canonicalName": "Bayern Munich",
+            "displayName": "FC Bayern München",
+            "fullName": "FC Bayern München",
+            "normalized": "bayern munchen",
+            "country": "Germany",
+            "externalIds": {
+              "bsd": "79"
+            },
+            "wikidataQid": null,
+            "validationStatus": "validated",
+            "confidence": "high",
+            "resolutionStatus": "partial",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/330px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "1. FC Köln",
+            "fullName": "1. FC Köln",
+            "normalized": "1 koln",
+            "country": null,
+            "externalIds": {
+              "bsd": "94"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "bsd",
+            "openligadb",
+            "openfootball"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "fixtureSources": [
+              "bsd",
+              "openligadb",
+              "openfootball"
+            ],
+            "sourcePriority": 80,
+            "sourceDetails": {
+              "provider": "bsd",
+              "providerEventId": 213754,
+              "providerLeagueId": 5,
+              "providerSeasonId": 1091
+            }
+          }
+        },
+        {
+          "id": "of:cc3d1ff403762bff",
+          "date": "2026-11-20",
+          "kickoff": "16:45",
+          "utcDate": "2026-11-20T19:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Ligue 1",
+            "fullName": null,
+            "normalized": "ligue 1",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/FL1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "FL1"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "ES Troyes AC",
+            "fullName": "ES Troyes AC",
+            "normalized": "es troyes",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/ES_Troyes_AC.svg/330px-ES_Troyes_AC.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "provider": "wikidata-commons",
+              "property": "P154",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Le Havre AC",
+            "fullName": "Le Havre AC",
+            "normalized": "le havre",
+            "country": null,
+            "externalIds": {},
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "openfootball"
+          ],
+          "sourcePriority": 50,
+          "provenance": {
+            "fixtureSources": [
+              "openfootball"
+            ],
+            "sourcePriority": 50,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "fd:559622",
+          "date": "2026-11-20",
+          "kickoff": "16:45",
+          "utcDate": "2026-11-20T19:45:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Ligue 1",
+            "fullName": null,
+            "normalized": "ligue 1",
+            "country": null,
+            "externalIds": {
+              "football-data": "2015"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/FL1.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "FL1"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Troyes",
+            "fullName": "ES Troyes AC",
+            "normalized": "troyes",
+            "country": null,
+            "externalIds": {
+              "football-data": "531"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/531.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Le Havre",
+            "fullName": "Le Havre AC",
+            "normalized": "le havre",
+            "country": null,
+            "externalIds": {
+              "football-data": "533"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/533.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
+          }
+        },
+        {
+          "id": "oldb:85456",
+          "date": "2026-11-20",
+          "kickoff": "17:00",
+          "utcDate": "2026-11-20T20:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "LaLiga",
+            "fullName": null,
+            "normalized": "laliga",
+            "country": null,
+            "externalIds": {
+              "openligadb": "4936"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
+              "provider": "espn-catalog",
+              "property": "provider-logo",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "PD"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "AFC Ajax",
+            "fullName": "AFC Ajax",
+            "normalized": "ajax",
+            "country": null,
+            "externalIds": {
+              "openligadb": "1135"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Espanyol Barcelona",
+            "fullName": "Espanyol Barcelona",
+            "normalized": "espanyol barcelona",
+            "country": null,
+            "externalIds": {
+              "openligadb": "1142"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "unresolved",
+              "url": null,
+              "provider": null,
+              "property": null,
+              "semanticStatus": "unresolved",
+              "fetchStatus": "not_checked",
+              "visualStatus": "not_checked"
+            }
+          },
+          "sources": [
+            "openligadb"
+          ],
+          "sourcePriority": 70,
+          "provenance": {
+            "fixtureSources": [
+              "openligadb"
+            ],
+            "sourcePriority": 70,
+            "sourceDetails": {
+              "provider": "openligadb",
+              "providerMatchId": 85456,
+              "providerCompetitionId": 4936,
+              "shortcut": "la1"
+            }
+          }
+        },
+        {
+          "id": "fd:564748",
+          "date": "2026-11-20",
+          "kickoff": "17:00",
+          "utcDate": "2026-11-20T20:00:00Z",
+          "status": "TIMED",
+          "competition": {
+            "gmId": null,
+            "entityType": "competition",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Primera Division",
+            "fullName": null,
+            "normalized": "primera division",
+            "country": null,
+            "externalIds": {
+              "football-data": "2014"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/laliga.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            },
+            "code": "PD"
+          },
+          "home": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Athletic",
+            "fullName": "Athletic Club",
+            "normalized": "athletic",
+            "country": null,
+            "externalIds": {
+              "football-data": "77"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/77.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "away": {
+            "gmId": null,
+            "entityType": "club",
+            "identityStatus": "unresolved",
+            "canonicalName": null,
+            "displayName": "Espanyol",
+            "fullName": "RCD Espanyol de Barcelona",
+            "normalized": "espanyol",
+            "country": null,
+            "externalIds": {
+              "football-data": "80"
+            },
+            "wikidataQid": null,
+            "validationStatus": "unresolved",
+            "confidence": "unknown",
+            "resolutionStatus": "unresolved",
+            "artwork": {
+              "status": "validated",
+              "url": "https://crests.football-data.org/80.png",
+              "provider": "football-data",
+              "property": "curated-file",
+              "semanticStatus": "validated",
+              "fetchStatus": "ok",
+              "visualStatus": "approved"
+            }
+          },
+          "sources": [
+            "football-data"
+          ],
+          "sourcePriority": 100,
+          "provenance": {
+            "fixtureSources": [
+              "football-data"
+            ],
+            "sourcePriority": 100,
+            "sourceDetails": {}
           }
         }
       ]
@@ -7945,22 +8942,23 @@
       }
     },
     {
-      "id": "bsd:7341",
+      "id": "fd:555087",
       "date": "2026-11-19",
       "kickoff": "21:30",
       "utcDate": "2026-11-20T00:30:00Z",
-      "status": "SCHEDULED",
+      "status": "TIMED",
       "competition": {
         "gmId": "competition:brasileirao-serie-a",
         "entityType": "competition",
         "identityStatus": "resolved",
         "canonicalName": "Brasileirão Série A",
-        "displayName": "Brasileirão Série A",
+        "displayName": "Campeonato Brasileiro Série A",
         "fullName": null,
-        "normalized": "brasileirao serie a",
+        "normalized": "campeonato brasileiro serie a",
         "country": "Brazil",
         "externalIds": {
-          "bsd": "9"
+          "bsd": "9",
+          "football-data": "2013"
         },
         "wikidataQid": null,
         "validationStatus": "validated",
@@ -7969,7 +8967,7 @@
         "artwork": {
           "status": "validated",
           "url": "https://crests.football-data.org/bsa.png",
-          "provider": "football-data-curated",
+          "provider": "football-data",
           "property": "curated-file",
           "semanticStatus": "validated",
           "fetchStatus": "ok",
@@ -7983,11 +8981,11 @@
         "identityStatus": "unresolved",
         "canonicalName": null,
         "displayName": "São Paulo",
-        "fullName": "São Paulo",
+        "fullName": "São Paulo FC",
         "normalized": "sao paulo",
         "country": null,
         "externalIds": {
-          "bsd": "158"
+          "football-data": "1776"
         },
         "wikidataQid": null,
         "validationStatus": "unresolved",
@@ -7995,9 +8993,9 @@
         "resolutionStatus": "unresolved",
         "artwork": {
           "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-          "provider": "espn-catalog",
-          "property": "provider-logo",
+          "url": "https://crests.football-data.org/1776.png",
+          "provider": "football-data",
+          "property": "curated-file",
           "semanticStatus": "validated",
           "fetchStatus": "ok",
           "visualStatus": "approved"
@@ -8009,11 +9007,11 @@
         "identityStatus": "unresolved",
         "canonicalName": null,
         "displayName": "Fluminense",
-        "fullName": "Fluminense",
+        "fullName": "Fluminense FC",
         "normalized": "fluminense",
         "country": null,
         "externalIds": {
-          "bsd": "153"
+          "football-data": "1765"
         },
         "wikidataQid": null,
         "validationStatus": "unresolved",
@@ -8021,9 +9019,108 @@
         "resolutionStatus": "unresolved",
         "artwork": {
           "status": "validated",
-          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+          "url": "https://crests.football-data.org/1765.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data",
+        "bsd"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data",
+          "bsd"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "bsd:602722",
+      "date": "2026-11-20",
+      "kickoff": "14:30",
+      "utcDate": "2026-11-20T17:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "2. Bundesliga",
+        "fullName": null,
+        "normalized": "2 bundesliga",
+        "country": null,
+        "externalIds": {
+          "bsd": "94"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
           "provider": "espn-catalog",
           "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BL2"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Arminia Bielefeld",
+        "fullName": "Arminia Bielefeld",
+        "normalized": "arminia bielefeld",
+        "country": null,
+        "externalIds": {
+          "bsd": "1839"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg/330px-Arminia_Bielefeld_Logo_2021%E2%80%93.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "1. FC Magdeburg",
+        "fullName": "1. FC Magdeburg",
+        "normalized": "1 magdeburg",
+        "country": null,
+        "externalIds": {
+          "bsd": "1838"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/330px-1._FC_Magdeburg.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
           "semanticStatus": "validated",
           "fetchStatus": "ok",
           "visualStatus": "approved"
@@ -8040,10 +9137,906 @@
         "sourcePriority": 80,
         "sourceDetails": {
           "provider": "bsd",
-          "providerEventId": 7341,
-          "providerLeagueId": 9,
-          "providerSeasonId": 28
+          "providerEventId": 602722,
+          "providerLeagueId": 94,
+          "providerSeasonId": 1967
         }
+      }
+    },
+    {
+      "id": "oldb:83705",
+      "date": "2026-11-20",
+      "kickoff": "14:30",
+      "utcDate": "2026-11-20T17:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "2. Bundesliga",
+        "fullName": null,
+        "normalized": "2 bundesliga",
+        "country": null,
+        "externalIds": {
+          "openligadb": "4938"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BL2"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "DSC Arminia Bielefeld",
+        "fullName": "DSC Arminia Bielefeld",
+        "normalized": "dsc arminia bielefeld",
+        "country": null,
+        "externalIds": {
+          "openligadb": "83"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg/330px-Arminia_Bielefeld_Logo_2021%E2%80%93.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "1. FC Magdeburg",
+        "fullName": "1. FC Magdeburg",
+        "normalized": "1 magdeburg",
+        "country": null,
+        "externalIds": {
+          "openligadb": "78"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/330px-1._FC_Magdeburg.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "openligadb"
+      ],
+      "sourcePriority": 70,
+      "provenance": {
+        "fixtureSources": [
+          "openligadb"
+        ],
+        "sourcePriority": 70,
+        "sourceDetails": {
+          "provider": "openligadb",
+          "providerMatchId": 83705,
+          "providerCompetitionId": 4938,
+          "shortcut": "bl2"
+        }
+      }
+    },
+    {
+      "id": "bsd:602723",
+      "date": "2026-11-20",
+      "kickoff": "14:30",
+      "utcDate": "2026-11-20T17:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "2. Bundesliga",
+        "fullName": null,
+        "normalized": "2 bundesliga",
+        "country": null,
+        "externalIds": {
+          "bsd": "94"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BL2"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Darmstadt 98",
+        "fullName": "Darmstadt 98",
+        "normalized": "darmstadt 98",
+        "country": null,
+        "externalIds": {
+          "bsd": "1295"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SV_Darmstadt_98_Logo.svg/330px-SV_Darmstadt_98_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "1. FC Heidenheim",
+        "fullName": "1. FC Heidenheim",
+        "normalized": "1 heidenheim",
+        "country": null,
+        "externalIds": {
+          "bsd": "81"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 602723,
+          "providerLeagueId": 94,
+          "providerSeasonId": 1967
+        }
+      }
+    },
+    {
+      "id": "oldb:83697",
+      "date": "2026-11-20",
+      "kickoff": "14:30",
+      "utcDate": "2026-11-20T17:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "2. Bundesliga",
+        "fullName": null,
+        "normalized": "2 bundesliga",
+        "country": null,
+        "externalIds": {
+          "openligadb": "4938"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BL2"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "SV Darmstadt 98",
+        "fullName": "SV Darmstadt 98",
+        "normalized": "sv darmstadt 98",
+        "country": null,
+        "externalIds": {
+          "openligadb": "118"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SV_Darmstadt_98_Logo.svg/330px-SV_Darmstadt_98_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "1. FC Heidenheim 1846",
+        "fullName": "1. FC Heidenheim 1846",
+        "normalized": "1 heidenheim 1846",
+        "country": null,
+        "externalIds": {
+          "openligadb": "199"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/330px-1._FC_Heidenheim_1846.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "openligadb"
+      ],
+      "sourcePriority": 70,
+      "provenance": {
+        "fixtureSources": [
+          "openligadb"
+        ],
+        "sourcePriority": 70,
+        "sourceDetails": {
+          "provider": "openligadb",
+          "providerMatchId": 83697,
+          "providerCompetitionId": 4938,
+          "shortcut": "bl2"
+        }
+      }
+    },
+    {
+      "id": "fd:565859",
+      "date": "2026-11-20",
+      "kickoff": "16:30",
+      "utcDate": "2026-11-20T19:30:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Bundesliga",
+        "fullName": null,
+        "normalized": "bundesliga",
+        "country": null,
+        "externalIds": {
+          "football-data": "2002"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/BL1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BL1"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Bayern",
+        "fullName": "FC Bayern München",
+        "normalized": "bayern",
+        "country": null,
+        "externalIds": {
+          "football-data": "5"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/5.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "1. FC Köln",
+        "fullName": "1. FC Köln",
+        "normalized": "1 koln",
+        "country": null,
+        "externalIds": {
+          "football-data": "1"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "bsd:213754",
+      "date": "2026-11-20",
+      "kickoff": "16:30",
+      "utcDate": "2026-11-20T19:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Bundesliga",
+        "fullName": null,
+        "normalized": "bundesliga",
+        "country": null,
+        "externalIds": {
+          "bsd": "5"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/BL1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "BL1"
+      },
+      "home": {
+        "gmId": "club:bayern-munich",
+        "entityType": "club",
+        "identityStatus": "resolved",
+        "canonicalName": "Bayern Munich",
+        "displayName": "FC Bayern München",
+        "fullName": "FC Bayern München",
+        "normalized": "bayern munchen",
+        "country": "Germany",
+        "externalIds": {
+          "bsd": "79"
+        },
+        "wikidataQid": null,
+        "validationStatus": "validated",
+        "confidence": "high",
+        "resolutionStatus": "partial",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/330px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "1. FC Köln",
+        "fullName": "1. FC Köln",
+        "normalized": "1 koln",
+        "country": null,
+        "externalIds": {
+          "bsd": "94"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "bsd",
+        "openligadb",
+        "openfootball"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "fixtureSources": [
+          "bsd",
+          "openligadb",
+          "openfootball"
+        ],
+        "sourcePriority": 80,
+        "sourceDetails": {
+          "provider": "bsd",
+          "providerEventId": 213754,
+          "providerLeagueId": 5,
+          "providerSeasonId": 1091
+        }
+      }
+    },
+    {
+      "id": "of:cc3d1ff403762bff",
+      "date": "2026-11-20",
+      "kickoff": "16:45",
+      "utcDate": "2026-11-20T19:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Ligue 1",
+        "fullName": null,
+        "normalized": "ligue 1",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/FL1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "FL1"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "ES Troyes AC",
+        "fullName": "ES Troyes AC",
+        "normalized": "es troyes",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/ES_Troyes_AC.svg/330px-ES_Troyes_AC.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "provider": "wikidata-commons",
+          "property": "P154",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Le Havre AC",
+        "fullName": "Le Havre AC",
+        "normalized": "le havre",
+        "country": null,
+        "externalIds": {},
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "openfootball"
+      ],
+      "sourcePriority": 50,
+      "provenance": {
+        "fixtureSources": [
+          "openfootball"
+        ],
+        "sourcePriority": 50,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "fd:559622",
+      "date": "2026-11-20",
+      "kickoff": "16:45",
+      "utcDate": "2026-11-20T19:45:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Ligue 1",
+        "fullName": null,
+        "normalized": "ligue 1",
+        "country": null,
+        "externalIds": {
+          "football-data": "2015"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/FL1.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "FL1"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Troyes",
+        "fullName": "ES Troyes AC",
+        "normalized": "troyes",
+        "country": null,
+        "externalIds": {
+          "football-data": "531"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/531.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Le Havre",
+        "fullName": "Le Havre AC",
+        "normalized": "le havre",
+        "country": null,
+        "externalIds": {
+          "football-data": "533"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/533.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
+      }
+    },
+    {
+      "id": "oldb:85456",
+      "date": "2026-11-20",
+      "kickoff": "17:00",
+      "utcDate": "2026-11-20T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "LaLiga",
+        "fullName": null,
+        "normalized": "laliga",
+        "country": null,
+        "externalIds": {
+          "openligadb": "4936"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
+          "provider": "espn-catalog",
+          "property": "provider-logo",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "PD"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "AFC Ajax",
+        "fullName": "AFC Ajax",
+        "normalized": "ajax",
+        "country": null,
+        "externalIds": {
+          "openligadb": "1135"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Espanyol Barcelona",
+        "fullName": "Espanyol Barcelona",
+        "normalized": "espanyol barcelona",
+        "country": null,
+        "externalIds": {
+          "openligadb": "1142"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "unresolved",
+          "url": null,
+          "provider": null,
+          "property": null,
+          "semanticStatus": "unresolved",
+          "fetchStatus": "not_checked",
+          "visualStatus": "not_checked"
+        }
+      },
+      "sources": [
+        "openligadb"
+      ],
+      "sourcePriority": 70,
+      "provenance": {
+        "fixtureSources": [
+          "openligadb"
+        ],
+        "sourcePriority": 70,
+        "sourceDetails": {
+          "provider": "openligadb",
+          "providerMatchId": 85456,
+          "providerCompetitionId": 4936,
+          "shortcut": "la1"
+        }
+      }
+    },
+    {
+      "id": "fd:564748",
+      "date": "2026-11-20",
+      "kickoff": "17:00",
+      "utcDate": "2026-11-20T20:00:00Z",
+      "status": "TIMED",
+      "competition": {
+        "gmId": null,
+        "entityType": "competition",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Primera Division",
+        "fullName": null,
+        "normalized": "primera division",
+        "country": null,
+        "externalIds": {
+          "football-data": "2014"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/laliga.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        },
+        "code": "PD"
+      },
+      "home": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Athletic",
+        "fullName": "Athletic Club",
+        "normalized": "athletic",
+        "country": null,
+        "externalIds": {
+          "football-data": "77"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/77.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "away": {
+        "gmId": null,
+        "entityType": "club",
+        "identityStatus": "unresolved",
+        "canonicalName": null,
+        "displayName": "Espanyol",
+        "fullName": "RCD Espanyol de Barcelona",
+        "normalized": "espanyol",
+        "country": null,
+        "externalIds": {
+          "football-data": "80"
+        },
+        "wikidataQid": null,
+        "validationStatus": "unresolved",
+        "confidence": "unknown",
+        "resolutionStatus": "unresolved",
+        "artwork": {
+          "status": "validated",
+          "url": "https://crests.football-data.org/80.png",
+          "provider": "football-data",
+          "property": "curated-file",
+          "semanticStatus": "validated",
+          "fetchStatus": "ok",
+          "visualStatus": "approved"
+        }
+      },
+      "sources": [
+        "football-data"
+      ],
+      "sourcePriority": 100,
+      "provenance": {
+        "fixtureSources": [
+          "football-data"
+        ],
+        "sourcePriority": 100,
+        "sourceDetails": {}
       }
     }
   ]
