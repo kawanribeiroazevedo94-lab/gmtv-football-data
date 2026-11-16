@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T22:52:27Z",
+  "generatedAt": "2026-11-16T06:36:23Z",
   "records": [
     {
       "id": "espn:competition:630",
@@ -8272,6 +8272,20 @@
         "conmebol.libertadores"
       ],
       "country": null,
+      "status": "validated"
+    },
+    {
+      "id": "cache:team:Q370712",
+      "name": "Excelsior Rotterdam",
+      "kind": "team",
+      "entityType": "club",
+      "aliases": [],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Excelsior_Rotterdam_logo_2021.svg/330px-Excelsior_Rotterdam_logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "league": null,
+      "leagues": [
+        "esp.1"
+      ],
+      "country": "Spain",
       "status": "validated"
     },
     {

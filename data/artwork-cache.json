@@ -214,7 +214,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/BL1.png",
-    "validatedAt": "2026-11-15T22:51:31Z",
+    "validatedAt": "2026-11-16T06:35:32Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -279,7 +279,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/bsa.png",
-    "validatedAt": "2026-11-15T22:51:46Z",
+    "validatedAt": "2026-11-16T06:35:42Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -413,7 +413,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/ELC.png",
-    "validatedAt": "2026-11-15T22:51:24Z",
+    "validatedAt": "2026-11-16T06:35:15Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -920,7 +920,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/ED.png",
-    "validatedAt": "2026-11-15T22:51:43Z",
+    "validatedAt": "2026-11-16T06:35:28Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -1263,7 +1263,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/FL1.png",
-    "validatedAt": "2026-11-15T22:51:41Z",
+    "validatedAt": "2026-11-16T06:35:39Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -1328,7 +1328,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/PL.png",
-    "validatedAt": "2026-11-15T22:51:32Z",
+    "validatedAt": "2026-11-16T06:35:31Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -1366,7 +1366,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/laliga.png",
-    "validatedAt": "2026-11-15T22:51:44Z",
+    "validatedAt": "2026-11-16T06:35:40Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -1477,7 +1477,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/c111.png",
-    "validatedAt": "2026-11-15T22:51:37Z",
+    "validatedAt": "2026-11-16T06:35:37Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -1900,7 +1900,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1.png",
-    "validatedAt": "2026-11-15T22:50:53Z",
+    "validatedAt": "2026-11-16T06:34:09Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -2355,10 +2355,10 @@
   },
   "team:afc ajax@eredivisie": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "AFC Ajax",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -2593,7 +2593,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/678.png",
-    "validatedAt": "2026-11-09T01:44:45Z",
+    "validatedAt": "2026-11-16T06:35:19Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -2980,7 +2980,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/263.png",
-    "validatedAt": "2026-11-15T22:51:01Z",
+    "validatedAt": "2026-11-16T06:34:17Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -3306,7 +3306,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/532.png",
-    "validatedAt": "2026-11-09T01:45:10Z",
+    "validatedAt": "2026-11-16T06:35:23Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -3510,7 +3510,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/57.png",
-    "validatedAt": "2026-11-15T22:51:32Z",
+    "validatedAt": "2026-11-16T06:34:54Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -3757,7 +3757,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/58.png",
-    "validatedAt": "2026-11-15T22:51:16Z",
+    "validatedAt": "2026-11-16T06:34:44Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -3805,10 +3805,10 @@
   },
   "team:atalanta bc@serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Atalanta BC",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -3834,7 +3834,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/102.png",
-    "validatedAt": "2026-11-09T01:44:47Z",
+    "validatedAt": "2026-11-16T06:35:38Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -3961,7 +3961,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/77.png",
-    "validatedAt": "2026-11-15T22:50:55Z",
+    "validatedAt": "2026-11-16T06:34:11Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -4088,7 +4088,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/78.png",
-    "validatedAt": "2026-11-09T01:45:26Z",
+    "validatedAt": "2026-11-16T06:35:41Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -4425,7 +4425,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/16.png",
-    "validatedAt": "2026-11-08T01:27:49Z",
+    "validatedAt": "2026-11-16T06:35:26Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -4575,7 +4575,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/519.png",
-    "validatedAt": "2026-11-15T22:51:40Z",
+    "validatedAt": "2026-11-16T06:35:01Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -4648,6 +4648,29 @@
     "visualStatus": "approved",
     "width": 500
   },
+  "team:az alkmaar@laliga": {
+    "catalogId": "espn:team:140",
+    "entityType": "club",
+    "fetchStatus": "ok",
+    "height": 500,
+    "mime": "image/png",
+    "name": "AZ Alkmaar",
+    "nextRetryAfter": null,
+    "property": "provider-logo",
+    "provider": "espn-catalog",
+    "providerEntityId": "140",
+    "qid": null,
+    "resolverVersion": 4,
+    "semanticStatus": "validated",
+    "sha256": "241b04b8bb4bd8407f99c01c1fa526d5f819d75053f1ca1acd4aa564ed7646cf",
+    "sourceFile": null,
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/teams/140",
+    "status": "validated",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+    "validatedAt": "2026-09-24T12:55:31Z",
+    "visualStatus": "approved",
+    "width": 500
+  },
   "team:az alkmaar@uefa europa league": {
     "catalogId": "espn:team:140",
     "entityType": "club",
@@ -4686,7 +4709,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/682.png",
-    "validatedAt": "2026-11-09T01:45:05Z",
+    "validatedAt": "2026-11-16T06:35:18Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -4774,7 +4797,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1777.png",
-    "validatedAt": "2026-11-15T22:51:46Z",
+    "validatedAt": "2026-11-16T06:35:10Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -4816,7 +4839,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/81.png",
-    "validatedAt": "2026-11-09T01:45:27Z",
+    "validatedAt": "2026-11-16T06:35:16Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5089,7 +5112,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/5.png",
-    "validatedAt": "2026-11-15T22:50:53Z",
+    "validatedAt": "2026-11-16T06:34:08Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5345,7 +5368,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/332.png",
-    "validatedAt": "2026-11-15T22:51:15Z",
+    "validatedAt": "2026-11-16T06:34:39Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5413,10 +5436,10 @@
   },
   "team:blackburn rovers fc@championship": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-07T16:30:25Z",
-    "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
+    "lastAttemptAt": "2026-11-16T06:36:17Z",
+    "lastError": "validated_entity_without_usable_logo",
     "name": "Blackburn Rovers FC",
-    "nextRetryAfter": "2026-11-08T04:30:25Z",
+    "nextRetryAfter": "2026-11-16T18:36:17Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -5442,7 +5465,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/59.png",
-    "validatedAt": "2026-11-08T01:28:04Z",
+    "validatedAt": "2026-11-16T06:35:15Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5559,10 +5582,10 @@
   },
   "team:bologna fc 1909@serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-07T16:30:25Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Bologna FC 1909",
-    "nextRetryAfter": "2026-11-08T04:30:25Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -5588,7 +5611,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/103.png",
-    "validatedAt": "2026-11-08T01:28:11Z",
+    "validatedAt": "2026-11-16T06:35:22Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5623,7 +5646,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/60.png",
-    "validatedAt": "2026-11-15T22:51:22Z",
+    "validatedAt": "2026-11-16T06:34:36Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5930,7 +5953,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1770.png",
-    "validatedAt": "2026-11-15T22:50:48Z",
+    "validatedAt": "2026-11-16T06:34:03Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -5949,7 +5972,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/bournemouth.png",
-    "validatedAt": "2026-11-15T22:51:18Z",
+    "validatedAt": "2026-11-16T06:34:28Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -6033,7 +6056,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/4286.png",
-    "validatedAt": "2026-11-15T22:50:49Z",
+    "validatedAt": "2026-11-16T06:35:43Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -6075,7 +6098,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/12.png",
-    "validatedAt": "2026-11-08T01:28:13Z",
+    "validatedAt": "2026-11-16T06:35:32Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -6191,7 +6214,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/512.png",
-    "validatedAt": "2026-11-15T22:51:39Z",
+    "validatedAt": "2026-11-16T06:35:02Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -6295,7 +6318,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/397.png",
-    "validatedAt": "2026-11-09T01:44:48Z",
+    "validatedAt": "2026-11-16T06:35:25Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -6330,7 +6353,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/387.png",
-    "validatedAt": "2026-11-15T22:51:20Z",
+    "validatedAt": "2026-11-16T06:34:34Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -6359,13 +6382,13 @@
   },
   "team:burnley fc@championship": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-07T16:30:25Z",
-    "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
+    "lastAttemptAt": "2026-11-16T06:36:11Z",
+    "lastError": "validated_entity_without_usable_logo",
     "name": "Burnley FC",
-    "nextRetryAfter": "2026-11-08T04:30:25Z",
+    "nextRetryAfter": "2026-11-16T18:36:11Z",
     "property": null,
     "provider": null,
-    "qid": null,
+    "qid": "Q19458",
     "resolverVersion": 4,
     "semanticStatus": "unresolved",
     "sourceFile": null,
@@ -6388,7 +6411,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/328.png",
-    "validatedAt": "2026-11-08T01:27:55Z",
+    "validatedAt": "2026-11-16T06:35:15Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -6436,10 +6459,10 @@
   },
   "team:ca osasuna@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "CA Osasuna",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -6520,7 +6543,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/104.png",
-    "validatedAt": "2026-11-15T22:51:03Z",
+    "validatedAt": "2026-11-16T06:34:21Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -6539,7 +6562,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1909.png",
-    "validatedAt": "2026-11-15T22:51:34Z",
+    "validatedAt": "2026-11-16T06:34:55Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -6666,7 +6689,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/715.png",
-    "validatedAt": "2026-11-15T22:51:00Z",
+    "validatedAt": "2026-11-16T06:34:14Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -6893,7 +6916,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/558.png",
-    "validatedAt": "2026-11-15T22:51:45Z",
+    "validatedAt": "2026-11-16T06:35:09Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -7091,7 +7114,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1772_large.png",
-    "validatedAt": "2026-11-15T22:51:47Z",
+    "validatedAt": "2026-11-16T06:35:11Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -7149,7 +7172,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/348.png",
-    "validatedAt": "2026-11-15T22:51:24Z",
+    "validatedAt": "2026-11-16T06:34:43Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -7223,7 +7246,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/61.png",
-    "validatedAt": "2026-11-15T22:51:13Z",
+    "validatedAt": "2026-11-16T06:34:37Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -7321,10 +7344,10 @@
   },
   "team:club atletico de madrid@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Club Atlético de Madrid",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -7424,7 +7447,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/4287.png",
-    "validatedAt": "2026-11-15T22:50:42Z",
+    "validatedAt": "2026-11-16T06:35:37Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -7558,7 +7581,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/7397.png",
-    "validatedAt": "2026-11-15T22:51:02Z",
+    "validatedAt": "2026-11-16T06:34:20Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -7711,7 +7734,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1779.png",
-    "validatedAt": "2026-11-15T22:50:47Z",
+    "validatedAt": "2026-11-16T06:34:03Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -7795,7 +7818,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/4241.png",
-    "validatedAt": "2026-11-15T22:51:46Z",
+    "validatedAt": "2026-11-16T06:35:10Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -7853,7 +7876,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1076.png",
-    "validatedAt": "2026-11-15T22:51:21Z",
+    "validatedAt": "2026-11-16T06:34:32Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -8107,7 +8130,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1771.png",
-    "validatedAt": "2026-11-15T22:51:47Z",
+    "validatedAt": "2026-11-16T06:35:11Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -8181,7 +8204,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/354.png",
-    "validatedAt": "2026-11-15T22:51:21Z",
+    "validatedAt": "2026-11-16T06:34:32Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -8481,7 +8504,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/680.png",
-    "validatedAt": "2026-11-08T01:28:17Z",
+    "validatedAt": "2026-11-16T06:35:19Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -8739,7 +8762,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/560.png",
-    "validatedAt": "2026-11-15T22:51:01Z",
+    "validatedAt": "2026-11-16T06:34:18Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -8774,7 +8797,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/342.png",
-    "validatedAt": "2026-11-15T22:50:57Z",
+    "validatedAt": "2026-11-16T06:34:15Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -8809,7 +8832,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/4.png",
-    "validatedAt": "2026-11-15T22:51:08Z",
+    "validatedAt": "2026-11-16T06:34:23Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -9038,10 +9061,10 @@
   },
   "team:elche cf@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Elche CF",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -9086,7 +9109,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/719.png",
-    "validatedAt": "2026-11-15T22:51:07Z",
+    "validatedAt": "2026-11-16T06:34:21Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -9205,7 +9228,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/80.png",
-    "validatedAt": "2026-11-15T22:50:56Z",
+    "validatedAt": "2026-11-16T06:34:11Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -9448,6 +9471,25 @@
     "visualStatus": "approved",
     "width": 500
   },
+  "team:excelsior rotterdam@laliga": {
+    "fetchStatus": "ok",
+    "height": 256,
+    "mime": "image/svg+xml",
+    "name": "Excelsior Rotterdam",
+    "nextRetryAfter": null,
+    "property": "P154",
+    "provider": "wikidata-commons",
+    "qid": "Q370712",
+    "resolverVersion": 4,
+    "semanticStatus": "validated",
+    "sourceFile": "Excelsior Rotterdam logo 2021.svg",
+    "status": "validated",
+    "supersededRejection": null,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Excelsior_Rotterdam_logo_2021.svg/330px-Excelsior_Rotterdam_logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "validatedAt": "2026-11-16T06:35:59Z",
+    "visualStatus": "approved",
+    "width": 256
+  },
   "team:excelsior@eredivisie": {
     "fetchStatus": "ok",
     "height": null,
@@ -9463,7 +9505,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/670.png",
-    "validatedAt": "2026-11-15T22:51:35Z",
+    "validatedAt": "2026-11-16T06:34:56Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -9637,10 +9679,10 @@
   },
   "team:fc barcelona@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:49Z",
-    "lastError": "validated_entity_without_usable_logo",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
+    "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "FC Barcelona",
-    "nextRetryAfter": "2026-11-09T10:09:49Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": "Q950835",
@@ -9919,10 +9961,10 @@
   },
   "team:fc internazionale milano@serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "FC Internazionale Milano",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -10022,10 +10064,10 @@
   },
   "team:fc lorient@ligue 1": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-10-31T18:40:18Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "FC Lorient",
-    "nextRetryAfter": "2026-11-01T06:40:18Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -10054,10 +10096,10 @@
   },
   "team:fc malaga@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-07T16:30:25Z",
-    "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
+    "lastAttemptAt": "2026-11-16T06:36:06Z",
+    "lastError": "validated_entity_without_usable_logo",
     "name": "FC Malaga",
-    "nextRetryAfter": "2026-11-08T04:30:25Z",
+    "nextRetryAfter": "2026-11-16T18:36:06Z",
     "property": null,
     "provider": null,
     "qid": "Q8857",
@@ -10261,10 +10303,10 @@
   },
   "team:fc twente 65@eredivisie": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "FC Twente '65",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -10378,10 +10420,10 @@
   },
   "team:fc villareal@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:37Z",
+    "lastAttemptAt": "2026-11-16T06:36:00Z",
     "lastError": "validated_entity_without_usable_logo",
     "name": "FC Villareal",
-    "nextRetryAfter": "2026-11-09T10:09:37Z",
+    "nextRetryAfter": "2026-11-16T18:36:00Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -10566,7 +10608,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/675.png",
-    "validatedAt": "2026-11-15T22:51:34Z",
+    "validatedAt": "2026-11-16T06:34:56Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -10801,7 +10843,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1783.png",
-    "validatedAt": "2026-11-15T22:51:36Z",
+    "validatedAt": "2026-11-16T06:34:58Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -10901,7 +10943,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1765.png",
-    "validatedAt": "2026-11-15T22:50:52Z",
+    "validatedAt": "2026-11-16T06:35:42Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11054,7 +11096,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/19.png",
-    "validatedAt": "2026-11-15T22:51:06Z",
+    "validatedAt": "2026-11-16T06:34:25Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11073,7 +11115,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/17.png",
-    "validatedAt": "2026-11-15T22:51:07Z",
+    "validatedAt": "2026-11-16T06:34:22Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11102,10 +11144,10 @@
   },
   "team:frosinone calcio@serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-10-29T19:44:12Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Frosinone Calcio",
-    "nextRetryAfter": "2026-10-30T07:44:12Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -11131,7 +11173,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/470.png",
-    "validatedAt": "2026-11-08T01:27:45Z",
+    "validatedAt": "2026-11-16T06:35:34Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11189,7 +11231,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/63.png",
-    "validatedAt": "2026-11-15T22:50:59Z",
+    "validatedAt": "2026-11-16T06:34:13Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11269,10 +11311,10 @@
   },
   "team:genoa cfc@serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Genoa CFC",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -11298,7 +11340,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/107.png",
-    "validatedAt": "2026-11-09T01:44:51Z",
+    "validatedAt": "2026-11-16T06:35:21Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11373,10 +11415,10 @@
   },
   "team:getafe cf@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Getafe CF",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -11402,7 +11444,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/82.png",
-    "validatedAt": "2026-11-09T01:45:17Z",
+    "validatedAt": "2026-11-16T06:35:40Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11656,7 +11698,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/718.png",
-    "validatedAt": "2026-11-08T01:28:25Z",
+    "validatedAt": "2026-11-16T06:35:28Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11848,7 +11890,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1767.png",
-    "validatedAt": "2026-11-15T22:50:46Z",
+    "validatedAt": "2026-11-16T06:34:01Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -11867,7 +11909,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/677.png",
-    "validatedAt": "2026-11-15T22:51:43Z",
+    "validatedAt": "2026-11-16T06:35:07Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -12172,7 +12214,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/673.png",
-    "validatedAt": "2026-11-15T22:51:44Z",
+    "validatedAt": "2026-11-16T06:35:07Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -12226,7 +12268,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/2.png",
-    "validatedAt": "2026-11-15T22:51:06Z",
+    "validatedAt": "2026-11-16T06:34:26Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -12287,7 +12329,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/7.png",
-    "validatedAt": "2026-11-07T01:57:21Z",
+    "validatedAt": "2026-11-16T06:35:33Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -12368,7 +12410,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/322.png",
-    "validatedAt": "2026-11-08T01:28:00Z",
+    "validatedAt": "2026-11-16T06:35:24Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -12734,7 +12776,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/108.png",
-    "validatedAt": "2026-11-09T01:45:15Z",
+    "validatedAt": "2026-11-16T06:35:38Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -12818,7 +12860,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/6684.png",
-    "validatedAt": "2026-11-15T22:50:51Z",
+    "validatedAt": "2026-11-16T06:34:04Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -12899,7 +12941,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/349.png",
-    "validatedAt": "2026-11-15T22:51:12Z",
+    "validatedAt": "2026-11-16T06:34:40Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -13258,7 +13300,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/109.png",
-    "validatedAt": "2026-11-09T01:45:24Z",
+    "validatedAt": "2026-11-16T06:35:14Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -13563,7 +13605,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/110.png",
-    "validatedAt": "2026-11-15T22:51:03Z",
+    "validatedAt": "2026-11-16T06:34:19Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -13628,7 +13670,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/533.png",
-    "validatedAt": "2026-11-15T22:50:55Z",
+    "validatedAt": "2026-11-16T06:34:10Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -13657,10 +13699,10 @@
   },
   "team:le mans fc@ligue 1": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Le Mans FC",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -13686,7 +13728,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/535.png",
-    "validatedAt": "2026-11-09T01:45:06Z",
+    "validatedAt": "2026-11-16T06:35:39Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -13728,7 +13770,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/5890.png",
-    "validatedAt": "2026-11-15T22:51:04Z",
+    "validatedAt": "2026-11-16T06:34:19Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -13802,7 +13844,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/341.png",
-    "validatedAt": "2026-11-15T22:51:13Z",
+    "validatedAt": "2026-11-16T06:34:38Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -13877,10 +13919,10 @@
   },
   "team:levante ud@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:35Z",
-    "lastError": "validated_entity_without_usable_logo",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
+    "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Levante UD",
-    "nextRetryAfter": "2026-11-09T10:09:35Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -13925,7 +13967,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/3.png",
-    "validatedAt": "2026-11-15T22:51:04Z",
+    "validatedAt": "2026-11-16T06:34:27Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -14084,7 +14126,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/521.png",
-    "validatedAt": "2026-11-15T22:51:37Z",
+    "validatedAt": "2026-11-16T06:34:59Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -14154,7 +14196,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1126.png",
-    "validatedAt": "2026-11-15T22:51:10Z",
+    "validatedAt": "2026-11-16T06:34:35Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -14260,7 +14302,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/64.png",
-    "validatedAt": "2026-11-09T01:44:56Z",
+    "validatedAt": "2026-11-16T06:35:31Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -14367,7 +14409,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/525.png",
-    "validatedAt": "2026-11-09T01:45:08Z",
+    "validatedAt": "2026-11-16T06:35:30Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -14448,7 +14490,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/18.png",
-    "validatedAt": "2026-11-15T22:51:08Z",
+    "validatedAt": "2026-11-16T06:34:23Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -14513,7 +14555,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/15.png",
-    "validatedAt": "2026-11-08T01:27:50Z",
+    "validatedAt": "2026-11-16T06:35:26Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -14542,10 +14584,10 @@
   },
   "team:malaga cf@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Málaga CF",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": "Q8857",
@@ -14571,7 +14613,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/84.png",
-    "validatedAt": "2026-11-08T01:27:43Z",
+    "validatedAt": "2026-11-16T06:35:35Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -14613,7 +14655,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/65.png",
-    "validatedAt": "2026-11-15T22:50:59Z",
+    "validatedAt": "2026-11-16T06:34:12Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -14651,7 +14693,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/66.png",
-    "validatedAt": "2026-11-09T01:45:13Z",
+    "validatedAt": "2026-11-16T06:35:31Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -14919,7 +14961,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/516.png",
-    "validatedAt": "2026-11-09T01:45:25Z",
+    "validatedAt": "2026-11-16T06:35:39Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -15023,7 +15065,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/343.png",
-    "validatedAt": "2026-11-15T22:51:20Z",
+    "validatedAt": "2026-11-16T06:34:33Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -15058,7 +15100,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/98.png",
-    "validatedAt": "2026-11-09T01:44:51Z",
+    "validatedAt": "2026-11-16T06:35:34Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -15116,7 +15158,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/384.png",
-    "validatedAt": "2026-11-15T22:50:58Z",
+    "validatedAt": "2026-11-16T06:34:16Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -15242,7 +15284,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/4364.png",
-    "validatedAt": "2026-11-15T01:57:19Z",
+    "validatedAt": "2026-11-16T06:35:42Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -15323,7 +15365,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/548.png",
-    "validatedAt": "2026-11-15T22:51:40Z",
+    "validatedAt": "2026-11-16T06:35:00Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -15626,7 +15668,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/113.png",
-    "validatedAt": "2026-11-15T22:51:38Z",
+    "validatedAt": "2026-11-16T06:35:04Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -15779,7 +15821,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1915.png",
-    "validatedAt": "2026-11-15T22:51:26Z",
+    "validatedAt": "2026-11-16T06:34:47Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -15975,7 +16017,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/67.png",
-    "validatedAt": "2026-11-15T22:51:32Z",
+    "validatedAt": "2026-11-16T06:34:53Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -16040,7 +16082,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/522.png",
-    "validatedAt": "2026-11-15T22:51:28Z",
+    "validatedAt": "2026-11-16T06:34:48Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -16160,7 +16202,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/68.png",
-    "validatedAt": "2026-11-15T22:51:00Z",
+    "validatedAt": "2026-11-16T06:34:13Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -16241,7 +16283,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/351.png",
-    "validatedAt": "2026-11-15T22:51:19Z",
+    "validatedAt": "2026-11-16T06:34:29Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -16497,10 +16539,10 @@
   },
   "team:olympique de marseille@ligue 1": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Olympique de Marseille",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -16542,7 +16584,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/523.png",
-    "validatedAt": "2026-11-15T22:51:37Z",
+    "validatedAt": "2026-11-16T06:34:59Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -16802,7 +16844,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/79.png",
-    "validatedAt": "2026-11-08T01:28:14Z",
+    "validatedAt": "2026-11-16T06:35:35Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -16948,7 +16990,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1769.png",
-    "validatedAt": "2026-11-15T22:51:35Z",
+    "validatedAt": "2026-11-16T06:34:57Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -17048,7 +17090,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1768.png",
-    "validatedAt": "2026-11-15T22:50:44Z",
+    "validatedAt": "2026-11-16T06:35:36Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -17106,7 +17148,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1045.png",
-    "validatedAt": "2026-11-08T01:28:20Z",
+    "validatedAt": "2026-11-16T06:35:23Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -17304,7 +17346,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/112.png",
-    "validatedAt": "2026-11-15T22:51:29Z",
+    "validatedAt": "2026-11-16T06:34:49Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -17630,7 +17672,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/325.png",
-    "validatedAt": "2026-11-15T22:51:22Z",
+    "validatedAt": "2026-11-16T06:34:36Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -17672,7 +17714,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1081.png",
-    "validatedAt": "2026-11-15T22:51:14Z",
+    "validatedAt": "2026-11-16T06:34:31Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -17707,7 +17749,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/524.png",
-    "validatedAt": "2026-11-15T22:51:28Z",
+    "validatedAt": "2026-11-16T06:34:48Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -17791,7 +17833,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/674.png",
-    "validatedAt": "2026-11-15T22:51:27Z",
+    "validatedAt": "2026-11-16T06:34:47Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -17898,7 +17940,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/69.png",
-    "validatedAt": "2026-11-15T22:50:58Z",
+    "validatedAt": "2026-11-16T06:34:17Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -18074,10 +18116,10 @@
   },
   "team:rayo vallecano de madrid@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Rayo Vallecano de Madrid",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -18126,7 +18168,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/87.png",
-    "validatedAt": "2026-11-15T22:51:25Z",
+    "validatedAt": "2026-11-16T06:34:45Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -18184,7 +18226,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/721.png",
-    "validatedAt": "2026-11-15T22:51:09Z",
+    "validatedAt": "2026-11-16T06:34:25Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -18225,10 +18267,10 @@
   },
   "team:rc celta de vigo@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "RC Celta de Vigo",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -18241,10 +18283,10 @@
   },
   "team:rc deportivo la coruna@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "RC Deportivo La Coruña",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -18270,7 +18312,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/546.png",
-    "validatedAt": "2026-11-15T22:51:41Z",
+    "validatedAt": "2026-11-16T06:35:03Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -18311,10 +18353,10 @@
   },
   "team:rcd espanyol de barcelona@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "RCD Espanyol de Barcelona",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -18350,10 +18392,10 @@
   },
   "team:real betis balompie@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Real Betis Balompié",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -18402,7 +18444,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/90.png",
-    "validatedAt": "2026-11-15T22:51:30Z",
+    "validatedAt": "2026-11-16T06:34:51Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -18450,10 +18492,10 @@
   },
   "team:real madrid cf@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Real Madrid CF",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -18525,7 +18567,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/86.png",
-    "validatedAt": "2026-11-15T22:51:45Z",
+    "validatedAt": "2026-11-16T06:35:08Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -18573,10 +18615,10 @@
   },
   "team:real racing club de santander@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Real Racing Club de Santander",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -18635,10 +18677,10 @@
   },
   "team:real sociedad de futbol@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Real Sociedad de Fútbol",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -18687,7 +18729,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/92.png",
-    "validatedAt": "2026-11-09T01:44:58Z",
+    "validatedAt": "2026-11-16T06:35:27Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -19026,7 +19068,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/100.png",
-    "validatedAt": "2026-11-15T22:51:29Z",
+    "validatedAt": "2026-11-16T06:34:50Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -19357,7 +19399,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/5335.png",
-    "validatedAt": "2026-11-08T01:27:43Z",
+    "validatedAt": "2026-11-16T06:35:27Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -19438,7 +19480,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/6685.png",
-    "validatedAt": "2026-11-15T22:50:41Z",
+    "validatedAt": "2026-11-16T06:33:56Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -19565,7 +19607,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1776.png",
-    "validatedAt": "2026-11-15T22:50:51Z",
+    "validatedAt": "2026-11-16T06:34:07Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -19630,7 +19672,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/471.png",
-    "validatedAt": "2026-11-08T01:28:22Z",
+    "validatedAt": "2026-11-16T06:35:20Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -19711,6 +19753,29 @@
     "status": "unresolved",
     "url": null,
     "visualStatus": "not_checked"
+  },
+  "team:sc cambuur@laliga": {
+    "catalogId": "espn:team:3736",
+    "entityType": "club",
+    "fetchStatus": "ok",
+    "height": 500,
+    "mime": "image/png",
+    "name": "SC Cambuur",
+    "nextRetryAfter": null,
+    "property": "provider-logo",
+    "provider": "espn-catalog",
+    "providerEntityId": "3736",
+    "qid": null,
+    "resolverVersion": 4,
+    "semanticStatus": "validated",
+    "sha256": "a5942c7a0a2a69224286ce7ab4879f6b0bec1d80c8871bacd4edde42ec2ad50d",
+    "sourceFile": null,
+    "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/teams/3736",
+    "status": "validated",
+    "url": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
+    "validatedAt": "2026-09-24T12:56:00Z",
+    "visualStatus": "approved",
+    "width": 500
   },
   "team:sc corinthians paulista@brasileirao serie a": {
     "fetchStatus": "ok",
@@ -19893,7 +19958,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/29.png",
-    "validatedAt": "2026-11-15T22:51:05Z",
+    "validatedAt": "2026-11-16T06:34:27Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -19951,7 +20016,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/6.png",
-    "validatedAt": "2026-11-15T22:51:31Z",
+    "validatedAt": "2026-11-16T06:34:52Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -20153,10 +20218,10 @@
   },
   "team:sevilla fc@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Sevilla FC",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -20182,7 +20247,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/559.png",
-    "validatedAt": "2026-11-15T22:51:30Z",
+    "validatedAt": "2026-11-16T06:34:51Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -20271,7 +20336,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/356.png",
-    "validatedAt": "2026-11-15T22:51:23Z",
+    "validatedAt": "2026-11-16T06:34:29Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -20306,7 +20371,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1920.png",
-    "validatedAt": "2026-11-08T01:28:09Z",
+    "validatedAt": "2026-11-16T06:35:29Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -20595,7 +20660,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/340.png",
-    "validatedAt": "2026-11-15T22:50:57Z",
+    "validatedAt": "2026-11-16T06:34:15Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -20699,7 +20764,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/6806.png",
-    "validatedAt": "2026-11-08T01:28:17Z",
+    "validatedAt": "2026-11-16T06:35:18Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21098,10 +21163,10 @@
   },
   "team:stade rennais fc 1901@ligue 1": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Stade Rennais FC 1901",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -21127,7 +21192,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/529.png",
-    "validatedAt": "2026-11-09T01:44:54Z",
+    "validatedAt": "2026-11-16T06:35:30Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21201,7 +21266,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/70.png",
-    "validatedAt": "2026-11-15T22:51:15Z",
+    "validatedAt": "2026-11-16T06:34:39Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21243,7 +21308,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/576.png",
-    "validatedAt": "2026-11-15T22:51:39Z",
+    "validatedAt": "2026-11-16T06:35:02Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21278,7 +21343,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/10.png",
-    "validatedAt": "2026-11-15T22:51:31Z",
+    "validatedAt": "2026-11-16T06:34:52Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21371,7 +21436,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/71.png",
-    "validatedAt": "2026-11-15T22:51:17Z",
+    "validatedAt": "2026-11-16T06:34:44Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21461,10 +21526,10 @@
   },
   "team:sv werder bremen@bundesliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-07T16:30:21Z",
+    "lastAttemptAt": "2026-11-16T06:35:52Z",
     "lastError": "validated_entity_without_usable_logo",
     "name": "SV Werder Bremen",
-    "nextRetryAfter": "2026-11-08T04:30:21Z",
+    "nextRetryAfter": "2026-11-16T18:35:52Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -21506,7 +21571,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/72.png",
-    "validatedAt": "2026-11-15T22:51:17Z",
+    "validatedAt": "2026-11-16T06:34:41Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21633,7 +21698,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1912.png",
-    "validatedAt": "2026-11-15T22:51:42Z",
+    "validatedAt": "2026-11-16T06:35:06Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21783,7 +21848,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/586.png",
-    "validatedAt": "2026-11-15T22:51:38Z",
+    "validatedAt": "2026-11-16T06:35:05Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21873,7 +21938,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/73.png",
-    "validatedAt": "2026-11-15T22:51:12Z",
+    "validatedAt": "2026-11-16T06:34:40Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21931,7 +21996,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/511.png",
-    "validatedAt": "2026-11-15T22:51:42Z",
+    "validatedAt": "2026-11-16T06:35:03Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -21989,7 +22054,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/531.png",
-    "validatedAt": "2026-11-15T22:50:54Z",
+    "validatedAt": "2026-11-16T06:34:09Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -22139,7 +22204,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/666.png",
-    "validatedAt": "2026-11-09T01:44:45Z",
+    "validatedAt": "2026-11-16T06:35:12Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -22223,7 +22288,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/115.png",
-    "validatedAt": "2026-11-07T01:57:25Z",
+    "validatedAt": "2026-11-16T06:35:22Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -22265,7 +22330,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/28.png",
-    "validatedAt": "2026-11-15T22:51:09Z",
+    "validatedAt": "2026-11-16T06:34:24Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -22457,10 +22522,10 @@
   },
   "team:us sassuolo calcio@serie a": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-07T16:30:25Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "US Sassuolo Calcio",
-    "nextRetryAfter": "2026-11-08T04:30:25Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -22486,7 +22551,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/676.png",
-    "validatedAt": "2026-11-15T22:51:33Z",
+    "validatedAt": "2026-11-16T06:34:55Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -22538,10 +22603,10 @@
   },
   "team:valencia cf@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Valencia CF",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -22567,7 +22632,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/95.png",
-    "validatedAt": "2026-11-15T22:51:26Z",
+    "validatedAt": "2026-11-16T06:34:46Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -22655,7 +22720,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1780.png",
-    "validatedAt": "2026-11-15T22:50:50Z",
+    "validatedAt": "2026-11-16T06:35:43Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -22736,7 +22801,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/454.png",
-    "validatedAt": "2026-11-07T01:57:25Z",
+    "validatedAt": "2026-11-16T06:35:14Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -23007,10 +23072,10 @@
   },
   "team:villarreal cf@laliga": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-08T22:09:53Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Villarreal CF",
-    "nextRetryAfter": "2026-11-09T10:09:53Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -23052,7 +23117,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/94.png",
-    "validatedAt": "2026-11-09T01:45:16Z",
+    "validatedAt": "2026-11-16T06:35:17Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -23171,7 +23236,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/1782.png",
-    "validatedAt": "2026-11-15T22:50:49Z",
+    "validatedAt": "2026-11-16T06:34:05Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -23229,7 +23294,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/346.png",
-    "validatedAt": "2026-11-15T22:51:23Z",
+    "validatedAt": "2026-11-16T06:34:30Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -23271,7 +23336,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/74.png",
-    "validatedAt": "2026-11-15T22:51:18Z",
+    "validatedAt": "2026-11-16T06:34:42Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -23322,7 +23387,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/563.png",
-    "validatedAt": "2026-11-15T22:51:14Z",
+    "validatedAt": "2026-11-16T06:34:31Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -23351,10 +23416,10 @@
   },
   "team:willem ii tilburg@eredivisie": {
     "fetchStatus": "failed",
-    "lastAttemptAt": "2026-11-06T21:33:56Z",
+    "lastAttemptAt": "2026-11-16T06:36:22Z",
     "lastError": "RuntimeError: artwork_discovery_request_budget_exhausted",
     "name": "Willem II Tilburg",
-    "nextRetryAfter": "2026-11-07T09:33:56Z",
+    "nextRetryAfter": "2026-11-16T18:36:22Z",
     "property": null,
     "provider": null,
     "qid": null,
@@ -23380,7 +23445,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/672.png",
-    "validatedAt": "2026-11-07T01:57:19Z",
+    "validatedAt": "2026-11-16T06:35:13Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -23415,7 +23480,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/76.png",
-    "validatedAt": "2026-11-15T22:51:24Z",
+    "validatedAt": "2026-11-16T06:34:43Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -23450,7 +23515,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/404.png",
-    "validatedAt": "2026-11-15T22:51:11Z",
+    "validatedAt": "2026-11-16T06:34:35Z",
     "visualStatus": "approved",
     "width": null
   },
@@ -23469,7 +23534,7 @@
     "status": "validated",
     "supersededRejection": null,
     "url": "https://crests.football-data.org/684.png",
-    "validatedAt": "2026-11-15T22:51:43Z",
+    "validatedAt": "2026-11-16T06:35:06Z",
     "visualStatus": "approved",
     "width": null
   }
