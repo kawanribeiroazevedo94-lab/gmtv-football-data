@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T17:18:57.772638Z",
+  "generatedAt": "2026-11-19T00:27:13.726987Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-18",
@@ -65,10 +65,10 @@
     },
     "bsd": {
       "configured": true,
-      "ok": false,
-      "matches": 0,
-      "pages": 0,
-      "error": "IncompleteRead: IncompleteRead(289205 bytes read)"
+      "ok": true,
+      "matches": 48,
+      "pages": 4,
+      "error": null
     },
     "openLigaDB": {
       "ok": true,
@@ -126,8 +126,8 @@
           "key": "uwcl",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1386330887,
-          "revisionTimestamp": "2026-11-17T23:57:22Z",
+          "revisionId": 1386497614,
+          "revisionTimestamp": "2026-11-18T21:57:19Z",
           "ok": true,
           "matchesInWindow": 9,
           "error": null
@@ -160,7 +160,7 @@
     {
       "date": "2026-11-18",
       "label": "HOJE",
-      "count": 20,
+      "count": 21,
       "matches": [
         {
           "id": "of:f56d8ba9174f1473",
@@ -520,8 +520,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1386330887,
-            "revisionTimestamp": "2026-11-17T23:57:22Z"
+            "revisionId": 1386497614,
+            "revisionTimestamp": "2026-11-18T21:57:19Z"
           }
         },
         {
@@ -562,8 +562,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1386330887,
-            "revisionTimestamp": "2026-11-17T23:57:22Z"
+            "revisionId": 1386497614,
+            "revisionTimestamp": "2026-11-18T21:57:19Z"
           }
         },
         {
@@ -604,8 +604,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1386330887,
-            "revisionTimestamp": "2026-11-17T23:57:22Z"
+            "revisionId": 1386497614,
+            "revisionTimestamp": "2026-11-18T21:57:19Z"
           }
         },
         {
@@ -646,8 +646,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1386330887,
-            "revisionTimestamp": "2026-11-17T23:57:22Z"
+            "revisionId": 1386497614,
+            "revisionTimestamp": "2026-11-18T21:57:19Z"
           }
         },
         {
@@ -655,7 +655,7 @@
           "date": "2026-11-18",
           "kickoff": "19:30",
           "utcDate": "2026-11-18T22:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -681,7 +681,8 @@
             "normalized": "santos"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         },
@@ -690,7 +691,7 @@
           "date": "2026-11-18",
           "kickoff": "20:00",
           "utcDate": "2026-11-18T23:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -716,16 +717,58 @@
             "normalized": "chapecoense"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
+        },
+        {
+          "id": "bsd:7337",
+          "date": "2026-11-18",
+          "kickoff": "20:30",
+          "utcDate": "2026-11-18T23:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 9,
+            "idProvider": "bsd",
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": 160,
+            "idProvider": "bsd",
+            "name": "Flamengo",
+            "fullName": "Flamengo",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+            "normalized": "flamengo"
+          },
+          "away": {
+            "id": 371,
+            "idProvider": "bsd",
+            "name": "Athletico",
+            "fullName": "Athletico",
+            "crest": null,
+            "normalized": "athletico"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 7337,
+            "providerLeagueId": 9,
+            "providerSeasonId": 28
+          }
         },
         {
           "id": "fd:555082",
           "date": "2026-11-18",
           "kickoff": "20:30",
           "utcDate": "2026-11-18T23:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -751,7 +794,8 @@
             "normalized": "palmeiras"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         },
@@ -760,7 +804,7 @@
           "date": "2026-11-18",
           "kickoff": "20:30",
           "utcDate": "2026-11-18T23:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2013,
             "idProvider": "football-data",
@@ -821,7 +865,8 @@
             "normalized": "botafogo"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         },
@@ -856,7 +901,8 @@
             "normalized": "bahia"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         }
@@ -865,7 +911,7 @@
     {
       "date": "2026-11-19",
       "label": "19/11",
-      "count": 8,
+      "count": 9,
       "matches": [
         {
           "id": "wm:5450ba8b76cd5987",
@@ -905,8 +951,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1386330887,
-            "revisionTimestamp": "2026-11-17T23:57:22Z"
+            "revisionId": 1386497614,
+            "revisionTimestamp": "2026-11-18T21:57:19Z"
           }
         },
         {
@@ -947,8 +993,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1386330887,
-            "revisionTimestamp": "2026-11-17T23:57:22Z"
+            "revisionId": 1386497614,
+            "revisionTimestamp": "2026-11-18T21:57:19Z"
           }
         },
         {
@@ -989,8 +1035,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1386330887,
-            "revisionTimestamp": "2026-11-17T23:57:22Z"
+            "revisionId": 1386497614,
+            "revisionTimestamp": "2026-11-18T21:57:19Z"
           }
         },
         {
@@ -1031,8 +1077,8 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1386330887,
-            "revisionTimestamp": "2026-11-17T23:57:22Z"
+            "revisionId": 1386497614,
+            "revisionTimestamp": "2026-11-18T21:57:19Z"
           }
         },
         {
@@ -1073,8 +1119,49 @@
             "provider": "wikimedia",
             "page": "2026–27 UEFA Women's Champions League league phase",
             "pageId": 83018611,
-            "revisionId": 1386330887,
-            "revisionTimestamp": "2026-11-17T23:57:22Z"
+            "revisionId": 1386497614,
+            "revisionTimestamp": "2026-11-18T21:57:19Z"
+          }
+        },
+        {
+          "id": "bsd:7343",
+          "date": "2026-11-19",
+          "kickoff": "19:30",
+          "utcDate": "2026-11-19T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 9,
+            "idProvider": "bsd",
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": 157,
+            "idProvider": "bsd",
+            "name": "Vitória",
+            "fullName": "Vitória",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+            "normalized": "vitoria"
+          },
+          "away": {
+            "id": 168,
+            "idProvider": "bsd",
+            "name": "Red Bull Bragantino",
+            "fullName": "Red Bull Bragantino",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+            "normalized": "red bull bragantino"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 7343,
+            "providerLeagueId": 9,
+            "providerSeasonId": 28
           }
         },
         {
@@ -1108,7 +1195,8 @@
             "normalized": "internacional"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         },
@@ -1178,7 +1266,8 @@
             "normalized": "fluminense"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         }
@@ -1187,8 +1276,49 @@
     {
       "date": "2026-11-20",
       "label": "20/11",
-      "count": 8,
+      "count": 10,
       "matches": [
+        {
+          "id": "bsd:602722",
+          "date": "2026-11-20",
+          "kickoff": "14:30",
+          "utcDate": "2026-11-20T17:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 94,
+            "idProvider": "bsd",
+            "code": "BL2",
+            "name": "2. Bundesliga",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+            "normalized": "2 bundesliga"
+          },
+          "home": {
+            "id": 1839,
+            "idProvider": "bsd",
+            "name": "Arminia Bielefeld",
+            "fullName": "Arminia Bielefeld",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg/330px-Arminia_Bielefeld_Logo_2021%E2%80%93.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "arminia bielefeld"
+          },
+          "away": {
+            "id": 1838,
+            "idProvider": "bsd",
+            "name": "1. FC Magdeburg",
+            "fullName": "1. FC Magdeburg",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/330px-1._FC_Magdeburg.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "1 magdeburg"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 602722,
+            "providerLeagueId": 94,
+            "providerSeasonId": 1967
+          }
+        },
         {
           "id": "oldb:83705",
           "date": "2026-11-20",
@@ -1228,6 +1358,47 @@
             "providerMatchId": 83705,
             "providerCompetitionId": 4938,
             "shortcut": "bl2"
+          }
+        },
+        {
+          "id": "bsd:602723",
+          "date": "2026-11-20",
+          "kickoff": "14:30",
+          "utcDate": "2026-11-20T17:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 94,
+            "idProvider": "bsd",
+            "code": "BL2",
+            "name": "2. Bundesliga",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+            "normalized": "2 bundesliga"
+          },
+          "home": {
+            "id": 1295,
+            "idProvider": "bsd",
+            "name": "Darmstadt 98",
+            "fullName": "Darmstadt 98",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SV_Darmstadt_98_Logo.svg/330px-SV_Darmstadt_98_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "darmstadt 98"
+          },
+          "away": {
+            "id": 81,
+            "idProvider": "bsd",
+            "name": "1. FC Heidenheim",
+            "fullName": "1. FC Heidenheim",
+            "crest": null,
+            "normalized": "1 heidenheim"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 602723,
+            "providerLeagueId": 94,
+            "providerSeasonId": 1967
           }
         },
         {
@@ -1307,45 +1478,46 @@
           "sourcePriority": 100
         },
         {
-          "id": "oldb:83237",
+          "id": "bsd:213754",
           "date": "2026-11-20",
           "kickoff": "16:30",
           "utcDate": "2026-11-20T19:30:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4937,
-            "idProvider": "openligadb",
+            "id": 5,
+            "idProvider": "bsd",
             "code": "BL1",
             "name": "Bundesliga",
             "logo": "https://crests.football-data.org/BL1.png",
             "normalized": "bundesliga"
           },
           "home": {
-            "id": 40,
-            "idProvider": "openligadb",
+            "id": 79,
+            "idProvider": "bsd",
             "name": "FC Bayern München",
             "fullName": "FC Bayern München",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/330px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "bayern munchen"
           },
           "away": {
-            "id": 65,
-            "idProvider": "openligadb",
+            "id": 94,
+            "idProvider": "bsd",
             "name": "1. FC Köln",
             "fullName": "1. FC Köln",
             "crest": "https://crests.football-data.org/1.png",
             "normalized": "1 koln"
           },
           "sources": [
+            "bsd",
             "openligadb",
             "openfootball"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83237,
-            "providerCompetitionId": 4937,
-            "shortcut": "bl1"
+            "provider": "bsd",
+            "providerEventId": 213754,
+            "providerLeagueId": 5,
+            "providerSeasonId": 1091
           }
         },
         {
@@ -1496,129 +1668,132 @@
     {
       "date": "2026-11-21",
       "label": "21/11",
-      "count": 95,
+      "count": 97,
       "matches": [
         {
-          "id": "oldb:83699",
+          "id": "bsd:602724",
           "date": "2026-11-21",
           "kickoff": "09:00",
           "utcDate": "2026-11-21T12:00:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4938,
-            "idProvider": "openligadb",
+            "id": 94,
+            "idProvider": "bsd",
             "code": "BL2",
             "name": "2. Bundesliga",
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
             "normalized": "2 bundesliga"
           },
           "home": {
-            "id": 79,
-            "idProvider": "openligadb",
+            "id": 1287,
+            "idProvider": "bsd",
             "name": "1. FC Nürnberg",
             "fullName": "1. FC Nürnberg",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/1._FC_N%C3%BCrnberg_logo.svg/330px-1._FC_N%C3%BCrnberg_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "1 nurnberg"
           },
           "away": {
-            "id": 74,
-            "idProvider": "openligadb",
+            "id": 1830,
+            "idProvider": "bsd",
             "name": "Eintracht Braunschweig",
             "fullName": "Eintracht Braunschweig",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/600px_Giallo_e_Blu_con_stemma_Eintracht_Braunschweig.png/330px-600px_Giallo_e_Blu_con_stemma_Eintracht_Braunschweig.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "eintracht braunschweig"
           },
           "sources": [
+            "bsd",
             "openligadb"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83699,
-            "providerCompetitionId": 4938,
-            "shortcut": "bl2"
+            "provider": "bsd",
+            "providerEventId": 602724,
+            "providerLeagueId": 94,
+            "providerSeasonId": 1967
           }
         },
         {
-          "id": "oldb:83694",
+          "id": "bsd:602725",
           "date": "2026-11-21",
           "kickoff": "09:00",
           "utcDate": "2026-11-21T12:00:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4938,
-            "idProvider": "openligadb",
+            "id": 94,
+            "idProvider": "bsd",
             "code": "BL2",
             "name": "2. Bundesliga",
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
             "normalized": "2 bundesliga"
           },
           "home": {
-            "id": 55,
-            "idProvider": "openligadb",
+            "id": 1289,
+            "idProvider": "bsd",
             "name": "Hannover 96",
             "fullName": "Hannover 96",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannover_96_Logo.svg/330px-Hannover_96_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "hannover 96"
           },
           "away": {
-            "id": 115,
-            "idProvider": "openligadb",
+            "id": 1292,
+            "idProvider": "bsd",
             "name": "SpVgg Greuther Fürth",
             "fullName": "SpVgg Greuther Fürth",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/SpVgg_Greuther_F%C3%BCrth_2017.svg/330px-SpVgg_Greuther_F%C3%BCrth_2017.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "spvgg greuther furth"
           },
           "sources": [
+            "bsd",
             "openligadb"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83694,
-            "providerCompetitionId": 4938,
-            "shortcut": "bl2"
+            "provider": "bsd",
+            "providerEventId": 602725,
+            "providerLeagueId": 94,
+            "providerSeasonId": 1967
           }
         },
         {
-          "id": "oldb:83689",
+          "id": "bsd:602726",
           "date": "2026-11-21",
           "kickoff": "09:00",
           "utcDate": "2026-11-21T12:00:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4938,
-            "idProvider": "openligadb",
+            "id": 94,
+            "idProvider": "bsd",
             "code": "BL2",
             "name": "2. Bundesliga",
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
             "normalized": "2 bundesliga"
           },
           "home": {
-            "id": 131,
-            "idProvider": "openligadb",
+            "id": 82,
+            "idProvider": "bsd",
             "name": "VfL Wolfsburg",
             "fullName": "VfL Wolfsburg",
             "crest": null,
             "normalized": "vfl wolfsburg"
           },
           "away": {
-            "id": 104,
-            "idProvider": "openligadb",
+            "id": 1296,
+            "idProvider": "bsd",
             "name": "Holstein Kiel",
             "fullName": "Holstein Kiel",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "holstein kiel"
           },
           "sources": [
+            "bsd",
             "openligadb"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83689,
-            "providerCompetitionId": 4938,
-            "shortcut": "bl2"
+            "provider": "bsd",
+            "providerEventId": 602726,
+            "providerLeagueId": 94,
+            "providerSeasonId": 1967
           }
         },
         {
@@ -2007,87 +2182,130 @@
           "sourcePriority": 50
         },
         {
-          "id": "oldb:83241",
+          "id": "bsd:213749",
           "date": "2026-11-21",
           "kickoff": "11:30",
           "utcDate": "2026-11-21T14:30:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4937,
-            "idProvider": "openligadb",
+            "id": 5,
+            "idProvider": "bsd",
             "code": "BL1",
             "name": "Bundesliga",
             "logo": "https://crests.football-data.org/BL1.png",
             "normalized": "bundesliga"
           },
           "home": {
-            "id": 80,
-            "idProvider": "openligadb",
+            "id": 83,
+            "idProvider": "bsd",
             "name": "1. FC Union Berlin",
             "fullName": "1. FC Union Berlin",
             "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
             "normalized": "1 union berlin"
           },
           "away": {
-            "id": 1635,
-            "idProvider": "openligadb",
+            "id": 80,
+            "idProvider": "bsd",
             "name": "RB Leipzig",
             "fullName": "RB Leipzig",
             "crest": "https://crests.football-data.org/721.png",
             "normalized": "rb leipzig"
           },
           "sources": [
+            "bsd",
             "openligadb",
             "openfootball"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83241,
-            "providerCompetitionId": 4937,
-            "shortcut": "bl1"
+            "provider": "bsd",
+            "providerEventId": 213749,
+            "providerLeagueId": 5,
+            "providerSeasonId": 1091
           }
         },
         {
-          "id": "oldb:83238",
+          "id": "bsd:213750",
           "date": "2026-11-21",
           "kickoff": "11:30",
           "utcDate": "2026-11-21T14:30:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4937,
-            "idProvider": "openligadb",
+            "id": 5,
+            "idProvider": "bsd",
             "code": "BL1",
             "name": "Bundesliga",
             "logo": "https://crests.football-data.org/BL1.png",
             "normalized": "bundesliga"
           },
           "home": {
-            "id": 6,
-            "idProvider": "openligadb",
+            "id": 85,
+            "idProvider": "bsd",
             "name": "Bayer 04 Leverkusen",
             "fullName": "Bayer 04 Leverkusen",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_TSV_Bayer_04_Leverkusen.svg/330px-Logo_TSV_Bayer_04_Leverkusen.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "bayer 04 leverkusen"
           },
           "away": {
-            "id": 31,
-            "idProvider": "openligadb",
+            "id": 1293,
+            "idProvider": "bsd",
             "name": "SC Paderborn 07",
             "fullName": "SC Paderborn 07",
             "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
             "normalized": "paderborn 07"
           },
           "sources": [
+            "bsd",
             "openligadb",
             "openfootball"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83238,
-            "providerCompetitionId": 4937,
-            "shortcut": "bl1"
+            "provider": "bsd",
+            "providerEventId": 213750,
+            "providerLeagueId": 5,
+            "providerSeasonId": 1091
+          }
+        },
+        {
+          "id": "bsd:213751",
+          "date": "2026-11-21",
+          "kickoff": "11:30",
+          "utcDate": "2026-11-21T14:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 5,
+            "idProvider": "bsd",
+            "code": "BL1",
+            "name": "Bundesliga",
+            "logo": "https://crests.football-data.org/BL1.png",
+            "normalized": "bundesliga"
+          },
+          "home": {
+            "id": 95,
+            "idProvider": "bsd",
+            "name": "Borussia M'gladbach",
+            "fullName": "Borussia M'gladbach",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Borussia_M%C3%B6nchengladbach_logo.svg/330px-Borussia_M%C3%B6nchengladbach_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "borussia m gladbach"
+          },
+          "away": {
+            "id": 92,
+            "idProvider": "bsd",
+            "name": "Borussia Dortmund",
+            "fullName": "Borussia Dortmund",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+            "normalized": "borussia dortmund"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 213751,
+            "providerLeagueId": 5,
+            "providerSeasonId": 1091
           }
         },
         {
@@ -2133,44 +2351,45 @@
           }
         },
         {
-          "id": "oldb:83239",
+          "id": "bsd:213752",
           "date": "2026-11-21",
           "kickoff": "11:30",
           "utcDate": "2026-11-21T14:30:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4937,
-            "idProvider": "openligadb",
+            "id": 5,
+            "idProvider": "bsd",
             "code": "BL1",
             "name": "Bundesliga",
             "logo": "https://crests.football-data.org/BL1.png",
             "normalized": "bundesliga"
           },
           "home": {
-            "id": 91,
-            "idProvider": "openligadb",
+            "id": 87,
+            "idProvider": "bsd",
             "name": "Eintracht Frankfurt",
             "fullName": "Eintracht Frankfurt",
             "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
             "normalized": "eintracht frankfurt"
           },
           "away": {
-            "id": 175,
-            "idProvider": "openligadb",
+            "id": 86,
+            "idProvider": "bsd",
             "name": "TSG Hoffenheim",
             "fullName": "TSG Hoffenheim",
             "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
             "normalized": "tsg hoffenheim"
           },
           "sources": [
+            "bsd",
             "openligadb"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83239,
-            "providerCompetitionId": 4937,
-            "shortcut": "bl1"
+            "provider": "bsd",
+            "providerEventId": 213752,
+            "providerLeagueId": 5,
+            "providerSeasonId": 1091
           }
         },
         {
@@ -2346,45 +2565,46 @@
           "sourcePriority": 100
         },
         {
-          "id": "oldb:83245",
+          "id": "bsd:213756",
           "date": "2026-11-21",
           "kickoff": "11:30",
           "utcDate": "2026-11-21T14:30:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4937,
-            "idProvider": "openligadb",
+            "id": 5,
+            "idProvider": "bsd",
             "code": "BL1",
             "name": "Bundesliga",
             "logo": "https://crests.football-data.org/BL1.png",
             "normalized": "bundesliga"
           },
           "home": {
-            "id": 198,
-            "idProvider": "openligadb",
+            "id": 1833,
+            "idProvider": "bsd",
             "name": "SV 07 Elversberg",
             "fullName": "SV 07 Elversberg",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/330px-SV_Elversberg_Logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "sv 07 elversberg"
           },
           "away": {
-            "id": 112,
-            "idProvider": "openligadb",
+            "id": 89,
+            "idProvider": "bsd",
             "name": "SC Freiburg",
             "fullName": "SC Freiburg",
             "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
             "normalized": "freiburg"
           },
           "sources": [
+            "bsd",
             "openligadb",
             "openfootball"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83245,
-            "providerCompetitionId": 4937,
-            "shortcut": "bl1"
+            "provider": "bsd",
+            "providerEventId": 213756,
+            "providerLeagueId": 5,
+            "providerSeasonId": 1091
           }
         },
         {
@@ -3848,45 +4068,46 @@
           "sourcePriority": 50
         },
         {
-          "id": "oldb:83244",
+          "id": "bsd:213755",
           "date": "2026-11-21",
           "kickoff": "14:30",
           "utcDate": "2026-11-21T17:30:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4937,
-            "idProvider": "openligadb",
+            "id": 5,
+            "idProvider": "bsd",
             "code": "BL1",
             "name": "Bundesliga",
             "logo": "https://crests.football-data.org/BL1.png",
             "normalized": "bundesliga"
           },
           "home": {
-            "id": 9,
-            "idProvider": "openligadb",
+            "id": 1290,
+            "idProvider": "bsd",
             "name": "FC Schalke 04",
             "fullName": "FC Schalke 04",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/FC_Schalke_04_Logo.svg/330px-FC_Schalke_04_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "schalke 04"
           },
           "away": {
-            "id": 16,
-            "idProvider": "openligadb",
+            "id": 84,
+            "idProvider": "bsd",
             "name": "VfB Stuttgart",
             "fullName": "VfB Stuttgart",
             "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
             "normalized": "vfb stuttgart"
           },
           "sources": [
+            "bsd",
             "openligadb",
             "openfootball"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83244,
-            "providerCompetitionId": 4937,
-            "shortcut": "bl1"
+            "provider": "bsd",
+            "providerEventId": 213755,
+            "providerLeagueId": 5,
+            "providerSeasonId": 1091
           }
         },
         {
@@ -4171,6 +4392,47 @@
           "sourcePriority": 100
         },
         {
+          "id": "bsd:602727",
+          "date": "2026-11-21",
+          "kickoff": "16:30",
+          "utcDate": "2026-11-21T19:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 94,
+            "idProvider": "bsd",
+            "code": "BL2",
+            "name": "2. Bundesliga",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+            "normalized": "2 bundesliga"
+          },
+          "home": {
+            "id": 91,
+            "idProvider": "bsd",
+            "name": "FC St. Pauli",
+            "fullName": "FC St. Pauli",
+            "crest": null,
+            "normalized": "st pauli"
+          },
+          "away": {
+            "id": 1834,
+            "idProvider": "bsd",
+            "name": "VfL Bochum 1848",
+            "fullName": "VfL Bochum 1848",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/VfL_Bochum_logo.svg/330px-VfL_Bochum_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "vfl bochum 1848"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 602727,
+            "providerLeagueId": 94,
+            "providerSeasonId": 1967
+          }
+        },
+        {
           "id": "oldb:83691",
           "date": "2026-11-21",
           "kickoff": "16:30",
@@ -4242,7 +4504,8 @@
             "normalized": "flamengo"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         },
@@ -4791,7 +5054,8 @@
             "normalized": "coritiba"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         },
@@ -4826,7 +5090,8 @@
             "normalized": "cruzeiro"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         }
@@ -4835,7 +5100,7 @@
     {
       "date": "2026-11-22",
       "label": "22/11",
-      "count": 55,
+      "count": 60,
       "matches": [
         {
           "id": "of:9e84631a40a8a98f",
@@ -5359,6 +5624,47 @@
           "sourcePriority": 50
         },
         {
+          "id": "bsd:602728",
+          "date": "2026-11-22",
+          "kickoff": "09:30",
+          "utcDate": "2026-11-22T12:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 94,
+            "idProvider": "bsd",
+            "code": "BL2",
+            "name": "2. Bundesliga",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+            "normalized": "2 bundesliga"
+          },
+          "home": {
+            "id": 1288,
+            "idProvider": "bsd",
+            "name": "1. FC Kaiserslautern",
+            "fullName": "1. FC Kaiserslautern",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_1_FC_Kaiserslautern.svg/330px-Logo_1_FC_Kaiserslautern.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "1 kaiserslautern"
+          },
+          "away": {
+            "id": 1865,
+            "idProvider": "bsd",
+            "name": "SG Dynamo Dresden",
+            "fullName": "SG Dynamo Dresden",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Logo_Dinamo_Dresde_desde_2011.svg/330px-Logo_Dinamo_Dresde_desde_2011.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "sg dynamo dresden"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 602728,
+            "providerLeagueId": 94,
+            "providerSeasonId": 1967
+          }
+        },
+        {
           "id": "oldb:83698",
           "date": "2026-11-22",
           "kickoff": "09:30",
@@ -5400,85 +5706,87 @@
           }
         },
         {
-          "id": "oldb:83706",
+          "id": "bsd:602729",
           "date": "2026-11-22",
           "kickoff": "09:30",
           "utcDate": "2026-11-22T12:30:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4938,
-            "idProvider": "openligadb",
+            "id": 94,
+            "idProvider": "bsd",
             "code": "BL2",
             "name": "2. Bundesliga",
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
             "normalized": "2 bundesliga"
           },
           "home": {
-            "id": 93,
-            "idProvider": "openligadb",
+            "id": 1836,
+            "idProvider": "bsd",
             "name": "Energie Cottbus",
             "fullName": "Energie Cottbus",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Logo_Energie_Cottbus.svg/330px-Logo_Energie_Cottbus.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "energie cottbus"
           },
           "away": {
-            "id": 54,
-            "idProvider": "openligadb",
+            "id": 1832,
+            "idProvider": "bsd",
             "name": "Hertha BSC",
             "fullName": "Hertha BSC",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Hertha_BSC_Logo_2012.svg/330px-Hertha_BSC_Logo_2012.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "hertha bsc"
           },
           "sources": [
+            "bsd",
             "openligadb"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83706,
-            "providerCompetitionId": 4938,
-            "shortcut": "bl2"
+            "provider": "bsd",
+            "providerEventId": 602729,
+            "providerLeagueId": 94,
+            "providerSeasonId": 1967
           }
         },
         {
-          "id": "oldb:83702",
+          "id": "bsd:602730",
           "date": "2026-11-22",
           "kickoff": "09:30",
           "utcDate": "2026-11-22T12:30:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4938,
-            "idProvider": "openligadb",
+            "id": 94,
+            "idProvider": "bsd",
             "code": "BL2",
             "name": "2. Bundesliga",
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
             "normalized": "2 bundesliga"
           },
           "home": {
-            "id": 105,
-            "idProvider": "openligadb",
+            "id": 1835,
+            "idProvider": "bsd",
             "name": "Karlsruher SC",
             "fullName": "Karlsruher SC",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Karlsruher_SC_Logo_2.svg/330px-Karlsruher_SC_Logo_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "karlsruher"
           },
           "away": {
-            "id": 36,
-            "idProvider": "openligadb",
+            "id": 3853,
+            "idProvider": "bsd",
             "name": "VfL Osnabrück",
             "fullName": "VfL Osnabrück",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/VfL_Osnabr%C3%BCck_%281930er_Jahre_Kurmark%29.svg/330px-VfL_Osnabr%C3%BCck_%281930er_Jahre_Kurmark%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "vfl osnabruck"
           },
           "sources": [
+            "bsd",
             "openligadb"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83702,
-            "providerCompetitionId": 4938,
-            "shortcut": "bl2"
+            "provider": "bsd",
+            "providerEventId": 602730,
+            "providerLeagueId": 94,
+            "providerSeasonId": 1967
           }
         },
         {
@@ -5941,45 +6249,46 @@
           "sourcePriority": 100
         },
         {
-          "id": "oldb:83240",
+          "id": "bsd:213753",
           "date": "2026-11-22",
           "kickoff": "11:30",
           "utcDate": "2026-11-22T14:30:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4937,
-            "idProvider": "openligadb",
+            "id": 5,
+            "idProvider": "bsd",
             "code": "BL1",
             "name": "Bundesliga",
             "logo": "https://crests.football-data.org/BL1.png",
             "normalized": "bundesliga"
           },
           "home": {
-            "id": 95,
-            "idProvider": "openligadb",
+            "id": 90,
+            "idProvider": "bsd",
             "name": "FC Augsburg",
             "fullName": "FC Augsburg",
             "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
             "normalized": "augsburg"
           },
           "away": {
-            "id": 81,
-            "idProvider": "openligadb",
+            "id": 93,
+            "idProvider": "bsd",
             "name": "1. FSV Mainz 05",
             "fullName": "1. FSV Mainz 05",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/330px-Logo_Mainz_05.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "1 fsv mainz 05"
           },
           "sources": [
+            "bsd",
             "openligadb",
             "openfootball"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83240,
-            "providerCompetitionId": 4937,
-            "shortcut": "bl1"
+            "provider": "bsd",
+            "providerEventId": 213753,
+            "providerLeagueId": 5,
+            "providerSeasonId": 1091
           }
         },
         {
@@ -6228,45 +6537,46 @@
           "sourcePriority": 100
         },
         {
-          "id": "oldb:83243",
+          "id": "bsd:213757",
           "date": "2026-11-22",
           "kickoff": "13:30",
           "utcDate": "2026-11-22T16:30:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4937,
-            "idProvider": "openligadb",
+            "id": 5,
+            "idProvider": "bsd",
             "code": "BL1",
             "name": "Bundesliga",
             "logo": "https://crests.football-data.org/BL1.png",
             "normalized": "bundesliga"
           },
           "home": {
-            "id": 134,
-            "idProvider": "openligadb",
+            "id": 88,
+            "idProvider": "bsd",
             "name": "SV Werder Bremen",
             "fullName": "SV Werder Bremen",
             "crest": null,
             "normalized": "sv werder bremen"
           },
           "away": {
-            "id": 100,
-            "idProvider": "openligadb",
+            "id": 96,
+            "idProvider": "bsd",
             "name": "Hamburger SV",
             "fullName": "Hamburger SV",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Hamburger_SV_logo.svg/330px-Hamburger_SV_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "hamburger sv"
           },
           "sources": [
+            "bsd",
             "openligadb",
             "openfootball"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 83243,
-            "providerCompetitionId": 4937,
-            "shortcut": "bl1"
+            "provider": "bsd",
+            "providerEventId": 213757,
+            "providerLeagueId": 5,
+            "providerSeasonId": 1091
           }
         },
         {
@@ -6447,6 +6757,88 @@
             "football-data"
           ],
           "sourcePriority": 100
+        },
+        {
+          "id": "bsd:7344",
+          "date": "2026-11-22",
+          "kickoff": "16:00",
+          "utcDate": "2026-11-22T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 9,
+            "idProvider": "bsd",
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": 371,
+            "idProvider": "bsd",
+            "name": "Athletico",
+            "fullName": "Athletico",
+            "crest": null,
+            "normalized": "athletico"
+          },
+          "away": {
+            "id": 372,
+            "idProvider": "bsd",
+            "name": "Remo",
+            "fullName": "Remo",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+            "normalized": "remo"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 7344,
+            "providerLeagueId": 9,
+            "providerSeasonId": 28
+          }
+        },
+        {
+          "id": "bsd:655432",
+          "date": "2026-11-22",
+          "kickoff": "16:00",
+          "utcDate": "2026-11-22T19:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 929,
+            "idProvider": "bsd",
+            "name": "Criciúma",
+            "fullName": "Criciúma",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+            "normalized": "criciuma"
+          },
+          "away": {
+            "id": 152,
+            "idProvider": "bsd",
+            "name": "Fortaleza",
+            "fullName": "Fortaleza",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+            "normalized": "fortaleza"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 655432,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
         },
         {
           "id": "fd:555090",
@@ -6694,6 +7086,47 @@
           "sourcePriority": 100
         },
         {
+          "id": "bsd:655433",
+          "date": "2026-11-22",
+          "kickoff": "18:30",
+          "utcDate": "2026-11-22T21:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 34,
+            "idProvider": "bsd",
+            "code": "BSB",
+            "name": "Brasileirão Série B",
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+            "normalized": "brasileirao serie b"
+          },
+          "home": {
+            "id": 819,
+            "idProvider": "bsd",
+            "name": "Atlético Goianiense",
+            "fullName": "Atlético Goianiense",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+            "normalized": "atletico goianiense"
+          },
+          "away": {
+            "id": 826,
+            "idProvider": "bsd",
+            "name": "Vila Nova FC",
+            "fullName": "Vila Nova FC",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+            "normalized": "vila nova"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 655433,
+            "providerLeagueId": 34,
+            "providerSeasonId": 52
+          }
+        },
+        {
           "id": "fd:555096",
           "date": "2026-11-22",
           "kickoff": "18:30",
@@ -6724,9 +7157,51 @@
             "normalized": "mirassol"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
+        },
+        {
+          "id": "bsd:7352",
+          "date": "2026-11-22",
+          "kickoff": "19:30",
+          "utcDate": "2026-11-22T22:30:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 9,
+            "idProvider": "bsd",
+            "code": "BSA",
+            "name": "Brasileirão Série A",
+            "logo": "https://crests.football-data.org/bsa.png",
+            "normalized": "brasileirao serie a"
+          },
+          "home": {
+            "id": 168,
+            "idProvider": "bsd",
+            "name": "Red Bull Bragantino",
+            "fullName": "Red Bull Bragantino",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+            "normalized": "red bull bragantino"
+          },
+          "away": {
+            "id": 164,
+            "idProvider": "bsd",
+            "name": "Vasco da Gama",
+            "fullName": "Vasco da Gama",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+            "normalized": "vasco gama"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 7352,
+            "providerLeagueId": 9,
+            "providerSeasonId": 28
+          }
         },
         {
           "id": "fd:555094",
@@ -7052,7 +7527,8 @@
             "normalized": "vitoria"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         },
@@ -7087,7 +7563,8 @@
             "normalized": "sao paulo"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         },
@@ -7122,7 +7599,8 @@
             "normalized": "gremio"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         }
@@ -7131,7 +7609,7 @@
     {
       "date": "2026-11-24",
       "label": "24/11",
-      "count": 34,
+      "count": 39,
       "matches": [
         {
           "id": "fd:575396",
@@ -7167,6 +7645,47 @@
             "football-data"
           ],
           "sourcePriority": 100
+        },
+        {
+          "id": "bsd:601119",
+          "date": "2026-11-24",
+          "kickoff": "14:45",
+          "utcDate": "2026-11-24T17:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 7,
+            "idProvider": "bsd",
+            "code": "UCL",
+            "name": "UEFA Champions League",
+            "logo": "https://crests.football-data.org/CL.png",
+            "normalized": "uefa champions league"
+          },
+          "home": {
+            "id": 121,
+            "idProvider": "bsd",
+            "name": "Bodø/Glimt",
+            "fullName": "Bodø/Glimt",
+            "crest": "https://crests.football-data.org/5721.png",
+            "normalized": "bod glimt"
+          },
+          "away": {
+            "id": 1404,
+            "idProvider": "bsd",
+            "name": "LASK",
+            "fullName": "LASK",
+            "crest": "https://crests.football-data.org/2016.png",
+            "normalized": "lask"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 601119,
+            "providerLeagueId": 7,
+            "providerSeasonId": 1112
+          }
         },
         {
           "id": "oldb:87461",
@@ -7243,6 +7762,47 @@
             "football-data"
           ],
           "sourcePriority": 100
+        },
+        {
+          "id": "bsd:601111",
+          "date": "2026-11-24",
+          "kickoff": "14:45",
+          "utcDate": "2026-11-24T17:45:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 7,
+            "idProvider": "bsd",
+            "code": "UCL",
+            "name": "UEFA Champions League",
+            "logo": "https://crests.football-data.org/CL.png",
+            "normalized": "uefa champions league"
+          },
+          "home": {
+            "id": 125,
+            "idProvider": "bsd",
+            "name": "Galatasaray",
+            "fullName": "Galatasaray",
+            "crest": "https://crests.football-data.org/610.png",
+            "normalized": "galatasaray"
+          },
+          "away": {
+            "id": 3,
+            "idProvider": "bsd",
+            "name": "Aston Villa",
+            "fullName": "Aston Villa",
+            "crest": "https://crests.football-data.org/58.png",
+            "normalized": "aston villa"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 601111,
+            "providerLeagueId": 7,
+            "providerSeasonId": 1112
+          }
         },
         {
           "id": "oldb:87460",
@@ -7826,6 +8386,89 @@
           "sourcePriority": 100
         },
         {
+          "id": "bsd:601049",
+          "date": "2026-11-24",
+          "kickoff": "17:00",
+          "utcDate": "2026-11-24T20:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 7,
+            "idProvider": "bsd",
+            "code": "UCL",
+            "name": "UEFA Champions League",
+            "logo": "https://crests.football-data.org/CL.png",
+            "normalized": "uefa champions league"
+          },
+          "home": {
+            "id": 18,
+            "idProvider": "bsd",
+            "name": "Arsenal",
+            "fullName": "Arsenal",
+            "crest": "https://crests.football-data.org/57.png",
+            "normalized": "arsenal"
+          },
+          "away": {
+            "id": 92,
+            "idProvider": "bsd",
+            "name": "Borussia Dortmund",
+            "fullName": "Borussia Dortmund",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+            "normalized": "borussia dortmund"
+          },
+          "sources": [
+            "bsd",
+            "openligadb"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 601049,
+            "providerLeagueId": 7,
+            "providerSeasonId": 1112
+          }
+        },
+        {
+          "id": "bsd:601106",
+          "date": "2026-11-24",
+          "kickoff": "17:00",
+          "utcDate": "2026-11-24T20:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 7,
+            "idProvider": "bsd",
+            "code": "UCL",
+            "name": "UEFA Champions League",
+            "logo": "https://crests.football-data.org/CL.png",
+            "normalized": "uefa champions league"
+          },
+          "home": {
+            "id": 69,
+            "idProvider": "bsd",
+            "name": "Como",
+            "fullName": "Como",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+            "normalized": "como"
+          },
+          "away": {
+            "id": 329,
+            "idProvider": "bsd",
+            "name": "AEK Athens",
+            "fullName": "AEK Athens",
+            "crest": null,
+            "normalized": "aek athens"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 601106,
+            "providerLeagueId": 7,
+            "providerSeasonId": 1112
+          }
+        },
+        {
           "id": "fd:575403",
           "date": "2026-11-24",
           "kickoff": "17:00",
@@ -7902,47 +8545,6 @@
           }
         },
         {
-          "id": "oldb:87464",
-          "date": "2026-11-24",
-          "kickoff": "17:00",
-          "utcDate": "2026-11-24T20:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 4946,
-            "idProvider": "openligadb",
-            "code": "UCL",
-            "name": "UEFA Champions League",
-            "logo": "https://crests.football-data.org/CL.png",
-            "normalized": "uefa champions league"
-          },
-          "home": {
-            "id": 2617,
-            "idProvider": "openligadb",
-            "name": "FC Arsenal",
-            "fullName": "FC Arsenal",
-            "crest": null,
-            "normalized": "arsenal"
-          },
-          "away": {
-            "id": 7,
-            "idProvider": "openligadb",
-            "name": "Borussia Dortmund",
-            "fullName": "Borussia Dortmund",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-            "normalized": "borussia dortmund"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87464,
-            "providerCompetitionId": 4946,
-            "shortcut": "ucl"
-          }
-        },
-        {
           "id": "fd:575400",
           "date": "2026-11-24",
           "kickoff": "17:00",
@@ -7976,6 +8578,47 @@
             "football-data"
           ],
           "sourcePriority": 100
+        },
+        {
+          "id": "bsd:601128",
+          "date": "2026-11-24",
+          "kickoff": "17:00",
+          "utcDate": "2026-11-24T20:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 7,
+            "idProvider": "bsd",
+            "code": "UCL",
+            "name": "UEFA Champions League",
+            "logo": "https://crests.football-data.org/CL.png",
+            "normalized": "uefa champions league"
+          },
+          "home": {
+            "id": 138,
+            "idProvider": "bsd",
+            "name": "Feyenoord",
+            "fullName": "Feyenoord",
+            "crest": "https://crests.football-data.org/675.png",
+            "normalized": "feyenoord"
+          },
+          "away": {
+            "id": 35,
+            "idProvider": "bsd",
+            "name": "FC Porto",
+            "fullName": "FC Porto",
+            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+            "normalized": "porto"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 601128,
+            "providerLeagueId": 7,
+            "providerSeasonId": 1112
+          }
         },
         {
           "id": "oldb:87465",
@@ -8054,44 +8697,45 @@
           "sourcePriority": 100
         },
         {
-          "id": "oldb:87463",
+          "id": "bsd:601035",
           "date": "2026-11-24",
           "kickoff": "17:00",
           "utcDate": "2026-11-24T20:00:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4946,
-            "idProvider": "openligadb",
+            "id": 7,
+            "idProvider": "bsd",
             "code": "UCL",
             "name": "UEFA Champions League",
             "logo": "https://crests.football-data.org/CL.png",
             "normalized": "uefa champions league"
           },
           "home": {
-            "id": 4244,
-            "idProvider": "openligadb",
+            "id": 12,
+            "idProvider": "bsd",
             "name": "Manchester City",
             "fullName": "Manchester City",
             "crest": null,
             "normalized": "manchester city"
           },
           "away": {
-            "id": 2331,
-            "idProvider": "openligadb",
+            "id": 62,
+            "idProvider": "bsd",
             "name": "SSC Napoli",
             "fullName": "SSC Napoli",
             "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/SSC_Napoli_2024_%28deep_blue_navy%29.svg/330px-SSC_Napoli_2024_%28deep_blue_navy%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "normalized": "ssc napoli"
           },
           "sources": [
+            "bsd",
             "openligadb"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87463,
-            "providerCompetitionId": 4946,
-            "shortcut": "ucl"
+            "provider": "bsd",
+            "providerEventId": 601035,
+            "providerLeagueId": 7,
+            "providerSeasonId": 1112
           }
         },
         {
@@ -8130,44 +8774,45 @@
           "sourcePriority": 100
         },
         {
-          "id": "oldb:87467",
+          "id": "bsd:601151",
           "date": "2026-11-24",
           "kickoff": "17:00",
           "utcDate": "2026-11-24T20:00:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4946,
-            "idProvider": "openligadb",
+            "id": 7,
+            "idProvider": "bsd",
             "code": "UCL",
             "name": "UEFA Champions League",
             "logo": "https://crests.football-data.org/CL.png",
             "normalized": "uefa champions league"
           },
           "home": {
-            "id": 1635,
-            "idProvider": "openligadb",
+            "id": 80,
+            "idProvider": "bsd",
             "name": "RB Leipzig",
             "fullName": "RB Leipzig",
             "crest": "https://crests.football-data.org/721.png",
             "normalized": "rb leipzig"
           },
           "away": {
-            "id": 5962,
-            "idProvider": "openligadb",
+            "id": 99,
+            "idProvider": "bsd",
             "name": "RC Lens",
             "fullName": "RC Lens",
             "crest": "https://crests.football-data.org/546.png",
             "normalized": "rc lens"
           },
           "sources": [
+            "bsd",
             "openligadb"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87467,
-            "providerCompetitionId": 4946,
-            "shortcut": "ucl"
+            "provider": "bsd",
+            "providerEventId": 601151,
+            "providerLeagueId": 7,
+            "providerSeasonId": 1112
           }
         },
         {
@@ -8206,44 +8851,45 @@
           "sourcePriority": 100
         },
         {
-          "id": "oldb:87462",
+          "id": "bsd:601026",
           "date": "2026-11-24",
           "kickoff": "17:00",
           "utcDate": "2026-11-24T20:00:00Z",
           "status": "SCHEDULED",
           "competition": {
-            "id": 4946,
-            "idProvider": "openligadb",
+            "id": 7,
+            "idProvider": "bsd",
             "code": "UCL",
             "name": "UEFA Champions League",
             "logo": "https://crests.football-data.org/CL.png",
             "normalized": "uefa champions league"
           },
           "home": {
-            "id": 1133,
-            "idProvider": "openligadb",
+            "id": 57,
+            "idProvider": "bsd",
             "name": "Real Madrid",
             "fullName": "Real Madrid",
             "crest": "https://crests.football-data.org/86.png",
             "normalized": "real madrid"
           },
           "away": {
-            "id": 376,
-            "idProvider": "openligadb",
+            "id": 115,
+            "idProvider": "bsd",
             "name": "PSV Eindhoven",
             "fullName": "PSV Eindhoven",
             "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
             "normalized": "psv eindhoven"
           },
           "sources": [
+            "bsd",
             "openligadb"
           ],
-          "sourcePriority": 70,
+          "sourcePriority": 80,
           "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 87462,
-            "providerCompetitionId": 4946,
-            "shortcut": "ucl"
+            "provider": "bsd",
+            "providerEventId": 601026,
+            "providerLeagueId": 7,
+            "providerSeasonId": 1112
           }
         },
         {
@@ -8323,6 +8969,47 @@
           }
         },
         {
+          "id": "bsd:601155",
+          "date": "2026-11-24",
+          "kickoff": "17:00",
+          "utcDate": "2026-11-24T20:00:00Z",
+          "status": "SCHEDULED",
+          "competition": {
+            "id": 7,
+            "idProvider": "bsd",
+            "code": "UCL",
+            "name": "UEFA Champions League",
+            "logo": "https://crests.football-data.org/CL.png",
+            "normalized": "uefa champions league"
+          },
+          "home": {
+            "id": 374,
+            "idProvider": "bsd",
+            "name": "ŠK Slovan Bratislava",
+            "fullName": "ŠK Slovan Bratislava",
+            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/SK_Slovan_Bratislava_logo.svg/330px-SK_Slovan_Bratislava_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "normalized": "sk slovan bratislava"
+          },
+          "away": {
+            "id": 56,
+            "idProvider": "bsd",
+            "name": "Real Betis",
+            "fullName": "Real Betis",
+            "crest": "https://crests.football-data.org/90.png",
+            "normalized": "real betis"
+          },
+          "sources": [
+            "bsd"
+          ],
+          "sourcePriority": 80,
+          "provenance": {
+            "provider": "bsd",
+            "providerEventId": 601155,
+            "providerLeagueId": 7,
+            "providerSeasonId": 1112
+          }
+        },
+        {
           "id": "fd:555102",
           "date": "2026-11-24",
           "kickoff": "18:00",
@@ -8353,7 +9040,8 @@
             "normalized": "palmeiras"
           },
           "sources": [
-            "football-data"
+            "football-data",
+            "bsd"
           ],
           "sourcePriority": 100
         }
@@ -8719,8 +9407,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1386330887,
-        "revisionTimestamp": "2026-11-17T23:57:22Z"
+        "revisionId": 1386497614,
+        "revisionTimestamp": "2026-11-18T21:57:19Z"
       }
     },
     {
@@ -8761,8 +9449,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1386330887,
-        "revisionTimestamp": "2026-11-17T23:57:22Z"
+        "revisionId": 1386497614,
+        "revisionTimestamp": "2026-11-18T21:57:19Z"
       }
     },
     {
@@ -8803,8 +9491,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1386330887,
-        "revisionTimestamp": "2026-11-17T23:57:22Z"
+        "revisionId": 1386497614,
+        "revisionTimestamp": "2026-11-18T21:57:19Z"
       }
     },
     {
@@ -8845,8 +9533,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1386330887,
-        "revisionTimestamp": "2026-11-17T23:57:22Z"
+        "revisionId": 1386497614,
+        "revisionTimestamp": "2026-11-18T21:57:19Z"
       }
     },
     {
@@ -8854,7 +9542,7 @@
       "date": "2026-11-18",
       "kickoff": "19:30",
       "utcDate": "2026-11-18T22:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
@@ -8880,7 +9568,8 @@
         "normalized": "santos"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -8889,7 +9578,7 @@
       "date": "2026-11-18",
       "kickoff": "20:00",
       "utcDate": "2026-11-18T23:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
@@ -8915,16 +9604,58 @@
         "normalized": "chapecoense"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
+    },
+    {
+      "id": "bsd:7337",
+      "date": "2026-11-18",
+      "kickoff": "20:30",
+      "utcDate": "2026-11-18T23:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 9,
+        "idProvider": "bsd",
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": 160,
+        "idProvider": "bsd",
+        "name": "Flamengo",
+        "fullName": "Flamengo",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+        "normalized": "flamengo"
+      },
+      "away": {
+        "id": 371,
+        "idProvider": "bsd",
+        "name": "Athletico",
+        "fullName": "Athletico",
+        "crest": null,
+        "normalized": "athletico"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 7337,
+        "providerLeagueId": 9,
+        "providerSeasonId": 28
+      }
     },
     {
       "id": "fd:555082",
       "date": "2026-11-18",
       "kickoff": "20:30",
       "utcDate": "2026-11-18T23:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
@@ -8950,7 +9681,8 @@
         "normalized": "palmeiras"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -8959,7 +9691,7 @@
       "date": "2026-11-18",
       "kickoff": "20:30",
       "utcDate": "2026-11-18T23:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2013,
         "idProvider": "football-data",
@@ -9020,7 +9752,8 @@
         "normalized": "botafogo"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -9055,7 +9788,8 @@
         "normalized": "bahia"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -9097,8 +9831,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1386330887,
-        "revisionTimestamp": "2026-11-17T23:57:22Z"
+        "revisionId": 1386497614,
+        "revisionTimestamp": "2026-11-18T21:57:19Z"
       }
     },
     {
@@ -9139,8 +9873,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1386330887,
-        "revisionTimestamp": "2026-11-17T23:57:22Z"
+        "revisionId": 1386497614,
+        "revisionTimestamp": "2026-11-18T21:57:19Z"
       }
     },
     {
@@ -9181,8 +9915,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1386330887,
-        "revisionTimestamp": "2026-11-17T23:57:22Z"
+        "revisionId": 1386497614,
+        "revisionTimestamp": "2026-11-18T21:57:19Z"
       }
     },
     {
@@ -9223,8 +9957,8 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1386330887,
-        "revisionTimestamp": "2026-11-17T23:57:22Z"
+        "revisionId": 1386497614,
+        "revisionTimestamp": "2026-11-18T21:57:19Z"
       }
     },
     {
@@ -9265,8 +9999,49 @@
         "provider": "wikimedia",
         "page": "2026–27 UEFA Women's Champions League league phase",
         "pageId": 83018611,
-        "revisionId": 1386330887,
-        "revisionTimestamp": "2026-11-17T23:57:22Z"
+        "revisionId": 1386497614,
+        "revisionTimestamp": "2026-11-18T21:57:19Z"
+      }
+    },
+    {
+      "id": "bsd:7343",
+      "date": "2026-11-19",
+      "kickoff": "19:30",
+      "utcDate": "2026-11-19T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 9,
+        "idProvider": "bsd",
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": 157,
+        "idProvider": "bsd",
+        "name": "Vitória",
+        "fullName": "Vitória",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+        "normalized": "vitoria"
+      },
+      "away": {
+        "id": 168,
+        "idProvider": "bsd",
+        "name": "Red Bull Bragantino",
+        "fullName": "Red Bull Bragantino",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+        "normalized": "red bull bragantino"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 7343,
+        "providerLeagueId": 9,
+        "providerSeasonId": 28
       }
     },
     {
@@ -9300,7 +10075,8 @@
         "normalized": "internacional"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -9370,9 +10146,51 @@
         "normalized": "fluminense"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
+    },
+    {
+      "id": "bsd:602722",
+      "date": "2026-11-20",
+      "kickoff": "14:30",
+      "utcDate": "2026-11-20T17:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 94,
+        "idProvider": "bsd",
+        "code": "BL2",
+        "name": "2. Bundesliga",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+        "normalized": "2 bundesliga"
+      },
+      "home": {
+        "id": 1839,
+        "idProvider": "bsd",
+        "name": "Arminia Bielefeld",
+        "fullName": "Arminia Bielefeld",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg/330px-Arminia_Bielefeld_Logo_2021%E2%80%93.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "arminia bielefeld"
+      },
+      "away": {
+        "id": 1838,
+        "idProvider": "bsd",
+        "name": "1. FC Magdeburg",
+        "fullName": "1. FC Magdeburg",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/330px-1._FC_Magdeburg.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "1 magdeburg"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 602722,
+        "providerLeagueId": 94,
+        "providerSeasonId": 1967
+      }
     },
     {
       "id": "oldb:83705",
@@ -9413,6 +10231,47 @@
         "providerMatchId": 83705,
         "providerCompetitionId": 4938,
         "shortcut": "bl2"
+      }
+    },
+    {
+      "id": "bsd:602723",
+      "date": "2026-11-20",
+      "kickoff": "14:30",
+      "utcDate": "2026-11-20T17:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 94,
+        "idProvider": "bsd",
+        "code": "BL2",
+        "name": "2. Bundesliga",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+        "normalized": "2 bundesliga"
+      },
+      "home": {
+        "id": 1295,
+        "idProvider": "bsd",
+        "name": "Darmstadt 98",
+        "fullName": "Darmstadt 98",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SV_Darmstadt_98_Logo.svg/330px-SV_Darmstadt_98_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "darmstadt 98"
+      },
+      "away": {
+        "id": 81,
+        "idProvider": "bsd",
+        "name": "1. FC Heidenheim",
+        "fullName": "1. FC Heidenheim",
+        "crest": null,
+        "normalized": "1 heidenheim"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 602723,
+        "providerLeagueId": 94,
+        "providerSeasonId": 1967
       }
     },
     {
@@ -9492,45 +10351,46 @@
       "sourcePriority": 100
     },
     {
-      "id": "oldb:83237",
+      "id": "bsd:213754",
       "date": "2026-11-20",
       "kickoff": "16:30",
       "utcDate": "2026-11-20T19:30:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4937,
-        "idProvider": "openligadb",
+        "id": 5,
+        "idProvider": "bsd",
         "code": "BL1",
         "name": "Bundesliga",
         "logo": "https://crests.football-data.org/BL1.png",
         "normalized": "bundesliga"
       },
       "home": {
-        "id": 40,
-        "idProvider": "openligadb",
+        "id": 79,
+        "idProvider": "bsd",
         "name": "FC Bayern München",
         "fullName": "FC Bayern München",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/330px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "bayern munchen"
       },
       "away": {
-        "id": 65,
-        "idProvider": "openligadb",
+        "id": 94,
+        "idProvider": "bsd",
         "name": "1. FC Köln",
         "fullName": "1. FC Köln",
         "crest": "https://crests.football-data.org/1.png",
         "normalized": "1 koln"
       },
       "sources": [
+        "bsd",
         "openligadb",
         "openfootball"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83237,
-        "providerCompetitionId": 4937,
-        "shortcut": "bl1"
+        "provider": "bsd",
+        "providerEventId": 213754,
+        "providerLeagueId": 5,
+        "providerSeasonId": 1091
       }
     },
     {
@@ -9677,126 +10537,129 @@
       "sourcePriority": 100
     },
     {
-      "id": "oldb:83699",
+      "id": "bsd:602724",
       "date": "2026-11-21",
       "kickoff": "09:00",
       "utcDate": "2026-11-21T12:00:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4938,
-        "idProvider": "openligadb",
+        "id": 94,
+        "idProvider": "bsd",
         "code": "BL2",
         "name": "2. Bundesliga",
         "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
         "normalized": "2 bundesliga"
       },
       "home": {
-        "id": 79,
-        "idProvider": "openligadb",
+        "id": 1287,
+        "idProvider": "bsd",
         "name": "1. FC Nürnberg",
         "fullName": "1. FC Nürnberg",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/1._FC_N%C3%BCrnberg_logo.svg/330px-1._FC_N%C3%BCrnberg_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "1 nurnberg"
       },
       "away": {
-        "id": 74,
-        "idProvider": "openligadb",
+        "id": 1830,
+        "idProvider": "bsd",
         "name": "Eintracht Braunschweig",
         "fullName": "Eintracht Braunschweig",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/600px_Giallo_e_Blu_con_stemma_Eintracht_Braunschweig.png/330px-600px_Giallo_e_Blu_con_stemma_Eintracht_Braunschweig.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "eintracht braunschweig"
       },
       "sources": [
+        "bsd",
         "openligadb"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83699,
-        "providerCompetitionId": 4938,
-        "shortcut": "bl2"
+        "provider": "bsd",
+        "providerEventId": 602724,
+        "providerLeagueId": 94,
+        "providerSeasonId": 1967
       }
     },
     {
-      "id": "oldb:83694",
+      "id": "bsd:602725",
       "date": "2026-11-21",
       "kickoff": "09:00",
       "utcDate": "2026-11-21T12:00:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4938,
-        "idProvider": "openligadb",
+        "id": 94,
+        "idProvider": "bsd",
         "code": "BL2",
         "name": "2. Bundesliga",
         "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
         "normalized": "2 bundesliga"
       },
       "home": {
-        "id": 55,
-        "idProvider": "openligadb",
+        "id": 1289,
+        "idProvider": "bsd",
         "name": "Hannover 96",
         "fullName": "Hannover 96",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannover_96_Logo.svg/330px-Hannover_96_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "hannover 96"
       },
       "away": {
-        "id": 115,
-        "idProvider": "openligadb",
+        "id": 1292,
+        "idProvider": "bsd",
         "name": "SpVgg Greuther Fürth",
         "fullName": "SpVgg Greuther Fürth",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/SpVgg_Greuther_F%C3%BCrth_2017.svg/330px-SpVgg_Greuther_F%C3%BCrth_2017.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "spvgg greuther furth"
       },
       "sources": [
+        "bsd",
         "openligadb"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83694,
-        "providerCompetitionId": 4938,
-        "shortcut": "bl2"
+        "provider": "bsd",
+        "providerEventId": 602725,
+        "providerLeagueId": 94,
+        "providerSeasonId": 1967
       }
     },
     {
-      "id": "oldb:83689",
+      "id": "bsd:602726",
       "date": "2026-11-21",
       "kickoff": "09:00",
       "utcDate": "2026-11-21T12:00:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4938,
-        "idProvider": "openligadb",
+        "id": 94,
+        "idProvider": "bsd",
         "code": "BL2",
         "name": "2. Bundesliga",
         "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
         "normalized": "2 bundesliga"
       },
       "home": {
-        "id": 131,
-        "idProvider": "openligadb",
+        "id": 82,
+        "idProvider": "bsd",
         "name": "VfL Wolfsburg",
         "fullName": "VfL Wolfsburg",
         "crest": null,
         "normalized": "vfl wolfsburg"
       },
       "away": {
-        "id": 104,
-        "idProvider": "openligadb",
+        "id": 1296,
+        "idProvider": "bsd",
         "name": "Holstein Kiel",
         "fullName": "Holstein Kiel",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "holstein kiel"
       },
       "sources": [
+        "bsd",
         "openligadb"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83689,
-        "providerCompetitionId": 4938,
-        "shortcut": "bl2"
+        "provider": "bsd",
+        "providerEventId": 602726,
+        "providerLeagueId": 94,
+        "providerSeasonId": 1967
       }
     },
     {
@@ -10185,87 +11048,130 @@
       "sourcePriority": 50
     },
     {
-      "id": "oldb:83241",
+      "id": "bsd:213749",
       "date": "2026-11-21",
       "kickoff": "11:30",
       "utcDate": "2026-11-21T14:30:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4937,
-        "idProvider": "openligadb",
+        "id": 5,
+        "idProvider": "bsd",
         "code": "BL1",
         "name": "Bundesliga",
         "logo": "https://crests.football-data.org/BL1.png",
         "normalized": "bundesliga"
       },
       "home": {
-        "id": 80,
-        "idProvider": "openligadb",
+        "id": 83,
+        "idProvider": "bsd",
         "name": "1. FC Union Berlin",
         "fullName": "1. FC Union Berlin",
         "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
         "normalized": "1 union berlin"
       },
       "away": {
-        "id": 1635,
-        "idProvider": "openligadb",
+        "id": 80,
+        "idProvider": "bsd",
         "name": "RB Leipzig",
         "fullName": "RB Leipzig",
         "crest": "https://crests.football-data.org/721.png",
         "normalized": "rb leipzig"
       },
       "sources": [
+        "bsd",
         "openligadb",
         "openfootball"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83241,
-        "providerCompetitionId": 4937,
-        "shortcut": "bl1"
+        "provider": "bsd",
+        "providerEventId": 213749,
+        "providerLeagueId": 5,
+        "providerSeasonId": 1091
       }
     },
     {
-      "id": "oldb:83238",
+      "id": "bsd:213750",
       "date": "2026-11-21",
       "kickoff": "11:30",
       "utcDate": "2026-11-21T14:30:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4937,
-        "idProvider": "openligadb",
+        "id": 5,
+        "idProvider": "bsd",
         "code": "BL1",
         "name": "Bundesliga",
         "logo": "https://crests.football-data.org/BL1.png",
         "normalized": "bundesliga"
       },
       "home": {
-        "id": 6,
-        "idProvider": "openligadb",
+        "id": 85,
+        "idProvider": "bsd",
         "name": "Bayer 04 Leverkusen",
         "fullName": "Bayer 04 Leverkusen",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_TSV_Bayer_04_Leverkusen.svg/330px-Logo_TSV_Bayer_04_Leverkusen.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "bayer 04 leverkusen"
       },
       "away": {
-        "id": 31,
-        "idProvider": "openligadb",
+        "id": 1293,
+        "idProvider": "bsd",
         "name": "SC Paderborn 07",
         "fullName": "SC Paderborn 07",
         "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
         "normalized": "paderborn 07"
       },
       "sources": [
+        "bsd",
         "openligadb",
         "openfootball"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83238,
-        "providerCompetitionId": 4937,
-        "shortcut": "bl1"
+        "provider": "bsd",
+        "providerEventId": 213750,
+        "providerLeagueId": 5,
+        "providerSeasonId": 1091
+      }
+    },
+    {
+      "id": "bsd:213751",
+      "date": "2026-11-21",
+      "kickoff": "11:30",
+      "utcDate": "2026-11-21T14:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 5,
+        "idProvider": "bsd",
+        "code": "BL1",
+        "name": "Bundesliga",
+        "logo": "https://crests.football-data.org/BL1.png",
+        "normalized": "bundesliga"
+      },
+      "home": {
+        "id": 95,
+        "idProvider": "bsd",
+        "name": "Borussia M'gladbach",
+        "fullName": "Borussia M'gladbach",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Borussia_M%C3%B6nchengladbach_logo.svg/330px-Borussia_M%C3%B6nchengladbach_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "borussia m gladbach"
+      },
+      "away": {
+        "id": 92,
+        "idProvider": "bsd",
+        "name": "Borussia Dortmund",
+        "fullName": "Borussia Dortmund",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+        "normalized": "borussia dortmund"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 213751,
+        "providerLeagueId": 5,
+        "providerSeasonId": 1091
       }
     },
     {
@@ -10311,44 +11217,45 @@
       }
     },
     {
-      "id": "oldb:83239",
+      "id": "bsd:213752",
       "date": "2026-11-21",
       "kickoff": "11:30",
       "utcDate": "2026-11-21T14:30:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4937,
-        "idProvider": "openligadb",
+        "id": 5,
+        "idProvider": "bsd",
         "code": "BL1",
         "name": "Bundesliga",
         "logo": "https://crests.football-data.org/BL1.png",
         "normalized": "bundesliga"
       },
       "home": {
-        "id": 91,
-        "idProvider": "openligadb",
+        "id": 87,
+        "idProvider": "bsd",
         "name": "Eintracht Frankfurt",
         "fullName": "Eintracht Frankfurt",
         "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
         "normalized": "eintracht frankfurt"
       },
       "away": {
-        "id": 175,
-        "idProvider": "openligadb",
+        "id": 86,
+        "idProvider": "bsd",
         "name": "TSG Hoffenheim",
         "fullName": "TSG Hoffenheim",
         "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
         "normalized": "tsg hoffenheim"
       },
       "sources": [
+        "bsd",
         "openligadb"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83239,
-        "providerCompetitionId": 4937,
-        "shortcut": "bl1"
+        "provider": "bsd",
+        "providerEventId": 213752,
+        "providerLeagueId": 5,
+        "providerSeasonId": 1091
       }
     },
     {
@@ -10524,45 +11431,46 @@
       "sourcePriority": 100
     },
     {
-      "id": "oldb:83245",
+      "id": "bsd:213756",
       "date": "2026-11-21",
       "kickoff": "11:30",
       "utcDate": "2026-11-21T14:30:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4937,
-        "idProvider": "openligadb",
+        "id": 5,
+        "idProvider": "bsd",
         "code": "BL1",
         "name": "Bundesliga",
         "logo": "https://crests.football-data.org/BL1.png",
         "normalized": "bundesliga"
       },
       "home": {
-        "id": 198,
-        "idProvider": "openligadb",
+        "id": 1833,
+        "idProvider": "bsd",
         "name": "SV 07 Elversberg",
         "fullName": "SV 07 Elversberg",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/330px-SV_Elversberg_Logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "sv 07 elversberg"
       },
       "away": {
-        "id": 112,
-        "idProvider": "openligadb",
+        "id": 89,
+        "idProvider": "bsd",
         "name": "SC Freiburg",
         "fullName": "SC Freiburg",
         "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
         "normalized": "freiburg"
       },
       "sources": [
+        "bsd",
         "openligadb",
         "openfootball"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83245,
-        "providerCompetitionId": 4937,
-        "shortcut": "bl1"
+        "provider": "bsd",
+        "providerEventId": 213756,
+        "providerLeagueId": 5,
+        "providerSeasonId": 1091
       }
     },
     {
@@ -12026,45 +12934,46 @@
       "sourcePriority": 50
     },
     {
-      "id": "oldb:83244",
+      "id": "bsd:213755",
       "date": "2026-11-21",
       "kickoff": "14:30",
       "utcDate": "2026-11-21T17:30:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4937,
-        "idProvider": "openligadb",
+        "id": 5,
+        "idProvider": "bsd",
         "code": "BL1",
         "name": "Bundesliga",
         "logo": "https://crests.football-data.org/BL1.png",
         "normalized": "bundesliga"
       },
       "home": {
-        "id": 9,
-        "idProvider": "openligadb",
+        "id": 1290,
+        "idProvider": "bsd",
         "name": "FC Schalke 04",
         "fullName": "FC Schalke 04",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/FC_Schalke_04_Logo.svg/330px-FC_Schalke_04_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "schalke 04"
       },
       "away": {
-        "id": 16,
-        "idProvider": "openligadb",
+        "id": 84,
+        "idProvider": "bsd",
         "name": "VfB Stuttgart",
         "fullName": "VfB Stuttgart",
         "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
         "normalized": "vfb stuttgart"
       },
       "sources": [
+        "bsd",
         "openligadb",
         "openfootball"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83244,
-        "providerCompetitionId": 4937,
-        "shortcut": "bl1"
+        "provider": "bsd",
+        "providerEventId": 213755,
+        "providerLeagueId": 5,
+        "providerSeasonId": 1091
       }
     },
     {
@@ -12349,6 +13258,47 @@
       "sourcePriority": 100
     },
     {
+      "id": "bsd:602727",
+      "date": "2026-11-21",
+      "kickoff": "16:30",
+      "utcDate": "2026-11-21T19:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 94,
+        "idProvider": "bsd",
+        "code": "BL2",
+        "name": "2. Bundesliga",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+        "normalized": "2 bundesliga"
+      },
+      "home": {
+        "id": 91,
+        "idProvider": "bsd",
+        "name": "FC St. Pauli",
+        "fullName": "FC St. Pauli",
+        "crest": null,
+        "normalized": "st pauli"
+      },
+      "away": {
+        "id": 1834,
+        "idProvider": "bsd",
+        "name": "VfL Bochum 1848",
+        "fullName": "VfL Bochum 1848",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/VfL_Bochum_logo.svg/330px-VfL_Bochum_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "vfl bochum 1848"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 602727,
+        "providerLeagueId": 94,
+        "providerSeasonId": 1967
+      }
+    },
+    {
       "id": "oldb:83691",
       "date": "2026-11-21",
       "kickoff": "16:30",
@@ -12420,7 +13370,8 @@
         "normalized": "flamengo"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -12969,7 +13920,8 @@
         "normalized": "coritiba"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -13004,7 +13956,8 @@
         "normalized": "cruzeiro"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -13530,6 +14483,47 @@
       "sourcePriority": 50
     },
     {
+      "id": "bsd:602728",
+      "date": "2026-11-22",
+      "kickoff": "09:30",
+      "utcDate": "2026-11-22T12:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 94,
+        "idProvider": "bsd",
+        "code": "BL2",
+        "name": "2. Bundesliga",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+        "normalized": "2 bundesliga"
+      },
+      "home": {
+        "id": 1288,
+        "idProvider": "bsd",
+        "name": "1. FC Kaiserslautern",
+        "fullName": "1. FC Kaiserslautern",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_1_FC_Kaiserslautern.svg/330px-Logo_1_FC_Kaiserslautern.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "1 kaiserslautern"
+      },
+      "away": {
+        "id": 1865,
+        "idProvider": "bsd",
+        "name": "SG Dynamo Dresden",
+        "fullName": "SG Dynamo Dresden",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Logo_Dinamo_Dresde_desde_2011.svg/330px-Logo_Dinamo_Dresde_desde_2011.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "sg dynamo dresden"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 602728,
+        "providerLeagueId": 94,
+        "providerSeasonId": 1967
+      }
+    },
+    {
       "id": "oldb:83698",
       "date": "2026-11-22",
       "kickoff": "09:30",
@@ -13571,85 +14565,87 @@
       }
     },
     {
-      "id": "oldb:83706",
+      "id": "bsd:602729",
       "date": "2026-11-22",
       "kickoff": "09:30",
       "utcDate": "2026-11-22T12:30:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4938,
-        "idProvider": "openligadb",
+        "id": 94,
+        "idProvider": "bsd",
         "code": "BL2",
         "name": "2. Bundesliga",
         "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
         "normalized": "2 bundesliga"
       },
       "home": {
-        "id": 93,
-        "idProvider": "openligadb",
+        "id": 1836,
+        "idProvider": "bsd",
         "name": "Energie Cottbus",
         "fullName": "Energie Cottbus",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Logo_Energie_Cottbus.svg/330px-Logo_Energie_Cottbus.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "energie cottbus"
       },
       "away": {
-        "id": 54,
-        "idProvider": "openligadb",
+        "id": 1832,
+        "idProvider": "bsd",
         "name": "Hertha BSC",
         "fullName": "Hertha BSC",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Hertha_BSC_Logo_2012.svg/330px-Hertha_BSC_Logo_2012.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "hertha bsc"
       },
       "sources": [
+        "bsd",
         "openligadb"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83706,
-        "providerCompetitionId": 4938,
-        "shortcut": "bl2"
+        "provider": "bsd",
+        "providerEventId": 602729,
+        "providerLeagueId": 94,
+        "providerSeasonId": 1967
       }
     },
     {
-      "id": "oldb:83702",
+      "id": "bsd:602730",
       "date": "2026-11-22",
       "kickoff": "09:30",
       "utcDate": "2026-11-22T12:30:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4938,
-        "idProvider": "openligadb",
+        "id": 94,
+        "idProvider": "bsd",
         "code": "BL2",
         "name": "2. Bundesliga",
         "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
         "normalized": "2 bundesliga"
       },
       "home": {
-        "id": 105,
-        "idProvider": "openligadb",
+        "id": 1835,
+        "idProvider": "bsd",
         "name": "Karlsruher SC",
         "fullName": "Karlsruher SC",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Karlsruher_SC_Logo_2.svg/330px-Karlsruher_SC_Logo_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "karlsruher"
       },
       "away": {
-        "id": 36,
-        "idProvider": "openligadb",
+        "id": 3853,
+        "idProvider": "bsd",
         "name": "VfL Osnabrück",
         "fullName": "VfL Osnabrück",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/VfL_Osnabr%C3%BCck_%281930er_Jahre_Kurmark%29.svg/330px-VfL_Osnabr%C3%BCck_%281930er_Jahre_Kurmark%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "vfl osnabruck"
       },
       "sources": [
+        "bsd",
         "openligadb"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83702,
-        "providerCompetitionId": 4938,
-        "shortcut": "bl2"
+        "provider": "bsd",
+        "providerEventId": 602730,
+        "providerLeagueId": 94,
+        "providerSeasonId": 1967
       }
     },
     {
@@ -14112,45 +15108,46 @@
       "sourcePriority": 100
     },
     {
-      "id": "oldb:83240",
+      "id": "bsd:213753",
       "date": "2026-11-22",
       "kickoff": "11:30",
       "utcDate": "2026-11-22T14:30:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4937,
-        "idProvider": "openligadb",
+        "id": 5,
+        "idProvider": "bsd",
         "code": "BL1",
         "name": "Bundesliga",
         "logo": "https://crests.football-data.org/BL1.png",
         "normalized": "bundesliga"
       },
       "home": {
-        "id": 95,
-        "idProvider": "openligadb",
+        "id": 90,
+        "idProvider": "bsd",
         "name": "FC Augsburg",
         "fullName": "FC Augsburg",
         "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
         "normalized": "augsburg"
       },
       "away": {
-        "id": 81,
-        "idProvider": "openligadb",
+        "id": 93,
+        "idProvider": "bsd",
         "name": "1. FSV Mainz 05",
         "fullName": "1. FSV Mainz 05",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/330px-Logo_Mainz_05.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "1 fsv mainz 05"
       },
       "sources": [
+        "bsd",
         "openligadb",
         "openfootball"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83240,
-        "providerCompetitionId": 4937,
-        "shortcut": "bl1"
+        "provider": "bsd",
+        "providerEventId": 213753,
+        "providerLeagueId": 5,
+        "providerSeasonId": 1091
       }
     },
     {
@@ -14399,45 +15396,46 @@
       "sourcePriority": 100
     },
     {
-      "id": "oldb:83243",
+      "id": "bsd:213757",
       "date": "2026-11-22",
       "kickoff": "13:30",
       "utcDate": "2026-11-22T16:30:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4937,
-        "idProvider": "openligadb",
+        "id": 5,
+        "idProvider": "bsd",
         "code": "BL1",
         "name": "Bundesliga",
         "logo": "https://crests.football-data.org/BL1.png",
         "normalized": "bundesliga"
       },
       "home": {
-        "id": 134,
-        "idProvider": "openligadb",
+        "id": 88,
+        "idProvider": "bsd",
         "name": "SV Werder Bremen",
         "fullName": "SV Werder Bremen",
         "crest": null,
         "normalized": "sv werder bremen"
       },
       "away": {
-        "id": 100,
-        "idProvider": "openligadb",
+        "id": 96,
+        "idProvider": "bsd",
         "name": "Hamburger SV",
         "fullName": "Hamburger SV",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Hamburger_SV_logo.svg/330px-Hamburger_SV_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "hamburger sv"
       },
       "sources": [
+        "bsd",
         "openligadb",
         "openfootball"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 83243,
-        "providerCompetitionId": 4937,
-        "shortcut": "bl1"
+        "provider": "bsd",
+        "providerEventId": 213757,
+        "providerLeagueId": 5,
+        "providerSeasonId": 1091
       }
     },
     {
@@ -14618,6 +15616,88 @@
         "football-data"
       ],
       "sourcePriority": 100
+    },
+    {
+      "id": "bsd:7344",
+      "date": "2026-11-22",
+      "kickoff": "16:00",
+      "utcDate": "2026-11-22T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 9,
+        "idProvider": "bsd",
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": 371,
+        "idProvider": "bsd",
+        "name": "Athletico",
+        "fullName": "Athletico",
+        "crest": null,
+        "normalized": "athletico"
+      },
+      "away": {
+        "id": 372,
+        "idProvider": "bsd",
+        "name": "Remo",
+        "fullName": "Remo",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+        "normalized": "remo"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 7344,
+        "providerLeagueId": 9,
+        "providerSeasonId": 28
+      }
+    },
+    {
+      "id": "bsd:655432",
+      "date": "2026-11-22",
+      "kickoff": "16:00",
+      "utcDate": "2026-11-22T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 929,
+        "idProvider": "bsd",
+        "name": "Criciúma",
+        "fullName": "Criciúma",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+        "normalized": "criciuma"
+      },
+      "away": {
+        "id": 152,
+        "idProvider": "bsd",
+        "name": "Fortaleza",
+        "fullName": "Fortaleza",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+        "normalized": "fortaleza"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 655432,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
     },
     {
       "id": "fd:555090",
@@ -14865,6 +15945,47 @@
       "sourcePriority": 100
     },
     {
+      "id": "bsd:655433",
+      "date": "2026-11-22",
+      "kickoff": "18:30",
+      "utcDate": "2026-11-22T21:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 34,
+        "idProvider": "bsd",
+        "code": "BSB",
+        "name": "Brasileirão Série B",
+        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2299.png",
+        "normalized": "brasileirao serie b"
+      },
+      "home": {
+        "id": 819,
+        "idProvider": "bsd",
+        "name": "Atlético Goianiense",
+        "fullName": "Atlético Goianiense",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+        "normalized": "atletico goianiense"
+      },
+      "away": {
+        "id": 826,
+        "idProvider": "bsd",
+        "name": "Vila Nova FC",
+        "fullName": "Vila Nova FC",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+        "normalized": "vila nova"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 655433,
+        "providerLeagueId": 34,
+        "providerSeasonId": 52
+      }
+    },
+    {
       "id": "fd:555096",
       "date": "2026-11-22",
       "kickoff": "18:30",
@@ -14895,9 +16016,51 @@
         "normalized": "mirassol"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
+    },
+    {
+      "id": "bsd:7352",
+      "date": "2026-11-22",
+      "kickoff": "19:30",
+      "utcDate": "2026-11-22T22:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 9,
+        "idProvider": "bsd",
+        "code": "BSA",
+        "name": "Brasileirão Série A",
+        "logo": "https://crests.football-data.org/bsa.png",
+        "normalized": "brasileirao serie a"
+      },
+      "home": {
+        "id": 168,
+        "idProvider": "bsd",
+        "name": "Red Bull Bragantino",
+        "fullName": "Red Bull Bragantino",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+        "normalized": "red bull bragantino"
+      },
+      "away": {
+        "id": 164,
+        "idProvider": "bsd",
+        "name": "Vasco da Gama",
+        "fullName": "Vasco da Gama",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+        "normalized": "vasco gama"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 7352,
+        "providerLeagueId": 9,
+        "providerSeasonId": 28
+      }
     },
     {
       "id": "fd:555094",
@@ -15216,7 +16379,8 @@
         "normalized": "vitoria"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -15251,7 +16415,8 @@
         "normalized": "sao paulo"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -15286,7 +16451,8 @@
         "normalized": "gremio"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     },
@@ -15324,6 +16490,47 @@
         "football-data"
       ],
       "sourcePriority": 100
+    },
+    {
+      "id": "bsd:601119",
+      "date": "2026-11-24",
+      "kickoff": "14:45",
+      "utcDate": "2026-11-24T17:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 7,
+        "idProvider": "bsd",
+        "code": "UCL",
+        "name": "UEFA Champions League",
+        "logo": "https://crests.football-data.org/CL.png",
+        "normalized": "uefa champions league"
+      },
+      "home": {
+        "id": 121,
+        "idProvider": "bsd",
+        "name": "Bodø/Glimt",
+        "fullName": "Bodø/Glimt",
+        "crest": "https://crests.football-data.org/5721.png",
+        "normalized": "bod glimt"
+      },
+      "away": {
+        "id": 1404,
+        "idProvider": "bsd",
+        "name": "LASK",
+        "fullName": "LASK",
+        "crest": "https://crests.football-data.org/2016.png",
+        "normalized": "lask"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 601119,
+        "providerLeagueId": 7,
+        "providerSeasonId": 1112
+      }
     },
     {
       "id": "oldb:87461",
@@ -15400,6 +16607,47 @@
         "football-data"
       ],
       "sourcePriority": 100
+    },
+    {
+      "id": "bsd:601111",
+      "date": "2026-11-24",
+      "kickoff": "14:45",
+      "utcDate": "2026-11-24T17:45:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 7,
+        "idProvider": "bsd",
+        "code": "UCL",
+        "name": "UEFA Champions League",
+        "logo": "https://crests.football-data.org/CL.png",
+        "normalized": "uefa champions league"
+      },
+      "home": {
+        "id": 125,
+        "idProvider": "bsd",
+        "name": "Galatasaray",
+        "fullName": "Galatasaray",
+        "crest": "https://crests.football-data.org/610.png",
+        "normalized": "galatasaray"
+      },
+      "away": {
+        "id": 3,
+        "idProvider": "bsd",
+        "name": "Aston Villa",
+        "fullName": "Aston Villa",
+        "crest": "https://crests.football-data.org/58.png",
+        "normalized": "aston villa"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 601111,
+        "providerLeagueId": 7,
+        "providerSeasonId": 1112
+      }
     },
     {
       "id": "oldb:87460",
@@ -15983,6 +17231,89 @@
       "sourcePriority": 100
     },
     {
+      "id": "bsd:601049",
+      "date": "2026-11-24",
+      "kickoff": "17:00",
+      "utcDate": "2026-11-24T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 7,
+        "idProvider": "bsd",
+        "code": "UCL",
+        "name": "UEFA Champions League",
+        "logo": "https://crests.football-data.org/CL.png",
+        "normalized": "uefa champions league"
+      },
+      "home": {
+        "id": 18,
+        "idProvider": "bsd",
+        "name": "Arsenal",
+        "fullName": "Arsenal",
+        "crest": "https://crests.football-data.org/57.png",
+        "normalized": "arsenal"
+      },
+      "away": {
+        "id": 92,
+        "idProvider": "bsd",
+        "name": "Borussia Dortmund",
+        "fullName": "Borussia Dortmund",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+        "normalized": "borussia dortmund"
+      },
+      "sources": [
+        "bsd",
+        "openligadb"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 601049,
+        "providerLeagueId": 7,
+        "providerSeasonId": 1112
+      }
+    },
+    {
+      "id": "bsd:601106",
+      "date": "2026-11-24",
+      "kickoff": "17:00",
+      "utcDate": "2026-11-24T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 7,
+        "idProvider": "bsd",
+        "code": "UCL",
+        "name": "UEFA Champions League",
+        "logo": "https://crests.football-data.org/CL.png",
+        "normalized": "uefa champions league"
+      },
+      "home": {
+        "id": 69,
+        "idProvider": "bsd",
+        "name": "Como",
+        "fullName": "Como",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+        "normalized": "como"
+      },
+      "away": {
+        "id": 329,
+        "idProvider": "bsd",
+        "name": "AEK Athens",
+        "fullName": "AEK Athens",
+        "crest": null,
+        "normalized": "aek athens"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 601106,
+        "providerLeagueId": 7,
+        "providerSeasonId": 1112
+      }
+    },
+    {
       "id": "fd:575403",
       "date": "2026-11-24",
       "kickoff": "17:00",
@@ -16059,47 +17390,6 @@
       }
     },
     {
-      "id": "oldb:87464",
-      "date": "2026-11-24",
-      "kickoff": "17:00",
-      "utcDate": "2026-11-24T20:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 4946,
-        "idProvider": "openligadb",
-        "code": "UCL",
-        "name": "UEFA Champions League",
-        "logo": "https://crests.football-data.org/CL.png",
-        "normalized": "uefa champions league"
-      },
-      "home": {
-        "id": 2617,
-        "idProvider": "openligadb",
-        "name": "FC Arsenal",
-        "fullName": "FC Arsenal",
-        "crest": null,
-        "normalized": "arsenal"
-      },
-      "away": {
-        "id": 7,
-        "idProvider": "openligadb",
-        "name": "Borussia Dortmund",
-        "fullName": "Borussia Dortmund",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-        "normalized": "borussia dortmund"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87464,
-        "providerCompetitionId": 4946,
-        "shortcut": "ucl"
-      }
-    },
-    {
       "id": "fd:575400",
       "date": "2026-11-24",
       "kickoff": "17:00",
@@ -16133,6 +17423,47 @@
         "football-data"
       ],
       "sourcePriority": 100
+    },
+    {
+      "id": "bsd:601128",
+      "date": "2026-11-24",
+      "kickoff": "17:00",
+      "utcDate": "2026-11-24T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 7,
+        "idProvider": "bsd",
+        "code": "UCL",
+        "name": "UEFA Champions League",
+        "logo": "https://crests.football-data.org/CL.png",
+        "normalized": "uefa champions league"
+      },
+      "home": {
+        "id": 138,
+        "idProvider": "bsd",
+        "name": "Feyenoord",
+        "fullName": "Feyenoord",
+        "crest": "https://crests.football-data.org/675.png",
+        "normalized": "feyenoord"
+      },
+      "away": {
+        "id": 35,
+        "idProvider": "bsd",
+        "name": "FC Porto",
+        "fullName": "FC Porto",
+        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+        "normalized": "porto"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 601128,
+        "providerLeagueId": 7,
+        "providerSeasonId": 1112
+      }
     },
     {
       "id": "oldb:87465",
@@ -16211,44 +17542,45 @@
       "sourcePriority": 100
     },
     {
-      "id": "oldb:87463",
+      "id": "bsd:601035",
       "date": "2026-11-24",
       "kickoff": "17:00",
       "utcDate": "2026-11-24T20:00:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4946,
-        "idProvider": "openligadb",
+        "id": 7,
+        "idProvider": "bsd",
         "code": "UCL",
         "name": "UEFA Champions League",
         "logo": "https://crests.football-data.org/CL.png",
         "normalized": "uefa champions league"
       },
       "home": {
-        "id": 4244,
-        "idProvider": "openligadb",
+        "id": 12,
+        "idProvider": "bsd",
         "name": "Manchester City",
         "fullName": "Manchester City",
         "crest": null,
         "normalized": "manchester city"
       },
       "away": {
-        "id": 2331,
-        "idProvider": "openligadb",
+        "id": 62,
+        "idProvider": "bsd",
         "name": "SSC Napoli",
         "fullName": "SSC Napoli",
         "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/SSC_Napoli_2024_%28deep_blue_navy%29.svg/330px-SSC_Napoli_2024_%28deep_blue_navy%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "normalized": "ssc napoli"
       },
       "sources": [
+        "bsd",
         "openligadb"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87463,
-        "providerCompetitionId": 4946,
-        "shortcut": "ucl"
+        "provider": "bsd",
+        "providerEventId": 601035,
+        "providerLeagueId": 7,
+        "providerSeasonId": 1112
       }
     },
     {
@@ -16287,44 +17619,45 @@
       "sourcePriority": 100
     },
     {
-      "id": "oldb:87467",
+      "id": "bsd:601151",
       "date": "2026-11-24",
       "kickoff": "17:00",
       "utcDate": "2026-11-24T20:00:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4946,
-        "idProvider": "openligadb",
+        "id": 7,
+        "idProvider": "bsd",
         "code": "UCL",
         "name": "UEFA Champions League",
         "logo": "https://crests.football-data.org/CL.png",
         "normalized": "uefa champions league"
       },
       "home": {
-        "id": 1635,
-        "idProvider": "openligadb",
+        "id": 80,
+        "idProvider": "bsd",
         "name": "RB Leipzig",
         "fullName": "RB Leipzig",
         "crest": "https://crests.football-data.org/721.png",
         "normalized": "rb leipzig"
       },
       "away": {
-        "id": 5962,
-        "idProvider": "openligadb",
+        "id": 99,
+        "idProvider": "bsd",
         "name": "RC Lens",
         "fullName": "RC Lens",
         "crest": "https://crests.football-data.org/546.png",
         "normalized": "rc lens"
       },
       "sources": [
+        "bsd",
         "openligadb"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87467,
-        "providerCompetitionId": 4946,
-        "shortcut": "ucl"
+        "provider": "bsd",
+        "providerEventId": 601151,
+        "providerLeagueId": 7,
+        "providerSeasonId": 1112
       }
     },
     {
@@ -16363,44 +17696,45 @@
       "sourcePriority": 100
     },
     {
-      "id": "oldb:87462",
+      "id": "bsd:601026",
       "date": "2026-11-24",
       "kickoff": "17:00",
       "utcDate": "2026-11-24T20:00:00Z",
       "status": "SCHEDULED",
       "competition": {
-        "id": 4946,
-        "idProvider": "openligadb",
+        "id": 7,
+        "idProvider": "bsd",
         "code": "UCL",
         "name": "UEFA Champions League",
         "logo": "https://crests.football-data.org/CL.png",
         "normalized": "uefa champions league"
       },
       "home": {
-        "id": 1133,
-        "idProvider": "openligadb",
+        "id": 57,
+        "idProvider": "bsd",
         "name": "Real Madrid",
         "fullName": "Real Madrid",
         "crest": "https://crests.football-data.org/86.png",
         "normalized": "real madrid"
       },
       "away": {
-        "id": 376,
-        "idProvider": "openligadb",
+        "id": 115,
+        "idProvider": "bsd",
         "name": "PSV Eindhoven",
         "fullName": "PSV Eindhoven",
         "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
         "normalized": "psv eindhoven"
       },
       "sources": [
+        "bsd",
         "openligadb"
       ],
-      "sourcePriority": 70,
+      "sourcePriority": 80,
       "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 87462,
-        "providerCompetitionId": 4946,
-        "shortcut": "ucl"
+        "provider": "bsd",
+        "providerEventId": 601026,
+        "providerLeagueId": 7,
+        "providerSeasonId": 1112
       }
     },
     {
@@ -16480,6 +17814,47 @@
       }
     },
     {
+      "id": "bsd:601155",
+      "date": "2026-11-24",
+      "kickoff": "17:00",
+      "utcDate": "2026-11-24T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": 7,
+        "idProvider": "bsd",
+        "code": "UCL",
+        "name": "UEFA Champions League",
+        "logo": "https://crests.football-data.org/CL.png",
+        "normalized": "uefa champions league"
+      },
+      "home": {
+        "id": 374,
+        "idProvider": "bsd",
+        "name": "ŠK Slovan Bratislava",
+        "fullName": "ŠK Slovan Bratislava",
+        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/SK_Slovan_Bratislava_logo.svg/330px-SK_Slovan_Bratislava_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "normalized": "sk slovan bratislava"
+      },
+      "away": {
+        "id": 56,
+        "idProvider": "bsd",
+        "name": "Real Betis",
+        "fullName": "Real Betis",
+        "crest": "https://crests.football-data.org/90.png",
+        "normalized": "real betis"
+      },
+      "sources": [
+        "bsd"
+      ],
+      "sourcePriority": 80,
+      "provenance": {
+        "provider": "bsd",
+        "providerEventId": 601155,
+        "providerLeagueId": 7,
+        "providerSeasonId": 1112
+      }
+    },
+    {
       "id": "fd:555102",
       "date": "2026-11-24",
       "kickoff": "18:00",
@@ -16510,7 +17885,8 @@
         "normalized": "palmeiras"
       },
       "sources": [
-        "football-data"
+        "football-data",
+        "bsd"
       ],
       "sourcePriority": 100
     }
