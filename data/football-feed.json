@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T13:00:53.678560Z",
+  "generatedAt": "2026-11-20T21:54:01.803013Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-20",
@@ -72,7 +72,7 @@
     },
     "openLigaDB": {
       "ok": true,
-      "matches": 74,
+      "matches": 64,
       "competitions": [
         {
           "shortcut": "bl1",
@@ -106,7 +106,7 @@
           "shortcut": "la1",
           "providerCompetitionId": 4936,
           "ok": true,
-          "matchesInWindow": 10,
+          "matchesInWindow": 0,
           "error": null
         },
         {
@@ -126,8 +126,8 @@
           "key": "uwcl",
           "page": "2026–27 UEFA Women's Champions League league phase",
           "pageId": 83018611,
-          "revisionId": 1386679856,
-          "revisionTimestamp": "2026-11-19T23:04:37Z",
+          "revisionId": 1386779689,
+          "revisionTimestamp": "2026-11-20T15:04:53Z",
           "ok": true,
           "matchesInWindow": 0,
           "error": null
@@ -160,14 +160,14 @@
     {
       "date": "2026-11-20",
       "label": "HOJE",
-      "count": 10,
+      "count": 9,
       "matches": [
         {
           "id": "bsd:602722",
           "date": "2026-11-20",
           "kickoff": "14:30",
           "utcDate": "2026-11-20T17:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 94,
             "idProvider": "bsd",
@@ -208,7 +208,7 @@
           "date": "2026-11-20",
           "kickoff": "14:30",
           "utcDate": "2026-11-20T17:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4938,
             "idProvider": "openligadb",
@@ -249,7 +249,7 @@
           "date": "2026-11-20",
           "kickoff": "14:30",
           "utcDate": "2026-11-20T17:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 94,
             "idProvider": "bsd",
@@ -290,7 +290,7 @@
           "date": "2026-11-20",
           "kickoff": "14:30",
           "utcDate": "2026-11-20T17:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 4938,
             "idProvider": "openligadb",
@@ -331,7 +331,7 @@
           "date": "2026-11-20",
           "kickoff": "16:30",
           "utcDate": "2026-11-20T19:30:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2002,
             "idProvider": "football-data",
@@ -366,7 +366,7 @@
           "date": "2026-11-20",
           "kickoff": "16:30",
           "utcDate": "2026-11-20T19:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "id": 5,
             "idProvider": "bsd",
@@ -441,7 +441,7 @@
           "date": "2026-11-20",
           "kickoff": "16:45",
           "utcDate": "2026-11-20T19:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "id": 2015,
             "idProvider": "football-data",
@@ -472,52 +472,11 @@
           "sourcePriority": 100
         },
         {
-          "id": "oldb:85456",
-          "date": "2026-11-20",
-          "kickoff": "17:00",
-          "utcDate": "2026-11-20T20:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 4936,
-            "idProvider": "openligadb",
-            "code": "PD",
-            "name": "LaLiga",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-            "normalized": "laliga"
-          },
-          "home": {
-            "id": 1135,
-            "idProvider": "openligadb",
-            "name": "AFC Ajax",
-            "fullName": "AFC Ajax",
-            "crest": null,
-            "normalized": "ajax"
-          },
-          "away": {
-            "id": 1142,
-            "idProvider": "openligadb",
-            "name": "Espanyol Barcelona",
-            "fullName": "Espanyol Barcelona",
-            "crest": null,
-            "normalized": "espanyol barcelona"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 85456,
-            "providerCompetitionId": 4936,
-            "shortcut": "la1"
-          }
-        },
-        {
           "id": "fd:564748",
           "date": "2026-11-20",
           "kickoff": "17:00",
           "utcDate": "2026-11-20T20:00:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2014,
             "idProvider": "football-data",
@@ -552,7 +511,7 @@
     {
       "date": "2026-11-21",
       "label": "21/11",
-      "count": 97,
+      "count": 95,
       "matches": [
         {
           "id": "bsd:602724",
@@ -885,47 +844,6 @@
             "openligadb"
           ],
           "sourcePriority": 100
-        },
-        {
-          "id": "oldb:85455",
-          "date": "2026-11-21",
-          "kickoff": "10:00",
-          "utcDate": "2026-11-21T13:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 4936,
-            "idProvider": "openligadb",
-            "code": "PD",
-            "name": "LaLiga",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-            "normalized": "laliga"
-          },
-          "home": {
-            "id": 4257,
-            "idProvider": "openligadb",
-            "name": "Deportivo Alaves",
-            "fullName": "Deportivo Alaves",
-            "crest": null,
-            "normalized": "deportivo alaves"
-          },
-          "away": {
-            "id": 440,
-            "idProvider": "openligadb",
-            "name": "Deportivo A Coruña",
-            "fullName": "Deportivo A Coruña",
-            "crest": null,
-            "normalized": "deportivo a coruna"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 85455,
-            "providerCompetitionId": 4936,
-            "shortcut": "la1"
-          }
         },
         {
           "id": "fd:564755",
@@ -2776,8 +2694,7 @@
             "normalized": "valencia"
           },
           "sources": [
-            "football-data",
-            "openligadb"
+            "football-data"
           ],
           "sourcePriority": 100
         },
@@ -3136,8 +3053,7 @@
             "normalized": "real betis"
           },
           "sources": [
-            "football-data",
-            "openligadb"
+            "football-data"
           ],
           "sourcePriority": 100
         },
@@ -3832,47 +3748,6 @@
           "sourcePriority": 50
         },
         {
-          "id": "oldb:85463",
-          "date": "2026-11-21",
-          "kickoff": "17:00",
-          "utcDate": "2026-11-21T20:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 4936,
-            "idProvider": "openligadb",
-            "code": "PD",
-            "name": "LaLiga",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-            "normalized": "laliga"
-          },
-          "home": {
-            "id": 1133,
-            "idProvider": "openligadb",
-            "name": "Real Madrid",
-            "fullName": "Real Madrid",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-            "normalized": "real madrid"
-          },
-          "away": {
-            "id": 2175,
-            "idProvider": "openligadb",
-            "name": "Celta Vigo",
-            "fullName": "Celta Vigo",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-            "normalized": "celta vigo"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 85463,
-            "providerCompetitionId": 4936,
-            "shortcut": "la1"
-          }
-        },
-        {
           "id": "fd:564754",
           "date": "2026-11-21",
           "kickoff": "17:00",
@@ -3984,7 +3859,7 @@
     {
       "date": "2026-11-22",
       "label": "22/11",
-      "count": 60,
+      "count": 56,
       "matches": [
         {
           "id": "of:9e84631a40a8a98f",
@@ -4674,47 +4549,6 @@
           }
         },
         {
-          "id": "oldb:85457",
-          "date": "2026-11-22",
-          "kickoff": "10:00",
-          "utcDate": "2026-11-22T13:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 4936,
-            "idProvider": "openligadb",
-            "code": "PD",
-            "name": "LaLiga",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-            "normalized": "laliga"
-          },
-          "home": {
-            "id": 356,
-            "idProvider": "openligadb",
-            "name": "Excelsior Rotterdam",
-            "fullName": "Excelsior Rotterdam",
-            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Excelsior_Rotterdam_logo_2021.svg/330px-Excelsior_Rotterdam_logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "normalized": "excelsior rotterdam"
-          },
-          "away": {
-            "id": 1209,
-            "idProvider": "openligadb",
-            "name": "FC Villareal",
-            "fullName": "FC Villareal",
-            "crest": null,
-            "normalized": "villareal"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 85457,
-            "providerCompetitionId": 4936,
-            "shortcut": "la1"
-          }
-        },
-        {
           "id": "fd:564749",
           "date": "2026-11-22",
           "kickoff": "10:00",
@@ -5176,47 +5010,6 @@
           }
         },
         {
-          "id": "oldb:85461",
-          "date": "2026-11-22",
-          "kickoff": "12:15",
-          "utcDate": "2026-11-22T15:15:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 4936,
-            "idProvider": "openligadb",
-            "code": "PD",
-            "name": "LaLiga",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-            "normalized": "laliga"
-          },
-          "home": {
-            "id": 1278,
-            "idProvider": "openligadb",
-            "name": "Racing Santander",
-            "fullName": "Racing Santander",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-            "normalized": "racing santander"
-          },
-          "away": {
-            "id": 1275,
-            "idProvider": "openligadb",
-            "name": "Real Sociedad",
-            "fullName": "Real Sociedad",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-            "normalized": "real sociedad"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 85461,
-            "providerCompetitionId": 4936,
-            "shortcut": "la1"
-          }
-        },
-        {
           "id": "fd:564750",
           "date": "2026-11-22",
           "kickoff": "12:15",
@@ -5567,47 +5360,6 @@
           "sourcePriority": 100
         },
         {
-          "id": "oldb:85460",
-          "date": "2026-11-22",
-          "kickoff": "14:30",
-          "utcDate": "2026-11-22T17:30:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 4936,
-            "idProvider": "openligadb",
-            "code": "PD",
-            "name": "LaLiga",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-            "normalized": "laliga"
-          },
-          "home": {
-            "id": 1279,
-            "idProvider": "openligadb",
-            "name": "SC Cambuur",
-            "fullName": "SC Cambuur",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
-            "normalized": "cambuur"
-          },
-          "away": {
-            "id": 1284,
-            "idProvider": "openligadb",
-            "name": "FC Malaga",
-            "fullName": "FC Malaga",
-            "crest": null,
-            "normalized": "malaga"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 85460,
-            "providerCompetitionId": 4936,
-            "shortcut": "la1"
-          }
-        },
-        {
           "id": "fd:564752",
           "date": "2026-11-22",
           "kickoff": "14:30",
@@ -5894,47 +5646,6 @@
           "sourcePriority": 50
         },
         {
-          "id": "oldb:85458",
-          "date": "2026-11-22",
-          "kickoff": "17:00",
-          "utcDate": "2026-11-22T20:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 4936,
-            "idProvider": "openligadb",
-            "code": "PD",
-            "name": "LaLiga",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-            "normalized": "laliga"
-          },
-          "home": {
-            "id": 1141,
-            "idProvider": "openligadb",
-            "name": "FC Getafe",
-            "fullName": "FC Getafe",
-            "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Getafe_CF_Logo.png/330px-Getafe_CF_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "normalized": "getafe"
-          },
-          "away": {
-            "id": 355,
-            "idProvider": "openligadb",
-            "name": "AZ Alkmaar",
-            "fullName": "AZ Alkmaar",
-            "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
-            "normalized": "az alkmaar"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 85458,
-            "providerCompetitionId": 4936,
-            "shortcut": "la1"
-          }
-        },
-        {
           "id": "fd:564753",
           "date": "2026-11-22",
           "kickoff": "17:00",
@@ -6127,7 +5838,7 @@
     {
       "date": "2026-11-23",
       "label": "23/11",
-      "count": 10,
+      "count": 9,
       "matches": [
         {
           "id": "of:254799dc7b8d7058",
@@ -6227,47 +5938,6 @@
             "football-data"
           ],
           "sourcePriority": 100
-        },
-        {
-          "id": "oldb:85459",
-          "date": "2026-11-23",
-          "kickoff": "17:00",
-          "utcDate": "2026-11-23T20:00:00Z",
-          "status": "SCHEDULED",
-          "competition": {
-            "id": 4936,
-            "idProvider": "openligadb",
-            "code": "PD",
-            "name": "LaLiga",
-            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-            "normalized": "laliga"
-          },
-          "home": {
-            "id": 1803,
-            "idProvider": "openligadb",
-            "name": "Levante UD",
-            "fullName": "Levante UD",
-            "crest": null,
-            "normalized": "levante ud"
-          },
-          "away": {
-            "id": 2533,
-            "idProvider": "openligadb",
-            "name": "Elche CF",
-            "fullName": "Elche CF",
-            "crest": null,
-            "normalized": "elche"
-          },
-          "sources": [
-            "openligadb"
-          ],
-          "sourcePriority": 70,
-          "provenance": {
-            "provider": "openligadb",
-            "providerMatchId": 85459,
-            "providerCompetitionId": 4936,
-            "shortcut": "la1"
-          }
         },
         {
           "id": "fd:560649",
@@ -11399,7 +11069,7 @@
       "date": "2026-11-20",
       "kickoff": "14:30",
       "utcDate": "2026-11-20T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 94,
         "idProvider": "bsd",
@@ -11440,7 +11110,7 @@
       "date": "2026-11-20",
       "kickoff": "14:30",
       "utcDate": "2026-11-20T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4938,
         "idProvider": "openligadb",
@@ -11481,7 +11151,7 @@
       "date": "2026-11-20",
       "kickoff": "14:30",
       "utcDate": "2026-11-20T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 94,
         "idProvider": "bsd",
@@ -11522,7 +11192,7 @@
       "date": "2026-11-20",
       "kickoff": "14:30",
       "utcDate": "2026-11-20T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 4938,
         "idProvider": "openligadb",
@@ -11563,7 +11233,7 @@
       "date": "2026-11-20",
       "kickoff": "16:30",
       "utcDate": "2026-11-20T19:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2002,
         "idProvider": "football-data",
@@ -11598,7 +11268,7 @@
       "date": "2026-11-20",
       "kickoff": "16:30",
       "utcDate": "2026-11-20T19:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "id": 5,
         "idProvider": "bsd",
@@ -11673,7 +11343,7 @@
       "date": "2026-11-20",
       "kickoff": "16:45",
       "utcDate": "2026-11-20T19:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "id": 2015,
         "idProvider": "football-data",
@@ -11704,52 +11374,11 @@
       "sourcePriority": 100
     },
     {
-      "id": "oldb:85456",
-      "date": "2026-11-20",
-      "kickoff": "17:00",
-      "utcDate": "2026-11-20T20:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 4936,
-        "idProvider": "openligadb",
-        "code": "PD",
-        "name": "LaLiga",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-        "normalized": "laliga"
-      },
-      "home": {
-        "id": 1135,
-        "idProvider": "openligadb",
-        "name": "AFC Ajax",
-        "fullName": "AFC Ajax",
-        "crest": null,
-        "normalized": "ajax"
-      },
-      "away": {
-        "id": 1142,
-        "idProvider": "openligadb",
-        "name": "Espanyol Barcelona",
-        "fullName": "Espanyol Barcelona",
-        "crest": null,
-        "normalized": "espanyol barcelona"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 85456,
-        "providerCompetitionId": 4936,
-        "shortcut": "la1"
-      }
-    },
-    {
       "id": "fd:564748",
       "date": "2026-11-20",
       "kickoff": "17:00",
       "utcDate": "2026-11-20T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2014,
         "idProvider": "football-data",
@@ -12110,47 +11739,6 @@
         "openligadb"
       ],
       "sourcePriority": 100
-    },
-    {
-      "id": "oldb:85455",
-      "date": "2026-11-21",
-      "kickoff": "10:00",
-      "utcDate": "2026-11-21T13:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 4936,
-        "idProvider": "openligadb",
-        "code": "PD",
-        "name": "LaLiga",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-        "normalized": "laliga"
-      },
-      "home": {
-        "id": 4257,
-        "idProvider": "openligadb",
-        "name": "Deportivo Alaves",
-        "fullName": "Deportivo Alaves",
-        "crest": null,
-        "normalized": "deportivo alaves"
-      },
-      "away": {
-        "id": 440,
-        "idProvider": "openligadb",
-        "name": "Deportivo A Coruña",
-        "fullName": "Deportivo A Coruña",
-        "crest": null,
-        "normalized": "deportivo a coruna"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 85455,
-        "providerCompetitionId": 4936,
-        "shortcut": "la1"
-      }
     },
     {
       "id": "fd:564755",
@@ -14001,8 +13589,7 @@
         "normalized": "valencia"
       },
       "sources": [
-        "football-data",
-        "openligadb"
+        "football-data"
       ],
       "sourcePriority": 100
     },
@@ -14361,8 +13948,7 @@
         "normalized": "real betis"
       },
       "sources": [
-        "football-data",
-        "openligadb"
+        "football-data"
       ],
       "sourcePriority": 100
     },
@@ -15055,47 +14641,6 @@
         "openfootball"
       ],
       "sourcePriority": 50
-    },
-    {
-      "id": "oldb:85463",
-      "date": "2026-11-21",
-      "kickoff": "17:00",
-      "utcDate": "2026-11-21T20:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 4936,
-        "idProvider": "openligadb",
-        "code": "PD",
-        "name": "LaLiga",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-        "normalized": "laliga"
-      },
-      "home": {
-        "id": 1133,
-        "idProvider": "openligadb",
-        "name": "Real Madrid",
-        "fullName": "Real Madrid",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-        "normalized": "real madrid"
-      },
-      "away": {
-        "id": 2175,
-        "idProvider": "openligadb",
-        "name": "Celta Vigo",
-        "fullName": "Celta Vigo",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-        "normalized": "celta vigo"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 85463,
-        "providerCompetitionId": 4936,
-        "shortcut": "la1"
-      }
     },
     {
       "id": "fd:564754",
@@ -15892,47 +15437,6 @@
       }
     },
     {
-      "id": "oldb:85457",
-      "date": "2026-11-22",
-      "kickoff": "10:00",
-      "utcDate": "2026-11-22T13:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 4936,
-        "idProvider": "openligadb",
-        "code": "PD",
-        "name": "LaLiga",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-        "normalized": "laliga"
-      },
-      "home": {
-        "id": 356,
-        "idProvider": "openligadb",
-        "name": "Excelsior Rotterdam",
-        "fullName": "Excelsior Rotterdam",
-        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Excelsior_Rotterdam_logo_2021.svg/330px-Excelsior_Rotterdam_logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "normalized": "excelsior rotterdam"
-      },
-      "away": {
-        "id": 1209,
-        "idProvider": "openligadb",
-        "name": "FC Villareal",
-        "fullName": "FC Villareal",
-        "crest": null,
-        "normalized": "villareal"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 85457,
-        "providerCompetitionId": 4936,
-        "shortcut": "la1"
-      }
-    },
-    {
       "id": "fd:564749",
       "date": "2026-11-22",
       "kickoff": "10:00",
@@ -16394,47 +15898,6 @@
       }
     },
     {
-      "id": "oldb:85461",
-      "date": "2026-11-22",
-      "kickoff": "12:15",
-      "utcDate": "2026-11-22T15:15:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 4936,
-        "idProvider": "openligadb",
-        "code": "PD",
-        "name": "LaLiga",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-        "normalized": "laliga"
-      },
-      "home": {
-        "id": 1278,
-        "idProvider": "openligadb",
-        "name": "Racing Santander",
-        "fullName": "Racing Santander",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-        "normalized": "racing santander"
-      },
-      "away": {
-        "id": 1275,
-        "idProvider": "openligadb",
-        "name": "Real Sociedad",
-        "fullName": "Real Sociedad",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-        "normalized": "real sociedad"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 85461,
-        "providerCompetitionId": 4936,
-        "shortcut": "la1"
-      }
-    },
-    {
       "id": "fd:564750",
       "date": "2026-11-22",
       "kickoff": "12:15",
@@ -16785,47 +16248,6 @@
       "sourcePriority": 100
     },
     {
-      "id": "oldb:85460",
-      "date": "2026-11-22",
-      "kickoff": "14:30",
-      "utcDate": "2026-11-22T17:30:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 4936,
-        "idProvider": "openligadb",
-        "code": "PD",
-        "name": "LaLiga",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-        "normalized": "laliga"
-      },
-      "home": {
-        "id": 1279,
-        "idProvider": "openligadb",
-        "name": "SC Cambuur",
-        "fullName": "SC Cambuur",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
-        "normalized": "cambuur"
-      },
-      "away": {
-        "id": 1284,
-        "idProvider": "openligadb",
-        "name": "FC Malaga",
-        "fullName": "FC Malaga",
-        "crest": null,
-        "normalized": "malaga"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 85460,
-        "providerCompetitionId": 4936,
-        "shortcut": "la1"
-      }
-    },
-    {
       "id": "fd:564752",
       "date": "2026-11-22",
       "kickoff": "14:30",
@@ -17110,47 +16532,6 @@
         "openfootball"
       ],
       "sourcePriority": 50
-    },
-    {
-      "id": "oldb:85458",
-      "date": "2026-11-22",
-      "kickoff": "17:00",
-      "utcDate": "2026-11-22T20:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 4936,
-        "idProvider": "openligadb",
-        "code": "PD",
-        "name": "LaLiga",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-        "normalized": "laliga"
-      },
-      "home": {
-        "id": 1141,
-        "idProvider": "openligadb",
-        "name": "FC Getafe",
-        "fullName": "FC Getafe",
-        "crest": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Getafe_CF_Logo.png/330px-Getafe_CF_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "normalized": "getafe"
-      },
-      "away": {
-        "id": 355,
-        "idProvider": "openligadb",
-        "name": "AZ Alkmaar",
-        "fullName": "AZ Alkmaar",
-        "crest": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
-        "normalized": "az alkmaar"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 85458,
-        "providerCompetitionId": 4936,
-        "shortcut": "la1"
-      }
     },
     {
       "id": "fd:564753",
@@ -17438,47 +16819,6 @@
         "football-data"
       ],
       "sourcePriority": 100
-    },
-    {
-      "id": "oldb:85459",
-      "date": "2026-11-23",
-      "kickoff": "17:00",
-      "utcDate": "2026-11-23T20:00:00Z",
-      "status": "SCHEDULED",
-      "competition": {
-        "id": 4936,
-        "idProvider": "openligadb",
-        "code": "PD",
-        "name": "LaLiga",
-        "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
-        "normalized": "laliga"
-      },
-      "home": {
-        "id": 1803,
-        "idProvider": "openligadb",
-        "name": "Levante UD",
-        "fullName": "Levante UD",
-        "crest": null,
-        "normalized": "levante ud"
-      },
-      "away": {
-        "id": 2533,
-        "idProvider": "openligadb",
-        "name": "Elche CF",
-        "fullName": "Elche CF",
-        "crest": null,
-        "normalized": "elche"
-      },
-      "sources": [
-        "openligadb"
-      ],
-      "sourcePriority": 70,
-      "provenance": {
-        "provider": "openligadb",
-        "providerMatchId": 85459,
-        "providerCompetitionId": 4936,
-        "shortcut": "la1"
-      }
     },
     {
       "id": "fd:560649",
