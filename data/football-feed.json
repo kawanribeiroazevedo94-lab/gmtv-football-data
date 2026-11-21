@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T03:17:26.447186Z",
+  "generatedAt": "2026-11-21T12:45:09.514606Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-21",
@@ -293,7 +293,7 @@
           "date": "2026-11-21",
           "kickoff": "09:30",
           "utcDate": "2026-11-21T12:30:00Z",
-          "status": "SCHEDULED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2016,
             "idProvider": "football-data",
@@ -360,7 +360,7 @@
           "date": "2026-11-21",
           "kickoff": "09:30",
           "utcDate": "2026-11-21T12:30:00Z",
-          "status": "SCHEDULED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2016,
             "idProvider": "football-data",
@@ -427,7 +427,7 @@
           "date": "2026-11-21",
           "kickoff": "09:30",
           "utcDate": "2026-11-21T12:30:00Z",
-          "status": "SCHEDULED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2016,
             "idProvider": "football-data",
@@ -463,7 +463,7 @@
           "date": "2026-11-21",
           "kickoff": "09:30",
           "utcDate": "2026-11-21T12:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "id": 2021,
             "idProvider": "football-data",
@@ -11628,7 +11628,7 @@
       "date": "2026-11-21",
       "kickoff": "09:30",
       "utcDate": "2026-11-21T12:30:00Z",
-      "status": "SCHEDULED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2016,
         "idProvider": "football-data",
@@ -11695,7 +11695,7 @@
       "date": "2026-11-21",
       "kickoff": "09:30",
       "utcDate": "2026-11-21T12:30:00Z",
-      "status": "SCHEDULED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2016,
         "idProvider": "football-data",
@@ -11762,7 +11762,7 @@
       "date": "2026-11-21",
       "kickoff": "09:30",
       "utcDate": "2026-11-21T12:30:00Z",
-      "status": "SCHEDULED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2016,
         "idProvider": "football-data",
@@ -11798,7 +11798,7 @@
       "date": "2026-11-21",
       "kickoff": "09:30",
       "utcDate": "2026-11-21T12:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "id": 2021,
         "idProvider": "football-data",

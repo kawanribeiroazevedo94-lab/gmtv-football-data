@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-21T03:17:26.447186Z",
+  "generatedAt": "2026-11-21T12:45:09.514606Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-21",
@@ -483,7 +483,7 @@
           "date": "2026-11-21",
           "kickoff": "09:30",
           "utcDate": "2026-11-21T12:30:00Z",
-          "status": "SCHEDULED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -671,7 +671,7 @@
           "date": "2026-11-21",
           "kickoff": "09:30",
           "utcDate": "2026-11-21T12:30:00Z",
-          "status": "SCHEDULED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -859,7 +859,7 @@
           "date": "2026-11-21",
           "kickoff": "09:30",
           "utcDate": "2026-11-21T12:30:00Z",
-          "status": "SCHEDULED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -958,7 +958,7 @@
           "date": "2026-11-21",
           "kickoff": "09:30",
           "utcDate": "2026-11-21T12:30:00Z",
-          "status": "TIMED",
+          "status": "IN_PLAY",
           "competition": {
             "gmId": "competition:premier-league",
             "entityType": "competition",
@@ -30606,7 +30606,7 @@
       "date": "2026-11-21",
       "kickoff": "09:30",
       "utcDate": "2026-11-21T12:30:00Z",
-      "status": "SCHEDULED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -30794,7 +30794,7 @@
       "date": "2026-11-21",
       "kickoff": "09:30",
       "utcDate": "2026-11-21T12:30:00Z",
-      "status": "SCHEDULED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -30982,7 +30982,7 @@
       "date": "2026-11-21",
       "kickoff": "09:30",
       "utcDate": "2026-11-21T12:30:00Z",
-      "status": "SCHEDULED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -31081,7 +31081,7 @@
       "date": "2026-11-21",
       "kickoff": "09:30",
       "utcDate": "2026-11-21T12:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": {
         "gmId": "competition:premier-league",
         "entityType": "competition",
