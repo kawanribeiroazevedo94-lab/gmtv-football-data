@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-11-27T14:02:24.408187Z",
+  "generatedAt": "2026-11-27T22:48:02.848839Z",
   "timezone": "America/Sao_Paulo",
   "window": {
     "from": "2026-11-27",
@@ -136,8 +136,8 @@
           "key": "uecl",
           "page": "2026–27 UEFA Conference League league phase",
           "pageId": 84084273,
-          "revisionId": 1388265074,
-          "revisionTimestamp": "2026-11-27T09:46:47Z",
+          "revisionId": 1388303759,
+          "revisionTimestamp": "2026-11-27T14:04:35Z",
           "ok": true,
           "matchesInWindow": 0,
           "error": null
@@ -171,7 +171,7 @@
           "date": "2026-11-27",
           "kickoff": "14:30",
           "utcDate": "2026-11-27T17:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -273,7 +273,7 @@
           "date": "2026-11-27",
           "kickoff": "14:30",
           "utcDate": "2026-11-27T17:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -375,7 +375,7 @@
           "date": "2026-11-27",
           "kickoff": "14:30",
           "utcDate": "2026-11-27T17:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -477,7 +477,7 @@
           "date": "2026-11-27",
           "kickoff": "14:30",
           "utcDate": "2026-11-27T17:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -670,7 +670,7 @@
           "date": "2026-11-27",
           "kickoff": "16:00",
           "utcDate": "2026-11-27T19:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -767,7 +767,7 @@
           "date": "2026-11-27",
           "kickoff": "16:30",
           "utcDate": "2026-11-27T19:30:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -864,7 +864,7 @@
           "date": "2026-11-27",
           "kickoff": "16:30",
           "utcDate": "2026-11-27T19:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -966,7 +966,7 @@
           "date": "2026-11-27",
           "kickoff": "16:30",
           "utcDate": "2026-11-27T19:30:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1070,7 +1070,7 @@
           "date": "2026-11-27",
           "kickoff": "16:45",
           "utcDate": "2026-11-27T19:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1258,7 +1258,7 @@
           "date": "2026-11-27",
           "kickoff": "16:45",
           "utcDate": "2026-11-27T19:45:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1355,7 +1355,7 @@
           "date": "2026-11-27",
           "kickoff": "17:00",
           "utcDate": "2026-11-27T20:00:00Z",
-          "status": "SCHEDULED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1454,7 +1454,7 @@
           "date": "2026-11-27",
           "kickoff": "17:00",
           "utcDate": "2026-11-27T20:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": "competition:premier-league",
             "entityType": "competition",
@@ -1653,7 +1653,7 @@
           "date": "2026-11-27",
           "kickoff": "17:00",
           "utcDate": "2026-11-27T20:00:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -1841,7 +1841,7 @@
           "date": "2026-11-27",
           "kickoff": "17:15",
           "utcDate": "2026-11-27T20:15:00Z",
-          "status": "TIMED",
+          "status": "FINISHED",
           "competition": {
             "gmId": null,
             "entityType": "competition",
@@ -22774,7 +22774,7 @@
       "date": "2026-11-27",
       "kickoff": "14:30",
       "utcDate": "2026-11-27T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -22876,7 +22876,7 @@
       "date": "2026-11-27",
       "kickoff": "14:30",
       "utcDate": "2026-11-27T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -22978,7 +22978,7 @@
       "date": "2026-11-27",
       "kickoff": "14:30",
       "utcDate": "2026-11-27T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23080,7 +23080,7 @@
       "date": "2026-11-27",
       "kickoff": "14:30",
       "utcDate": "2026-11-27T17:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23273,7 +23273,7 @@
       "date": "2026-11-27",
       "kickoff": "16:00",
       "utcDate": "2026-11-27T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23370,7 +23370,7 @@
       "date": "2026-11-27",
       "kickoff": "16:30",
       "utcDate": "2026-11-27T19:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23467,7 +23467,7 @@
       "date": "2026-11-27",
       "kickoff": "16:30",
       "utcDate": "2026-11-27T19:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23569,7 +23569,7 @@
       "date": "2026-11-27",
       "kickoff": "16:30",
       "utcDate": "2026-11-27T19:30:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23673,7 +23673,7 @@
       "date": "2026-11-27",
       "kickoff": "16:45",
       "utcDate": "2026-11-27T19:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23861,7 +23861,7 @@
       "date": "2026-11-27",
       "kickoff": "16:45",
       "utcDate": "2026-11-27T19:45:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -23958,7 +23958,7 @@
       "date": "2026-11-27",
       "kickoff": "17:00",
       "utcDate": "2026-11-27T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -24057,7 +24057,7 @@
       "date": "2026-11-27",
       "kickoff": "17:00",
       "utcDate": "2026-11-27T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": "competition:premier-league",
         "entityType": "competition",
@@ -24256,7 +24256,7 @@
       "date": "2026-11-27",
       "kickoff": "17:00",
       "utcDate": "2026-11-27T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
@@ -24444,7 +24444,7 @@
       "date": "2026-11-27",
       "kickoff": "17:15",
       "utcDate": "2026-11-27T20:15:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": {
         "gmId": null,
         "entityType": "competition",
